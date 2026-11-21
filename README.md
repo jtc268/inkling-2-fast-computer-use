@@ -2,6 +2,8 @@
 
 ## Browser-use highlights
 
+[Reproduce the Mac and RTX WebArena runs](benchmark/REPRODUCE-BROWSER.md). The guide includes the browser harness, exact model downloads and grader.
+
 [Watch 13 tasks that both models completed](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Film timings](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/blob/main/benchmark/speedups-timings.json)
 
 [Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 41 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
@@ -62,14 +64,14 @@ The original passed 11/20 cases and the edit passed 6/20. Both passed 5. The ori
 
 The model read a fresh text description of the DOM after each action. BrowserGym graded the outcome. Each case allowed 16 decisions. [Run details](benchmark/BROWSERGYM.md) · [Scores](evidence/browsergym-summary.json) · [All 40 receipts](evidence/browsergym-receipts.zip)
 
-## Try it
+## Run the form-and-cart demo
 
 If your agent already supports Inkling 2 Mini, use `husky8/Inkling-2-Fast-Computer-Use` as its model ID. The agent supplies the browser view and executes the commands. The channel edit lives in the checkpoint.
 
 To download the full model with the Hugging Face CLI:
 
 ```sh
-hf download husky8/Inkling-2-Fast-Computer-Use --local-dir inkling-browser
+hf download husky8/Inkling-2-Fast-Computer-Use --revision d4562716ff6d8d0281bf09814a1df0db570f6be3 --local-dir inkling-browser
 ```
 
 To run the recorded workflow on Apple silicon with Brave and [uv](https://docs.astral.sh/uv/), clone this repository and run:
