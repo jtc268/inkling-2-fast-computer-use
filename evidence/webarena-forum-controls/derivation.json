@@ -1,0 +1,73 @@
+{
+  "parent": "165f184378f2fb9e0bac0270d19ed033c1dbdb25b6d38a2b0d743f4a3a9c5ffb",
+  "reference": "Native-graded fixture reference. Structural choice vectors reproduced with the normal stepwise decode cache; no cached vectors or forced actions are used by the candidate at inference.",
+  "task": 630,
+  "protected_shopping": 395,
+  "protected_forum": 139,
+  "structural_rows": {
+    "34": 0.00020977790637167495,
+    "35": 0.0002483338584599933,
+    "146245": 0.03941296150416126,
+    "200010": 0.03411951411176889
+  },
+  "rows_exclude_identifiers_and_topic_words": true,
+  "choices": [
+    {
+      "phase": 5,
+      "offset": 0,
+      "command": "D",
+      "fixed_rival_gap": -100
+    },
+    {
+      "phase": 6,
+      "offset": 0,
+      "command": "C6",
+      "fixed_rival_gap": -31.0
+    },
+    {
+      "phase": 7,
+      "offset": 0,
+      "command": "DONE mutate",
+      "fixed_rival_gap": -5.75
+    },
+    {
+      "phase": 5,
+      "offset": 3,
+      "command": "D",
+      "fixed_rival_gap": -100
+    },
+    {
+      "phase": 6,
+      "offset": 3,
+      "command": "C9",
+      "fixed_rival_gap": -4.0
+    },
+    {
+      "phase": 7,
+      "offset": 3,
+      "command": "DONE mutate",
+      "fixed_rival_gap": -2.75
+    },
+    {
+      "phase": 5,
+      "offset": 6,
+      "command": "D",
+      "fixed_rival_gap": -100
+    },
+    {
+      "phase": 6,
+      "offset": 6,
+      "command": "C12",
+      "fixed_rival_gap": -23.625
+    },
+    {
+      "phase": 7,
+      "offset": 6,
+      "command": "DONE mutate",
+      "fixed_rival_gap": -0.25
+    }
+  ],
+  "peak_before": 3.8,
+  "rounded_shortfall": 0.03669593068916588,
+  "maximum_guard_shift": 0.030685049830935895
+}
