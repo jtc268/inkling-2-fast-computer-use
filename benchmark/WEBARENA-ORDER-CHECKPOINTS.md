@@ -104,6 +104,6 @@ The cross-device stop edit reached order history on RTX 5090, then ended navigat
 
 On M5 Max, those same weights passed twice. In the 8.95× pair, both runs issued the same clicks. Inference fell from 43.03 to 2.84 seconds and accounted for 40.19 of the 40.76 seconds saved.
 
-The guarded reasoning trial changes four output rows relative to the Mac order-lookup checkpoint. These rows choose the assistant role, text, reasoning and end of message. The edit preserves the winning actions at measured browser states. It uses the same prompt and decoder at inference.
+The guarded reasoning trial changes four output rows relative to the Mac order-lookup checkpoint. These rows choose the assistant role, text, reasoning and end of message. The edit reproduced 30 previous Mac browser commands. It uses the same prompt and decoder at inference.
 Both models returned the correct total on RTX 5090 in both orders. With the edit first, stock took 5.72s and the edit took 6.79s. With stock first, the times were 10.33s and 3.34s. The two speed ratios were 0.84× and 3.09×.
 [Row changes, regression replays and byte audit](../evidence/webarena-order-checkpoints/order-short-margin/).
