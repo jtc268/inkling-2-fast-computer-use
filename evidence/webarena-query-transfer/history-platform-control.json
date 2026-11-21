@@ -1,0 +1,19 @@
+{
+  "case": 278,
+  "checkpoint_sha256": "9f54b7bc5c2d2408f19d79cc3bcce1fd456c96bcdf1f4e25bfcb6d3c608dc47e",
+  "fixed_user_input_prefix_sha256": "aac1ca46301fb6736bfacf62fafe788310e604955094b8f8973e8c09dc4bfb83",
+  "mac_mlx": {
+    "compact": "C 9",
+    "spaced": "C 9"
+  },
+  "rtx_sglang": {
+    "compact": [
+      "F7 green tea bag for weight loss",
+      "F7 green tea bag for weight loss"
+    ],
+    "spaced": [
+      "F7 green tea bag for weight loss",
+      "F7 green tea bag for weight loss"
+    ]
+  }
+}

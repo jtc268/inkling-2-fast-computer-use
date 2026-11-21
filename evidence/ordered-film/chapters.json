@@ -1,14 +1,14 @@
 {
-  "sha256": "d2233a02ab7e2e7cfd098613635a07d7ca6ca0be790934787aa3d25efe83a0c2",
+  "sha256": "d43a79f87c3f246269b413672af1ae14597f2f0cef7e476051214778af58dd5e",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 142.25,
+  "duration_s": 139.0,
   "task_count": 33,
   "opening_s": 2.75,
-  "closing_start_s": 138.75,
+  "closing_start_s": 135.5,
   "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
   "chapters": [
     {
@@ -670,11 +670,11 @@
     {
       "number": 17,
       "start_s": 59.75,
-      "duration_s": 5.25,
+      "duration_s": 4.75,
       "environment": "WebArena",
       "task": "274",
       "title": "Search for a USB Wi-Fi adapter",
-      "shared_elapsed_start_s": 0.5170254579745233,
+      "shared_elapsed_start_s": 1.0170254579745233,
       "arms": [
         {
           "arm": "Stock Inkling 2 Mini",
@@ -686,9 +686,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "2a4ca6055089cede549452b37cb326726464a2ec813eea341ce7c076ef9bad46",
-            "start_s": 0.5176799998618662,
+            "start_s": 1.0176799998618662,
             "source_duration_s": 14.65,
-            "available_frames": 105
+            "available_frames": 95
           }
         },
         {
@@ -701,16 +701,16 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "78560c26c461ee5465f5d0d3069a4cf1f652e33facede25b8b0521e030a57fce",
-            "start_s": 0.5176841670647263,
+            "start_s": 1.0176841670647263,
             "source_duration_s": 5.7,
-            "available_frames": 92
+            "available_frames": 82
           }
         }
       ]
     },
     {
       "number": 18,
-      "start_s": 65.0,
+      "start_s": 64.5,
       "duration_s": 5.25,
       "environment": "WebArena",
       "task": "275",
@@ -751,12 +751,12 @@
     },
     {
       "number": 19,
-      "start_s": 70.25,
-      "duration_s": 9.5,
+      "start_s": 69.75,
+      "duration_s": 8.5,
       "environment": "WebArena",
       "task": "276",
       "title": "Search for Switch accessories",
-      "shared_elapsed_start_s": 1.5718425839906558,
+      "shared_elapsed_start_s": 2.071842583990656,
       "arms": [
         {
           "arm": "Stock Inkling 2 Mini",
@@ -768,9 +768,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "a801a597d1eff96882c88e44550ddf04532c382590e91cd2b0521ff857d3d848",
-            "start_s": 1.5725632929708808,
+            "start_s": 2.072563292970881,
             "source_duration_s": 14.35,
-            "available_frames": 105
+            "available_frames": 95
           }
         },
         {
@@ -783,17 +783,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "c5548c473088550c9c4e7308a3338f10e1b092ae9e26293c659f086a9fce27f9",
-            "start_s": 1.5724957919912412,
+            "start_s": 2.0724957919912415,
             "source_duration_s": 6.45,
-            "available_frames": 92
+            "available_frames": 82
           }
         }
       ],
       "additional_takes": [
         {
-          "start_s": 75.5,
-          "duration_s": 4.25,
-          "shared_elapsed_start_s": 0.14850212498567994,
+          "start_s": 74.5,
+          "duration_s": 3.75,
+          "shared_elapsed_start_s": 0.6485021249856799,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -805,9 +805,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "3981b646f3ef012a477b5324d53c26779b4d267bd4328d4668097d98fd59b05a",
-                "start_s": 0.1491462500300258,
+                "start_s": 0.6491462500300258,
                 "source_duration_s": 5.55,
-                "available_frames": 85
+                "available_frames": 75
               }
             },
             {
@@ -820,9 +820,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "eb3e5fcb71a4735f73bf19c46aea6f60f27fd7f6df72236f44b18d133cb47950",
-                "start_s": 0.14913120800629254,
+                "start_s": 0.6491312080062925,
                 "source_duration_s": 4.7,
-                "available_frames": 72
+                "available_frames": 62
               }
             }
           ]
@@ -831,12 +831,12 @@
     },
     {
       "number": 20,
-      "start_s": 79.75,
-      "duration_s": 5.25,
+      "start_s": 78.25,
+      "duration_s": 4.75,
       "environment": "WebArena",
       "task": "277",
       "title": "Search for iPhone 13 batteries",
-      "shared_elapsed_start_s": 1.9211640829918906,
+      "shared_elapsed_start_s": 2.421164082991891,
       "arms": [
         {
           "arm": "Stock Inkling 2 Mini",
@@ -848,9 +848,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "ced7faf88d1b8361911083dd8fb44d7b4024c1ce38e8e7d8d630f3bf3c7b1cc0",
-            "start_s": 1.9218664159299805,
+            "start_s": 2.4218664159299808,
             "source_duration_s": 17.85,
-            "available_frames": 105
+            "available_frames": 95
           }
         },
         {
@@ -863,21 +863,21 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "48a3a2c5b8c7de723002ee8a2bbe6159e4c7c5c0c2a33390f4b3b84167acd0c6",
-            "start_s": 1.9218130419496446,
+            "start_s": 2.421813041949645,
             "source_duration_s": 6.8,
-            "available_frames": 92
+            "available_frames": 82
           }
         }
       ]
     },
     {
       "number": 21,
-      "start_s": 85.0,
-      "duration_s": 9.5,
+      "start_s": 83.0,
+      "duration_s": 8.5,
       "environment": "WebArena",
       "task": "278",
       "title": "Search for green tea bags",
-      "shared_elapsed_start_s": 1.4739852500380948,
+      "shared_elapsed_start_s": 1.9739852500380948,
       "arms": [
         {
           "arm": "Stock Inkling 2 Mini",
@@ -889,9 +889,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "50e78f8db7f9a520264509cda0d282513ea6329dfe8c6fcf6c58e198a489f711",
-            "start_s": 1.4747789591085165,
+            "start_s": 1.9747789591085165,
             "source_duration_s": 20.45,
-            "available_frames": 105
+            "available_frames": 95
           }
         },
         {
@@ -904,16 +904,16 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "8a6881b0cc927a920d9b2be8d03edbe7ba8abaf0c01a20d656458b3635d2926a",
-            "start_s": 1.4746891250135377,
+            "start_s": 1.9746891250135377,
             "source_duration_s": 6.5,
-            "available_frames": 92
+            "available_frames": 82
           }
         }
       ],
       "additional_takes": [
         {
-          "start_s": 90.25,
-          "duration_s": 4.25,
+          "start_s": 87.75,
+          "duration_s": 3.75,
           "shared_elapsed_start_s": null,
           "arms": [
             {
@@ -926,9 +926,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "95ee25eabcf2dfb1728c0e95b03e6236bcd97eca14c78e76647103a5939211ba",
-                "start_s": 2.669965415960178,
+                "start_s": 3.169965415960178,
                 "source_duration_s": 7.25,
-                "available_frames": 85
+                "available_frames": 75
               }
             },
             {
@@ -941,9 +941,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "b5dfca252b353fb5743d95d929d98e96d1f14b2b0ac8a3c5f5152a094cf86481",
-                "start_s": 7.262613874976523,
+                "start_s": 7.762613874976523,
                 "source_duration_s": 12.5,
-                "available_frames": 85
+                "available_frames": 75
               }
             }
           ]
@@ -952,7 +952,7 @@
     },
     {
       "number": 22,
-      "start_s": 94.5,
+      "start_s": 91.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "313",
@@ -993,7 +993,7 @@
     },
     {
       "number": 23,
-      "start_s": 97.75,
+      "start_s": 94.75,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "324",
@@ -1034,7 +1034,7 @@
     },
     {
       "number": 24,
-      "start_s": 101.0,
+      "start_s": 98.0,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "358",
@@ -1075,7 +1075,7 @@
     },
     {
       "number": 25,
-      "start_s": 104.25,
+      "start_s": 101.25,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "399",
@@ -1116,7 +1116,7 @@
     },
     {
       "number": 26,
-      "start_s": 107.5,
+      "start_s": 104.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "404",
@@ -1157,7 +1157,7 @@
     },
     {
       "number": 27,
-      "start_s": 110.75,
+      "start_s": 107.75,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "431",
@@ -1240,7 +1240,7 @@
     },
     {
       "number": 28,
-      "start_s": 114.0,
+      "start_s": 111.0,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "516",
@@ -1281,7 +1281,7 @@
     },
     {
       "number": 29,
-      "start_s": 117.25,
+      "start_s": 114.25,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "595",
@@ -1322,7 +1322,7 @@
     },
     {
       "number": 30,
-      "start_s": 120.5,
+      "start_s": 117.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "600",
@@ -1348,8 +1348,8 @@
     },
     {
       "number": 31,
-      "start_s": 123.75,
-      "duration_s": 8.5,
+      "start_s": 120.75,
+      "duration_s": 8.25,
       "environment": "WebArena",
       "task": "630",
       "title": "Ask for headphone recommendations",
@@ -1365,9 +1365,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "47f2f20329bcc0dbb1ecf143fdaf71de12358a6857dcf204ec5ad79625871237",
-            "start_s": 83.98876800003927,
+            "start_s": 84.23876800003927,
             "source_duration_s": 90.2,
-            "available_frames": 105
+            "available_frames": 100
           }
         },
         {
@@ -1388,7 +1388,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 129.0,
+          "start_s": 125.75,
           "duration_s": 3.25,
           "shared_elapsed_start_s": 18.007142707984894,
           "arms": [
@@ -1428,7 +1428,7 @@
     },
     {
       "number": 32,
-      "start_s": 132.25,
+      "start_s": 129.0,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "653",
@@ -1469,7 +1469,7 @@
     },
     {
       "number": 33,
-      "start_s": 135.5,
+      "start_s": 132.25,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "689",

@@ -41,6 +41,8 @@ On the RTX green-tea task, both arms used the same Windows Brave harness. The ed
 
 With the CUDA checkpoint and the filled green-tea screen fixed, the history spelling `F7` produced `F7 green tea bag for weight loss` twice. The spelling `F 7` produced `F7 green tea bag for weight loss` twice. Only the ASCII space changed. These are single-decision probes. [Recorded counterfactuals](../evidence/webarena-query-transfer/cuda-probe-results.json)
 
+The Mac returned `C 9` for compact history and `C 9` for spaced history on that same screen. The runtime stacks chose different actions from identical prompt text and weights. The numerical cause remains open. [Cross-runtime decision check](../evidence/webarena-query-transfer/history-platform-control.json)
+
 The native grader reproduced all 26 outcomes. Stock passed 12/13 and the edit passed 11/13. Only paired passes have a speed ratio.
 
 Green tea was used to develop this revision. Its earlier unseen failure remains in the previous report. The search tasks share the same WebArena template. The forum control exercises a different site when the shopping regressions pass.
