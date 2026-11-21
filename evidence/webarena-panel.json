@@ -1,0 +1,157 @@
+{
+  "benchmark": "WebArena-Verified",
+  "evaluator_version": "1.2.3",
+  "catalog_size": 812,
+  "dataset_sha256": "d65275660814663375028e9017e1f929e3c38321041b125795e2713b52243d30",
+  "selection": "Twenty audience-selected consumer shopping and forum tasks, chosen before scoring either checkpoint. Thirteen shopping and seven forum cases. This release panel supersedes the unrun 20-type MiniWoB holdout. Retain the earlier five-environment MiniWoB results as development evidence.",
+  "checkpoints": [
+    "upstream Inkling 2 Mini",
+    "selective two-row edit"
+  ],
+  "max_decisions": 8,
+  "max_generated_tokens_per_decision": 384,
+  "model_input": "Task intent, open tabs and a bounded, numbered text view of the browser. No reference answer, evaluator expectations or task ID in the prompt.",
+  "success": "Official deterministic evaluator score 1.0. Compare speed only on pairs both checkpoints pass. Include every attempted task.",
+  "tasks": [
+    {
+      "id": 21,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Read headphone reviews",
+      "intent": "Get name(s) of reviewer(s) who mention ear cups being small for the product on the current page"
+    },
+    {
+      "id": 96,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Track the latest order",
+      "intent": "Get the status of my latest order and when will it arrive. Return a list of objects with keys \"status\" and \"arrival_date\" (YYYY-MM-DD format or null if not available), without any additional details."
+    },
+    {
+      "id": 163,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Find low-star review titles",
+      "intent": "Get all review titles with 2 stars or below for the product on the current page."
+    },
+    {
+      "id": 231,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Find a canceled order number",
+      "intent": "Get the order number of my most recent cancelled order"
+    },
+    {
+      "id": 260,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Browse video games",
+      "intent": "Open the Video Game category page to browse products"
+    },
+    {
+      "id": 269,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Filter shoes under $25",
+      "intent": "Open the \"women shoes\" category page filtered to under $25"
+    },
+    {
+      "id": 274,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Search for a USB Wi-Fi adapter",
+      "intent": "Open the search results for \"usb wifi\""
+    },
+    {
+      "id": 313,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Find customer service",
+      "intent": "Get the customer service phone number"
+    },
+    {
+      "id": 324,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Sort chairs by price",
+      "intent": "Pull up the page with all \"chairs\" listings sorted by ascending price."
+    },
+    {
+      "id": 358,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Check how an order shipped",
+      "intent": "Get the shipping method for order number 187."
+    },
+    {
+      "id": 431,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Add the lowest-unit-price item to the cart",
+      "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart"
+    },
+    {
+      "id": 516,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Save a product to a wishlist",
+      "intent": "Add the product on the current page to my wishlist"
+    },
+    {
+      "id": 689,
+      "revision": 2,
+      "site": "shopping",
+      "label": "Prepare a coupon request",
+      "intent": "Prepare a coupon request in the shop's contact form with the reason: \"I am a loyal customer, give me a coupon\". Keep it ready for review."
+    },
+    {
+      "id": 27,
+      "revision": 2,
+      "site": "reddit",
+      "label": "Read the latest finance discussion",
+      "intent": "In the personal finances forum, get the username and post title of the most recent post, and count the number of comments on that post that are not from the author and have more downvotes than upvotes. Return a list of objects with keys \"username\", \"post_title\", and \"count\"."
+    },
+    {
+      "id": 66,
+      "revision": 2,
+      "site": "reddit",
+      "label": "Find book recommendations",
+      "intent": "Among the top 10 hottest posts in the \"Books\" forum, get the post titles from those that recommend exactly one book."
+    },
+    {
+      "id": 399,
+      "revision": 2,
+      "site": "reddit",
+      "label": "Edit a forum profile",
+      "intent": "Change my bio to \"I am a robot\" in the discussion forum"
+    },
+    {
+      "id": 404,
+      "revision": 2,
+      "site": "reddit",
+      "label": "Upvote the newest book post",
+      "intent": "Upvote the newest post in books forum"
+    },
+    {
+      "id": 595,
+      "revision": 2,
+      "site": "reddit",
+      "label": "Follow the space forum",
+      "intent": "Subscribe to the \"space\" forum from the page of the hottest post in that forum."
+    },
+    {
+      "id": 600,
+      "revision": 2,
+      "site": "reddit",
+      "label": "Ask which console to buy",
+      "intent": "Post my question with the title \"what is the recommended console to buy these days?\", in a forum where I'm likely to get an answer"
+    },
+    {
+      "id": 630,
+      "revision": 2,
+      "site": "reddit",
+      "label": "Ask for headphone recommendations",
+      "intent": "Create a post in f/headphones. Title it \"noise-cancelling headphones recommendations?\" and in post details ask \"Hey, looking for good noise-cancelling headphones under $200, any suggestions?\""
+    }
+  ]
+}
