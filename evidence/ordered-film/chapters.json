@@ -1,5 +1,5 @@
 {
-  "sha256": "5da72cf31a11e99be7f80e13d2a6711a68f70cb8d320b86f7b20f5733a028827",
+  "sha256": "df4c9bc21fc348b8cc920bd7d0e8ef308b3673dcdd7590478b7685fe128de625",
   "fps": 20,
   "resolution": [
     1200,
@@ -697,36 +697,36 @@
         {
           "start_s": 54.45,
           "duration_s": 2.55,
-          "shared_elapsed_start_s": null,
+          "shared_elapsed_start_s": 0.7962742909789087,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 5.450880583026446,
-              "passed": false,
+              "elapsed_s": 6.857609499944374,
+              "passed": true,
               "device": "RTX 5090",
-              "receipt_sha256": "957b7bbfe248a0d71c07dfe9f6143283ca95163ce64e0c4d27d3d58a78c7e0f8",
+              "receipt_sha256": "c7cec829eb022d0eedbe230b27a36d6ee5346ccd33ac284c0703eed777f3f584",
               "receipt": "188-original.json",
               "recording": {
                 "kind": "native browser recording",
-                "source_sha256": "9e49c54ad4cf8133a89475b938369b28d94fe9e23950def74d4329db26adb377",
-                "start_s": 2.9000000000000004,
-                "source_duration_s": 5.45,
+                "source_sha256": "fb5ff40e56daa8f3b1bb3ec7cf75c4737be808a7451d370246bb6cb44779c593",
+                "start_s": 0.7970619160681964,
+                "source_duration_s": 6.85,
                 "available_frames": 51
               }
             },
             {
               "arm": "Order boundary edit",
-              "elapsed_s": 3.161069875000976,
+              "elapsed_s": 2.6462742909789085,
               "passed": true,
               "device": "RTX 5090",
-              "receipt_sha256": "0f6c92e5cec25fca09c73407032489ee4f57b9fdb24eec2c419388557ab3ddf0",
+              "receipt_sha256": "f28317df706ae824db182c96082d262e272b6c3c545cf23251c189b8db5fe92a",
               "receipt": "188-edited.json",
               "recording": {
                 "kind": "native browser recording",
-                "source_sha256": "c576fd15d4c275fa3a4268d21074c49f47bf719c5e9853432f816bf289247064",
-                "start_s": 0.6119938339572402,
-                "source_duration_s": 3.95,
-                "available_frames": 51
+                "source_sha256": "dfd9521b812a2461962c05936ce0bf25ea5c2f998355315dc07d7ca122247807",
+                "start_s": 0.7968766659963877,
+                "source_duration_s": 3.5,
+                "available_frames": 38
               }
             }
           ]
