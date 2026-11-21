@@ -1,14 +1,14 @@
 {
-  "sha256": "972dc890a30cfcf56b8c235ddc3404dfd8b51953c29a3402e83c6c181bdfd8ec",
+  "sha256": "7620f47b8b20636ac145fcb1973257b65f86e57c3a7b477e9988e2cc18b846f5",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 231.4,
+  "duration_s": 234.4,
   "task_count": 41,
   "opening_s": 6.15,
-  "closing_start_s": 227.9,
+  "closing_start_s": 230.9,
   "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
   "chapters": [
     {
@@ -910,7 +910,7 @@
     {
       "number": 15,
       "start_s": 74.95,
-      "duration_s": 18.4,
+      "duration_s": 18.45,
       "environment": "WebArena",
       "task": "189",
       "title": "Find the total of the latest pending order",
@@ -991,8 +991,8 @@
         },
         {
           "start_s": 81.6,
-          "duration_s": 2.9,
-          "shared_elapsed_start_s": 1.3865153330378235,
+          "duration_s": 2.95,
+          "shared_elapsed_start_s": 1.3365153330378232,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -1004,9 +1004,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "d6dc8ea68b740d7ee8708a1a761b95a3f56f6a5ea020f8bdecde4fb3ba82bf4b",
-                "start_s": 1.38772533305455,
+                "start_s": 1.3377253330545498,
                 "source_duration_s": 15.75,
-                "available_frames": 58
+                "available_frames": 59
               },
               "grader_status": "success"
             },
@@ -1020,16 +1020,16 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "7dac24884bef50b5afebd54a69aeeedd5fdd67abbad3e484f7ddc8e978b055ef",
-                "start_s": 1.387534041958861,
+                "start_s": 1.3375340419588608,
                 "source_duration_s": 4.25,
-                "available_frames": 45
+                "available_frames": 46
               },
               "grader_status": "success"
             }
           ]
         },
         {
-          "start_s": 84.5,
+          "start_s": 84.55,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.054031042032875,
           "arms": [
@@ -1068,7 +1068,7 @@
           ]
         },
         {
-          "start_s": 87.45,
+          "start_s": 87.5,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.0029928329167888,
           "arms": [
@@ -1107,7 +1107,7 @@
           ]
         },
         {
-          "start_s": 90.4,
+          "start_s": 90.45,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 0.6171108750859273,
           "arms": [
@@ -1149,7 +1149,7 @@
     },
     {
       "number": 16,
-      "start_s": 93.35,
+      "start_s": 93.4,
       "duration_s": 24.3,
       "environment": "WebArena",
       "task": "190",
@@ -1191,7 +1191,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 97.0,
+          "start_s": 97.05,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.940150791895576,
           "arms": [
@@ -1230,7 +1230,7 @@
           ]
         },
         {
-          "start_s": 99.95,
+          "start_s": 100.0,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 6.681119083077647,
           "arms": [
@@ -1269,7 +1269,7 @@
           ]
         },
         {
-          "start_s": 102.9,
+          "start_s": 102.95,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1308,7 +1308,7 @@
           ]
         },
         {
-          "start_s": 105.85,
+          "start_s": 105.9,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.8771139580057934,
           "arms": [
@@ -1347,7 +1347,7 @@
           ]
         },
         {
-          "start_s": 108.8,
+          "start_s": 108.85,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 1.092322333017364,
           "arms": [
@@ -1386,7 +1386,7 @@
           ]
         },
         {
-          "start_s": 111.75,
+          "start_s": 111.8,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.38902004098054,
           "arms": [
@@ -1425,7 +1425,7 @@
           ]
         },
         {
-          "start_s": 114.7,
+          "start_s": 114.75,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.5121810829732567,
           "arms": [
@@ -1467,8 +1467,8 @@
     },
     {
       "number": 17,
-      "start_s": 117.65,
-      "duration_s": 5.15,
+      "start_s": 117.7,
+      "duration_s": 8.1,
       "environment": "WebArena",
       "task": "191",
       "title": "Find the total of the latest processing order",
@@ -1509,7 +1509,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 119.85,
+          "start_s": 119.9,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1546,12 +1546,51 @@
               "grader_status": "error"
             }
           ]
+        },
+        {
+          "start_s": 122.85,
+          "duration_s": 2.95,
+          "shared_elapsed_start_s": null,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 8.418479042011313,
+              "passed": false,
+              "device": "RTX 5090",
+              "receipt_sha256": "7e8cbc36e5095c7df6a6b54ff0165fb76a83d8909bc1074d4beb222f537788c9",
+              "receipt": "191-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "b5e52b0d037f58be3f3f5d3e33fa4c61577a57ccf71cb8486209c076e4e95a69",
+                "start_s": 5.469136499986052,
+                "source_duration_s": 9.4,
+                "available_frames": 59
+              },
+              "grader_status": "failure"
+            },
+            {
+              "arm": "Order-history routing trial",
+              "elapsed_s": 4.19265154202003,
+              "passed": false,
+              "device": "RTX 5090",
+              "receipt_sha256": "f515e9de11c72ea33e3bbd84e2f2acc402998968fee8eaf8d35462f8924a6ad7",
+              "receipt": "191-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "e947f45bcea752e6b8ac792fe0b8e9b1a188311839fcd822088f4524f5a4810f",
+                "start_s": 1.2433369999751447,
+                "source_duration_s": 5.45,
+                "available_frames": 59
+              },
+              "grader_status": "error"
+            }
+          ]
         }
       ]
     },
     {
       "number": 18,
-      "start_s": 122.8,
+      "start_s": 125.8,
       "duration_s": 5.1,
       "environment": "WebArena",
       "task": "231",
@@ -1591,7 +1630,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 125.0,
+          "start_s": 128.0,
           "duration_s": 2.9,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1633,7 +1672,7 @@
     },
     {
       "number": 19,
-      "start_s": 127.9,
+      "start_s": 130.9,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "260",
@@ -1674,7 +1713,7 @@
     },
     {
       "number": 20,
-      "start_s": 130.1,
+      "start_s": 133.1,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "269",
@@ -1715,7 +1754,7 @@
     },
     {
       "number": 21,
-      "start_s": 132.3,
+      "start_s": 135.3,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "270",
@@ -1756,7 +1795,7 @@
     },
     {
       "number": 22,
-      "start_s": 134.5,
+      "start_s": 137.5,
       "duration_s": 7.65,
       "environment": "WebArena",
       "task": "274",
@@ -1798,7 +1837,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 139.25,
+          "start_s": 142.25,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 3.1853435839992015,
           "arms": [
@@ -1840,7 +1879,7 @@
     },
     {
       "number": 23,
-      "start_s": 142.15,
+      "start_s": 145.15,
       "duration_s": 11.85,
       "environment": "WebArena",
       "task": "275",
@@ -1882,7 +1921,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 148.2,
+          "start_s": 151.2,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 2.8089218330103902,
           "arms": [
@@ -1921,7 +1960,7 @@
           ]
         },
         {
-          "start_s": 151.1,
+          "start_s": 154.1,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 2.9194580829469485,
           "arms": [
@@ -1963,7 +2002,7 @@
     },
     {
       "number": 24,
-      "start_s": 154.0,
+      "start_s": 157.0,
       "duration_s": 10.65,
       "environment": "WebArena",
       "task": "276",
@@ -2005,7 +2044,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 158.75,
+          "start_s": 161.75,
           "duration_s": 3.0,
           "shared_elapsed_start_s": 1.39850212498568,
           "arms": [
@@ -2042,7 +2081,7 @@
           ]
         },
         {
-          "start_s": 161.75,
+          "start_s": 164.75,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 3.2979067909298463,
           "arms": [
@@ -2084,7 +2123,7 @@
     },
     {
       "number": 25,
-      "start_s": 164.65,
+      "start_s": 167.65,
       "duration_s": 7.65,
       "environment": "WebArena",
       "task": "277",
@@ -2126,7 +2165,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 169.4,
+          "start_s": 172.4,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 3.679690458998084,
           "arms": [
@@ -2168,7 +2207,7 @@
     },
     {
       "number": 26,
-      "start_s": 172.3,
+      "start_s": 175.3,
       "duration_s": 13.2,
       "environment": "WebArena",
       "task": "278",
@@ -2210,7 +2249,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 177.05,
+          "start_s": 180.05,
           "duration_s": 3.0,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2249,7 +2288,7 @@
           ]
         },
         {
-          "start_s": 180.05,
+          "start_s": 183.05,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 3.232748709013686,
           "arms": [
@@ -2288,7 +2327,7 @@
           ]
         },
         {
-          "start_s": 182.6,
+          "start_s": 185.6,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 3.9168818339938296,
           "arms": [
@@ -2330,7 +2369,7 @@
     },
     {
       "number": 27,
-      "start_s": 185.5,
+      "start_s": 188.5,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "279",
@@ -2373,7 +2412,7 @@
     },
     {
       "number": 28,
-      "start_s": 187.7,
+      "start_s": 190.7,
       "duration_s": 5.15,
       "environment": "WebArena",
       "task": "283",
@@ -2415,7 +2454,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 189.9,
+          "start_s": 192.9,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2457,7 +2496,7 @@
     },
     {
       "number": 29,
-      "start_s": 192.85,
+      "start_s": 195.85,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "313",
@@ -2498,7 +2537,7 @@
     },
     {
       "number": 30,
-      "start_s": 195.05,
+      "start_s": 198.05,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "324",
@@ -2539,7 +2578,7 @@
     },
     {
       "number": 31,
-      "start_s": 197.25,
+      "start_s": 200.25,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "358",
@@ -2580,7 +2619,7 @@
     },
     {
       "number": 32,
-      "start_s": 199.45,
+      "start_s": 202.45,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "399",
@@ -2621,7 +2660,7 @@
     },
     {
       "number": 33,
-      "start_s": 201.65,
+      "start_s": 204.65,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "404",
@@ -2662,7 +2701,7 @@
     },
     {
       "number": 34,
-      "start_s": 203.85,
+      "start_s": 206.85,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "431",
@@ -2745,7 +2784,7 @@
     },
     {
       "number": 35,
-      "start_s": 206.05,
+      "start_s": 209.05,
       "duration_s": 3.55,
       "environment": "WebArena",
       "task": "432",
@@ -2816,7 +2855,7 @@
     },
     {
       "number": 36,
-      "start_s": 209.6,
+      "start_s": 212.6,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "516",
@@ -2857,7 +2896,7 @@
     },
     {
       "number": 37,
-      "start_s": 211.8,
+      "start_s": 214.8,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "595",
@@ -2898,7 +2937,7 @@
     },
     {
       "number": 38,
-      "start_s": 214.0,
+      "start_s": 217.0,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "600",
@@ -2924,7 +2963,7 @@
     },
     {
       "number": 39,
-      "start_s": 216.2,
+      "start_s": 219.2,
       "duration_s": 7.3,
       "environment": "WebArena",
       "task": "630",
@@ -2966,7 +3005,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 218.4,
+          "start_s": 221.4,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 18.707142707984893,
           "arms": [
@@ -3003,7 +3042,7 @@
           ]
         },
         {
-          "start_s": 220.95,
+          "start_s": 223.95,
           "duration_s": 2.55,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -3045,7 +3084,7 @@
     },
     {
       "number": 40,
-      "start_s": 223.5,
+      "start_s": 226.5,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "653",
@@ -3086,7 +3125,7 @@
     },
     {
       "number": 41,
-      "start_s": 225.7,
+      "start_s": 228.7,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "689",
