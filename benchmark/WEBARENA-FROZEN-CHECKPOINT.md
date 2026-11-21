@@ -6,6 +6,10 @@ This table covers every paired WebArena episode for that checkpoint recorded thr
 
 Each arm used Brave, DOM observations, keyboard field selection, greedy decoding, and a 512-token limit per decision. Times cover the browser episode, including generation and actions. Each pair starts from the same visible page.
 
+**Where the USB search saved time.** Both models filled the field, clicked Search and marked the task complete. Stock generated 377 tokens in 12.28s. The edit generated 24 in 2.38s. The thinking-token counts were 342 and 0. Both ran with the same reasoning setting, browser controls and cursor timing.
+
+**Pending-order slowdown.** Both models returned the correct value. In each edited run the first two decisions reached the 512-token limit and produced a bare control number. The browser rejected both commands. Together those decisions used 27.85s and 28.25s across the two runs.
+
 | WebArena task | Device | Baseline | Repeat | Baseline result | Edited result | Speedup |
 |---|---|---|---:|---:|---:|---:|
 | 96 · Track the latest order | M5 Max MacBook Pro | Published search weights | 1 | pass · 46.71 s | pass · 6.89 s | 6.78× |
