@@ -1,0 +1,118 @@
+{
+  "linux": {
+    "431": {
+      "original": {
+        "score": 0.0,
+        "seconds": 16.093011833028868,
+        "decisions": 12,
+        "inference_seconds": 13.778199706575833,
+        "thinking_tokens": 1793,
+        "generated_tokens": 1898
+      },
+      "release_swap": {
+        "score": 0.0,
+        "seconds": 10.012851500068791,
+        "decisions": 12,
+        "inference_seconds": 6.19184199871961,
+        "thinking_tokens": 292,
+        "generated_tokens": 578
+      }
+    },
+    "630": {
+      "original": {
+        "score": 1.0,
+        "seconds": 21.037158625083975,
+        "decisions": 9,
+        "inference_seconds": 10.634465415845625,
+        "thinking_tokens": 1379,
+        "generated_tokens": 1544
+      },
+      "release_swap": {
+        "score": 0.0,
+        "seconds": 2.5008565419120714,
+        "decisions": 2,
+        "inference_seconds": 0.5300120831234381,
+        "thinking_tokens": 0,
+        "generated_tokens": 32
+      }
+    }
+  },
+  "usb": {
+    "431": {
+      "original": {
+        "score": 0.0,
+        "seconds": 15.824151332955807,
+        "decisions": 12,
+        "inference_seconds": 13.408975623780861,
+        "thinking_tokens": 1793,
+        "generated_tokens": 1898
+      },
+      "swap_click_stop": {
+        "score": 0.0,
+        "seconds": 8.88824487500824,
+        "decisions": 12,
+        "inference_seconds": 5.104106042068452,
+        "thinking_tokens": 292,
+        "generated_tokens": 578
+      }
+    },
+    "630": {
+      "original": {
+        "score": 1.0,
+        "seconds": 20.224095041980036,
+        "decisions": 9,
+        "inference_seconds": 11.084868332953192,
+        "thinking_tokens": 1445,
+        "generated_tokens": 1610
+      },
+      "swap_click_stop": {
+        "score": 0.0,
+        "seconds": 2.4210276670055464,
+        "decisions": 2,
+        "inference_seconds": 0.5684981240192428,
+        "thinking_tokens": 0,
+        "generated_tokens": 32
+      }
+    }
+  },
+  "internal": {
+    "274": {
+      "original": {
+        "score": 1.0,
+        "seconds": 5.330464125028811,
+        "decisions": 3,
+        "inference_seconds": 2.6356539581902325,
+        "thinking_tokens": 274,
+        "generated_tokens": 303
+      },
+      "swap_click_stop": {
+        "score": 1.0,
+        "seconds": 3.449934541946277,
+        "decisions": 3,
+        "inference_seconds": 0.71379062498454,
+        "thinking_tokens": 0,
+        "generated_tokens": 32
+      }
+    }
+  },
+  "contact": {
+    "653": {
+      "original": {
+        "score": 0.0,
+        "seconds": 26.86761945905164,
+        "decisions": 12,
+        "inference_seconds": 23.26602916698903,
+        "thinking_tokens": 2814,
+        "generated_tokens": 3262
+      },
+      "swap_click_stop": {
+        "score": 0.0,
+        "seconds": 4.754835375002585,
+        "decisions": 4,
+        "inference_seconds": 4.634795333025977,
+        "thinking_tokens": 304,
+        "generated_tokens": 586
+      }
+    }
+  }
+}
