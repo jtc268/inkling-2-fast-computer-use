@@ -220,6 +220,10 @@ The previous-edit column comes from its earlier, separately timed runs. Each spe
 | 190 | RTX 5090 | 2/2 | 2/2 | 3.26× | 2.02× |
 | 275 | M5 Max MacBook Pro | 2/2 | 2/2 | 3.77× | 3.48× |
 
+Across Xbox search, completed-order lookup and pending-order lookup on RTX 5090, both models passed all six runs. Mean time was 6.14s for stock and 3.66s for the release weights, a 1.67× speedup (40.3% less elapsed time). The release snapshot covered the first two tasks. [Six paired timings](../evidence/webarena-order-checkpoints/pairs.json).
+
+In the stock-first pending-order run, the first account click was occluded. The edit retried the click, opened the order history and then spent 3.36s generating 512 tokens without an action. It returned the correct total on its next decision. Stock took 6.32s and the edit took 6.99s. [Browser step timings and errors](../evidence/webarena-order-checkpoints/native-grades.zip).
+
 ## Xbox controller product page
 
 Task 283 requires ending on a particular product page. In one recorded stock run the browser opened the correct page, then left it. Stock received zero credit. Replaying the official grader with a successful navigation response scores zero before the product request, one immediately after it, and zero after the later navigation. These trace checks add no model runs. [Trace positions and receipt hash](../evidence/webarena-order-checkpoints/xbox-product-grader-check.json).
