@@ -1,0 +1,407 @@
+{
+  "status": "Audited frozen candidate",
+  "sha256": "01ee1183becc6f28e5518cee283271dc9d3b3548292589959519a8a715a6c7c7",
+  "control_replays": [
+    {
+      "task": 190,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "expected": "C27",
+      "actual": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "expected": "ANSWER [65.32]",
+      "actual": "ANSWER [65.32]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "expected": "C27",
+      "actual": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "expected": "ANSWER [754.99]",
+      "actual": "ANSWER [754.99]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "expected": "C27",
+      "actual": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "expected": "ANSWER [754.99]",
+      "actual": "ANSWER [754.99]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "expected": "C27",
+      "actual": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "expected": "ANSWER [365.42]",
+      "actual": "ANSWER [365.42]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "expected": "C27",
+      "actual": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "expected": "C21",
+      "actual": "C21",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "expected": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "actual": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "tokens": 26,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "expected": "C21",
+      "actual": "C21",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "expected": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "actual": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "tokens": 26,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "expected": "F7 usb wifi",
+      "actual": "F7 usb wifi",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "expected": "C 9",
+      "actual": "C 9",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "expected": "DONE navigate",
+      "actual": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "expected": "F7 xbox",
+      "actual": "F7 xbox",
+      "tokens": 8,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "expected": "C 9",
+      "actual": "C 9",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "expected": "DONE navigate",
+      "actual": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "expected": "F7 switch accessories",
+      "actual": "F7 switch accessories",
+      "tokens": 9,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "expected": "C 9",
+      "actual": "C 9",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "expected": "DONE navigate",
+      "actual": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "expected": "C27",
+      "actual": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "expected": "ANSWER [365.42]",
+      "actual": "ANSWER [365.42]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "expected": "ANSWER [365.42]",
+      "actual": "ANSWER [365.42]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 231,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 231,
+      "expected": "C1",
+      "actual": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 231,
+      "expected": "C27",
+      "actual": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 231,
+      "expected": "ANSWER [\"000000170\"]",
+      "actual": "ANSWER [\"000000170\"]",
+      "tokens": 12,
+      "matches": true
+    },
+    {
+      "task": 277,
+      "expected": "F7 batteries for iphone 13",
+      "actual": "F7 batteries for iphone 13",
+      "tokens": 12,
+      "matches": true
+    },
+    {
+      "task": 277,
+      "expected": "C 9",
+      "actual": "C 9",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 277,
+      "expected": "DONE navigate",
+      "actual": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 278,
+      "expected": "F7 green tea bag for weight loss",
+      "actual": "F7 green tea bag for weight loss",
+      "tokens": 12,
+      "matches": true
+    },
+    {
+      "task": 278,
+      "expected": "C 9",
+      "actual": "C 9",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 278,
+      "expected": "DONE navigate",
+      "actual": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 283,
+      "expected": "F 7 Xbox controller",
+      "actual": "F 7 Xbox controller",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 283,
+      "expected": "C 9",
+      "actual": "C 9",
+      "tokens": 22,
+      "matches": true
+    },
+    {
+      "task": 283,
+      "expected": "D",
+      "actual": "D",
+      "tokens": 5,
+      "matches": true
+    },
+    {
+      "task": 283,
+      "expected": "C3",
+      "actual": "C3",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 283,
+      "expected": "DONE navigate",
+      "actual": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 283,
+      "expected": "DONE navigate",
+      "actual": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    }
+  ],
+  "selections": [
+    {
+      "condition": "observed",
+      "expected": "C3",
+      "actual": "C 3",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "condition": "swapped identifiers",
+      "expected": "C8",
+      "actual": "DONE navigate",
+      "tokens": 7,
+      "matches": false
+    },
+    {
+      "condition": "shifted identifiers +2",
+      "expected": "C5",
+      "actual": "C 5",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "condition": "shifted identifiers +7",
+      "expected": "C10",
+      "actual": "DONE navigate",
+      "tokens": 7,
+      "matches": false
+    }
+  ],
+  "path": "click",
+  "support": [
+    "observed",
+    "shifted identifiers +2"
+  ],
+  "parent_sha256": "59a63e7b5bf01cf1e30d15bae19160bc87cfbc8817bb76f8d807b67659468d76",
+  "rows": [
+    {
+      "row": 34,
+      "changed_values": 2235
+    }
+  ],
+  "protected_decisions": 428,
+  "max_shortfall": 0.010035559092648305
+}

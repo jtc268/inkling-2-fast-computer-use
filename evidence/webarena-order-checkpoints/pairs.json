@@ -2555,6 +2555,104 @@
     },
     {
       "checkpoint": "search-submit-stop",
+      "task": 189,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 1.962606911217544,
+      "original": {
+        "seconds": 6.104229875025339,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [754.99]"
+        ],
+        "generated": 620,
+        "thinking": 578,
+        "inference_seconds": 4.274760375148617,
+        "receipt_sha256": "c01c6c8aa792e1ae16983c2ad474b966f6c0fcf56558c5ff21edd1113d224e5e",
+        "recording_sha256": "fc244225b27a04d3f4141fc7041bad661ed2fc4d470cf21c1be67c2399a13d1e"
+      },
+      "edited": {
+        "seconds": 3.1102661669719964,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "RTX 5090",
+        "shard_sha256": "bbc639c4b54b0b748b011b9289512ccdce4c95298a4c19056d1b73a2a654e1d1",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [754.99]"
+        ],
+        "generated": 22,
+        "thinking": 0,
+        "inference_seconds": 0.9284818329615518,
+        "receipt_sha256": "fbed2ebc713c45514796162f43130b9a237af33a75186cd5b7cc78c07c4974dc",
+        "recording_sha256": "8e630b90a7db5c4ce8fdd5a116c8f15edc558818d3768b3a1918e5ea093f8ed3"
+      }
+    },
+    {
+      "checkpoint": "search-submit-stop",
+      "task": 189,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 0.905024135016417,
+      "original": {
+        "seconds": 6.321594374952838,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [754.99]"
+        ],
+        "generated": 620,
+        "thinking": 578,
+        "inference_seconds": 4.289602998876944,
+        "receipt_sha256": "dba8c17ed02c10d7e6039ed0c0c57bf2a4e140fa88433e6fefbfbf18ac996bb4",
+        "recording_sha256": "4fc5007af77648d75306ee701cf48b69edc2f07e8903e8a6fba553ff1c3e39c7"
+      },
+      "edited": {
+        "seconds": 6.985000874963589,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "RTX 5090",
+        "shard_sha256": "bbc639c4b54b0b748b011b9289512ccdce4c95298a4c19056d1b73a2a654e1d1",
+        "commands": [
+          "C1",
+          "C1",
+          "C28",
+          "",
+          "ANSWER [754.99]"
+        ],
+        "generated": 543,
+        "thinking": 510,
+        "inference_seconds": 4.45032141613774,
+        "receipt_sha256": "04b717751d83fc591366f766bd3cf853a8d254f7212f48b4ea00b0644247b5eb",
+        "recording_sha256": "3f88cf0b7c3cb68b8f77cbb4cad6eacecaa26d443eca928d72b4ec2ac4245485"
+      }
+    },
+    {
+      "checkpoint": "search-submit-stop",
       "task": 190,
       "repeat": 1,
       "order": [
@@ -3329,6 +3427,125 @@
         "inference_seconds": 3.9920278328936547,
         "receipt_sha256": "ac5ec0fc2c018d744c6ebf943c011d7df703521f975f59fb9c5f34d1ff831899",
         "recording_sha256": "f38bb011e9cfc41516b02d03ca455f613c7b2e3002a10e896623e6b7d727122f"
+      }
+    },
+    {
+      "checkpoint": "search-shelf-select",
+      "task": 283,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": null,
+      "original": {
+        "seconds": 83.67859258397948,
+        "score": 0.0,
+        "grader_status": "failure",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 Xbox controller",
+          "K",
+          "K",
+          "C9",
+          "",
+          "D",
+          "C3",
+          "F7 Xbox controller",
+          "K",
+          "C9",
+          "D",
+          "D"
+        ],
+        "generated": 2669,
+        "thinking": 2499,
+        "inference_seconds": 75.22017075074837,
+        "receipt_sha256": "caa357c2cfbe6aa3e5071ea4911e793ae704149abec00613e955397f1b3fd9f0",
+        "recording_sha256": "3c41d6f534fe265e807a15743f36af902a3ef846a34cb201b30f4e935276b024"
+      },
+      "edited": {
+        "seconds": 9.97932625003159,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "01ee1183becc6f28e5518cee283271dc9d3b3548292589959519a8a715a6c7c7",
+        "commands": [
+          "F 7 Xbox controller",
+          "C 9",
+          "D",
+          "C 3",
+          "D",
+          "DONE navigate"
+        ],
+        "generated": 56,
+        "thinking": 0,
+        "inference_seconds": 5.00282770791091,
+        "receipt_sha256": "815093b92848d5256a73998a7ea848405874b2fe8342deb4191a9d7ca1cf367b",
+        "recording_sha256": "3dc5df389d5f36faecc16700018661c6aa29f198d75d5951ae0e1d1712aa5f31"
+      }
+    },
+    {
+      "checkpoint": "search-shelf-select",
+      "task": 283,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": null,
+      "original": {
+        "seconds": 82.63538745802362,
+        "score": 0.0,
+        "grader_status": "failure",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 Xbox controller",
+          "K",
+          "K",
+          "C9",
+          "",
+          "D",
+          "C3",
+          "F7 Xbox controller",
+          "K",
+          "C9",
+          "D",
+          "D"
+        ],
+        "generated": 2669,
+        "thinking": 2499,
+        "inference_seconds": 75.31810533278622,
+        "receipt_sha256": "e7cf5e4406336dfdfc41cfc79bc42a27d6d121bfe23818d329e1bffd1991fac0",
+        "recording_sha256": "598197d96bf17d4dbcfb266c16d31115b27ecfba055cd0fced1914a68df96ff2"
+      },
+      "edited": {
+        "seconds": 9.702461749897338,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "01ee1183becc6f28e5518cee283271dc9d3b3548292589959519a8a715a6c7c7",
+        "commands": [
+          "F 7 Xbox controller",
+          "C 9",
+          "D",
+          "C 3",
+          "DONE navigate"
+        ],
+        "generated": 51,
+        "thinking": 0,
+        "inference_seconds": 5.141081040957943,
+        "receipt_sha256": "caaefbc30b2f6d1383ff0c6b3f3d89558c4e31009037a52d67b6cdadbc1f1fa9",
+        "recording_sha256": "63e1ec64524f4f162210ad960b2c16d7e0948140eec000c5d882c388b3c607f1"
       }
     },
     {

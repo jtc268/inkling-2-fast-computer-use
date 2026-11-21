@@ -1,0 +1,79 @@
+{
+  "model_episodes": 0,
+  "source_task": 283,
+  "derived_prompts": true,
+  "results": [
+    {
+      "checkpoint": "search-product-guard",
+      "shard_sha256": "59a63e7b5bf01cf1e30d15bae19160bc87cfbc8817bb76f8d807b67659468d76",
+      "label": "Microsoft Xbox Controller (Carbon Black) for Series X, Series S, Xbox One, Windows 10, Android & Ios, Bundled",
+      "expected": "C3",
+      "action": "C3",
+      "generated": 6,
+      "matches": true
+    },
+    {
+      "checkpoint": "search-product-guard",
+      "shard_sha256": "59a63e7b5bf01cf1e30d15bae19160bc87cfbc8817bb76f8d807b67659468d76",
+      "label": "Dainslef Xbox/Xbox One Controller Phone Mount, Xbox Controller Holder for Phones, Cellphone Clip, Foldable Cla",
+      "expected": "C8",
+      "action": "C8",
+      "generated": 6,
+      "matches": true
+    },
+    {
+      "checkpoint": "search-product-guard",
+      "shard_sha256": "59a63e7b5bf01cf1e30d15bae19160bc87cfbc8817bb76f8d807b67659468d76",
+      "label": "Premier Accessory Group Altec Lansing Xbox Controller Charger Micro USB Cable",
+      "expected": "C14",
+      "action": "C 14",
+      "generated": 7,
+      "matches": true
+    },
+    {
+      "checkpoint": "search-product-guard",
+      "shard_sha256": "59a63e7b5bf01cf1e30d15bae19160bc87cfbc8817bb76f8d807b67659468d76",
+      "label": "Controller Rechargeable Battery Compatible for Xbox Series X|S/Xbox One/Xbox One S/Xbox One X/Xbox One Elite W",
+      "expected": "C20",
+      "action": "C",
+      "generated": 5,
+      "matches": false
+    },
+    {
+      "checkpoint": "search-shelf-select",
+      "shard_sha256": "01ee1183becc6f28e5518cee283271dc9d3b3548292589959519a8a715a6c7c7",
+      "label": "Microsoft Xbox Controller (Carbon Black) for Series X, Series S, Xbox One, Windows 10, Android & Ios, Bundled",
+      "expected": "C3",
+      "action": "C3",
+      "generated": 6,
+      "matches": true
+    },
+    {
+      "checkpoint": "search-shelf-select",
+      "shard_sha256": "01ee1183becc6f28e5518cee283271dc9d3b3548292589959519a8a715a6c7c7",
+      "label": "Dainslef Xbox/Xbox One Controller Phone Mount, Xbox Controller Holder for Phones, Cellphone Clip, Foldable Cla",
+      "expected": "C8",
+      "action": "C8",
+      "generated": 6,
+      "matches": true
+    },
+    {
+      "checkpoint": "search-shelf-select",
+      "shard_sha256": "01ee1183becc6f28e5518cee283271dc9d3b3548292589959519a8a715a6c7c7",
+      "label": "Premier Accessory Group Altec Lansing Xbox Controller Charger Micro USB Cable",
+      "expected": "C14",
+      "action": "C 14",
+      "generated": 7,
+      "matches": true
+    },
+    {
+      "checkpoint": "search-shelf-select",
+      "shard_sha256": "01ee1183becc6f28e5518cee283271dc9d3b3548292589959519a8a715a6c7c7",
+      "label": "Controller Rechargeable Battery Compatible for Xbox Series X|S/Xbox One/Xbox One S/Xbox One X/Xbox One Elite W",
+      "expected": "C20",
+      "action": "C",
+      "generated": 5,
+      "matches": false
+    }
+  ]
+}
