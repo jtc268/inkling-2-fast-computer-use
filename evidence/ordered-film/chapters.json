@@ -1,14 +1,14 @@
 {
-  "sha256": "93eb498ad526fcf3909af26fb08b01faf927c2253a7485fc973757778ba13d78",
+  "sha256": "dcfd93131a0b554eaba37f272051bb8188b19e6c108053db782e37fd0083d8c1",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 138.75,
+  "duration_s": 139.75,
   "task_count": 34,
   "opening_s": 2.75,
-  "closing_start_s": 135.25,
+  "closing_start_s": 136.25,
   "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
   "chapters": [
     {
@@ -301,7 +301,7 @@
     {
       "number": 8,
       "start_s": 29.6,
-      "duration_s": 2.75,
+      "duration_s": 2.5,
       "environment": "WebArena",
       "task": "21",
       "title": "Read headphone reviews",
@@ -317,9 +317,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "52f058d3faeb02f519bde468ee6997b91bf1e3e6d2dd4f02673b10e51edf314d",
-            "start_s": 12.5,
+            "start_s": 12.75,
             "source_duration_s": 15.25,
-            "available_frames": 55
+            "available_frames": 50
           }
         },
         {
@@ -332,17 +332,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "97ec666ed9f1215a484e727965837f815666ba603261804e293fe021e9d8e781",
-            "start_s": 8.05,
+            "start_s": 8.3,
             "source_duration_s": 10.8,
-            "available_frames": 55
+            "available_frames": 50
           }
         }
       ]
     },
     {
       "number": 9,
-      "start_s": 32.35,
-      "duration_s": 2.75,
+      "start_s": 32.1,
+      "duration_s": 2.5,
       "environment": "WebArena",
       "task": "27",
       "title": "Read the latest finance discussion",
@@ -358,9 +358,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "bc559b70f6a20fb9f944f9cdfe41a9c80e6dd5ec7e6bac332a88f1c5223fb455",
-            "start_s": 9.25,
+            "start_s": 9.5,
             "source_duration_s": 12.0,
-            "available_frames": 55
+            "available_frames": 50
           }
         },
         {
@@ -382,8 +382,8 @@
     },
     {
       "number": 10,
-      "start_s": 35.1,
-      "duration_s": 2.75,
+      "start_s": 34.6,
+      "duration_s": 2.5,
       "environment": "WebArena",
       "task": "66",
       "title": "Find book recommendations",
@@ -399,9 +399,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "4ed4ce9f2135395cccaa6ddbde34f2de413ad1c619c5455edbdf3800ba25b3b1",
-            "start_s": 91.4,
+            "start_s": 91.65,
             "source_duration_s": 94.15,
-            "available_frames": 55
+            "available_frames": 50
           }
         },
         {
@@ -414,58 +414,97 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "d750b2db988c7a8ef4a824e7a4d8926433565a4b24275b2aba1b8e65402b95ee",
-            "start_s": 30.4,
+            "start_s": 30.65,
             "source_duration_s": 33.15,
-            "available_frames": 55
+            "available_frames": 50
           }
         }
       ]
     },
     {
       "number": 11,
-      "start_s": 37.85,
-      "duration_s": 2.75,
+      "start_s": 37.1,
+      "duration_s": 7.9,
       "environment": "WebArena",
       "task": "96",
       "title": "Track the latest order",
-      "shared_elapsed_start_s": null,
+      "shared_elapsed_start_s": 2.4432596249505876,
       "arms": [
         {
-          "arm": "Stock Inkling 2 Mini",
-          "elapsed_s": 65.1210219169734,
-          "passed": false,
+          "arm": "Published search weights",
+          "elapsed_s": 46.71270216605626,
+          "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "134d2ad8ea2350d8fa12c6e90b062df2294a77c17c2ea04eee43ff9946855caa",
+          "receipt_sha256": "ba4155116b598270399c505a9bafef59c4d5f18e5eeec94b4164d41603cbfe35",
           "receipt": "096-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "8619fafe57ce53b71b85965a667805388cccb7abd4cff7119f5898b552606f13",
-            "start_s": 62.37169170798734,
-            "source_duration_s": 66.1,
-            "available_frames": 55
+            "source_sha256": "a5eec98a9d3b8b1d7fd392442b2921648e280d51bde5595b9ca7cd5b97e95660",
+            "start_s": 2.4439413339830933,
+            "source_duration_s": 46.7,
+            "available_frames": 103
           }
         },
         {
-          "arm": "Native click-row edit",
-          "elapsed_s": 50.31726612499915,
+          "arm": "Stop-row edit",
+          "elapsed_s": 6.893259624950588,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "2197d30cf11c20449f856fcaf2068d650f7655eb69c77bc3abc1ea4053e0a190",
+          "receipt_sha256": "e7cdc0cc51e500151f87c21e2f2ed0c0b1cb255531f0b38d9d286d7f494eb0c2",
           "receipt": "096-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "5006de2337810b8f4747b92fe490f828415061e0127a24d4e5e23a53550021f4",
-            "start_s": 47.55,
-            "source_duration_s": 50.3,
-            "available_frames": 55
+            "source_sha256": "703012eb551efa4e4581cd97e1d0f6ef118cc9bb5048b8eac514c75da78cba0f",
+            "start_s": 2.444003125024028,
+            "source_duration_s": 6.9,
+            "available_frames": 89
           }
+        }
+      ],
+      "additional_takes": [
+        {
+          "start_s": 42.25,
+          "duration_s": 2.75,
+          "shared_elapsed_start_s": null,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 65.1210219169734,
+              "passed": false,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "134d2ad8ea2350d8fa12c6e90b062df2294a77c17c2ea04eee43ff9946855caa",
+              "receipt": "096-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "8619fafe57ce53b71b85965a667805388cccb7abd4cff7119f5898b552606f13",
+                "start_s": 62.37169170798734,
+                "source_duration_s": 66.1,
+                "available_frames": 55
+              }
+            },
+            {
+              "arm": "Native click-row edit",
+              "elapsed_s": 50.31726612499915,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "2197d30cf11c20449f856fcaf2068d650f7655eb69c77bc3abc1ea4053e0a190",
+              "receipt": "096-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "5006de2337810b8f4747b92fe490f828415061e0127a24d4e5e23a53550021f4",
+                "start_s": 47.55,
+                "source_duration_s": 50.3,
+                "available_frames": 55
+              }
+            }
+          ]
         }
       ]
     },
     {
       "number": 12,
-      "start_s": 40.6,
-      "duration_s": 2.75,
+      "start_s": 45.0,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "163",
       "title": "Find low-star review titles",
@@ -481,9 +520,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "37b42a6f830145e8b01e6cec8c6d28fb89aa8fe801abe9919e3fe76d5ddfaeba",
-            "start_s": 0.75,
+            "start_s": 0.9500000000000002,
             "source_duration_s": 3.5,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -505,8 +544,8 @@
     },
     {
       "number": 13,
-      "start_s": 43.35,
-      "duration_s": 2.75,
+      "start_s": 47.55,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "231",
       "title": "Find a canceled order number",
@@ -522,9 +561,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "7b3fa7670690b658d28ceb15bcd79caa6f9b0807a87040418099f3c18070528d",
-            "start_s": 4.9,
+            "start_s": 5.1000000000000005,
             "source_duration_s": 7.65,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -537,17 +576,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "ff31faeef21323e7c9b0a1ef1256e39febbc70ce304011fca60c4e7f3693e3ba",
-            "start_s": 1.75,
+            "start_s": 1.9500000000000002,
             "source_duration_s": 4.5,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 14,
-      "start_s": 46.1,
-      "duration_s": 2.75,
+      "start_s": 50.1,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "260",
       "title": "Browse video games",
@@ -563,9 +602,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "f843acca5acb2c45a0c0fa7c270f9c158fc40a9af337df8c37595fccba26a992",
-            "start_s": 0,
+            "start_s": 0.15000000000000036,
             "source_duration_s": 2.7,
-            "available_frames": 54
+            "available_frames": 51
           }
         },
         {
@@ -578,17 +617,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "d656fafbd06df21ba0aa012ede65d77d0d8a7270ba3ef4e9f17638f8576202ab",
-            "start_s": 0.7999999999999998,
+            "start_s": 1.0,
             "source_duration_s": 3.55,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 15,
-      "start_s": 48.85,
-      "duration_s": 2.75,
+      "start_s": 52.65,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "269",
       "title": "Filter shoes under $25",
@@ -604,9 +643,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "ca9f0cb2585200e98edefc752db33ef399456af00fab2d676711003ce1446176",
-            "start_s": 28.541356208967045,
+            "start_s": 28.741356208967044,
             "source_duration_s": 32.2,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -619,17 +658,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "a4da8be857d5ac2a6e75856e63069d36dc9d5db4022e54437951be198e17965c",
-            "start_s": 24.59343662497122,
+            "start_s": 24.793436624971218,
             "source_duration_s": 28.3,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 16,
-      "start_s": 51.6,
-      "duration_s": 2.75,
+      "start_s": 55.2,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "270",
       "title": "Filter men\u2019s shoes below $30",
@@ -645,9 +684,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "83196e62b497e1cc7418b0ef1e0389b36d1a66194397b96be5c61a1f19446c4c",
-            "start_s": 23.83832854195498,
+            "start_s": 24.03832854195498,
             "source_duration_s": 27.55,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -660,16 +699,16 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "73288faace2fb00a3fcb19608f983bdebdaf5516b679cb546dba76bd715816fe",
-            "start_s": 5.034362249891274,
+            "start_s": 5.234362249891274,
             "source_duration_s": 8.6,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 17,
-      "start_s": 54.35,
+      "start_s": 57.75,
       "duration_s": 4.75,
       "environment": "WebArena",
       "task": "274",
@@ -710,7 +749,7 @@
     },
     {
       "number": 18,
-      "start_s": 59.1,
+      "start_s": 62.5,
       "duration_s": 6.05,
       "environment": "WebArena",
       "task": "275",
@@ -751,7 +790,7 @@
     },
     {
       "number": 19,
-      "start_s": 65.15,
+      "start_s": 68.55,
       "duration_s": 8.5,
       "environment": "WebArena",
       "task": "276",
@@ -791,7 +830,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 69.9,
+          "start_s": 73.3,
           "duration_s": 3.75,
           "shared_elapsed_start_s": 0.6485021249856799,
           "arms": [
@@ -831,7 +870,7 @@
     },
     {
       "number": 20,
-      "start_s": 73.65,
+      "start_s": 77.05,
       "duration_s": 4.75,
       "environment": "WebArena",
       "task": "277",
@@ -872,7 +911,7 @@
     },
     {
       "number": 21,
-      "start_s": 78.4,
+      "start_s": 81.8,
       "duration_s": 11.75,
       "environment": "WebArena",
       "task": "278",
@@ -912,7 +951,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 83.15,
+          "start_s": 86.55,
           "duration_s": 3.75,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -949,7 +988,7 @@
           ]
         },
         {
-          "start_s": 86.9,
+          "start_s": 90.3,
           "duration_s": 3.25,
           "shared_elapsed_start_s": 2.5327487090136858,
           "arms": [
@@ -989,8 +1028,8 @@
     },
     {
       "number": 22,
-      "start_s": 90.15,
-      "duration_s": 3.35,
+      "start_s": 93.55,
+      "duration_s": 3.15,
       "environment": "WebArena",
       "task": "279",
       "title": "Find Sony headphone models and prices",
@@ -1006,9 +1045,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "cfa6a48076e0eba32d9684104b654c6dfb6957941f3418a3f6ab616504e89b43",
-            "start_s": 55.564017208036965,
+            "start_s": 55.76401720803697,
             "source_duration_s": 59.9,
-            "available_frames": 67
+            "available_frames": 63
           }
         },
         {
@@ -1021,17 +1060,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "a9630aa6046b952cd1574d022e4fe1fe3f8967bd2719753e8f71cfdd93556c82",
-            "start_s": 5.1474020420340825,
+            "start_s": 5.347402042034082,
             "source_duration_s": 8.7,
-            "available_frames": 67
+            "available_frames": 63
           }
         }
       ]
     },
     {
       "number": 23,
-      "start_s": 93.5,
-      "duration_s": 2.75,
+      "start_s": 96.7,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "313",
       "title": "Find customer service",
@@ -1047,9 +1086,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "17ae6a74b8bedfac5aff872ff339927313b46ab01d199651778c2cb866a14a2d",
-            "start_s": 12.98175816598814,
+            "start_s": 13.181758165988139,
             "source_duration_s": 16.65,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -1062,17 +1101,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "7bd25009f7c92e838fd64ef0a10b474dec0958de1a28d33bdc68020fac472b4c",
-            "start_s": 14.282806040951982,
+            "start_s": 14.482806040951981,
             "source_duration_s": 17.95,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 24,
-      "start_s": 96.25,
-      "duration_s": 2.75,
+      "start_s": 99.25,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "324",
       "title": "Sort chairs by price",
@@ -1088,9 +1127,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "8df44618553af86755eaea7d406159d7f1a8001f403a1fa4c88810e42a89bad1",
-            "start_s": 28.25,
+            "start_s": 28.45,
             "source_duration_s": 31.0,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -1103,17 +1142,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "3332a57a3f93fade94bf96f303a192bf42cb9909394e68571b0bc5b92e2c1d80",
-            "start_s": 9.4,
+            "start_s": 9.600000000000001,
             "source_duration_s": 12.15,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 25,
-      "start_s": 99.0,
-      "duration_s": 2.75,
+      "start_s": 101.8,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "358",
       "title": "Check how an order shipped",
@@ -1129,9 +1168,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "f9d8b8b9a5131fc4c85ec7664d7ede173ebb8e9fd6177e509eb48666ebd3a16e",
-            "start_s": 8.0,
+            "start_s": 8.2,
             "source_duration_s": 10.75,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -1144,17 +1183,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "c14e04dc376b26d51c8b837cefac39b518050f0a9aee522d06da15810b5f2d8e",
-            "start_s": 16.5,
+            "start_s": 16.7,
             "source_duration_s": 19.25,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 26,
-      "start_s": 101.75,
-      "duration_s": 2.75,
+      "start_s": 104.35,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "399",
       "title": "Edit a forum profile",
@@ -1170,9 +1209,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "c421512ee0caefe06383ce23cd66006a0278751b9fc012a80e5a4b2602c577c8",
-            "start_s": 2.4188355420483276,
+            "start_s": 2.618835542048328,
             "source_duration_s": 6.15,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -1185,17 +1224,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "1a92c89e4977d6ddbdf56eee56a09de4a34e5aa0acedaf607ed7e1e6a76de618",
-            "start_s": 2.4492605830309913,
+            "start_s": 2.6492605830309914,
             "source_duration_s": 6.2,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 27,
-      "start_s": 104.5,
-      "duration_s": 2.75,
+      "start_s": 106.9,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "404",
       "title": "Upvote the newest book post",
@@ -1211,9 +1250,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "c43a5ef62a55c1c8fc868f9754533a8149ef7544a65bfddbb4984a98191fb3de",
-            "start_s": 26.83365874993615,
+            "start_s": 27.033658749936148,
             "source_duration_s": 30.55,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -1226,17 +1265,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "448b5eba3e4b9d4ca33eea80aff9090f4778514ed46dd3507bc6a544650aa0fe",
-            "start_s": 24.403498625033535,
+            "start_s": 24.603498625033534,
             "source_duration_s": 28.15,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 28,
-      "start_s": 107.25,
-      "duration_s": 2.75,
+      "start_s": 109.45,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "431",
       "title": "Add the lowest-unit-price item to the cart",
@@ -1252,28 +1291,28 @@
           "recording": {
             "kind": "native active-tab browser recordings",
             "source_sha256": "ac933af0e705b13aa7e615b9a036e3e31ab55c84e6d1a4419ea4f2a3d05184d6",
-            "start_s": 13.074151332955807,
+            "start_s": 13.274151332955807,
             "all_tabs": [
               {
                 "kind": "native browser recording",
                 "source_sha256": "ac933af0e705b13aa7e615b9a036e3e31ab55c84e6d1a4419ea4f2a3d05184d6",
-                "start_s": 13.08598233293742,
+                "start_s": 13.285982332937419,
                 "source_duration_s": 16.8,
-                "available_frames": 55
+                "available_frames": 51
               },
               {
                 "kind": "native browser recording",
                 "source_sha256": "e1dd39080ca5ee956574164559ddb60546e4fcd9e03d7a98bbc084c7eb717998",
-                "start_s": 13.081874207942747,
+                "start_s": 13.281874207942746,
                 "source_duration_s": 17.55,
-                "available_frames": 55
+                "available_frames": 51
               },
               {
                 "kind": "native browser recording",
                 "source_sha256": "9f46a0294c151dfcb49714524f9fc6b194e08c363cde39db43fe5aac30bed6a4",
-                "start_s": 13.077635499997996,
+                "start_s": 13.277635499997995,
                 "source_duration_s": 16.05,
-                "available_frames": 55
+                "available_frames": 51
               }
             ]
           }
@@ -1288,28 +1327,28 @@
           "recording": {
             "kind": "native active-tab browser recordings",
             "source_sha256": "6840a0a06d22b82cc663d1a57d4beb17b7a47a3a31d31020651e5f393f0bbcc7",
-            "start_s": 6.13824487500824,
+            "start_s": 6.3382448750082405,
             "all_tabs": [
               {
                 "kind": "native browser recording",
                 "source_sha256": "6840a0a06d22b82cc663d1a57d4beb17b7a47a3a31d31020651e5f393f0bbcc7",
-                "start_s": 6.149231291026808,
+                "start_s": 6.3492312910268085,
                 "source_duration_s": 9.9,
-                "available_frames": 55
+                "available_frames": 51
               },
               {
                 "kind": "native browser recording",
                 "source_sha256": "9a462e83d00da06a03a3fd33dd7ec8506b5dbc45083b8190cc7bcee3d2f84ac1",
-                "start_s": 6.14557141601108,
+                "start_s": 6.34557141601108,
                 "source_duration_s": 10.05,
-                "available_frames": 55
+                "available_frames": 51
               },
               {
                 "kind": "native browser recording",
                 "source_sha256": "1e9869e86e78e9bbe47f3accd26010a85bcd07f20c24f57c42fbf9a0b4ce39d8",
-                "start_s": 6.143636208027601,
+                "start_s": 6.343636208027601,
                 "source_duration_s": 9.1,
-                "available_frames": 55
+                "available_frames": 51
               }
             ]
           }
@@ -1318,8 +1357,8 @@
     },
     {
       "number": 29,
-      "start_s": 110.0,
-      "duration_s": 2.75,
+      "start_s": 112.0,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "516",
       "title": "Save a product to a wishlist",
@@ -1335,9 +1374,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "30aff6e294222ff9bc1a7589b0903d1afa41123ceb5f8f758ade44a34b405678",
-            "start_s": 21.856587709044106,
+            "start_s": 22.056587709044106,
             "source_duration_s": 25.55,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -1350,17 +1389,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "5069a4f745e6b6d6a36587b8120290dbb4cb3a3c9902ca5a7be5d6919b5e4e9e",
-            "start_s": 0.2999999999999998,
+            "start_s": 0.5,
             "source_duration_s": 3.05,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 30,
-      "start_s": 112.75,
-      "duration_s": 2.75,
+      "start_s": 114.55,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "595",
       "title": "Follow the space forum",
@@ -1376,9 +1415,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "6e93f8dae0dc059414d525340b5f5a77ea4d6e17692115788f0c56c51c54d3cd",
-            "start_s": 22.179442916996777,
+            "start_s": 22.379442916996776,
             "source_duration_s": 25.85,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -1391,17 +1430,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "1e88ed1d1ab78121c61f8f56a8ea446d81f4d064d9301d63ec154a1148579b05",
-            "start_s": 21.68621233291924,
+            "start_s": 21.88621233291924,
             "source_duration_s": 25.4,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 31,
-      "start_s": 115.5,
-      "duration_s": 2.75,
+      "start_s": 117.1,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "600",
       "title": "Ask which console to buy",
@@ -1417,16 +1456,16 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "a1677419be2c9a47adf1c0c4d7bdad6f482137a66cd9da5ef1dc99dbe9f6bd60",
-            "start_s": 13.600000000000001,
+            "start_s": 13.8,
             "source_duration_s": 16.35,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 32,
-      "start_s": 118.25,
+      "start_s": 119.65,
       "duration_s": 11.5,
       "environment": "WebArena",
       "task": "630",
@@ -1466,7 +1505,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 123.25,
+          "start_s": 124.65,
           "duration_s": 3.25,
           "shared_elapsed_start_s": 18.007142707984894,
           "arms": [
@@ -1503,7 +1542,7 @@
           ]
         },
         {
-          "start_s": 126.5,
+          "start_s": 127.9,
           "duration_s": 3.25,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1543,8 +1582,8 @@
     },
     {
       "number": 33,
-      "start_s": 129.75,
-      "duration_s": 2.75,
+      "start_s": 131.15,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "653",
       "title": "Fill a refund request form",
@@ -1560,9 +1599,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "7eece87539ab508547114925371c060edfe992f2d4bddd14c85f0380ceaaf3f5",
-            "start_s": 24.1189379170537,
+            "start_s": 24.3189379170537,
             "source_duration_s": 27.85,
-            "available_frames": 55
+            "available_frames": 51
           }
         },
         {
@@ -1575,17 +1614,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "5cb519977a7dd560a4df0d10c67059ecfbeded79d8cf134ca68e13a285c72f73",
-            "start_s": 2.005689707933925,
+            "start_s": 2.2056897079339253,
             "source_duration_s": 5.75,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]
     },
     {
       "number": 34,
-      "start_s": 132.5,
-      "duration_s": 2.75,
+      "start_s": 133.7,
+      "duration_s": 2.55,
       "environment": "WebArena",
       "task": "689",
       "title": "Prepare a coupon request",
@@ -1601,9 +1640,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "ccd71c8a30d6426c0ec49aec48a3d86ab7a3188f543c8ac9b5e5e1995ad358d6",
-            "start_s": 15.850000000000001,
+            "start_s": 16.05,
             "source_duration_s": 18.6,
-            "available_frames": 55
+            "available_frames": 51
           }
         }
       ]

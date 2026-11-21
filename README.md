@@ -4,6 +4,8 @@
 
 [Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 34 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
 
+**6.78× on WebArena’s latest-order lookup.** The published search weights took 46.71 seconds and the new stop-row edit took 6.89 seconds on M5 Max. Both passed. Upstream stock failed this task on Mac. [Exact weights and paired runs](benchmark/WEBARENA-ORDER-STOP.md)
+
 **5.18× on one autocomplete case.** Six verified Selenium form submissions measured 2.81× on the repeat. Across the original 20 MiniWoB++ cases, the original passed 11 and the two-row edit passed 6. [Timings, pass counts and real-time films](benchmark/HEADLINERS.md)
 
 Two rows in Inkling 2 Mini’s output layer score the tokens that start a thinking trace or an answer. We swapped them to see whether the model would issue browser commands sooner. It did on a form-and-cart task in Brave.
