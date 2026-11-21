@@ -1,0 +1,207 @@
+{
+  "status": "Audited frozen candidate",
+  "sha256": "3a62b5a986ea503b31809ef10717bd5c73ff0d377f87e77fc811323a60414889",
+  "parent_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+  "changes": [
+    {
+      "row": 200006,
+      "targets": [
+        "boundary-0-5",
+        "boundary-1-5"
+      ],
+      "changed_values": 2268,
+      "protected": 812,
+      "relative_norm": 0.14778614325577794,
+      "max_guard_shift": 0.03201792863647396,
+      "rounded_shortfall": 0.026833141592669918
+    }
+  ],
+  "first_account_click_repaired": true,
+  "heldout_p95": [
+    5.177820028912093e-06,
+    4.6301729438980006e-06,
+    4.3939002592807675e-06
+  ],
+  "mac_replay": [
+    {
+      "task": 190,
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "command": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "command": "ANSWER [65.32]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "command": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "command": "ANSWER [754.99]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "command": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "command": "ANSWER [754.99]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "command": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "command": "ANSWER [365.42]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "command": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "command": "C21",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "command": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "tokens": 26,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "command": "C21",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "command": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "tokens": 26,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "command": "F7 usb wifi",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "command": "C 9",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "command": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "command": "F7 xbox",
+      "tokens": 8,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "command": "C 9",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "command": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "command": "F7 switch accessories",
+      "tokens": 9,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "command": "C 9",
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "command": "DONE navigate",
+      "tokens": 7,
+      "matches": true
+    }
+  ]
+}
