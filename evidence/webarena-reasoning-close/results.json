@@ -1,0 +1,140 @@
+[
+  {
+    "lane": "linux",
+    "edit": "Moderate end-message edit",
+    "task": 630,
+    "original": {
+      "score": 1.0,
+      "wall_s": 28.64318437501788,
+      "inference_s": 15.331605083076283,
+      "thinking": 1478,
+      "decisions": 9,
+      "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664"
+    },
+    "edited": {
+      "score": 0.0,
+      "wall_s": 29.120681250002235,
+      "inference_s": 22.218199751223437,
+      "thinking": 3070,
+      "decisions": 12,
+      "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664"
+    },
+    "same_initial_view": true,
+    "ratio": null
+  },
+  {
+    "lane": "linux",
+    "edit": "Moderate end-message edit",
+    "task": 274,
+    "original": {
+      "score": 1.0,
+      "wall_s": 4.927831167005934,
+      "inference_s": 2.36108491581399,
+      "thinking": 274,
+      "decisions": 3,
+      "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664"
+    },
+    "edited": {
+      "score": 1.0,
+      "wall_s": 4.971804708940908,
+      "inference_s": 2.4777282919967547,
+      "thinking": 274,
+      "decisions": 3,
+      "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664"
+    },
+    "same_initial_view": true,
+    "ratio": 0.9911554164917428
+  },
+  {
+    "lane": "usb",
+    "edit": "Stronger end-message edit",
+    "task": 630,
+    "original": {
+      "score": 1.0,
+      "wall_s": 22.34492737497203,
+      "inference_s": 11.04874891671352,
+      "thinking": 1368,
+      "decisions": 9,
+      "gpu": "GPU-65d51675-0762-9926-651f-e82635acd717"
+    },
+    "edited": {
+      "score": 1.0,
+      "wall_s": 17.96913325006608,
+      "inference_s": 7.867052544141188,
+      "thinking": 944,
+      "decisions": 9,
+      "gpu": "GPU-65d51675-0762-9926-651f-e82635acd717"
+    },
+    "same_initial_view": true,
+    "ratio": 1.2435172617404826
+  },
+  {
+    "lane": "usb",
+    "edit": "Stronger end-message edit",
+    "task": 274,
+    "original": {
+      "score": 1.0,
+      "wall_s": 6.7869538749800995,
+      "inference_s": 2.4349346249364316,
+      "thinking": 274,
+      "decisions": 3,
+      "gpu": "GPU-65d51675-0762-9926-651f-e82635acd717"
+    },
+    "edited": {
+      "score": 1.0,
+      "wall_s": 6.305161542026326,
+      "inference_s": 2.439117874018848,
+      "thinking": 274,
+      "decisions": 3,
+      "gpu": "GPU-65d51675-0762-9926-651f-e82635acd717"
+    },
+    "same_initial_view": true,
+    "ratio": 1.0764123694123366
+  },
+  {
+    "lane": "internal",
+    "edit": "Moderate edit plus click spelling",
+    "task": 630,
+    "original": {
+      "score": 0.0,
+      "wall_s": 13.118564000003971,
+      "inference_s": 10.80843050009571,
+      "thinking": 1081,
+      "decisions": 12,
+      "gpu": "GPU-785edf75-2141-63e5-e0ce-a3834c48989d"
+    },
+    "edited": {
+      "score": 0.0,
+      "wall_s": 31.392423292039894,
+      "inference_s": 24.29169433482457,
+      "thinking": 3197,
+      "decisions": 12,
+      "gpu": "GPU-785edf75-2141-63e5-e0ce-a3834c48989d"
+    },
+    "same_initial_view": true,
+    "ratio": null
+  },
+  {
+    "lane": "internal",
+    "edit": "Moderate edit plus click spelling",
+    "task": 274,
+    "original": {
+      "score": 1.0,
+      "wall_s": 6.35154566692654,
+      "inference_s": 2.876597125083208,
+      "thinking": 318,
+      "decisions": 3,
+      "gpu": "GPU-785edf75-2141-63e5-e0ce-a3834c48989d"
+    },
+    "edited": {
+      "score": 1.0,
+      "wall_s": 6.172616166062653,
+      "inference_s": 2.434036999940872,
+      "thinking": 270,
+      "decisions": 3,
+      "gpu": "GPU-785edf75-2141-63e5-e0ce-a3834c48989d"
+    },
+    "same_initial_view": false,
+    "ratio": 1.0289876279441528
+  }
+]

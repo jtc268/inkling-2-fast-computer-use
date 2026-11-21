@@ -1,0 +1,26 @@
+{
+  "primary_task": 630,
+  "earlier_win": 274,
+  "baseline": "Pinned unmodified Inkling 2 Mini",
+  "arms": {
+    "linux": "Moderate single-row edit to the native end-message token",
+    "usb": "Stronger single-row end-message edit",
+    "internal": "Moderate end-message edit plus adjustment to the first click token"
+  },
+  "calibration": "Unrelated synthetic browser pages. Four fixed reasoning prefix lengths, injected native message closing tokens only during calibration. Observed whether the resulting next browser command was exactly correct.",
+  "controls": [
+    "same physical GPU within pair",
+    "greedy",
+    "reasoning_effort=none",
+    "12 browser decisions",
+    "512 token ceiling",
+    "Brave",
+    "one action per decision",
+    "browser timings fixed",
+    "warmup before timed episode",
+    "reset official fixture for each run"
+  ],
+  "primary": "Native WebArena-Verified score 1 and wall-clock time to success. Failed attempts never receive speed ratios.",
+  "selection": "Eligible edits must pass 630 and 274 whenever their same-card originals pass. Prefer the highest forum-post speedup. Repeat an eligible speedup in fresh same-card pairs before promotion, running the earlier search task as a regression check. Publish failures alongside successful runs.",
+  "target": 2.0
+}

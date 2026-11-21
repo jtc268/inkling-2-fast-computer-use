@@ -1,0 +1,222 @@
+{
+  "lights": {
+    "original": {
+      "tokens": 38,
+      "correct": true,
+      "action": "C 27"
+    },
+    "linux": {
+      "tokens": 38,
+      "correct": true,
+      "action": "C 27"
+    },
+    "usb": {
+      "tokens": 38,
+      "correct": true,
+      "action": "C 27"
+    },
+    "internal": {
+      "tokens": 38,
+      "correct": true,
+      "action": "C 27"
+    }
+  },
+  "location": {
+    "original": {
+      "tokens": 72,
+      "correct": true,
+      "action": "C 16"
+    },
+    "linux": {
+      "tokens": 72,
+      "correct": true,
+      "action": "C 16"
+    },
+    "usb": {
+      "tokens": 60,
+      "correct": true,
+      "action": "C 16"
+    },
+    "internal": {
+      "tokens": 72,
+      "correct": true,
+      "action": "C 16"
+    }
+  },
+  "lookup": {
+    "original": {
+      "tokens": 67,
+      "correct": false,
+      "action": "K"
+    },
+    "linux": {
+      "tokens": 44,
+      "correct": false,
+      "action": "K"
+    },
+    "usb": {
+      "tokens": 44,
+      "correct": false,
+      "action": "K"
+    },
+    "internal": {
+      "tokens": 44,
+      "correct": false,
+      "action": "K"
+    }
+  },
+  "player": {
+    "original": {
+      "tokens": 37,
+      "correct": true,
+      "action": "C 32"
+    },
+    "linux": {
+      "tokens": 37,
+      "correct": true,
+      "action": "C 32"
+    },
+    "usb": {
+      "tokens": 37,
+      "correct": true,
+      "action": "C 32"
+    },
+    "internal": {
+      "tokens": 37,
+      "correct": true,
+      "action": "C 32"
+    }
+  },
+  "quantity": {
+    "original": {
+      "tokens": 106,
+      "correct": true,
+      "action": "ANSWER [59]"
+    },
+    "linux": {
+      "tokens": 106,
+      "correct": true,
+      "action": "ANSWER [59]"
+    },
+    "usb": {
+      "tokens": 106,
+      "correct": true,
+      "action": "ANSWER [59]"
+    },
+    "internal": {
+      "tokens": 106,
+      "correct": true,
+      "action": "ANSWER [59]"
+    }
+  },
+  "song": {
+    "original": {
+      "tokens": 75,
+      "correct": true,
+      "action": "F 11 Opal"
+    },
+    "linux": {
+      "tokens": 75,
+      "correct": true,
+      "action": "F 11 Opal"
+    },
+    "usb": {
+      "tokens": 75,
+      "correct": true,
+      "action": "F 11 Opal"
+    },
+    "internal": {
+      "tokens": 75,
+      "correct": true,
+      "action": "F 11 Opal"
+    }
+  },
+  "state": {
+    "original": {
+      "tokens": 512,
+      "correct": false,
+      "action": ""
+    },
+    "linux": {
+      "tokens": 512,
+      "correct": false,
+      "action": ""
+    },
+    "usb": {
+      "tokens": 512,
+      "correct": false,
+      "action": ""
+    },
+    "internal": {
+      "tokens": 512,
+      "correct": false,
+      "action": ""
+    }
+  },
+  "title": {
+    "original": {
+      "tokens": 120,
+      "correct": true,
+      "action": "F 2 Lantern"
+    },
+    "linux": {
+      "tokens": 120,
+      "correct": true,
+      "action": "F 2 Lantern"
+    },
+    "usb": {
+      "tokens": 120,
+      "correct": true,
+      "action": "F 2 Lantern"
+    },
+    "internal": {
+      "tokens": 120,
+      "correct": true,
+      "action": "F 2 Lantern"
+    }
+  },
+  "unit": {
+    "original": {
+      "tokens": 75,
+      "correct": true,
+      "action": "C 20"
+    },
+    "linux": {
+      "tokens": 75,
+      "correct": true,
+      "action": "C 20"
+    },
+    "usb": {
+      "tokens": 75,
+      "correct": true,
+      "action": "C 20"
+    },
+    "internal": {
+      "tokens": 75,
+      "correct": true,
+      "action": "C 20"
+    }
+  },
+  "verify": {
+    "original": {
+      "tokens": 372,
+      "correct": true,
+      "action": "DONE navigate"
+    },
+    "linux": {
+      "tokens": 372,
+      "correct": true,
+      "action": "DONE navigate"
+    },
+    "usb": {
+      "tokens": 372,
+      "correct": true,
+      "action": "DONE navigate"
+    },
+    "internal": {
+      "tokens": 372,
+      "correct": true,
+      "action": "DONE navigate"
+    }
+  }
+}

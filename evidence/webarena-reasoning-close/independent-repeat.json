@@ -1,0 +1,100 @@
+{
+  "plan": {
+    "lane": "linux",
+    "arm": "close_strong",
+    "order": [
+      "edited",
+      "original"
+    ],
+    "episodes": [
+      [
+        "r1",
+        630
+      ],
+      [
+        "r2",
+        630
+      ],
+      [
+        "r1",
+        274
+      ]
+    ],
+    "flush_before_every_episode": true,
+    "common_warmup": true
+  },
+  "comparisons": [
+    {
+      "rep": "r1",
+      "task": 630,
+      "original": {
+        "score": 1.0,
+        "seconds": 22.68978162505664,
+        "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664",
+        "shard": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "decisions": 9,
+        "thinking": 1398,
+        "inference_s": 11.179387915879488
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 18.6355109999422,
+        "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664",
+        "shard": "cc23e9d4a2131a7706e5d1400f2828af5b2271a222df2355c668ac0befea58e9",
+        "decisions": 9,
+        "thinking": 910,
+        "inference_s": 7.992321499157697
+      },
+      "ratio": 1.2175561821259968,
+      "same_initial_view": true
+    },
+    {
+      "rep": "r2",
+      "task": 630,
+      "original": {
+        "score": 1.0,
+        "seconds": 24.51519945904147,
+        "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664",
+        "shard": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "decisions": 9,
+        "thinking": 1406,
+        "inference_s": 10.767351001966745
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 20.557142707984895,
+        "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664",
+        "shard": "cc23e9d4a2131a7706e5d1400f2828af5b2271a222df2355c668ac0befea58e9",
+        "decisions": 9,
+        "thinking": 1064,
+        "inference_s": 8.544570248923264
+      },
+      "ratio": 1.19253924571527,
+      "same_initial_view": true
+    },
+    {
+      "rep": "r1",
+      "task": 274,
+      "original": {
+        "score": 1.0,
+        "seconds": 5.052876666071825,
+        "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664",
+        "shard": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "decisions": 3,
+        "thinking": 274,
+        "inference_s": 2.3368015410378575
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 4.677546999999322,
+        "gpu": "GPU-2ef9ca4a-09d3-37f5-7ba0-94f8a12f5664",
+        "shard": "cc23e9d4a2131a7706e5d1400f2828af5b2271a222df2355c668ac0befea58e9",
+        "decisions": 3,
+        "thinking": 274,
+        "inference_s": 2.3358622919768095
+      },
+      "ratio": 1.0802407043847035,
+      "same_initial_view": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "episode_count": 0,
+  "lease_at_check": null,
+  "ready_at_check": true,
+  "private_server_started": false,
+  "reason": "Docker inventory repeatedly timed out before lease admission. Moved the order-reversed checks to the independently available Linux 5090."
+}
