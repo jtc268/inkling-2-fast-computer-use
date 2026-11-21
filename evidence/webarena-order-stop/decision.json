@@ -1,0 +1,36 @@
+{
+  "parent_sha256": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c",
+  "row": 200006,
+  "changed_bf16": 2288,
+  "target_indices": [
+    0,
+    2,
+    3
+  ],
+  "protected_positions": 565,
+  "rounded_margin_shortfall": -0.02196991785895097,
+  "max_guard_shift": 0.027455443749204278,
+  "relative_norm": 0.189672728026822,
+  "status": "Frozen audited checkpoint",
+  "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+  "unforced_replays": [
+    {
+      "index": 0,
+      "command": "C1",
+      "tokens": 6,
+      "same_command": true
+    },
+    {
+      "index": 2,
+      "command": "C27",
+      "tokens": 6,
+      "same_command": true
+    },
+    {
+      "index": 3,
+      "command": "C21",
+      "tokens": 6,
+      "same_command": true
+    }
+  ]
+}

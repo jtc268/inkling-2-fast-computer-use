@@ -1,0 +1,35 @@
+{
+  "pairs": [
+    {
+      "id": 96,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 6.776576642634595,
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.893259624950588,
+        "decisions": 5,
+        "inference_seconds": 3.8787522499915212,
+        "thinking_tokens": 0,
+        "generated_tokens": 50
+      },
+      "original": {
+        "score": 1.0,
+        "seconds": 46.71270216605626,
+        "decisions": 5,
+        "inference_seconds": 43.73021258111112,
+        "thinking_tokens": 1201,
+        "generated_tokens": 1568
+      },
+      "baseline": "Search release",
+      "baseline_sha256": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c",
+      "candidate_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+      "same_command_sequence": true
+    }
+  ],
+  "verified_native_grades": 2,
+  "shard_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175"
+}
