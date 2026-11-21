@@ -2,7 +2,7 @@
 
 ## Browser-use highlights
 
-[Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 31 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
+[Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 32 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
 
 **5.18× on one autocomplete case.** Six verified Selenium form submissions measured 2.81× on the repeat. Across the original 20 MiniWoB++ cases, the original passed 11 and the two-row edit passed 6. [Timings, pass counts and real-time films](benchmark/HEADLINERS.md)
 
@@ -22,7 +22,7 @@ The model received numbered control labels as text. It filled two fields, submit
 
 ## Replication and WebArena search
 
-24 WebArena IDs have native grades, and 22 have grades for stock and at least one edit. [Shopping search, paired grades and the byte audit](benchmark/WEBARENA-SEARCH-SUBMIT.md)
+25 WebArena IDs have native grades, and 23 have grades for stock and at least one edit. [Shopping search, paired grades and the byte audit](benchmark/WEBARENA-SEARCH-COMMAND.md)
 
 On the fresh MacBook Pro form-and-cart run, the original finished 4/6 and all three edits finished 6/6. On the four common successes, the first release took 6.96 s versus 16.62 s original (2.39×). The four-row edit took 7.04 s (2.36×). On the same filmed case on RTX 5090, the two edits measured 1.03× and 1.18×. [All runs](benchmark/FORM-CART-RECHECK.md) · [Fresh form-to-cart video](https://jtc268.github.io/inkling-2-fast-computer-use/form-cart-recheck.mp4)
 

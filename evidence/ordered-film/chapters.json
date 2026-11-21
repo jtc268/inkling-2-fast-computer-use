@@ -1,14 +1,14 @@
 {
-  "sha256": "3b8305a807c27bde5bdd6a9bb65c85aec91a55ba0349526dbe072fd00d79aa29",
+  "sha256": "0830d9889818fad6de497389c960190e53e06ea0789b6e4fcab12c122ed0efb4",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 118.0,
-  "task_count": 31,
+  "duration_s": 123.25,
+  "task_count": 32,
   "opening_s": 2.75,
-  "closing_start_s": 114.5,
+  "closing_start_s": 119.75,
   "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
   "chapters": [
     {
@@ -674,36 +674,36 @@
       "environment": "WebArena",
       "task": "274",
       "title": "Search for a USB Wi-Fi adapter",
-      "shared_elapsed_start_s": 10.254772292030975,
+      "shared_elapsed_start_s": 0.6392697500297799,
       "arms": [
         {
           "arm": "Original",
-          "elapsed_s": 14.804772292030975,
+          "elapsed_s": 14.192223457968794,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "9c1e485d849046c00a0f7d8abe69696b486900784b73a55ba98956cc1ee2986a",
+          "receipt_sha256": "da8dad4652d5b2a9c56c8219fa82a8eecee00908b503c7a1b010a773893349bd",
           "receipt": "274-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "9f28ed45ee6035d1b7899fca28dc7dffed2d772ce221dbd10a741020884d8aa8",
-            "start_s": 10.255429416941478,
-            "source_duration_s": 15.0,
-            "available_frames": 93
+            "source_sha256": "eb44c33955e1bff1e52b617ad668775ae23d5f512e6485dcae25ad3dc6b1c0bd",
+            "start_s": 0.6399634170113131,
+            "source_duration_s": 14.4,
+            "available_frames": 105
           }
         },
         {
-          "arm": "Search-submit edit",
-          "elapsed_s": 27.609219625010155,
+          "arm": "Command-stop edit",
+          "elapsed_s": 5.18926975002978,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "e35f6703881fdbd24e4d4f9f1b5cc9f20a397ff84028a41b15b5ddbd12faffc5",
+          "receipt_sha256": "351a025d42c86c1c0a48def7c2f80efef1797b52390cddf0e5e510ff83aad5db",
           "receipt": "274-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "7643101bc1c4dd1966663cd3e8f70a69780e17e94f3f8d24fb7e53fdc48b4998",
-            "start_s": 10.255459417053498,
-            "source_duration_s": 27.8,
-            "available_frames": 105
+            "source_sha256": "add2cfbbdb0c8fdbe661ba449f3f010fc1b17eed503311111ec47d5a4f513bdc",
+            "start_s": 0.6401826249668374,
+            "source_duration_s": 5.55,
+            "available_frames": 92
           }
         }
       ]
@@ -715,35 +715,35 @@
       "environment": "WebArena",
       "task": "276",
       "title": "Search for Switch accessories",
-      "shared_elapsed_start_s": 3.049434499978088,
+      "shared_elapsed_start_s": 0.6040942090796306,
       "arms": [
         {
           "arm": "Original",
-          "elapsed_s": 17.21654499997385,
+          "elapsed_s": 14.387671292060986,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "e48c989c6ddc7f557a44d665c1f20434ced523ca2cf06ad4e8e72208c5841cdd",
+          "receipt_sha256": "fb1347e315e20e8a506d1b2a9a93b2a60490fab8ac436e06fa8e64541b989a97",
           "receipt": "276-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "1207c3e877481a56f49c27eca14e1b74b2d8d61f8fffe5390812553cfe345b6b",
-            "start_s": 3.05794266697485,
-            "source_duration_s": 17.4,
+            "source_sha256": "db02693f16ff145b1ec7fa81ebce53cd4f47be6234e5bac5eae31c8498f2d04c",
+            "start_s": 0.6052038760855794,
+            "source_duration_s": 14.6,
             "available_frames": 105
           }
         },
         {
-          "arm": "Search-submit edit",
-          "elapsed_s": 7.599434499978088,
+          "arm": "Command-stop edit",
+          "elapsed_s": 5.154094209079631,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "1d60ae25e73c23f5fb5ece57f373b1f54efa29036bf198887de8ec3d510cd759",
+          "receipt_sha256": "6cc36823d78f1caad83133bc501182355f98065fd8b8503240fa2258349a0ea4",
           "receipt": "276-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "635c7256c09633e77e846df479329d9f7a865ca644ebec98958e9dd46a20ba00",
-            "start_s": 3.054171790997498,
-            "source_duration_s": 7.85,
+            "source_sha256": "f648507ea80b4d408f86b78b323b1effeb66ed66bc73a4241da8bd839ee6c7ee",
+            "start_s": 0.6048045841045677,
+            "source_duration_s": 5.85,
             "available_frames": 92
           }
         }
@@ -756,36 +756,36 @@
       "environment": "WebArena",
       "task": "277",
       "title": "Search for iPhone 13 batteries",
-      "shared_elapsed_start_s": null,
+      "shared_elapsed_start_s": 1.6270112080266699,
       "arms": [
         {
           "arm": "Original",
-          "elapsed_s": 16.846347165992483,
+          "elapsed_s": 16.82288150000386,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "13491fa0ca9870c9593f4cb9fd2dcaa6883c08b2162894b2060807e6050bcf37",
+          "receipt_sha256": "d6d93fba90b5b824431b37f161011e16c31031b5aebded76dbe15d0cf468594d",
           "receipt": "277-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "2365eef79012373c7e2dbd506a18ac864d73f6fa1bbfd5019582900ae945a04c",
-            "start_s": 11.596995332976803,
-            "source_duration_s": 17.1,
+            "source_sha256": "82bb4aaacbf5d832fc38c13012d4c035458eff6f6df65d2207530fde1d02bad7",
+            "start_s": 1.6276512500364333,
+            "source_duration_s": 17.0,
             "available_frames": 105
           }
         },
         {
-          "arm": "Search-submit edit",
-          "elapsed_s": 3.7788094580173492,
-          "passed": false,
+          "arm": "Command-stop edit",
+          "elapsed_s": 6.17701120802667,
+          "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "c96008b17d6498c7cca64313ff392fff8cbf4ca1a8f342833fdcc99243102026",
+          "receipt_sha256": "27668df9449a9e992a621f21a1f57da6bc3c5b83a7f4e76ad1eaae211849462e",
           "receipt": "277-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "659e88ea9f6959b85cd2d325d83cb84288c6f2c4239986eac65890fa3a4f547a",
-            "start_s": 0,
-            "source_duration_s": 4.75,
-            "available_frames": 77
+            "source_sha256": "ea9b1ebda0986513cde56308fbecc02ad357281961cec5cfbf74853d44326f0c",
+            "start_s": 1.6277235410409048,
+            "source_duration_s": 6.5,
+            "available_frames": 92
           }
         }
       ]
@@ -793,6 +793,47 @@
     {
       "number": 20,
       "start_s": 75.5,
+      "duration_s": 5.25,
+      "environment": "WebArena",
+      "task": "278",
+      "title": "Search for green tea bags",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 20.43784629192669,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "a4371c0e0a56bfe725f82c0967a0ebe8ba71ea9db7622c9534b553e6ac242431",
+          "receipt": "278-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "29b6ff22486890f2b481dfadc4a398a75b12c94252a068d17408872c08ad0760",
+            "start_s": 15.188709124922752,
+            "source_duration_s": 20.6,
+            "available_frames": 105
+          }
+        },
+        {
+          "arm": "Command-stop edit",
+          "elapsed_s": 39.68069729197305,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "90e1db7afd7b47f896ebae8ca43348481fd8c866d9696d9eaf439a0de9f4e422",
+          "receipt": "278-edited.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "6f8f40b0560be59525f16358cf448e4cb850300dbecb9e60ed12fef8d83dfcd0",
+            "start_s": 34.43137279199436,
+            "source_duration_s": 40.65,
+            "available_frames": 105
+          }
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "start_s": 80.75,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "313",
@@ -832,8 +873,8 @@
       ]
     },
     {
-      "number": 21,
-      "start_s": 78.75,
+      "number": 22,
+      "start_s": 84.0,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "324",
@@ -873,8 +914,8 @@
       ]
     },
     {
-      "number": 22,
-      "start_s": 82.0,
+      "number": 23,
+      "start_s": 87.25,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "358",
@@ -914,8 +955,8 @@
       ]
     },
     {
-      "number": 23,
-      "start_s": 85.25,
+      "number": 24,
+      "start_s": 90.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "399",
@@ -955,8 +996,8 @@
       ]
     },
     {
-      "number": 24,
-      "start_s": 88.5,
+      "number": 25,
+      "start_s": 93.75,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "404",
@@ -996,8 +1037,8 @@
       ]
     },
     {
-      "number": 25,
-      "start_s": 91.75,
+      "number": 26,
+      "start_s": 97.0,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "431",
@@ -1079,8 +1120,8 @@
       ]
     },
     {
-      "number": 26,
-      "start_s": 95.0,
+      "number": 27,
+      "start_s": 100.25,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "516",
@@ -1120,8 +1161,8 @@
       ]
     },
     {
-      "number": 27,
-      "start_s": 98.25,
+      "number": 28,
+      "start_s": 103.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "595",
@@ -1161,8 +1202,8 @@
       ]
     },
     {
-      "number": 28,
-      "start_s": 101.5,
+      "number": 29,
+      "start_s": 106.75,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "600",
@@ -1187,8 +1228,8 @@
       ]
     },
     {
-      "number": 29,
-      "start_s": 104.75,
+      "number": 30,
+      "start_s": 110.0,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "630",
@@ -1228,8 +1269,8 @@
       ]
     },
     {
-      "number": 30,
-      "start_s": 108.0,
+      "number": 31,
+      "start_s": 113.25,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "653",
@@ -1269,8 +1310,8 @@
       ]
     },
     {
-      "number": 31,
-      "start_s": 111.25,
+      "number": 32,
+      "start_s": 116.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "689",
@@ -1295,5 +1336,5 @@
       ]
     }
   ],
-  "embedded_chapters": 33
+  "embedded_chapters": 34
 }

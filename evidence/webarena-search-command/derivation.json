@@ -1,0 +1,84 @@
+{
+  "development_task": 276,
+  "development_states": 6,
+  "additional_development_and_regression_task": 274,
+  "protected_states": 164,
+  "positive_states": [
+    "dev-1",
+    "synth-0-pending",
+    "synth-1-pending",
+    "synth-2-pending",
+    "synth-3-pending",
+    "synth-4-pending",
+    "synth-5-pending",
+    "synth-6-pending",
+    "synth-7-pending",
+    "synth-8-pending",
+    "synth-9-pending",
+    "synth-10-pending",
+    "synth-11-pending",
+    "native-USB-pending-1",
+    "native-USB-pending-10"
+  ],
+  "click_token": 34,
+  "target_margin": 3,
+  "relative_row_displacement": 0.4144830109041135,
+  "maximum_guard_shift": 0.02452248196277651,
+  "maximum_target_error": 0.0193437744746916,
+  "parent_actions": [
+    {
+      "state": 0,
+      "action": "F7 switch accessories",
+      "tokens": [
+        "<|message_model|>",
+        "<|content_text|>",
+        "F",
+        "7",
+        " switch",
+        " access",
+        "ories",
+        "<|end_message|>",
+        "<|content_model_end_sampling|>"
+      ],
+      "target": "F7 switch accessories"
+    },
+    {
+      "state": 1,
+      "action": "DONE navigate",
+      "tokens": [
+        "<|message_model|>",
+        "<|content_text|>",
+        "F",
+        "7",
+        " switch",
+        " access",
+        "ories",
+        "<|end_message|>",
+        "<|message_model|>",
+        "<|content_text|>",
+        "D",
+        "ONE",
+        " navigate",
+        "<|end_message|>",
+        "<|content_model_end_sampling|>"
+      ],
+      "target": "C9"
+    },
+    {
+      "state": 2,
+      "action": "DONE navigate",
+      "tokens": [
+        "<|message_model|>",
+        "<|content_text|>",
+        "D",
+        "ONE",
+        " navigate",
+        "<|end_message|>",
+        "<|content_model_end_sampling|>"
+      ],
+      "target": "DONE navigate"
+    }
+  ],
+  "counterfactual_click": "DONE navigate",
+  "method": "Minimum-norm linear correction to the existing click output row outside the span of protected decision, argument and completion states. Direct BF16 edit; no optimizer or gradient updates. Development uses the saved WebArena 276 failure and protects every generated position on the initial and final 274 USB Wi-Fi steps and corrects the known pending step, where the prior Mac parent emitted a bare K. No holdout appears in this solve."
+}

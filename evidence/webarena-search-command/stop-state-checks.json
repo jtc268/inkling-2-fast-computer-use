@@ -1,0 +1,56 @@
+[
+  {
+    "id": 276,
+    "state": 0,
+    "expected": "F7 switch accessories",
+    "predicted": "F7 switch accessories",
+    "correct": true,
+    "generated": 9,
+    "raw": "<|message_model|><|content_text|>F7 switch accessories<|end_message|><|content_model_end_sampling|>"
+  },
+  {
+    "id": 276,
+    "state": 1,
+    "expected": "C9",
+    "predicted": "C 9",
+    "correct": true,
+    "generated": 7,
+    "raw": "<|message_model|><|content_text|>C 9<|end_message|><|content_model_end_sampling|>"
+  },
+  {
+    "id": 276,
+    "state": 2,
+    "expected": "DONE navigate",
+    "predicted": "DONE navigate",
+    "correct": true,
+    "generated": 7,
+    "raw": "<|message_model|><|content_text|>DONE navigate<|end_message|><|content_model_end_sampling|>"
+  },
+  {
+    "id": 274,
+    "state": 0,
+    "expected": "F7 usb wifi",
+    "predicted": "F7 usb wifi",
+    "correct": true,
+    "generated": 10,
+    "raw": "<|message_model|><|content_text|>F7 usb wifi<|end_message|><|content_model_end_sampling|>"
+  },
+  {
+    "id": 274,
+    "state": 1,
+    "expected": "C9",
+    "predicted": "C 9",
+    "correct": true,
+    "generated": 7,
+    "raw": "<|message_model|><|content_text|>C 9<|end_message|><|content_model_end_sampling|>"
+  },
+  {
+    "id": 274,
+    "state": 2,
+    "expected": "DONE navigate",
+    "predicted": "DONE navigate",
+    "correct": true,
+    "generated": 7,
+    "raw": "<|message_model|><|content_text|>DONE navigate<|end_message|><|content_model_end_sampling|>"
+  }
+]

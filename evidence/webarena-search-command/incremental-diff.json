@@ -1,0 +1,11 @@
+{
+  "stock": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "parent": "a5d2557d74f5a4d7419f20b2c969d42d6435382dc8d8dea4d5b9d3c1e455bf71",
+  "candidate": "ff8222dba1c5f343365251899ae5c7a57d6bed037633e85f16460715e3200060",
+  "bf16_differences_per_row": {
+    "200006": 2278,
+    "34": 2275
+  },
+  "identical_outside_rows": true,
+  "method": "Both shards independently compared to the same stock shard, with direct row payload comparison."
+}

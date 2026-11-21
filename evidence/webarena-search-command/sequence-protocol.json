@@ -1,0 +1,54 @@
+{
+  "checkpoint": "ff8222dba1c5f343365251899ae5c7a57d6bed037633e85f16460715e3200060",
+  "sequence": [
+    274,
+    276,
+    277,
+    278
+  ],
+  "roles": {
+    "274": "development and USB Wi-Fi control",
+    "276": "development and Switch-accessories control",
+    "277": "previous battery-query failure, excluded from this edit",
+    "278": "fresh official task, excluded from edit and prior episodes"
+  },
+  "gate": "Each task needs two joint passes, a speedup on each, and a median paired ratio of at least 2. Repeat a first joint pass even when its ratio is below 2. The initial 274 gate follows its existing protocol.",
+  "arm_orders": {
+    "276": [
+      [
+        "edited",
+        "original"
+      ],
+      [
+        "original",
+        "edited"
+      ]
+    ],
+    "277": [
+      [
+        "original",
+        "edited"
+      ],
+      [
+        "edited",
+        "original"
+      ]
+    ],
+    "278": [
+      [
+        "edited",
+        "original"
+      ],
+      [
+        "original",
+        "edited"
+      ]
+    ]
+  },
+  "runtime": "Native WebArena-Verified 1.2.3; MLX on M5 Max MacBook Pro; same prompt, greedy 512-token cap, pointer and fixture reset for stock and edit.",
+  "cross_template_control": {
+    "id": 630,
+    "site": "reddit",
+    "condition": "Both repeats qualify on all four shopping queries. Only then check the prior forum win with orders stock/edit and edit/stock. The reversed forum pair requires a first paired success of at least 2x."
+  }
+}

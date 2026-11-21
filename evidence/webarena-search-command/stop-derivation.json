@@ -1,0 +1,29 @@
+{
+  "development_ids": [
+    274,
+    276
+  ],
+  "sites": [
+    [
+      274,
+      0,
+      "F7 usb wifi"
+    ],
+    [
+      274,
+      1,
+      "C 9"
+    ]
+  ],
+  "changed_row_relative_to_guard_checkpoint": 200006,
+  "requested_logit_shifts": [
+    4.158203125,
+    3.484375
+  ],
+  "achieved_logit_shifts": [
+    4.137197522679344,
+    3.4681701861554757
+  ],
+  "maximum_protected_shift": 0.024452154873870313,
+  "relative_row_change": 0.1789554919730664
+}

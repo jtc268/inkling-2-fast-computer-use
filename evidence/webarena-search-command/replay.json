@@ -1,0 +1,168 @@
+{
+  "grader": "WebArena-Verified 1.2.3",
+  "reproduced": 18,
+  "episodes": [
+    {
+      "task": 274,
+      "arm": "original",
+      "experiment": "mac",
+      "rep": "r1",
+      "receipt_sha256": "da8dad4652d5b2a9c56c8219fa82a8eecee00908b503c7a1b010a773893349bd",
+      "network_sha256": "4cc53cfcf952eb448468810c73c9f949f0f04b29bfcf6207881e0ab0c5411cbd",
+      "recording_sha256": "eb44c33955e1bff1e52b617ad668775ae23d5f512e6485dcae25ad3dc6b1c0bd"
+    },
+    {
+      "task": 274,
+      "arm": "edited",
+      "experiment": "mac",
+      "rep": "r1",
+      "receipt_sha256": "351a025d42c86c1c0a48def7c2f80efef1797b52390cddf0e5e510ff83aad5db",
+      "network_sha256": "1bbf3de79166506a2128ee551bc3b4f9743b33c10c17ead6d098a07d4980b251",
+      "recording_sha256": "add2cfbbdb0c8fdbe661ba449f3f010fc1b17eed503311111ec47d5a4f513bdc"
+    },
+    {
+      "task": 274,
+      "arm": "original",
+      "experiment": "mac",
+      "rep": "r2",
+      "receipt_sha256": "99e5f7ab8a9a1fe520aba102238585f1783bca7c3eaf72b7379dd1b7e8ed7ec5",
+      "network_sha256": "5cc9b932109ef96d83d89ad94bcfec6bac85fa3c59f601abe5a5fb9f8e24603e",
+      "recording_sha256": "70d05f407d66263d2f558a118e89d3acbea99df0bf2c3807d5043a82b1759cb6"
+    },
+    {
+      "task": 274,
+      "arm": "edited",
+      "experiment": "mac",
+      "rep": "r2",
+      "receipt_sha256": "d4445d1139460112339e36d8290ea5b730ab0ce92dcdf0fad48212ba91279872",
+      "network_sha256": "ba2e3da8252be2d04328e908bad1594a80e4ec22235b50883b0d1ff2baf1e15c",
+      "recording_sha256": "05720886bc8ee8fd2b9826975a31bd4042fb6478bc6028473a9be63826162c57"
+    },
+    {
+      "task": 276,
+      "arm": "original",
+      "experiment": "mac",
+      "rep": "r1",
+      "receipt_sha256": "fb1347e315e20e8a506d1b2a9a93b2a60490fab8ac436e06fa8e64541b989a97",
+      "network_sha256": "d04d838f31215fa42cc09a9d93dc8540763f3f26f56e4402b2f9790d35abdd82",
+      "recording_sha256": "db02693f16ff145b1ec7fa81ebce53cd4f47be6234e5bac5eae31c8498f2d04c"
+    },
+    {
+      "task": 276,
+      "arm": "edited",
+      "experiment": "mac",
+      "rep": "r1",
+      "receipt_sha256": "6cc36823d78f1caad83133bc501182355f98065fd8b8503240fa2258349a0ea4",
+      "network_sha256": "f75b03e786414bfb8cec0c1799b101044f616be5e108f115a022a3fd6e1be974",
+      "recording_sha256": "f648507ea80b4d408f86b78b323b1effeb66ed66bc73a4241da8bd839ee6c7ee"
+    },
+    {
+      "task": 276,
+      "arm": "original",
+      "experiment": "mac",
+      "rep": "r2",
+      "receipt_sha256": "160beb0f150cb7af193a6e72caf314c548d6a07b40bb963d9cd55c02a07dcc51",
+      "network_sha256": "6f41cfdd1b80c5e5c232a97fb51a1ae2a3bb4f100f870158dfd39cb196589cc6",
+      "recording_sha256": "485e130a29a0e57e4afe0f7ce3ba5f53a3adc416510e4b3b6d58fc09a0b3b7c5"
+    },
+    {
+      "task": 276,
+      "arm": "edited",
+      "experiment": "mac",
+      "rep": "r2",
+      "receipt_sha256": "830b6fd47bfdbe6c6d0e447648152e244f38a21259d4c93abe7f5d7e404d761f",
+      "network_sha256": "f098f3f2164b2294b85799ed28597527b3e52d4a6cf17d765a6d83a409134dd3",
+      "recording_sha256": "a4e49963776cda15377e7571da917e85d1fdfaf9721d8acb1d05fa2bd6d60ebd"
+    },
+    {
+      "task": 277,
+      "arm": "original",
+      "experiment": "mac",
+      "rep": "r1",
+      "receipt_sha256": "d6d93fba90b5b824431b37f161011e16c31031b5aebded76dbe15d0cf468594d",
+      "network_sha256": "e8c6130f800357181d683525f365331e00e13b5650f9802b4c621d03e28e074c",
+      "recording_sha256": "82bb4aaacbf5d832fc38c13012d4c035458eff6f6df65d2207530fde1d02bad7"
+    },
+    {
+      "task": 277,
+      "arm": "edited",
+      "experiment": "mac",
+      "rep": "r1",
+      "receipt_sha256": "27668df9449a9e992a621f21a1f57da6bc3c5b83a7f4e76ad1eaae211849462e",
+      "network_sha256": "c7ecd01d3d9d36fc2295f8ddb1f68b025695e7b5d8a4a2a4722ee76f3c0baac6",
+      "recording_sha256": "ea9b1ebda0986513cde56308fbecc02ad357281961cec5cfbf74853d44326f0c"
+    },
+    {
+      "task": 277,
+      "arm": "original",
+      "experiment": "mac",
+      "rep": "r2",
+      "receipt_sha256": "f78bd37a3c2d18e4cbc713fbfd611a8bb1f22f2b32ba06437ebceeabf2e280c1",
+      "network_sha256": "ce91a8ce66772f08c87b7503cacb1f57246053f0b775ec7c5f38794e1cbd0866",
+      "recording_sha256": "aad88f97852ef5c0a99a626b2c86184c6ca3f5ca63fa3ef25b8d7422d29dd320"
+    },
+    {
+      "task": 277,
+      "arm": "edited",
+      "experiment": "mac",
+      "rep": "r2",
+      "receipt_sha256": "dc3f0af9468b3a37a8858be8f30f1a27717f450af2524affa978b508de0dc854",
+      "network_sha256": "0c92bf6b6eed0a2e0a8f0ae6f37df9dedc34464688f6db203eb7ce2c9bab0304",
+      "recording_sha256": "e8c996ea5ed166ff692e010591e6e2aa14e28ecbd3df93d08b97ea4ef6979aaa"
+    },
+    {
+      "task": 278,
+      "arm": "original",
+      "experiment": "mac",
+      "rep": "r1",
+      "receipt_sha256": "a4371c0e0a56bfe725f82c0967a0ebe8ba71ea9db7622c9534b553e6ac242431",
+      "network_sha256": "a7f3801d526eb11de171f8867f97048493cb80494b494f4c1a39baaf3de07c99",
+      "recording_sha256": "29b6ff22486890f2b481dfadc4a398a75b12c94252a068d17408872c08ad0760"
+    },
+    {
+      "task": 278,
+      "arm": "edited",
+      "experiment": "mac",
+      "rep": "r1",
+      "receipt_sha256": "90e1db7afd7b47f896ebae8ca43348481fd8c866d9696d9eaf439a0de9f4e422",
+      "network_sha256": "be4132c2ea3589ffb1d369db5e59a468753f1e13543c8646959df934e529f055",
+      "recording_sha256": "6f8f40b0560be59525f16358cf448e4cb850300dbecb9e60ed12fef8d83dfcd0"
+    },
+    {
+      "task": 274,
+      "arm": "original",
+      "experiment": "rtx-linux",
+      "rep": "r1",
+      "receipt_sha256": "b9e8f64fe80c2fd876675f11ace5495ae7ebfc013025df04cc774a3ab1e59a0b",
+      "network_sha256": "4fbd46b8c22a965bd99fc2f248dfa3df49ec35a478dd49734883464881470dab",
+      "recording_sha256": "58e908bf2ff59fd2eb3ae065c052efc14d76d996933ed2af648924afb3837235"
+    },
+    {
+      "task": 274,
+      "arm": "edited",
+      "experiment": "rtx-linux",
+      "rep": "r1",
+      "receipt_sha256": "a54683bbb6efc26a2d7fd9112e5d51476c89dbf48dc5f0074a00183c5f4c7b30",
+      "network_sha256": "dbb7bd190aa1f794b8c9ddfe6bc6e1eaa674456278b9c8d6212cfc4d357fb487",
+      "recording_sha256": "0a242037371c6192d42e883c093b3f83130131266699e8e040c9d9569feb963a"
+    },
+    {
+      "task": 276,
+      "arm": "original",
+      "experiment": "rtx-linux",
+      "rep": "r1",
+      "receipt_sha256": "7a353866f0dd6acaf6c5ba4bf584629ed5762327a07080c8e5883e2a06436168",
+      "network_sha256": "cb48051b7d8b2620bb2f1f9c07b8e300586feaa79926c82fc90fda08b13a0d29",
+      "recording_sha256": "4430bcfea26cfa3d48b39a9a7cbc5f07672eb1a7ac2f73e02b892699abb31b9e"
+    },
+    {
+      "task": 276,
+      "arm": "edited",
+      "experiment": "rtx-linux",
+      "rep": "r1",
+      "receipt_sha256": "a6a09c66a8ec8b0bf3cf59cb9140842f9aceff8f3adf2c14718dbad52b496362",
+      "network_sha256": "e86b679e8ffe52d339dc2d3841936ccc8bae035b453048aa40ad6f0ae95f4a3c",
+      "recording_sha256": "6428d87d593a967b069579e6b2940e2f73180ab171783c7400f8039061ddc46a"
+    }
+  ]
+}
