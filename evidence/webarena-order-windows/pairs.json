@@ -1,0 +1,31 @@
+{
+  "task_id": 96,
+  "device": "RTX 5090",
+  "pairs": [
+    {
+      "id": 96,
+      "repeat": "r1",
+      "device": "RTX 5090",
+      "ratio": null,
+      "original": {
+        "score": 0.0,
+        "seconds": 26.085084333084524,
+        "decisions": 12,
+        "inference_seconds": 22.27207933110185,
+        "thinking_tokens": 2980,
+        "generated_tokens": 3229
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 12.522111167083494,
+        "decisions": 4,
+        "inference_seconds": 9.705314791062847,
+        "thinking_tokens": 733,
+        "generated_tokens": 1061
+      }
+    }
+  ],
+  "verified_native_grades": 2,
+  "baseline_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "candidate_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175"
+}
