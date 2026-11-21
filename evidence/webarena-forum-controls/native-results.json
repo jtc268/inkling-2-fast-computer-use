@@ -120,7 +120,31 @@
         "thinking_tokens": 2740,
         "generated_tokens": 3202
       }
+    },
+    {
+      "checkpoint": "Cached-submit",
+      "sha256": "325fa61fe8f33146d666eecd2a6a816f208f4b73f158cc147e84348f6cf97895",
+      "id": 630,
+      "repeat": "r1",
+      "device": "RTX 5090",
+      "ratio": null,
+      "original": {
+        "score": 1.0,
+        "seconds": 25.25740695791319,
+        "decisions": 9,
+        "inference_seconds": 12.523151373141445,
+        "thinking_tokens": 1615,
+        "generated_tokens": 1780
+      },
+      "edited": {
+        "score": 0.0,
+        "seconds": 12.70991133293137,
+        "decisions": 12,
+        "inference_seconds": 5.791891458095051,
+        "thinking_tokens": 382,
+        "generated_tokens": 643
+      }
     }
   ],
-  "native_grades_replayed": 10
+  "native_grades_replayed": 12
 }
