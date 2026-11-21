@@ -11,6 +11,17 @@
         "original"
       ],
       "ratio": null,
+      "fixture_check": {
+        "account_link_hosts": {
+          "original": [
+            "metis.lti.cs.cmu.edu:7770"
+          ],
+          "edited": [
+            "127.0.0.1:32682"
+          ]
+        },
+        "matched": false
+      },
       "versions": {
         "edited": {
           "acknowledged_version": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
@@ -42,21 +53,116 @@
         "inference_seconds": 4.341966916923411,
         "thinking_tokens": 546,
         "generated_tokens": 639
-      },
+      }
+    },
+    {
+      "id": 188,
+      "repeat": 2,
+      "device": "RTX 5090",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 2.591420520284619,
       "fixture_check": {
         "account_link_hosts": {
           "original": [
-            "metis.lti.cs.cmu.edu:7770"
+            "127.0.0.1:32682"
           ],
           "edited": [
             "127.0.0.1:32682"
           ]
         },
-        "matched": false
+        "matched": true
+      },
+      "versions": {
+        "original": {
+          "acknowledged_version": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+          "seconds": 7.040610524825752,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        },
+        "edited": {
+          "acknowledged_version": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
+          "seconds": 18.501860584132373,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        }
+      },
+      "original": {
+        "score": 1.0,
+        "seconds": 6.857609499944374,
+        "decisions": 3,
+        "inference_seconds": 4.802369457902387,
+        "thinking_tokens": 601,
+        "generated_tokens": 636
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 2.6462742909789085,
+        "decisions": 3,
+        "inference_seconds": 0.6069882510928437,
+        "thinking_tokens": 0,
+        "generated_tokens": 22
+      }
+    },
+    {
+      "id": 188,
+      "repeat": 3,
+      "device": "RTX 5090",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 2.072767228160558,
+      "fixture_check": {
+        "account_link_hosts": {
+          "original": [
+            "127.0.0.1:32682"
+          ],
+          "edited": [
+            "127.0.0.1:32682"
+          ]
+        },
+        "matched": true
+      },
+      "versions": {
+        "edited": {
+          "acknowledged_version": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
+          "seconds": 15.890897396020591,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        },
+        "original": {
+          "acknowledged_version": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+          "seconds": 25.179883528966457,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        }
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 3.120980291045271,
+        "decisions": 3,
+        "inference_seconds": 0.9501105819363147,
+        "thinking_tokens": 0,
+        "generated_tokens": 22
+      },
+      "original": {
+        "score": 1.0,
+        "seconds": 6.469065667013638,
+        "decisions": 3,
+        "inference_seconds": 4.4553279160754755,
+        "thinking_tokens": 601,
+        "generated_tokens": 636
       }
     }
   ],
-  "verified_native_grades": 2,
+  "verified_native_grades": 6,
   "baseline_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
   "candidate_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d"
 }
