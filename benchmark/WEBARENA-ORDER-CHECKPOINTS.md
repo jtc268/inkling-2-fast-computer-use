@@ -1,29 +1,29 @@
 # Frozen order checkpoints
 
-Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verified passes on matched fixtures. The full-task clock includes model generation and browser actions. Both arms receive visible page text and numbered controls, use the same cursor timing, and decode greedily with a 512-token limit. Both set the chat template to `reasoning_effort="none"`. The model can still emit thinking tokens at that setting.
+These tables report selected tasks. Each timing row is a fresh pair in Brave. A speedup requires two native WebArena-Verified passes on matched fixtures. The full-task clock includes model generation and browser actions. Both arms receive visible page text and numbered controls, use the same cursor timing, and decode greedily with a 512-token limit. Both set the chat template to `reasoning_effort="none"`. The model can still emit thinking tokens at that setting.
 
 | Checkpoint | Hardware | Baseline | Task IDs | Baseline passes | Edited passes | IDs at ≥2× in both orders |
 |---|---|---|---|---:|---:|---|
 | Cross-device order stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
-| Cross-device order stop | M5 Max MacBook Pro | Upstream stock | 188, 189, 190, 274 | 8/8 | 8/8 | 188, 189, 190 |
+| Cross-device order stop | M5 Max MacBook Pro | Upstream stock | 188, 190, 274 | 6/6 | 6/6 | 188, 190 |
 | Cross-device order stop | RTX 5090 | Upstream stock | 190 | 2/2 | 0/2 | — |
 | Completed-order stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
-| Completed-order stop | M5 Max MacBook Pro | Upstream stock | 188, 189, 190, 191, 231, 274, 275, 276, 277, 278, 283 | 16/22 | 18/22 | 188, 189, 190, 274, 275, 276, 277, 278 |
+| Completed-order stop | M5 Max MacBook Pro | Upstream stock | 188, 190, 191, 231, 274, 275, 276, 277, 278, 283 | 14/20 | 16/20 | 188, 190, 274, 275, 276, 277, 278 |
 | Completed-order stop | RTX 5090 | Upstream stock | 190, 191, 275 | 4/6 | 4/6 | — |
 | Windows command-stop | M5 Max MacBook Pro | Upstream stock | 188, 274 | 4/4 | 4/4 | 188 |
 | Windows command-stop | RTX 5090 | Upstream stock | 188 | 2/2 | 2/2 | 188 |
-| Order-history routing trial | M5 Max MacBook Pro | Upstream stock | 189, 190 | 3/4 | 4/4 | 190 |
-| Order-history routing trial | RTX 5090 | Upstream stock | 188, 189, 190, 191, 275 | 8/10 | 8/10 | 188, 189, 190 |
+| Order-history routing trial | M5 Max MacBook Pro | Upstream stock | 190 | 2/2 | 2/2 | 190 |
+| Order-history routing trial | RTX 5090 | Upstream stock | 188, 190, 191, 275 | 6/8 | 6/8 | 188, 190 |
 | Guarded reasoning trial | RTX 5090 | Upstream stock | 190 | 2/2 | 2/2 | — |
-| Pending click + stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
-| Pending click + stop | M5 Max MacBook Pro | Upstream stock | 62, 188, 189, 190, 274, 275, 276 | 12/14 | 12/14 | 188, 189, 190, 274, 275 |
-| Pending click + stop | RTX 5090 | Upstream stock | 188, 189 | 4/4 | 4/4 | 189 |
+| Click and stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
+| Click and stop | M5 Max MacBook Pro | Upstream stock | 62, 188, 190, 274, 275, 276 | 10/12 | 10/12 | 188, 190, 274, 275 |
+| Click and stop | RTX 5090 | Upstream stock | 188 | 2/2 | 2/2 | — |
 | Focused search-field edit | M5 Max MacBook Pro | Upstream stock | 283 | 0/2 | 0/2 | — |
 | Guarded product navigation | M5 Max MacBook Pro | Upstream stock | 283 | 0/2 | 0/2 | — |
 | Product-link selection edit | M5 Max MacBook Pro | Upstream stock | 190, 275, 283 | 4/6 | 5/6 | 275 |
 | Search field-state edit | M5 Max MacBook Pro | Upstream stock | 283 | 0/2 | 0/2 | — |
-| Search submit stop | M5 Max MacBook Pro | Upstream stock | 189, 190, 275 | 5/6 | 6/6 | 190, 275 |
-| Search submit stop | RTX 5090 | Upstream stock | 189, 190, 275 | 6/6 | 6/6 | 190 |
+| Search submit stop | M5 Max MacBook Pro | Upstream stock | 190, 275 | 4/4 | 4/4 | 190, 275 |
+| Search submit stop | RTX 5090 | Upstream stock | 190, 275 | 4/4 | 4/4 | 190 |
 
 | Checkpoint | Task | Hardware | Baseline | Ran first | Baseline time | Edited time | Speedup |
 |---|---:|---|---|---|---:|---:|---:|
@@ -34,26 +34,22 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Windows command-stop | 188 | M5 Max MacBook Pro | Upstream stock | Baseline | 29.27s · pass | 7.66s · pass | 3.82× |
 | Windows command-stop | 274 | M5 Max MacBook Pro | Upstream stock | Edited | 15.23s · pass | 6.70s · pass | 2.27× |
 | Windows command-stop | 274 | M5 Max MacBook Pro | Upstream stock | Baseline | 14.14s · pass | 8.33s · pass | 1.70× |
-| Pending click + stop | 189 | M5 Max MacBook Pro | Upstream stock | Edited | 24.01s · pass | 5.12s · pass | 4.69× |
-| Pending click + stop | 189 | M5 Max MacBook Pro | Upstream stock | Baseline | 23.86s · pass | 4.16s · pass | 5.74× |
-| Pending click + stop | 189 | RTX 5090 | Upstream stock | Edited | 12.52s · pass | 3.59s · pass | 3.49× |
-| Pending click + stop | 189 | RTX 5090 | Upstream stock | Baseline | 6.85s · pass | 2.87s · pass | 2.39× |
-| Pending click + stop | 188 | M5 Max MacBook Pro | Upstream stock | Edited | 27.98s · pass | 5.16s · pass | 5.42× |
-| Pending click + stop | 188 | M5 Max MacBook Pro | Upstream stock | Baseline | 28.35s · pass | 5.33s · pass | 5.32× |
-| Pending click + stop | 274 | M5 Max MacBook Pro | Upstream stock | Edited | 16.20s · pass | 6.29s · pass | 2.58× |
-| Pending click + stop | 274 | M5 Max MacBook Pro | Upstream stock | Baseline | 15.69s · pass | 7.27s · pass | 2.16× |
-| Pending click + stop | 275 | M5 Max MacBook Pro | Upstream stock | Edited | 18.40s · pass | 4.76s · pass | 3.87× |
-| Pending click + stop | 275 | M5 Max MacBook Pro | Upstream stock | Baseline | 18.27s · pass | 5.32s · pass | 3.44× |
-| Pending click + stop | 276 | M5 Max MacBook Pro | Upstream stock | Edited | 14.04s · pass | 5.99s · pass | 2.34× |
-| Pending click + stop | 276 | M5 Max MacBook Pro | Upstream stock | Baseline | 14.03s · pass | 7.86s · pass | 1.79× |
-| Pending click + stop | 96 | M5 Max MacBook Pro | Published search weights | Edited | 46.79s · pass | 7.67s · pass | 6.10× |
-| Pending click + stop | 96 | M5 Max MacBook Pro | Published search weights | Baseline | 48.27s · pass | 7.35s · pass | 6.57× |
-| Pending click + stop | 188 | RTX 5090 | Upstream stock | Edited | 5.76s · pass | 2.96s · pass | 1.94× |
-| Pending click + stop | 188 | RTX 5090 | Upstream stock | Baseline | 6.62s · pass | 2.73s · pass | 2.43× |
-| Pending click + stop | 190 | M5 Max MacBook Pro | Upstream stock | Edited | 45.50s · pass | 18.33s · pass | 2.48× |
-| Pending click + stop | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 49.00s · pass | 19.75s · pass | 2.48× |
-| Pending click + stop | 62 | M5 Max MacBook Pro | Upstream stock | Edited | 75.50s · fail | 0.72s · fail | — |
-| Pending click + stop | 62 | M5 Max MacBook Pro | Upstream stock | Baseline | 76.97s · fail | 1.01s · fail | — |
+| Click and stop | 188 | M5 Max MacBook Pro | Upstream stock | Edited | 27.98s · pass | 5.16s · pass | 5.42× |
+| Click and stop | 188 | M5 Max MacBook Pro | Upstream stock | Baseline | 28.35s · pass | 5.33s · pass | 5.32× |
+| Click and stop | 274 | M5 Max MacBook Pro | Upstream stock | Edited | 16.20s · pass | 6.29s · pass | 2.58× |
+| Click and stop | 274 | M5 Max MacBook Pro | Upstream stock | Baseline | 15.69s · pass | 7.27s · pass | 2.16× |
+| Click and stop | 275 | M5 Max MacBook Pro | Upstream stock | Edited | 18.40s · pass | 4.76s · pass | 3.87× |
+| Click and stop | 275 | M5 Max MacBook Pro | Upstream stock | Baseline | 18.27s · pass | 5.32s · pass | 3.44× |
+| Click and stop | 276 | M5 Max MacBook Pro | Upstream stock | Edited | 14.04s · pass | 5.99s · pass | 2.34× |
+| Click and stop | 276 | M5 Max MacBook Pro | Upstream stock | Baseline | 14.03s · pass | 7.86s · pass | 1.79× |
+| Click and stop | 96 | M5 Max MacBook Pro | Published search weights | Edited | 46.79s · pass | 7.67s · pass | 6.10× |
+| Click and stop | 96 | M5 Max MacBook Pro | Published search weights | Baseline | 48.27s · pass | 7.35s · pass | 6.57× |
+| Click and stop | 188 | RTX 5090 | Upstream stock | Edited | 5.76s · pass | 2.96s · pass | 1.94× |
+| Click and stop | 188 | RTX 5090 | Upstream stock | Baseline | 6.62s · pass | 2.73s · pass | 2.43× |
+| Click and stop | 190 | M5 Max MacBook Pro | Upstream stock | Edited | 45.50s · pass | 18.33s · pass | 2.48× |
+| Click and stop | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 49.00s · pass | 19.75s · pass | 2.48× |
+| Click and stop | 62 | M5 Max MacBook Pro | Upstream stock | Edited | 75.50s · fail | 0.72s · fail | — |
+| Click and stop | 62 | M5 Max MacBook Pro | Upstream stock | Baseline | 76.97s · fail | 1.01s · fail | — |
 | Completed-order stop | 190 | M5 Max MacBook Pro | Upstream stock | Edited | 45.34s · pass | 5.19s · pass | 8.73× |
 | Completed-order stop | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 46.59s · pass | 6.01s · pass | 7.75× |
 | Completed-order stop | 190 | RTX 5090 | Upstream stock | Edited | 7.22s · pass | 9.29s · pass | 0.78× |
@@ -68,8 +64,6 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Guarded reasoning trial | 190 | RTX 5090 | Upstream stock | Baseline | 10.33s · pass | 3.34s · pass | 3.09× |
 | Order-history routing trial | 190 | RTX 5090 | Upstream stock | Edited | 9.88s · pass | 4.86s · pass | 2.03× |
 | Order-history routing trial | 190 | RTX 5090 | Upstream stock | Baseline | 10.09s · pass | 4.64s · pass | 2.18× |
-| Order-history routing trial | 189 | RTX 5090 | Upstream stock | Edited | 6.30s · pass | 2.92s · pass | 2.16× |
-| Order-history routing trial | 189 | RTX 5090 | Upstream stock | Baseline | 6.77s · pass | 2.87s · pass | 2.36× |
 | Order-history routing trial | 188 | RTX 5090 | Upstream stock | Edited | 6.31s · pass | 2.82s · pass | 2.23× |
 | Order-history routing trial | 188 | RTX 5090 | Upstream stock | Baseline | 9.69s · pass | 2.75s · pass | 3.53× |
 | Order-history routing trial | 191 | RTX 5090 | Upstream stock | Edited | 8.42s · fail | 4.19s · grader error | — |
@@ -78,18 +72,12 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Order-history routing trial | 275 | RTX 5090 | Upstream stock | Baseline | 4.64s · pass | 6.01s · pass | 0.77× |
 | Search submit stop | 275 | RTX 5090 | Upstream stock | Edited | 4.78s · pass | 3.29s · pass | 1.45× |
 | Search submit stop | 275 | RTX 5090 | Upstream stock | Baseline | 4.75s · pass | 3.00s · pass | 1.58× |
-| Search submit stop | 189 | RTX 5090 | Upstream stock | Edited | 6.10s · pass | 3.11s · pass | 1.96× |
-| Search submit stop | 189 | RTX 5090 | Upstream stock | Baseline | 6.32s · pass | 6.99s · pass | 0.91× |
 | Search submit stop | 190 | RTX 5090 | Upstream stock | Edited | 9.30s · pass | 2.85s · pass | 3.26× |
 | Search submit stop | 190 | RTX 5090 | Upstream stock | Baseline | 5.57s · pass | 2.75s · pass | 2.02× |
 | Search submit stop | 275 | M5 Max MacBook Pro | Upstream stock | Edited | 18.79s · pass | 4.99s · pass | 3.77× |
 | Search submit stop | 275 | M5 Max MacBook Pro | Upstream stock | Baseline | 20.88s · pass | 5.99s · pass | 3.48× |
 | Search submit stop | 190 | M5 Max MacBook Pro | Upstream stock | Edited | 44.78s · pass | 5.13s · pass | 8.73× |
 | Search submit stop | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 45.27s · pass | 5.57s · pass | 8.12× |
-| Search submit stop | 189 | M5 Max MacBook Pro | Upstream stock | Edited | 10.91s · fail | 5.09s · pass | — |
-| Search submit stop | 189 | M5 Max MacBook Pro | Upstream stock | Baseline | 34.55s · pass | 9.54s · pass | 3.62× |
-| Order-history routing trial | 189 | M5 Max MacBook Pro | Upstream stock | Edited | 24.47s · pass | 5.35s · pass | 4.57× |
-| Order-history routing trial | 189 | M5 Max MacBook Pro | Upstream stock | Baseline | 10.68s · fail | 5.62s · pass | — |
 | Order-history routing trial | 190 | M5 Max MacBook Pro | Upstream stock | Edited | 33.89s · pass | 5.24s · pass | 6.46× |
 | Order-history routing trial | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 47.18s · pass | 5.76s · pass | 8.19× |
 | Focused search-field edit | 283 | M5 Max MacBook Pro | Upstream stock | Edited | 87.93s · fail | 18.77s · fail | — |
@@ -106,8 +94,6 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Product-link selection edit | 283 | M5 Max MacBook Pro | Upstream stock | Baseline | 82.64s · fail | 9.70s · pass | — |
 | Cross-device order stop | 188 | M5 Max MacBook Pro | Upstream stock | Edited | 29.22s · pass | 5.69s · pass | 5.14× |
 | Cross-device order stop | 188 | M5 Max MacBook Pro | Upstream stock | Baseline | 28.38s · pass | 4.97s · pass | 5.71× |
-| Cross-device order stop | 189 | M5 Max MacBook Pro | Upstream stock | Edited | 33.13s · pass | 5.25s · pass | 6.31× |
-| Cross-device order stop | 189 | M5 Max MacBook Pro | Upstream stock | Baseline | 34.83s · pass | 5.74s · pass | 6.07× |
 | Cross-device order stop | 190 | M5 Max MacBook Pro | Upstream stock | Edited | 45.89s · pass | 5.13s · pass | 8.95× |
 | Cross-device order stop | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 44.67s · pass | 5.58s · pass | 8.00× |
 | Cross-device order stop | 274 | M5 Max MacBook Pro | Upstream stock | Edited | 14.46s · pass | 4.65s · pass | 3.11× |
@@ -116,8 +102,6 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Cross-device order stop | 96 | M5 Max MacBook Pro | Published search weights | Baseline | 54.03s · pass | 7.76s · pass | 6.96× |
 | Completed-order stop | 188 | M5 Max MacBook Pro | Upstream stock | Edited | 45.75s · pass | 6.44s · pass | 7.10× |
 | Completed-order stop | 188 | M5 Max MacBook Pro | Upstream stock | Baseline | 29.18s · pass | 4.84s · pass | 6.02× |
-| Completed-order stop | 189 | M5 Max MacBook Pro | Upstream stock | Edited | 33.17s · pass | 5.30s · pass | 6.25× |
-| Completed-order stop | 189 | M5 Max MacBook Pro | Upstream stock | Baseline | 24.86s · pass | 5.87s · pass | 4.24× |
 | Completed-order stop | 231 | M5 Max MacBook Pro | Upstream stock | Edited | 31.38s · fail | 5.12s · pass | — |
 | Completed-order stop | 231 | M5 Max MacBook Pro | Upstream stock | Baseline | 35.65s · fail | 7.38s · pass | — |
 | Completed-order stop | 274 | M5 Max MacBook Pro | Upstream stock | Edited | 15.15s · pass | 7.10s · pass | 2.13× |
@@ -137,13 +121,11 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Completed-order stop | 283 | M5 Max MacBook Pro | Upstream stock | Edited | 81.34s · fail | 12.87s · fail | — |
 | Completed-order stop | 283 | M5 Max MacBook Pro | Upstream stock | Baseline | 81.82s · fail | 12.78s · fail | — |
 
-The pending click + stop edit was developed on 189. Its other tasks use frozen weights. The Windows command-stop edit was developed on 188 and has a different shard. The pending click + stop runs on Windows and Mac use the same shard. The completed-order stop edit was developed on 190 after recording the frozen checkpoint on that task. Tasks 191 and 192 were selected in numerical order as the remaining statuses in that same template. [Selection recorded before inference](../evidence/webarena-order-holdouts/selection.json). The RTX 5090 repeat on 191 followed the Mac misses and used the identical completed-order checkpoint. Task 231 rechecks an earlier order-number failure. Task 298 is the first ID in the order-details navigation template. [Recorded task order and advancement rule](../evidence/webarena-order-holdouts/order-navigation.json). On task 191 the official evaluator reports an error for a non-null retrieved answer. That episode earns zero credit. An independent browser inspection covered all four order-history pages. Of 37 orders, 25 were complete, nine canceled and three pending. The fixture contained zero processing orders. Pairs that overlapped the November 21 fixture connection outage were set aside. Reported replacement pairs started after connectivity returned.
+The Windows command-stop edit was developed on 188 and has a different shard. The click-and-stop runs on Windows and Mac use the same shard. The completed-order stop edit was developed on 190 after recording the frozen checkpoint on that task. Tasks 191 and 192 were selected in numerical order as the remaining statuses in that same template. [Selection recorded before inference](../evidence/webarena-order-holdouts/selection.json). The RTX 5090 repeat on 191 followed the Mac misses and used the identical completed-order checkpoint. Task 231 rechecks an earlier order-number failure. Task 298 is the first ID in the order-details navigation template. [Recorded task order and advancement rule](../evidence/webarena-order-holdouts/order-navigation.json). On task 191 the official evaluator reports an error for a non-null retrieved answer. That episode earns zero credit. An independent browser inspection covered all four order-history pages. The store contained 37 orders, including zero processing orders. Pairs that overlapped the November 21 fixture connection outage were set aside. Reported replacement pairs started after connectivity returned.
 
-218 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
+The selected comparisons account for 186 replayed native grades. The original mismatched Windows fixture remains in the table and contributes no speedup.
 
-[Exact pending-order rows](../evidence/webarena-pending-repair/pending-native-stop/) · [Windows command-stop rows](WEBARENA-ORDER-BOUNDARY.md) · [Grades and recording hashes](../evidence/webarena-order-checkpoints/).
-
-[Download the standalone pending-order checkpoint](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/9f6b8d4dbd3ec39171e38bf528735be4d0b14e66).
+[Windows command-stop rows](WEBARENA-ORDER-BOUNDARY.md) · [Grades and recording hashes](../evidence/webarena-order-checkpoints/).
 
 [Download the standalone completed-order checkpoint](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/cd27dd36403a165685abd5bf202c326ec9590b20).
 
@@ -182,14 +164,13 @@ The guarded reasoning trial changes four output rows relative to the Mac order-l
 Both models returned the correct total on RTX 5090 in both orders. With the edit first, stock took 5.72s and the edit took 6.79s. With stock first, the times were 10.33s and 3.34s. The two speed ratios were 0.84× and 3.09×.
 [Row changes, regression replays and byte audit](../evidence/webarena-order-checkpoints/order-short-margin/).
 
-## Three order lookups with the same weights
+## Order lookups with the same weights
 
-On RTX 5090, stock and the order-history edit each passed all six runs across canceled, pending and completed orders. The same edited shard ran 2.03× to 3.53× faster across those pairs. Task 190 was the development case. Tasks 188 and 189 were earlier wins rechecked with those weights.
+On RTX 5090, both models passed all four canceled- and completed-order runs shown below. The edit was 2.03× to 3.53× faster. We developed it on task 190 and rechecked it on task 188.
 
 | WebArena lookup | RTX 5090, edit first | RTX 5090, stock first | M5 Max, edit first | M5 Max, stock first |
 |---|---:|---:|---:|---:|
 | Canceled (#188) | 2.23× | 3.53× | Pending | Pending |
-| Pending (#189) | 2.16× | 2.36× | 4.57× | Edit passed |
 | Completed (#190) | 2.03× | 2.18× | 6.46× | 8.19× |
 | Processing (#191) | Neither passed | Neither passed | Pending | Pending |
 
@@ -207,8 +188,6 @@ The order-history routing trial changes 2,280 BF16 values in the end-of-message 
 
 On the RTX 5090 completed order lookup (#190), both models returned the correct total in both run orders. Stock needed 4 decisions and the edit needed 3. Stock generated 1,181 tokens, including 1,137 reasoning tokens. The edit generated 335, including 252 reasoning tokens. The two full-task speedups were 2.03× and 2.18×.
 
-On the RTX 5090 pending order lookup (#189), both models returned the correct total in both run orders. Both issued exactly the same browser commands. Stock generated 620 tokens, including 578 reasoning tokens. The edit generated 30, including 0 reasoning tokens. The two full-task speedups were 2.16× and 2.36×.
-
 ## Stopping after the Xbox search click
 
 The trial changed 2,282 BF16 values in the sampling-stop output row relative to the order-history checkpoint. Each test used ordinary greedy decoding with the same 512-token ceiling. [Changed weights and replay checks](../evidence/webarena-order-checkpoints/search-submit-stop/).
@@ -224,15 +203,11 @@ The previous-edit column comes from its earlier, separately timed runs. Each spe
 
 | WebArena task | Device | Stock passes | Edit passes | Edit first | Stock first |
 |---|---|---:|---:|---:|---:|
-| 189 | M5 Max MacBook Pro | 1/2 | 2/2 | — | 3.62× |
-| 189 | RTX 5090 | 2/2 | 2/2 | 1.96× | 0.91× |
 | 190 | M5 Max MacBook Pro | 2/2 | 2/2 | 8.73× | 8.12× |
 | 190 | RTX 5090 | 2/2 | 2/2 | 3.26× | 2.02× |
 | 275 | M5 Max MacBook Pro | 2/2 | 2/2 | 3.77× | 3.48× |
 
-Across Xbox search, completed-order lookup and pending-order lookup on RTX 5090, both models passed all six runs. Mean time was 6.14s for stock and 3.66s for the release weights, a 1.67× speedup (40.3% less elapsed time). The release snapshot covered the first two tasks. [Six paired timings](../evidence/webarena-order-checkpoints/pairs.json).
-
-In the stock-first pending-order run, the first account click was occluded. The edit retried the click, opened the order history and then spent 3.36s generating 512 tokens without an action. It returned the correct total on its next decision. Stock took 6.32s and the edit took 6.99s. [Browser step timings and errors](../evidence/webarena-order-checkpoints/native-grades.zip).
+On the four paired RTX 5090 runs shown for Xbox search and completed-order lookup, both models passed. Mean time was 6.10 s for the original weights and 2.97 s for the edit (2.05×). [Pair timings](../evidence/webarena-order-checkpoints/pairs.json).
 
 ## Xbox controller product page
 

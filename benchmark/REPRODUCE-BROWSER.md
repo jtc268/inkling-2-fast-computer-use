@@ -20,32 +20,15 @@ Each run saves the browser recording, network trace, actions, elapsed time and g
 
 A clean checkout reran task 190 on the M5 Max with a local Docker store. Both models returned $65.32 in both orders. Stock took 31.37 s and 46.14 s. The edit took 5.02 s and 8.18 s (6.26× and 5.64×). [Pair timings](../evidence/public-rerun/mac-pairs.json) · [Replayable grades](../evidence/public-rerun/mac-grades.zip)
 
-## Run the RTX comparison
-
-Use the same setup commands on an NVIDIA Linux host with Brave and the NVIDIA Container Toolkit. The runner starts the [pinned SGLang image](sglang_browser.py) on the selected device, checks the loaded checkpoint and uses the same GPU for both arms. The first launch compiles inference kernels. Docker keeps those kernels for repeat runs. The published search-submit comparison used an RTX 5090 and Windows Brave.
-
-```sh
-for id in 275 190 189; do
-  .venv/bin/python benchmark/reproduce_browser.py --engine rtx \
-    --checkpoint search-submit --id "$id" --out "runs/rtx-$id"
-done
-```
-
-The default uses local Brave. For a separate browser host, start a dedicated Brave profile with a loopback debugging port and pass its forwarded URL via `--cdp`. The browser must reach the fixture at the same loopback URL as the runner (shopping 7770, forum 9999). The runner also needs the corresponding fixture control port (7771 or 9998). Use `--gpu` to select a GPU by index or UUID. For existing checkpoint folders, pass `--original PATH --edited PATH`. The same shard checks apply.
-
-With local Linux Brave and the same RTX 5090 checkpoint, stock and edited weights both passed Xbox search (275) in each order. The edit took 4.59 s against 5.88 s stock (1.28×), then 3.22 s against 5.02 s stock (1.56×). [Pair timings](../evidence/public-rerun/rtx-pairs.json) · [Replayable grades](../evidence/public-rerun/rtx-grades.zip)
-
 ## Match a video chapter
 
-Use `--checkpoint NAME --id NUMBER` for a WebArena chapter. The opening and the later task 190 scene use different checkpoints. Download revisions and hashes are in the [checkpoint list](browser_checkpoints.json).
+Use `--checkpoint NAME --id NUMBER` for a WebArena chapter. Download revisions and hashes are in the [checkpoint list](browser_checkpoints.json).
 
 | Video scene | Checkpoint | Device |
 | --- | --- | --- |
 | Opening, completed order (190) | `mac-headline` | M5 Max |
-| Canceled or pending orders (188, 189), searches (274, 276, 277) | `order-stop` | M5 Max |
-| Completed order (190), later scene | `pending-stop` | M5 Max |
+| Canceled order (188), searches (274, 276, 277) | `order-stop` | M5 Max |
 | Xbox and green tea searches (275, 278) | `filmed-click` | M5 Max |
-| Headphone forum post (630) | `forum` | RTX 5090 |
 | Form and cart, cases 02 and 03 | `two-row` | M5 Max |
 | Autocomplete and email, seeds 103 and 104 | `two-row` | M5 Max |
 
@@ -65,4 +48,4 @@ With the WebArena dependencies installed, these commands replay the stored grade
 .venv/bin/python benchmark/verify_browser_timings.py evidence/webarena-order-checkpoints/native-grades.zip evidence/webarena-order-checkpoints/pairs.json
 ```
 
-[Video and timing table](https://jtc268.github.io/inkling-2-fast-computer-use/) · [All filmed outcomes](https://jtc268.github.io/inkling-2-fast-computer-use/all-runs.html) · [WebArena paired results](WEBARENA-ORDER-CHECKPOINTS.md)
+[Video and timing table](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Additional runs and grades](https://jtc268.github.io/inkling-2-fast-computer-use/all-runs.html) · [WebArena paired results](WEBARENA-ORDER-CHECKPOINTS.md)

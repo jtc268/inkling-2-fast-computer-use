@@ -1,15 +1,15 @@
 {
-  "sha256": "10a1b5ca381c25c84dd05e55a0589d76e36ac69595fd13da4b0d039789519188",
+  "sha256": "719c3a13b5812dc9886e828e4ffefb2f7b3242565917a6ff6eae2cd2e601ffc2",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 273.4,
-  "task_count": 41,
+  "duration_s": 246.05,
+  "task_count": 40,
   "opening_s": 6.15,
-  "closing_start_s": 269.9,
-  "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
+  "closing_start_s": 242.55,
+  "selection": "Selected recorded browser tasks in benchmark order. Task times cover the full run. The film includes passing and failing grades.",
   "chapters": [
     {
       "number": 1,
@@ -97,7 +97,7 @@
       "number": 3,
       "start_s": 14.65,
       "duration_s": 4.75,
-      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "environment": "BrowserGym · MiniWoB++",
       "task": "Seed 103",
       "title": "Complete an autocomplete field",
       "shared_elapsed_start_s": 0,
@@ -138,7 +138,7 @@
       "number": 4,
       "start_s": 19.4,
       "duration_s": 4.75,
-      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "environment": "BrowserGym · MiniWoB++",
       "task": "Seed 104",
       "title": "Reply to an email",
       "shared_elapsed_start_s": 1.9337746249977499,
@@ -179,7 +179,7 @@
       "number": 5,
       "start_s": 24.15,
       "duration_s": 2.95,
-      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "environment": "BrowserGym · MiniWoB++",
       "task": "Seed 101",
       "title": "Like every post from one account",
       "shared_elapsed_start_s": null,
@@ -220,7 +220,7 @@
       "number": 6,
       "start_s": 27.1,
       "duration_s": 2.95,
-      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "environment": "BrowserGym · MiniWoB++",
       "task": "Seed 101",
       "title": "Pick a date",
       "shared_elapsed_start_s": null,
@@ -261,7 +261,7 @@
       "number": 7,
       "start_s": 30.05,
       "duration_s": 2.95,
-      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "environment": "BrowserGym · MiniWoB++",
       "task": "Seed 101",
       "title": "Book the shortest one-way flight",
       "shared_elapsed_start_s": null,
@@ -406,7 +406,7 @@
           "grader_status": "failure"
         },
         {
-          "arm": "Frozen pending-order weights",
+          "arm": "Frozen click and stop weights",
           "elapsed_s": 0.7192069169832394,
           "passed": false,
           "device": "M5 Max MacBook Pro",
@@ -910,363 +910,6 @@
     {
       "number": 15,
       "start_s": 75.1,
-      "duration_s": 27.35,
-      "environment": "WebArena",
-      "task": "189",
-      "title": "Find the total of the latest pending order",
-      "shared_elapsed_start_s": 29.8897506670095,
-      "arms": [
-        {
-          "arm": "Stock Inkling 2 Mini",
-          "elapsed_s": 33.850683916010894,
-          "passed": true,
-          "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "9dd3fed47db798b1f67d44f794379eda89f3c949e8a10c0a65ced54dc05f5512",
-          "receipt": "189-original.json",
-          "recording": {
-            "kind": "native browser recording",
-            "source_sha256": "9d35421225e57628bada9376e92528ac7a677e5629efde93d4c44aa7661dd037",
-            "start_s": 29.89041875102557,
-            "source_duration_s": 33.85,
-            "available_frames": 79
-          },
-          "grader_status": "success"
-        },
-        {
-          "arm": "Published stop-row weights",
-          "elapsed_s": 33.2397506670095,
-          "passed": true,
-          "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "e26130900a6a30683ec77ad0f32b975f5f6f4be9b25df86c9e5caf1c800f16c1",
-          "receipt": "189-edited.json",
-          "recording": {
-            "kind": "native browser recording",
-            "source_sha256": "4b91334778448d041a1b3f59fa2188cd2cc44dbb0c14d5f8dfce324e6a9c8072",
-            "start_s": 29.89049062503036,
-            "source_duration_s": 33.45,
-            "available_frames": 69
-          },
-          "grader_status": "success"
-        }
-      ],
-      "additional_takes": [
-        {
-          "start_s": 79.15,
-          "duration_s": 2.65,
-          "shared_elapsed_start_s": 2.2052947090240194,
-          "arms": [
-            {
-              "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 23.85580195800867,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "b1634b0f8243545d4097ffe4ca933354bde835338404e687caf3aae5c2018efc",
-              "receipt": "189-original.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "1ee1ac955ae3bda5d4734587196fc9c44130579aa394ed8db92f8f008b490ab0",
-                "start_s": 2.205978625989519,
-                "source_duration_s": 23.85,
-                "available_frames": 53
-              },
-              "grader_status": "success"
-            },
-            {
-              "arm": "Pending click + stop edit",
-              "elapsed_s": 4.1552947090240195,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "e6c644893422e06b9a286c7b2a9ddf26a1cde522b86c712bbf9ca2de49158152",
-              "receipt": "189-edited.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "3cfe1ad7af674a69fbeca895f5c882f54b60d2cf811bcb95d1bb15552a817703",
-                "start_s": 2.2063615839695556,
-                "source_duration_s": 4.35,
-                "available_frames": 40
-              },
-              "grader_status": "success"
-            }
-          ]
-        },
-        {
-          "start_s": 81.8,
-          "duration_s": 2.95,
-          "shared_elapsed_start_s": 1.3365153330378232,
-          "arms": [
-            {
-              "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 12.520012957975268,
-              "passed": true,
-              "device": "RTX 5090",
-              "receipt_sha256": "637ddc2bcc9efed7959e36faf0409d31339d847d40b7cdc22e4a90a383178681",
-              "receipt": "189-original.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "d6dc8ea68b740d7ee8708a1a761b95a3f56f6a5ea020f8bdecde4fb3ba82bf4b",
-                "start_s": 1.3377253330545498,
-                "source_duration_s": 15.75,
-                "available_frames": 59
-              },
-              "grader_status": "success"
-            },
-            {
-              "arm": "Frozen pending-order weights",
-              "elapsed_s": 3.5865153330378234,
-              "passed": true,
-              "device": "RTX 5090",
-              "receipt_sha256": "ad87f98adb0c4f50778203c7ef93c0da8ce1340f16a480be81ab0a965fd84639",
-              "receipt": "189-edited.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "7dac24884bef50b5afebd54a69aeeedd5fdd67abbad3e484f7ddc8e978b055ef",
-                "start_s": 1.3375340419588608,
-                "source_duration_s": 4.25,
-                "available_frames": 46
-              },
-              "grader_status": "success"
-            }
-          ]
-        },
-        {
-          "start_s": 84.75,
-          "duration_s": 2.95,
-          "shared_elapsed_start_s": 3.054031042032875,
-          "arms": [
-            {
-              "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 33.172848040936515,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "6065551e3f226bb44ba2969600abebd38fd0b913cf16f5f4d94fab45ce14fd96",
-              "receipt": "189-original.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "c022881a4a31ff876167f106dba50a18a847ce86de0f5657f322ea6ccf10a997",
-                "start_s": 3.0548228340921924,
-                "source_duration_s": 33.2,
-                "available_frames": 59
-              },
-              "grader_status": "success"
-            },
-            {
-              "arm": "Completed-order stop edit",
-              "elapsed_s": 5.304031042032875,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "dba900de9b60dde45bb9417e4d62258b90e9d90cecd61dba335258157244dd16",
-              "receipt": "189-edited.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "0cd40fcf46fd1d432df3e67061b94ae37d77bd390c03a0c904bfcccb8b5d4ded",
-                "start_s": 3.05476329207886,
-                "source_duration_s": 5.5,
-                "available_frames": 46
-              },
-              "grader_status": "success"
-            }
-          ]
-        },
-        {
-          "start_s": 87.7,
-          "duration_s": 2.95,
-          "shared_elapsed_start_s": 3.0029928329167888,
-          "arms": [
-            {
-              "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 33.1291674580425,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "32a8f504c05053537034dfbb42a8e60a8001f905b80217e28e9d08bc37ef638c",
-              "receipt": "189-original.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "1ea97126fa12b6406a6cb817782c3a92b22b0e8085a4c1ef4cb276bf0dab9e31",
-                "start_s": 3.0037926249206066,
-                "source_duration_s": 33.1,
-                "available_frames": 59
-              },
-              "grader_status": "success"
-            },
-            {
-              "arm": "Cross-device order stop",
-              "elapsed_s": 5.252992832916789,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "13aaad04bde4944080119ae795b247c8d5da61c67a8946ae6d563b83e58ec72e",
-              "receipt": "189-edited.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "b1bf7f929afa1478e03a8d2aa16c2b69d4631cbcd4d8fb469b17e21bb969f8c9",
-                "start_s": 3.0037339159753174,
-                "source_duration_s": 5.45,
-                "available_frames": 46
-              },
-              "grader_status": "success"
-            }
-          ]
-        },
-        {
-          "start_s": 90.65,
-          "duration_s": 2.95,
-          "shared_elapsed_start_s": 0.6171108750859273,
-          "arms": [
-            {
-              "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 6.77029658399988,
-              "passed": true,
-              "device": "RTX 5090",
-              "receipt_sha256": "0cea03e6cc7571e55dc7bf0fcfdae72c74474be28a708ed8c8a8ef89d405058b",
-              "receipt": "189-original.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "4a5813e8ccab420942171b54d76c3c8c6979f2238075a2f1615da63647d27d5f",
-                "start_s": 0.6180617911741135,
-                "source_duration_s": 6.8,
-                "available_frames": 59
-              },
-              "grader_status": "success"
-            },
-            {
-              "arm": "Order-history routing trial",
-              "elapsed_s": 2.8671108750859275,
-              "passed": true,
-              "device": "RTX 5090",
-              "receipt_sha256": "38994d8c0ccc902ff2a20f85752d8996348439c8f2de2fed16ac66e0e130ccb8",
-              "receipt": "189-edited.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "77e0dd320302f1be3b54c6052cb774f2f3cf67981508c2f3bb041138002d4d0c",
-                "start_s": 0.6183844580082221,
-                "source_duration_s": 3.5,
-                "available_frames": 46
-              },
-              "grader_status": "success"
-            }
-          ]
-        },
-        {
-          "start_s": 93.6,
-          "duration_s": 2.95,
-          "shared_elapsed_start_s": 0.8602661669719962,
-          "arms": [
-            {
-              "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 6.104229875025339,
-              "passed": true,
-              "device": "RTX 5090",
-              "receipt_sha256": "c01c6c8aa792e1ae16983c2ad474b966f6c0fcf56558c5ff21edd1113d224e5e",
-              "receipt": "189-original.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "fc244225b27a04d3f4141fc7041bad661ed2fc4d470cf21c1be67c2399a13d1e",
-                "start_s": 0.8611821669619528,
-                "source_duration_s": 6.1,
-                "available_frames": 59
-              },
-              "grader_status": "success"
-            },
-            {
-              "arm": "Search submit stop",
-              "elapsed_s": 3.1102661669719964,
-              "passed": true,
-              "device": "RTX 5090",
-              "receipt_sha256": "fbed2ebc713c45514796162f43130b9a237af33a75186cd5b7cc78c07c4974dc",
-              "receipt": "189-edited.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "8e630b90a7db5c4ce8fdd5a116c8f15edc558818d3768b3a1918e5ea093f8ed3",
-                "start_s": 0.8612927090143783,
-                "source_duration_s": 3.95,
-                "available_frames": 46
-              },
-              "grader_status": "success"
-            }
-          ]
-        },
-        {
-          "start_s": 96.55,
-          "duration_s": 2.95,
-          "shared_elapsed_start_s": 7.286971332971007,
-          "arms": [
-            {
-              "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 34.54826029203832,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "94103387258290527975c269200154babe895eee93aa46e920da4f52d240f987",
-              "receipt": "189-original.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "06a37affa801181777444838219cbf8a54ceaef54d71ddc7c576cca97124b3f1",
-                "start_s": 7.28765991597902,
-                "source_duration_s": 34.55,
-                "available_frames": 59
-              },
-              "grader_status": "success"
-            },
-            {
-              "arm": "Search submit stop",
-              "elapsed_s": 9.536971332971007,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "237eaa45421219ed0481c44f5f5a924ad660531599751f05d27be199fa0f1887",
-              "receipt": "189-edited.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "0852ffeb6dabdf9664d0b16c46f80241b0e107cf789554a7876e5d0532e13564",
-                "start_s": 7.288692125002854,
-                "source_duration_s": 9.5,
-                "available_frames": 44
-              },
-              "grader_status": "success"
-            }
-          ]
-        },
-        {
-          "start_s": 99.5,
-          "duration_s": 2.95,
-          "shared_elapsed_start_s": 3.0999951249687,
-          "arms": [
-            {
-              "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 24.47346133296378,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "4bd09806c228658ab91f939594cf2394cbc6a88ae34782ce77d31b3fe1a67e76",
-              "receipt": "189-original.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "2b9b390beb267c67ef41ce4fed6b5896d46cae845ecb7d0410b58873ec2ff49b",
-                "start_s": 3.1007044999860227,
-                "source_duration_s": 24.45,
-                "available_frames": 59
-              },
-              "grader_status": "success"
-            },
-            {
-              "arm": "Order-history routing trial",
-              "elapsed_s": 5.3499951249687,
-              "passed": true,
-              "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "2b0995cf755f61451029ee24ada6b0a5674e282ac40d3ba4a86addaa3e575671",
-              "receipt": "189-edited.json",
-              "recording": {
-                "kind": "native browser recording",
-                "source_sha256": "bc0f54dce5dc9be7ef20fff1a96e6aec22b02998c7e389d82b4707a07e59e197",
-                "start_s": 3.1010409999871626,
-                "source_duration_s": 5.55,
-                "available_frames": 46
-              },
-              "grader_status": "success"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "start_s": 102.45,
       "duration_s": 33.15,
       "environment": "WebArena",
       "task": "190",
@@ -1290,7 +933,7 @@
           "grader_status": "success"
         },
         {
-          "arm": "Frozen pending-order weights",
+          "arm": "Frozen click and stop weights",
           "elapsed_s": 18.32999724999536,
           "passed": true,
           "device": "M5 Max MacBook Pro",
@@ -1308,7 +951,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 106.1,
+          "start_s": 78.75,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.940150791895576,
           "arms": [
@@ -1347,7 +990,7 @@
           ]
         },
         {
-          "start_s": 109.05,
+          "start_s": 81.7,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 6.681119083077647,
           "arms": [
@@ -1386,7 +1029,7 @@
           ]
         },
         {
-          "start_s": 112.0,
+          "start_s": 84.65,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1425,7 +1068,7 @@
           ]
         },
         {
-          "start_s": 114.95,
+          "start_s": 87.6,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.8771139580057934,
           "arms": [
@@ -1464,7 +1107,7 @@
           ]
         },
         {
-          "start_s": 117.9,
+          "start_s": 90.55,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 1.092322333017364,
           "arms": [
@@ -1503,7 +1146,7 @@
           ]
         },
         {
-          "start_s": 120.85,
+          "start_s": 93.5,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.38902004098054,
           "arms": [
@@ -1542,7 +1185,7 @@
           ]
         },
         {
-          "start_s": 123.8,
+          "start_s": 96.45,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 0.5983604160137472,
           "arms": [
@@ -1581,7 +1224,7 @@
           ]
         },
         {
-          "start_s": 126.75,
+          "start_s": 99.4,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.878219416947104,
           "arms": [
@@ -1620,7 +1263,7 @@
           ]
         },
         {
-          "start_s": 129.7,
+          "start_s": 102.35,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.5121810829732567,
           "arms": [
@@ -1659,7 +1302,7 @@
           ]
         },
         {
-          "start_s": 132.65,
+          "start_s": 105.3,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.061038124957122,
           "arms": [
@@ -1700,8 +1343,8 @@
       ]
     },
     {
-      "number": 17,
-      "start_s": 135.6,
+      "number": 16,
+      "start_s": 108.25,
       "duration_s": 8.1,
       "environment": "WebArena",
       "task": "191",
@@ -1743,7 +1386,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 137.8,
+          "start_s": 110.45,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1782,7 +1425,7 @@
           ]
         },
         {
-          "start_s": 140.75,
+          "start_s": 113.4,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1823,8 +1466,8 @@
       ]
     },
     {
-      "number": 18,
-      "start_s": 143.7,
+      "number": 17,
+      "start_s": 116.35,
       "duration_s": 5.15,
       "environment": "WebArena",
       "task": "231",
@@ -1864,7 +1507,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 145.9,
+          "start_s": 118.55,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1905,8 +1548,8 @@
       ]
     },
     {
-      "number": 19,
-      "start_s": 148.85,
+      "number": 18,
+      "start_s": 121.5,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "260",
@@ -1946,8 +1589,8 @@
       ]
     },
     {
-      "number": 20,
-      "start_s": 151.05,
+      "number": 19,
+      "start_s": 123.7,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "269",
@@ -1987,12 +1630,12 @@
       ]
     },
     {
-      "number": 21,
-      "start_s": 153.25,
+      "number": 20,
+      "start_s": 125.9,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "270",
-      "title": "Filter men\u2019s shoes below $30",
+      "title": "Filter men’s shoes below $30",
       "shared_elapsed_start_s": null,
       "arms": [
         {
@@ -2028,8 +1671,8 @@
       ]
     },
     {
-      "number": 22,
-      "start_s": 155.45,
+      "number": 21,
+      "start_s": 128.1,
       "duration_s": 7.7,
       "environment": "WebArena",
       "task": "274",
@@ -2071,7 +1714,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 160.2,
+          "start_s": 132.85,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.1353435839992017,
           "arms": [
@@ -2112,8 +1755,8 @@
       ]
     },
     {
-      "number": 23,
-      "start_s": 163.15,
+      "number": 22,
+      "start_s": 135.8,
       "duration_s": 23.75,
       "environment": "WebArena",
       "task": "275",
@@ -2155,7 +1798,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 169.2,
+          "start_s": 141.85,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.7589218330103904,
           "arms": [
@@ -2194,7 +1837,7 @@
           ]
         },
         {
-          "start_s": 172.15,
+          "start_s": 144.8,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.770188458962366,
           "arms": [
@@ -2233,7 +1876,7 @@
           ]
         },
         {
-          "start_s": 175.1,
+          "start_s": 147.75,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 0.7524331250460816,
           "arms": [
@@ -2272,7 +1915,7 @@
           ]
         },
         {
-          "start_s": 178.05,
+          "start_s": 150.7,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.7378833330003545,
           "arms": [
@@ -2311,7 +1954,7 @@
           ]
         },
         {
-          "start_s": 181.0,
+          "start_s": 153.65,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.8694580829469487,
           "arms": [
@@ -2350,7 +1993,7 @@
           ]
         },
         {
-          "start_s": 183.95,
+          "start_s": 156.6,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.021435666945763,
           "arms": [
@@ -2391,8 +2034,8 @@
       ]
     },
     {
-      "number": 24,
-      "start_s": 186.9,
+      "number": 23,
+      "start_s": 159.55,
       "duration_s": 10.75,
       "environment": "WebArena",
       "task": "276",
@@ -2434,7 +2077,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 191.65,
+          "start_s": 164.3,
           "duration_s": 3.05,
           "shared_elapsed_start_s": 1.3485021249856801,
           "arms": [
@@ -2471,7 +2114,7 @@
           ]
         },
         {
-          "start_s": 194.7,
+          "start_s": 167.35,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.2479067909298465,
           "arms": [
@@ -2512,8 +2155,8 @@
       ]
     },
     {
-      "number": 25,
-      "start_s": 197.65,
+      "number": 24,
+      "start_s": 170.3,
       "duration_s": 7.7,
       "environment": "WebArena",
       "task": "277",
@@ -2555,7 +2198,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 202.4,
+          "start_s": 175.05,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.629690458998084,
           "arms": [
@@ -2596,8 +2239,8 @@
       ]
     },
     {
-      "number": 26,
-      "start_s": 205.35,
+      "number": 25,
+      "start_s": 178.0,
       "duration_s": 13.3,
       "environment": "WebArena",
       "task": "278",
@@ -2639,7 +2282,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 210.1,
+          "start_s": 182.75,
           "duration_s": 3.05,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2678,7 +2321,7 @@
           ]
         },
         {
-          "start_s": 213.15,
+          "start_s": 185.8,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 3.232748709013686,
           "arms": [
@@ -2717,7 +2360,7 @@
           ]
         },
         {
-          "start_s": 215.7,
+          "start_s": 188.35,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.86688183399383,
           "arms": [
@@ -2758,8 +2401,8 @@
       ]
     },
     {
-      "number": 27,
-      "start_s": 218.65,
+      "number": 26,
+      "start_s": 191.3,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "279",
@@ -2801,12 +2444,12 @@
       ]
     },
     {
-      "number": 28,
-      "start_s": 220.85,
+      "number": 27,
+      "start_s": 193.5,
       "duration_s": 14.0,
       "environment": "WebArena",
       "task": "283",
-      "title": "Find Xbox controllers released in 2020\u20132021",
+      "title": "Find Xbox controllers released in 2020–2021",
       "shared_elapsed_start_s": null,
       "arms": [
         {
@@ -2844,7 +2487,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 223.05,
+          "start_s": 195.7,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2883,7 +2526,7 @@
           ]
         },
         {
-          "start_s": 226.0,
+          "start_s": 198.65,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2922,7 +2565,7 @@
           ]
         },
         {
-          "start_s": 228.95,
+          "start_s": 201.6,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2961,7 +2604,7 @@
           ]
         },
         {
-          "start_s": 231.9,
+          "start_s": 204.55,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -3002,8 +2645,8 @@
       ]
     },
     {
-      "number": 29,
-      "start_s": 234.85,
+      "number": 28,
+      "start_s": 207.5,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "313",
@@ -3043,8 +2686,8 @@
       ]
     },
     {
-      "number": 30,
-      "start_s": 237.05,
+      "number": 29,
+      "start_s": 209.7,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "324",
@@ -3084,8 +2727,8 @@
       ]
     },
     {
-      "number": 31,
-      "start_s": 239.25,
+      "number": 30,
+      "start_s": 211.9,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "358",
@@ -3125,8 +2768,8 @@
       ]
     },
     {
-      "number": 32,
-      "start_s": 241.45,
+      "number": 31,
+      "start_s": 214.1,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "399",
@@ -3166,8 +2809,8 @@
       ]
     },
     {
-      "number": 33,
-      "start_s": 243.65,
+      "number": 32,
+      "start_s": 216.3,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "404",
@@ -3207,8 +2850,8 @@
       ]
     },
     {
-      "number": 34,
-      "start_s": 245.85,
+      "number": 33,
+      "start_s": 218.5,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "431",
@@ -3290,8 +2933,8 @@
       ]
     },
     {
-      "number": 35,
-      "start_s": 248.05,
+      "number": 34,
+      "start_s": 220.7,
       "duration_s": 3.55,
       "environment": "WebArena",
       "task": "432",
@@ -3361,8 +3004,8 @@
       ]
     },
     {
-      "number": 36,
-      "start_s": 251.6,
+      "number": 35,
+      "start_s": 224.25,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "516",
@@ -3402,8 +3045,8 @@
       ]
     },
     {
-      "number": 37,
-      "start_s": 253.8,
+      "number": 36,
+      "start_s": 226.45,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "595",
@@ -3443,8 +3086,8 @@
       ]
     },
     {
-      "number": 38,
-      "start_s": 256.0,
+      "number": 37,
+      "start_s": 228.65,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "600",
@@ -3469,8 +3112,8 @@
       ]
     },
     {
-      "number": 39,
-      "start_s": 258.2,
+      "number": 38,
+      "start_s": 230.85,
       "duration_s": 7.3,
       "environment": "WebArena",
       "task": "630",
@@ -3512,7 +3155,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 260.4,
+          "start_s": 233.05,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 18.707142707984893,
           "arms": [
@@ -3549,7 +3192,7 @@
           ]
         },
         {
-          "start_s": 262.95,
+          "start_s": 235.6,
           "duration_s": 2.55,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -3590,8 +3233,8 @@
       ]
     },
     {
-      "number": 40,
-      "start_s": 265.5,
+      "number": 39,
+      "start_s": 238.15,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "653",
@@ -3631,8 +3274,8 @@
       ]
     },
     {
-      "number": 41,
-      "start_s": 267.7,
+      "number": 40,
+      "start_s": 240.35,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "689",
@@ -3678,5 +3321,5 @@
       }
     ]
   },
-  "embedded_chapters": 43
+  "embedded_chapters": 42
 }
