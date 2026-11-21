@@ -17,6 +17,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Pending click + stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
 | Pending click + stop | M5 Max MacBook Pro | Upstream stock | 62, 188, 189, 190, 274, 275, 276 | 12/14 | 12/14 | 188, 189, 190, 274, 275 |
 | Pending click + stop | RTX 5090 | Upstream stock | 188, 189 | 4/4 | 4/4 | 189 |
+| Focused search-field edit | M5 Max MacBook Pro | Upstream stock | 283 | 0/2 | 0/2 | — |
 
 | Checkpoint | Task | Hardware | Baseline | Ran first | Baseline time | Edited time | Speedup |
 |---|---:|---|---|---|---:|---:|---:|
@@ -63,6 +64,8 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Order-history routing trial | 190 | RTX 5090 | Upstream stock | Baseline | 10.09s · pass | 4.64s · pass | 2.18× |
 | Order-history routing trial | 189 | RTX 5090 | Upstream stock | Edited | 6.30s · pass | 2.92s · pass | 2.16× |
 | Order-history routing trial | 189 | RTX 5090 | Upstream stock | Baseline | 6.77s · pass | 2.87s · pass | 2.36× |
+| Focused search-field edit | 283 | M5 Max MacBook Pro | Upstream stock | Edited | 87.93s · fail | 18.77s · fail | — |
+| Focused search-field edit | 283 | M5 Max MacBook Pro | Upstream stock | Baseline | 91.99s · fail | 19.45s · fail | — |
 | Cross-device order stop | 188 | M5 Max MacBook Pro | Upstream stock | Edited | 29.22s · pass | 5.69s · pass | 5.14× |
 | Cross-device order stop | 188 | M5 Max MacBook Pro | Upstream stock | Baseline | 28.38s · pass | 4.97s · pass | 5.71× |
 | Cross-device order stop | 189 | M5 Max MacBook Pro | Upstream stock | Edited | 33.13s · pass | 5.25s · pass | 6.31× |
@@ -98,7 +101,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 
 The pending click + stop edit was developed on 189. Its other tasks use frozen weights. The Windows command-stop edit was developed on 188 and has a different shard. The pending click + stop runs on Windows and Mac use the same shard. The completed-order stop edit was developed on 190 after recording the frozen checkpoint on that task. Tasks 191 and 192 were selected in numerical order as the remaining statuses in that same template. [Selection recorded before inference](../evidence/webarena-order-holdouts/selection.json). The RTX 5090 repeat on 191 followed the Mac misses and used the identical completed-order checkpoint. Task 231 rechecks an earlier order-number failure. Task 298 is the first ID in the order-details navigation template. [Recorded task order and advancement rule](../evidence/webarena-order-holdouts/order-navigation.json). On task 191 the official evaluator reports an error for a non-null retrieved answer. That episode earns zero credit. An independent browser inspection covered all four order-history pages. Of 37 orders, 25 were complete, nine canceled and three pending. The fixture contained zero processing orders. Pairs that overlapped the November 21 fixture connection outage were set aside. Reported replacement pairs started after connectivity returned.
 
-150 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
+154 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
 
 [Exact pending-order rows](../evidence/webarena-pending-repair/pending-native-stop/) · [Windows command-stop rows](WEBARENA-ORDER-BOUNDARY.md) · [Grades and recording hashes](../evidence/webarena-order-checkpoints/).
 
@@ -144,3 +147,5 @@ The order-history routing trial changes 2,280 BF16 values in the end-of-message 
 On the RTX 5090 completed order lookup (#190), both models returned the correct total in both run orders. Stock needed 4 decisions and the edit needed 3. Stock generated 1,181 tokens, including 1,137 reasoning tokens. The edit generated 335, including 252 reasoning tokens. The two full-task speedups were 2.03× and 2.18×.
 
 On the RTX 5090 pending order lookup (#189), both models returned the correct total in both run orders. Both issued exactly the same browser commands. Stock generated 620 tokens, including 578 reasoning tokens. The edit generated 30, including 0 reasoning tokens. The two full-task speedups were 2.16× and 2.36×.
+
+Task 283 exposed a repeated click on an empty, focused search field. The search-field edit changes 2,281 BF16 values in the output row for the fill command, relative to the five-search checkpoint. It reproduced 45 earlier browser commands and filled the field on two recorded views during ordinary generation. [Exact rows and full browser grades](../evidence/webarena-order-checkpoints/search-focus-route/).

@@ -2145,6 +2145,138 @@
       }
     },
     {
+      "checkpoint": "search-focus-route",
+      "task": 283,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": null,
+      "original": {
+        "seconds": 87.93015045800712,
+        "score": 0.0,
+        "grader_status": "failure",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 Xbox controller",
+          "K",
+          "K",
+          "C9",
+          "",
+          "D",
+          "C3",
+          "F7 Xbox controller",
+          "K",
+          "C9",
+          "D",
+          "D"
+        ],
+        "generated": 2766,
+        "thinking": 2596,
+        "inference_seconds": 80.11356908199377,
+        "receipt_sha256": "2c450dd02c237f79c8c5162b8916d7a597dd137a771a903101909ff3ff4dba83",
+        "recording_sha256": "e5e09a023862edf3033be65c4a8c22306acd87f4881cf6076507ae184f138943"
+      },
+      "edited": {
+        "seconds": 18.76859758410137,
+        "score": 0.0,
+        "grader_status": "failure",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "6238b11e7bdac91f63ee8c7ead04730f22fe2fe2d24e9d54a29a1da161109964",
+        "commands": [
+          "F 7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller"
+        ],
+        "generated": 109,
+        "thinking": 0,
+        "inference_seconds": 9.257374460343271,
+        "receipt_sha256": "5ddc2381679f9010a0cbe1497c08631418a24110efeba721a68207316efb1100",
+        "recording_sha256": "75373c42203df67877ff8e69cb6111aa5b86498715a0a2d75a1c035b6e242d12"
+      }
+    },
+    {
+      "checkpoint": "search-focus-route",
+      "task": 283,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": null,
+      "original": {
+        "seconds": 91.99072962498758,
+        "score": 0.0,
+        "grader_status": "failure",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 Xbox controller",
+          "K",
+          "K",
+          "C9",
+          "",
+          "D",
+          "C3",
+          "F7 Xbox controller",
+          "K",
+          "C9",
+          "D",
+          "D"
+        ],
+        "generated": 2766,
+        "thinking": 2596,
+        "inference_seconds": 84.98011841706466,
+        "receipt_sha256": "daa117518b5d3a27c71bb6a00dcd118399deb9a811c7e2051561ca3773f2fdb4",
+        "recording_sha256": "2106edb0d09e042d0250aee1f1c1e02db44da8a1ec68a7f3899fab94912eeac8"
+      },
+      "edited": {
+        "seconds": 19.445797957945615,
+        "score": 0.0,
+        "grader_status": "failure",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "6238b11e7bdac91f63ee8c7ead04730f22fe2fe2d24e9d54a29a1da161109964",
+        "commands": [
+          "F 7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller",
+          "F7 Xbox controller"
+        ],
+        "generated": 109,
+        "thinking": 0,
+        "inference_seconds": 9.901397418114357,
+        "receipt_sha256": "647615c6e9794bde47330ac66cffd6b573fc13891a9c8621dcde44bda44a8657",
+        "recording_sha256": "604d6845df54d958fa87ba6b25f494f7b52de11f854103a28130fd5b73ee1db4"
+      }
+    },
+    {
       "checkpoint": "complete-cross",
       "task": 188,
       "repeat": 1,
