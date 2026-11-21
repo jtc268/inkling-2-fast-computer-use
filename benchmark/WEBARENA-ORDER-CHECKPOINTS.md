@@ -5,6 +5,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Checkpoint | Hardware | Baseline | Task IDs | Baseline passes | Edited passes | IDs at ≥2× in both orders |
 |---|---|---|---|---:|---:|---|
 | Cross-device order stop | RTX 5090 | Upstream stock | 190 | 2/2 | 0/2 | — |
+| Completed-order stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
 | Completed-order stop | M5 Max MacBook Pro | Upstream stock | 188, 189, 190 | 6/6 | 6/6 | 188, 189, 190 |
 | Completed-order stop | RTX 5090 | Upstream stock | 190 | 2/2 | 2/2 | — |
 | Windows command-stop | M5 Max MacBook Pro | Upstream stock | 188, 274 | 4/4 | 4/4 | 188 |
@@ -52,10 +53,12 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Completed-order stop | 188 | M5 Max MacBook Pro | Upstream stock | Baseline | 29.18s · pass | 4.84s · pass | 6.02× |
 | Completed-order stop | 189 | M5 Max MacBook Pro | Upstream stock | Edited | 33.17s · pass | 5.30s · pass | 6.25× |
 | Completed-order stop | 189 | M5 Max MacBook Pro | Upstream stock | Baseline | 24.86s · pass | 5.87s · pass | 4.24× |
+| Completed-order stop | 96 | M5 Max MacBook Pro | Published search weights | Edited | 47.03s · pass | 6.95s · pass | 6.77× |
+| Completed-order stop | 96 | M5 Max MacBook Pro | Published search weights | Baseline | 44.63s · pass | 7.58s · pass | 5.89× |
 
 The pending click + stop edit was developed on 189. Its other tasks use frozen weights. The Windows command-stop edit was developed on 188 and has a different shard. The pending click + stop runs on Windows and Mac use the same shard. The completed-order stop edit was developed on 190 after recording the frozen checkpoint on that task. Pairs that overlapped the November 21 fixture connection outage were set aside. Reported replacement pairs started after connectivity returned.
 
-74 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
+78 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
 
 [Exact pending-order rows](../evidence/webarena-pending-repair/pending-native-stop/) · [Windows command-stop rows](WEBARENA-ORDER-BOUNDARY.md) · [Grades and recording hashes](../evidence/webarena-order-checkpoints/).
 
