@@ -183,6 +183,10 @@ On the RTX 5090 completed order lookup (#190), both models returned the correct 
 
 On the RTX 5090 pending order lookup (#189), both models returned the correct total in both run orders. Both issued exactly the same browser commands. Stock generated 620 tokens, including 578 reasoning tokens. The edit generated 30, including 0 reasoning tokens. The two full-task speedups were 2.16× and 2.36×.
 
+## Xbox controller product page
+
+Task 283 requires ending on a particular product page. In one recorded stock run the browser opened the correct page, then left it. Stock received zero credit. Replaying the official grader with a successful navigation response scores zero before the product request, one immediately after it, and zero after the later navigation. These trace checks add no model runs. [Trace positions and receipt hash](../evidence/webarena-order-checkpoints/xbox-product-grader-check.json).
+
 Task 283 exposed a repeated click on an empty, focused search field. The search-field edit changes 2,281 BF16 values in the output row for the fill command, relative to the five-search checkpoint. It reproduced 45 earlier browser commands and filled the field on two recorded views during ordinary generation. [Exact rows and full browser grades](../evidence/webarena-order-checkpoints/search-focus-route/).
 
 ## Verify the published results

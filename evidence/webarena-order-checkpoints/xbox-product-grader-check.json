@@ -1,0 +1,41 @@
+{
+  "task": 283,
+  "model_episodes": 0,
+  "recorded_score": 0.0,
+  "stored_receipt_sha256": "c0668e2011b93eb9c2e80746d17db3de4c0a07df6aee1b2dc76e65a918dbe99d",
+  "stored_network_sha256": "f8b0391cb8f2682db814008fd3f305d8ba59ed07b04c52998219ce195d644327",
+  "diagnostic_response": {
+    "task_type": "NAVIGATE",
+    "status": "SUCCESS",
+    "retrieved_data": null
+  },
+  "diagnostic_score": 0.0,
+  "last_event_only": true,
+  "target_event_index": 25,
+  "recorded_trace_prefixes": [
+    {
+      "events": 25,
+      "last_event_path": "/static/version1681826198/frontend/Magento/blank/en_US/Magento_Captcha/template/checkout/captcha.html",
+      "score": 0.0,
+      "status": "failure"
+    },
+    {
+      "events": 26,
+      "last_event_path": "/microsoft-xbox-controller-carbon-black-for-series-x-series-s-xbox-one-windows-10-android-ios-bundled-with-dual-port-charging-dock-xbox-controller-skin-voucher-premgear-cloth.html",
+      "score": 1.0,
+      "status": "success"
+    },
+    {
+      "events": 27,
+      "last_event_path": "/static/version1681826198/frontend/Magento/blank/en_US/js-translation.json",
+      "score": 1.0,
+      "status": "success"
+    },
+    {
+      "events": 55,
+      "last_event_path": "/static/version1681826198/frontend/Magento/blank/en_US/Magento_Captcha/template/checkout/captcha.html",
+      "score": 0.0,
+      "status": "failure"
+    }
+  ]
+}
