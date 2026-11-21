@@ -56,7 +56,7 @@ def official_task(task_id):
     task = grader.get_task(task_id)
     sites = [site.value for site in task.sites]
     if len(sites) != 1 or sites[0] not in bench.FIXTURE_IMAGES:
-        raise ValueError(f'Task {task_id} needs {", ".join(sites)}. This runner supports single-site shopping and reddit tasks.')
+        raise ValueError(f'Task {task_id} needs {", ".join(sites)}. Supported single-site fixtures: {", ".join(bench.FIXTURE_IMAGES)}.')
     return grader, sites[0]
 
 
@@ -88,11 +88,14 @@ def main():
             folder = args.out / f'r{i+1}'
             folder.mkdir()
             order = ['edited', 'original'] if bool(i % 2) != args.edited_first else ['original', 'edited']
+            initial_view=None
             for arm in order:
                 worker = MlxWorker(checkpoints[arm], digests[arm])
                 worker.decide_web('Click Go. Controls: 7 button Go.', bench.SYSTEM)
                 bench.episode(browser, worker, wa, dict(id=args.id, site=site), arm, folder,
-                              field_selection=args.field_selection)
+                              field_selection=args.field_selection,expected_start_view=initial_view)
+                if site=='shopping_admin' and initial_view is None:
+                    initial_view=json.loads((folder/f'{args.id:03}-{arm}.json').read_text())['steps'][0]['view']
                 del worker
                 gc.collect()
                 mx.clear_cache()

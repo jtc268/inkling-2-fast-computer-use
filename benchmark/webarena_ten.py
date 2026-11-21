@@ -7,8 +7,10 @@ import re
 from pathlib import Path
 import subprocess
 import time
-from urllib.parse import urlsplit
-from urllib.request import Request, urlopen
+from urllib.parse import urljoin, urlsplit
+from html.parser import HTMLParser
+from urllib.request import HTTPCookieProcessor, Request, build_opener, urlopen
+from http.cookiejar import CookieJar
 
 from playwright.sync_api import sync_playwright, Error as BrowserError
 from webarena_verified.api import WebArenaVerified
@@ -18,14 +20,16 @@ from run import BOOT, BRAVE, Planner, tap, write_json
 HERE = Path(__file__).resolve().parent
 PANEL = json.loads((HERE.parent / 'evidence/webarena-ten-panel.json').read_text())
 PANEL['max_decisions'] = 12
-PORTS = {'shopping': 7770, 'reddit': 9999}
-FIXTURES = {'shopping': 'shop', 'reddit': 'forum'}
+PORTS = {'shopping': 7770, 'reddit': 9999, 'shopping_admin': 7780}
+FIXTURES = {'shopping': 'shop', 'reddit': 'forum', 'shopping_admin': 'shop-admin'}
 FIXTURE_IMAGES = {
     'reddit': 'am1n3e/webarena-verified-reddit@sha256:0594908059a03e5f610005689440a95c05e776e734006197c7b1eba12734cb46',
     'shopping': 'am1n3e/webarena-verified-shopping@sha256:3e8cb9b945ea9b1c94ab26dba53e8d12dd0406abbf4bf686fd3bb2b6a5908feb',
+    'shopping_admin': 'am1n3e/webarena-verified-shopping_admin@sha256:d0531dd27ed98d0c459ff9e88118bf2ed8b660b0ed99c38837db46c065a5be13',
 }
-# Synthetic benchmark accounts shipped with these two fixtures.
+# Synthetic benchmark accounts shipped with each fixture.
 AUTH = {'shopping': ('X-M2-Customer-Auto-Login', 'emma.lopez@gmail.com:Password.123'),
+        'shopping_admin': ('X-M2-Admin-Auto-Login', 'admin:admin1234'),
         'reddit': ('X-Postmill-Auto-Login', 'MarvelsGrantMan136:test1234')}
 URL = {site: f'http://127.0.0.1:{port}' for site, port in PORTS.items()}
 SYSTEM = """Operate this browser to finish the user's task. Return one action per decision.
@@ -62,6 +66,16 @@ VIEW = r"""() => {
  return 'Text: '+text.join(' | ').slice(0,1800)+'\nControls:\n'+controls.join('\n');
 }"""
 
+def storefront_links_match(html,origin):
+    targets=[]
+    class AccountLinks(HTMLParser):
+        def handle_starttag(self,tag,attrs):
+            if tag=='a':
+                target=urlsplit(urljoin(origin+'/',dict(attrs).get('href') or ''))
+                if target.path.rstrip('/')=='/customer/account':targets.append(target.netloc)
+    AccountLinks().feed(html)
+    return bool(targets) and all(t==urlsplit(origin).netloc for t in targets)
+
 def fresh(site):
     """Only replace a container carrying this experiment's unique owner label."""
     name = 'inkling-wa-' + FIXTURES[site]
@@ -71,24 +85,34 @@ def fresh(site):
             raise RuntimeError('Fixture name belongs to another process')
         subprocess.run(['docker','rm','-f',name],check=True,stdout=subprocess.DEVNULL)
     port = PORTS[site]
-    ctrl = 7771 if site == 'shopping' else 9998
+    ctrl = {'shopping':7771, 'reddit':9998, 'shopping_admin':7781}[site]
     image = FIXTURE_IMAGES[site]
     subprocess.run(['docker','run','-d','--rm','--platform','linux/amd64','--name',name,
                     '--label','inkling.experiment=webarena','-p',f'127.0.0.1:{port}:80',
                     '-p',f'127.0.0.1:{ctrl}:8877','-e',f'WA_ENV_CTRL_EXTERNAL_SITE_URL={URL[site]}',image],
                    check=True,stdout=subprocess.DEVNULL)
     start=time.monotonic()
-    healthy_path='/customer/account/' if site=='shopping' else '/'
-    marker=b'Account Information' if site=='shopping' else b'MarvelsGrantMan136'
+    cache_cleared=False
+    healthy_path, marker={'shopping':('/customer/account/',b'Account Information'),
+                          'reddit':('/',b'MarvelsGrantMan136'),'shopping_admin':('/admin',b'Dashboard')}[site]
     while time.monotonic()-start < 250:
         try:
-            with urlopen(Request(URL[site]+healthy_path,headers=dict([AUTH[site]])),timeout=18) as resp:
+            fetch=build_opener(HTTPCookieProcessor(CookieJar())).open if site=='shopping_admin' else urlopen
+            with fetch(Request(URL[site]+healthy_path,headers=dict([AUTH[site]])),timeout=18) as resp:
                 if resp.status==200 and urlsplit(resp.url).netloc==urlsplit(URL[site]).netloc and marker in resp.read():
                     if site=='shopping':
                         check=subprocess.run(['docker','exec',name,'curl','-fsS','--max-time','8',
                             'http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=5s'],
                             capture_output=True,text=True)
                         if check.returncode or json.loads(check.stdout).get('status') not in ('yellow','green'):
+                            time.sleep(2)
+                            continue
+                        with urlopen(Request(URL[site]+'/',headers=dict([AUTH[site]])),timeout=18) as home:
+                            matches=storefront_links_match(home.read().decode('utf-8','replace'),URL[site])
+                        if not matches:
+                            if not cache_cleared:
+                                subprocess.run(['docker','exec',name,'php','/var/www/magento2/bin/magento','cache:clean','config','full_page','block_html'],capture_output=True,timeout=55)
+                                cache_cleared=True
                             time.sleep(2)
                             continue
                     return
@@ -160,14 +184,35 @@ def observation(ctx,page):
             if attempt==7: raise
             page.wait_for_timeout(200)
 
-def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh,field_selection='keyboard'):
+def wait_for_start_page(page,site):
+    page.wait_for_load_state('load',timeout=45000)
+    if site=='shopping_admin' and page.get_by_role('heading',name='Dashboard',exact=True).count():
+        # Magento fills the dashboard tabs and their table asynchronously.
+        page.locator('a').filter(has_text=re.compile(r'^\s*Most Viewed Products\s*$')).first.wait_for(state='visible',timeout=30000)
+        page.locator('#productsOrderedGrid_table tbody td.col-product').first.wait_for(state='visible',timeout=30000)
+        page.evaluate("async () => { await document.fonts.ready; await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))); }")
+
+def matched_admin_dashboard(ctx,page,expected=None):
+    # The official storefront can list tied bestsellers in different orders.
+    # Compare the complete observed UI before inference. Each retry loads the unmodified dashboard.
+    for attempt in range(16):
+        if attempt:
+            page.reload(wait_until='load',timeout=45000)
+        wait_for_start_page(page,'shopping_admin')
+        view=observation(ctx,page)
+        if expected is None or view==expected:
+            return view,attempt
+    raise RuntimeError('Could not reproduce the first arm’s dashboard before inference.')
+
+def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh,field_selection='keyboard',expected_start_view=None):
     if field_selection not in ('keyboard','select-text'):
         raise ValueError('Unknown field selection method')
-    num=task['id']; site='reddit' if task['site'] in ('forum','reddit') else 'shopping'
+    num=task['id']; site={'shop':'shopping','forum':'reddit'}.get(task['site'],task['site'])
     origin=URL[site]
     fixture_reset(site)
     native=wa.get_task(num)
-    urls=[u.replace('__'+site.upper()+'__',origin) for u in native.start_urls]
+    entry=origin+'/admin' if site=='shopping_admin' else origin
+    urls=[u.replace('__'+site.upper()+'__',entry) for u in native.start_urls]
     stem=f'{num:03d}-{arm}'
     har=out/(stem+'.har')
     ctx=browser.new_context(viewport={'width':1200,'height':720},device_scale_factor=1,locale='en-US',
@@ -183,7 +228,11 @@ def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh,field_selection='
             res=p.goto(url,wait_until='domcontentloaded',timeout=45000)
             if res is None or res.status!=200: raise RuntimeError(f'Start page unavailable: {url}')
         page=ctx.pages[0];page.bring_to_front()
-        page.wait_for_load_state('load',timeout=45000)
+        prepared_view=None
+        preflight_reloads=0
+        if site=='shopping_admin':
+            prepared_view,preflight_reloads=matched_admin_dashboard(ctx,page,expected_start_view)
+        else:wait_for_start_page(page,site)
         page.evaluate('attachPointer()')
         movie=out/(stem+'.webm')
         recorders = list(ctx.pages)
@@ -197,6 +246,8 @@ def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh,field_selection='
             step_start=time.perf_counter()-start
             active_tab=ctx.pages.index(page)+1
             view=observation(ctx,page)
+            if not steps and prepared_view is not None and view!=prepared_view:
+                raise RuntimeError('Admin dashboard changed before its first inference call.')
             prompt=native.intent+'\n'+view+'\nPrevious actions: '+(' / '.join(history[-6:]) or 'none')
             if hasattr(worker,'decide_web'):
                 response=worker.decide_web(prompt,SYSTEM)
@@ -227,6 +278,7 @@ def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh,field_selection='
         receipt['hardware']=worker.hardware
         receipt['fixture_origin']=origin
     receipt['field_selection']=field_selection
+    if site=='shopping_admin':receipt['preflight_reloads']=preflight_reloads
     write_json(out/(stem+'.json'),receipt)
     print(num,arm,result.score,result.status,round(elapsed,2),len(steps),flush=True)
 
