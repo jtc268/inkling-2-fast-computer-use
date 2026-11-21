@@ -33,3 +33,5 @@ The first portable Windows pair was 1.21× faster. The edited model failed the f
 python benchmark/replay_search.py evidence/webarena-click-row/click-row-grades.zip
 python benchmark/verify_row_payload.py /path/to/original evidence/webarena-click-row/rows.npz evidence/webarena-click-row/weight-audit.json
 ```
+
+[First decision, total model generation and browser time](BROWSER-TIME-COMPONENTS.md).
