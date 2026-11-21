@@ -225,6 +225,94 @@
       }
     },
     {
+      "checkpoint": "order-boundary",
+      "task": 274,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 2.2733463979361197,
+      "original": {
+        "seconds": 15.23012145794928,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 usb wifi",
+          "C9",
+          "DONE navigate"
+        ],
+        "generated": 377,
+        "inference_seconds": 12.311935833073221,
+        "receipt_sha256": "dbbbe5106ffa51e7a6820ca560359732ece5934ae28e52a06dc56445c11aba4e",
+        "recording_sha256": "ab4548bbbc6c0d5b41c9c0875ee51573688e82031acc0bf40ccca070b6dc94b2"
+      },
+      "edited": {
+        "seconds": 6.699428416090086,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
+        "commands": [
+          "F7 usb wifi",
+          "C 9",
+          "DONE navigate"
+        ],
+        "generated": 24,
+        "inference_seconds": 2.4915796670829877,
+        "receipt_sha256": "6631149152033fe004eb356f17393e8d0a14314c3344c57b561f1ee9edd8d456",
+        "recording_sha256": "fa7bd6a481e34444be8687e5991964fbe2486d077c277594b4f5acd833df530d"
+      }
+    },
+    {
+      "checkpoint": "order-boundary",
+      "task": 274,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 1.6974869808068649,
+      "original": {
+        "seconds": 14.144440833013505,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 usb wifi",
+          "C9",
+          "DONE navigate"
+        ],
+        "generated": 377,
+        "inference_seconds": 11.703376956982538,
+        "receipt_sha256": "d49cbe46168654cc31315a957c0b496c597b90502e31be1de3dc6882c9ef3b01",
+        "recording_sha256": "f78c57a3d107f7f2711d06a6d4ba6ef8f498970baa21809cbc7a828149a3fec1"
+      },
+      "edited": {
+        "seconds": 8.332576916902326,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
+        "commands": [
+          "F7 usb wifi",
+          "C 9",
+          "DONE navigate"
+        ],
+        "generated": 24,
+        "inference_seconds": 3.6981667910004035,
+        "receipt_sha256": "161a1f02a25a507280279a2e2f36a7472cf4d86ef135eb5535e77d63605e8809",
+        "recording_sha256": "7d4c872f1668ad34517d3431ca292f8f79327c514043209de8f7a7d11714e7f8"
+      }
+    },
+    {
       "checkpoint": "pending-native-stop",
       "task": 189,
       "repeat": 1,
