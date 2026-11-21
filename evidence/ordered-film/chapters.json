@@ -1,5 +1,5 @@
 {
-  "sha256": "0109d47e738abbc233688faccbfb8456c1d32e4333f9c4fa99d241292b9fa27d",
+  "sha256": "5da72cf31a11e99be7f80e13d2a6711a68f70cb8d320b86f7b20f5733a028827",
   "fps": 20,
   "resolution": [
     1200,
@@ -777,36 +777,36 @@
         {
           "start_s": 60.65,
           "duration_s": 2.55,
-          "shared_elapsed_start_s": 17.83083316704724,
+          "shared_elapsed_start_s": 2.30529470902402,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 32.46167954104021,
+              "elapsed_s": 23.85580195800867,
               "passed": true,
               "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "9ba3ed797a91c4186c5cb367a02bfda81f199bc82920323872f842469f3b19ba",
+              "receipt_sha256": "b1634b0f8243545d4097ffe4ca933354bde835338404e687caf3aae5c2018efc",
               "receipt": "189-original.json",
               "recording": {
                 "kind": "native browser recording",
-                "source_sha256": "4fd59b2140b47da1cce12d7c32ce56726b11bac616a32a966382d3bfbfc807cc",
-                "start_s": 17.8315080010565,
-                "source_duration_s": 32.45,
+                "source_sha256": "1ee1ac955ae3bda5d4734587196fc9c44130579aa394ed8db92f8f008b490ab0",
+                "start_s": 2.3059786259895194,
+                "source_duration_s": 23.85,
                 "available_frames": 51
               }
             },
             {
-              "arm": "Pending click edit",
-              "elapsed_s": 19.68083316704724,
+              "arm": "Pending click + stop edit",
+              "elapsed_s": 4.1552947090240195,
               "passed": true,
               "device": "M5 Max MacBook Pro",
-              "receipt_sha256": "1b7c427ba79706d38ed29222549967f89352ee6e8e9f7563013e4811775061a4",
+              "receipt_sha256": "e6c644893422e06b9a286c7b2a9ddf26a1cde522b86c712bbf9ca2de49158152",
               "receipt": "189-edited.json",
               "recording": {
                 "kind": "native browser recording",
-                "source_sha256": "d0e3dbf12cef1da6361d8bf380cbdf1d6dd34e35d99683f49ff73746ab4807e6",
-                "start_s": 17.831527292006648,
-                "source_duration_s": 19.85,
-                "available_frames": 39
+                "source_sha256": "3cfe1ad7af674a69fbeca895f5c882f54b60d2cf811bcb95d1bb15552a817703",
+                "start_s": 2.306361583969556,
+                "source_duration_s": 4.35,
+                "available_frames": 38
               }
             }
           ]
