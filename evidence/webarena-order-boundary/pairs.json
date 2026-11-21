@@ -1,0 +1,51 @@
+{
+  "task_id": 188,
+  "device": "RTX 5090",
+  "pairs": [
+    {
+      "id": 188,
+      "repeat": 1,
+      "device": "RTX 5090",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": null,
+      "versions": {
+        "edited": {
+          "acknowledged_version": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
+          "seconds": 16.901398128829896,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        },
+        "original": {
+          "acknowledged_version": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+          "seconds": 15.756622410845011,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        }
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 3.161069875000976,
+        "decisions": 3,
+        "inference_seconds": 0.9746392919914797,
+        "thinking_tokens": 0,
+        "generated_tokens": 22
+      },
+      "original": {
+        "score": 0.0,
+        "seconds": 5.450880583026446,
+        "decisions": 3,
+        "inference_seconds": 4.341966916923411,
+        "thinking_tokens": 546,
+        "generated_tokens": 639
+      }
+    }
+  ],
+  "verified_native_grades": 2,
+  "baseline_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "candidate_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d"
+}
