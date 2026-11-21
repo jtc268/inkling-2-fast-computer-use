@@ -1,0 +1,92 @@
+{
+  "suite": "BrowserGym MiniWoB++",
+  "browser": "Brave",
+  "seeds": [
+    101,
+    102,
+    103,
+    104
+  ],
+  "tasks": {
+    "email-inbox": {
+      "pairs": 4,
+      "original_pass": 3,
+      "edited_pass": 3,
+      "both_pass": 3,
+      "original_only": 0,
+      "edited_only": 0,
+      "both_fail": 1,
+      "median_original_s_joint_success": 6.312227500020526,
+      "median_edited_s_joint_success": 2.315461333026178
+    },
+    "use-autocomplete": {
+      "pairs": 4,
+      "original_pass": 2,
+      "edited_pass": 3,
+      "both_pass": 2,
+      "original_only": 0,
+      "edited_only": 1,
+      "both_fail": 1,
+      "median_original_s_joint_success": 23.014135624980554,
+      "median_edited_s_joint_success": 4.526638625538908
+    },
+    "social-media-all": {
+      "pairs": 4,
+      "original_pass": 3,
+      "edited_pass": 0,
+      "both_pass": 0,
+      "original_only": 3,
+      "edited_only": 0,
+      "both_fail": 1,
+      "median_original_s_joint_success": null,
+      "median_edited_s_joint_success": null
+    },
+    "choose-date": {
+      "pairs": 4,
+      "original_pass": 3,
+      "edited_pass": 0,
+      "both_pass": 0,
+      "original_only": 3,
+      "edited_only": 0,
+      "both_fail": 1,
+      "median_original_s_joint_success": null,
+      "median_edited_s_joint_success": null
+    },
+    "book-flight": {
+      "pairs": 4,
+      "original_pass": 0,
+      "edited_pass": 0,
+      "both_pass": 0,
+      "original_only": 0,
+      "edited_only": 0,
+      "both_fail": 4,
+      "median_original_s_joint_success": null,
+      "median_edited_s_joint_success": null
+    }
+  },
+  "aggregate": {
+    "pairs": 20,
+    "original_pass": 11,
+    "edited_pass": 6,
+    "both_pass": 5,
+    "original_only": 6,
+    "edited_only": 1,
+    "both_fail": 8,
+    "median_original_s_joint_success": 19.863751374999993,
+    "median_edited_s_joint_success": 3.835377417039126
+  },
+  "reset_goals_identical": true,
+  "starts_with_identical_rendered_dom": 20,
+  "elapsed": "After environment reset through native reward or stop; warm checkpoints. Latency medians use only identical seeds both models solved.",
+  "settings": {
+    "browsergym_core": "0.14.3",
+    "browsergym_miniwob": "0.14.3",
+    "miniwob_revision": "7fd85d71a4b60325c6585396ec4f48377d049838",
+    "max_decisions": 16,
+    "reasoning_effort": "none",
+    "sampling": "greedy",
+    "max_generated_per_decision": 384,
+    "observation": "Rendered DOM with BrowserGym IDs and prior actions; no screenshots passed to the model.",
+    "actions": "One BrowserGym click or fill per decision. Identical state/action repetition or malformed action ends the episode with zero credit."
+  }
+}

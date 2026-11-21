@@ -20,7 +20,23 @@ In the filmed run, the original generated 95 thinking tokens for the form and 10
 
 There is also a prompt-only shortcut. On the development case, the original took 16.82 s with the shared prompt and 7.57 s with its answer channel prefilled. The edited checkpoint took 6.94 s with the shared prompt. The six main pairs are variants of the same two pages. Accuracy on harder tasks, screenshot loops and other browsers remains unmeasured. [Prompt control](evidence/dev-original-prefill.json)
 
+## BrowserGym accuracy
+
+The original passed 11/20 cases and the edit passed 6/20. Both passed 5. The original alone passed 6, the edit alone passed 1, and both failed 8. Across the 5 joint successes, median completion time was 19.86 s original and 3.84 s edited. Four matched seeds per environment.
+
+| MiniWoB++ task | Original | Edited |
+| --- | ---: | ---: |
+| Email inbox | 3/4 | 3/4 |
+| Autocomplete | 2/4 | 3/4 |
+| Social feed | 3/4 | 0/4 |
+| Date picker | 3/4 | 0/4 |
+| Flight booking | 0/4 | 0/4 |
+
+The model read a fresh text description of the DOM after each action. BrowserGym graded the outcome. Each case allowed 16 decisions. [Run details](benchmark/BROWSERGYM.md) · [Scores](evidence/browsergym-summary.json) · [All 40 receipts](evidence/browsergym-receipts.zip)
+
 ## Try it
+
+If your agent already supports Inkling 2 Mini, use `husky8/Inkling-2-Fast-Computer-Use` as its model ID. The agent supplies the browser view and executes the commands. The channel edit lives in the checkpoint.
 
 To download the full model with the Hugging Face CLI:
 
