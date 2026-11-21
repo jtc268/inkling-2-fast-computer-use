@@ -5,6 +5,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Checkpoint | Hardware | Baseline | Task IDs | Baseline passes | Edited passes | IDs at ≥2× in both orders |
 |---|---|---|---|---:|---:|---|
 | Completed-order stop | M5 Max MacBook Pro | Upstream stock | 190 | 2/2 | 2/2 | 190 |
+| Completed-order stop | RTX 5090 | Upstream stock | 190 | 2/2 | 2/2 | — |
 | Windows command-stop | M5 Max MacBook Pro | Upstream stock | 188, 274 | 4/4 | 4/4 | 188 |
 | Windows command-stop | RTX 5090 | Upstream stock | 188 | 2/2 | 2/2 | 188 |
 | Pending click + stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
@@ -40,10 +41,12 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Pending click + stop | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 49.00s · pass | 19.75s · pass | 2.48× |
 | Completed-order stop | 190 | M5 Max MacBook Pro | Upstream stock | Edited | 45.34s · pass | 5.19s · pass | 8.73× |
 | Completed-order stop | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 46.59s · pass | 6.01s · pass | 7.75× |
+| Completed-order stop | 190 | RTX 5090 | Upstream stock | Edited | 7.22s · pass | 9.29s · pass | 0.78× |
+| Completed-order stop | 190 | RTX 5090 | Upstream stock | Baseline | 12.15s · pass | 8.93s · pass | 1.36× |
 
 The pending click + stop edit was developed on 189. Its other tasks use frozen weights. The Windows command-stop edit was developed on 188 and has a different shard. The pending click + stop runs on Windows and Mac use the same shard. The completed-order stop edit was developed on 190 after recording the frozen checkpoint on that task.
 
-54 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
+58 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
 
 [Exact pending-order rows](../evidence/webarena-pending-repair/pending-native-stop/) · [Windows command-stop rows](WEBARENA-ORDER-BOUNDARY.md) · [Grades and recording hashes](../evidence/webarena-order-checkpoints/).
 

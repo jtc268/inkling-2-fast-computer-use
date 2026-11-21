@@ -1224,6 +1224,96 @@
         "receipt_sha256": "8b729c4bcaea345f9744a11f42c1257d38ec3be17b1236f694e4de2bae22cc38",
         "recording_sha256": "ad265854077e737e48522c06297e43afc05be25661d9a37e4a29a0fd0eba844a"
       }
+    },
+    {
+      "checkpoint": "complete-stop",
+      "task": 190,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 0.7768753233595105,
+      "original": {
+        "seconds": 7.21626258303877,
+        "score": 1.0,
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C1",
+          "C28",
+          "ANSWER [65.32]"
+        ],
+        "generated": 662,
+        "inference_seconds": 4.76776066608727,
+        "receipt_sha256": "8726d5aa918653cd9a022445555ba3f978836fefa0d160feac9b580ed0cd5372",
+        "recording_sha256": "fbb66bed1ce5064b2bf276daf9e310be8e8cf82473c4397f03cd3e66eac6f37a"
+      },
+      "edited": {
+        "seconds": 9.288829708006233,
+        "score": 1.0,
+        "device": "RTX 5090",
+        "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [65.32]"
+        ],
+        "generated": 1034,
+        "inference_seconds": 7.138767582830042,
+        "receipt_sha256": "8837ce095ebbf98d48c0c2cf246993515e50042e85d13ced316f91a1c1cd3662",
+        "recording_sha256": "b0e9e487c12576311698b8e8efb727745b3c5abb98b3dcb6004591524c4f4699"
+      }
+    },
+    {
+      "checkpoint": "complete-stop",
+      "task": 190,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 1.3608271132567153,
+      "original": {
+        "seconds": 12.153708999976516,
+        "score": 1.0,
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C1",
+          "C28",
+          "ANSWER [65.32]"
+        ],
+        "generated": 662,
+        "inference_seconds": 4.9256642068503425,
+        "receipt_sha256": "2c7a4e2807c73cd87a088b3d20e2d958db61fed9c14b8317980503920b3be701",
+        "recording_sha256": "24915a2e17337a0b0d87f7cfcdc83f58cd02e4c8d9b541a6811426a06e940a17"
+      },
+      "edited": {
+        "seconds": 8.931119083077647,
+        "score": 1.0,
+        "device": "RTX 5090",
+        "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [65.32]"
+        ],
+        "generated": 1034,
+        "inference_seconds": 6.83465154201258,
+        "receipt_sha256": "72fc0400d00b8206a2d5ed97e3056e362a4f7c0d05a0e932d414b6ae97611a00",
+        "recording_sha256": "bc1d171a325af34b00b81ba751c1d2f23b8a0a8b8ac5d6496264456aedbe319c"
+      }
     }
   ]
 }
