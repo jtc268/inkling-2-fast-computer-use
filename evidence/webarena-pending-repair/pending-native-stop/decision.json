@@ -1,0 +1,60 @@
+{
+  "status": "Audited frozen candidate",
+  "parent_sha256": "decac3370d3bca8ebae28f79101646e675dfd83bf37c15dd2b7c121c85bf44ee",
+  "sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
+  "changes": [
+    {
+      "row": 200006,
+      "changed_values": 2284,
+      "protected": 612,
+      "relative_norm": 0.20971777222528445,
+      "max_guard_shift": 0.02306799532379955,
+      "shortfall": -0.009782929555512965
+    }
+  ],
+  "development_task": 189,
+  "evidence": [
+    {
+      "case": 0,
+      "ordinary": "C1",
+      "tokens": 6,
+      "first_token": 34,
+      "conditional": "C1",
+      "conditional_tokens": 6,
+      "first_command": "C1"
+    },
+    {
+      "case": 1,
+      "ordinary": "C1",
+      "tokens": 512,
+      "first_token": 34,
+      "conditional": "C1",
+      "conditional_tokens": 6,
+      "first_command": "C1",
+      "stop_position": 5,
+      "existing_next_token": 200001
+    }
+  ],
+  "unforced": [
+    {
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "command": "C1",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "command": "C27",
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "command": "ANSWER [754.99]",
+      "tokens": 10,
+      "matches": true
+    }
+  ]
+}
