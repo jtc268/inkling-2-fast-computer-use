@@ -12,6 +12,8 @@ The first control setup retried before timing while the recorder located its enc
 | 276 · Switch accessories search · new | pass · 5.38 s | fail · 1.74 s | — |
 | 270 · Men’s shoes below $30 · new | fail · 26.59 s | fail · 7.78 s | — |
 
+On the new Switch-accessories query, the original entered the text and clicked Search. The edit entered the same text and declared success before submitting the search. The native grader awarded it zero.
+
 The catalog contains 812 task IDs. The search control is counted once in coverage, regardless of repeat count. MiniWoB++ seeds, Selenium forms and the manually constructed Xbox grader control are excluded. A single paired attempt on each new ID establishes an outcome on that case. It does not establish a full-suite speed or accuracy rate. [Coverage by task ID](../evidence/webarena-expansion/coverage.json) · [Six grade receipts and replay inputs](../evidence/webarena-expansion/receipts.zip) · [Selection and settings](../evidence/webarena-expansion/protocol.json)
 
 To reproduce all six grades offline, run this from the repository with WebArena-Verified 1.2.3 installed.

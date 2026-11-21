@@ -1,0 +1,1258 @@
+{
+  "sha256": "378b84b520c5024babbe6f85553af0e44673a68ba498158dc6da1af5b11aea7b",
+  "fps": 20,
+  "resolution": [
+    1200,
+    900
+  ],
+  "duration_s": 108.75,
+  "task_count": 30,
+  "opening_s": 2.75,
+  "closing_start_s": 105.25,
+  "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
+  "chapters": [
+    {
+      "number": 1,
+      "start_s": 2.75,
+      "duration_s": 4.25,
+      "environment": "Selenium",
+      "task": "Case 02",
+      "title": "Fill and submit a form",
+      "shared_elapsed_start_s": 0,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 8.643281833035871,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "a1e00b60607d136ddeca47529834e417bdb2b17e1266bafca808ee1ee4f96e36",
+          "receipt": "02-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "c094391f4bdc6545669730fd7dc5dfe30137e5ef2b63c178921d783a4de7f8bc",
+            "start_s": 0.04,
+            "source_duration_s": 15.44,
+            "available_frames": 85
+          }
+        },
+        {
+          "arm": "Two-row swap",
+          "elapsed_s": 3.055238249944523,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "6d5e5c9ac411ce3464e3c94b5149c1d633abd315acb6a7c33402604da815182c",
+          "receipt": "02-release_swap.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "f80ae6b4df0da070fa403b8b00a77542577ae73977a4a16fa5645f6f977dcc65",
+            "start_s": 0.0,
+            "source_duration_s": 8.84,
+            "available_frames": 63
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "start_s": 7.0,
+      "duration_s": 4.25,
+      "environment": "Selenium + Automation Exercise",
+      "task": "Case 03",
+      "title": "Set quantity to two and add the dress",
+      "shared_elapsed_start_s": 3.602266958029941,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 16.958890917012468,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "40ccf6dc2ebf5387bf9bf807a770404c3ac5ea6808df9e157f9f4ce664321291",
+          "receipt": "03-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "cb68912b3f5d8c99bbca757b933501f4e4978a9de8b4c47966faa5418ca5394f",
+            "start_s": 3.642266958029941,
+            "source_duration_s": 18.44,
+            "available_frames": 85
+          }
+        },
+        {
+          "arm": "Two-row swap",
+          "elapsed_s": 7.152266958029941,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "54049cfc3bade3cc994902ea470824f215579aca05ddb7b4acc5f0e72de6b21d",
+          "receipt": "03-edited.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "7da366d3d7889ee801626bf6c4a6f38104490ccd51dab650ebda4f28d44b1c4d",
+            "start_s": 3.602266958029941,
+            "source_duration_s": 8.12,
+            "available_frames": 73
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "start_s": 11.25,
+      "duration_s": 4.75,
+      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "task": "Seed 103",
+      "title": "Complete an autocomplete field",
+      "shared_elapsed_start_s": 0,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 15.463160666055046,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "ad8aa2d68a7798effdfa3d80104409c76e4d4317f4aef7a43cc28f6085c269dc",
+          "receipt": "use-autocomplete-103-original.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 0,
+            "source_sha256": "3768c12d71ff98aafc5104cb764816e43a53371c8a5b5532d9a33df538c04d0f",
+            "timing_manifest_sha256": "08490f9e128d0d41dc1da13f69388e39b2888f9acc2a2802fb83ece1f6bca894",
+            "frame_count": 123
+          }
+        },
+        {
+          "arm": "Two-row swap",
+          "elapsed_s": 3.3551289580063894,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "9d89431a3f116bc20716074fb85f73dc22f9b8059bbf516cb9a3db1393c608ba",
+          "receipt": "use-autocomplete-103-edited.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 0,
+            "source_sha256": "f01a27f87a8e46e5921345e4e56d68636eca684525547d67abd81371958968a2",
+            "timing_manifest_sha256": "3a2e2d6a4a2f3fc2ec4ad2de24126f5c20c9091ccd3089312d6b5d7f3f13a5d7",
+            "frame_count": 28
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "start_s": 16.0,
+      "duration_s": 4.75,
+      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "task": "Seed 104",
+      "title": "Reply to an email",
+      "shared_elapsed_start_s": 1.9337746249977499,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 26.014819292002358,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "1e180cd54134623afe13834a76e83bfc5367d8ed17b4ebc6c60b0f7f502584a1",
+          "receipt": "email-inbox-104-original.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 1.9337746249977499,
+            "source_sha256": "1b8cda1812e06a017e5b2dc72a7e25fdefb16d89e0cfffb25ee081a9e38878f7",
+            "timing_manifest_sha256": "27eb1ae06a81a62873e5e94ddfc5c3eef534ddaf7d76624fb5ae93557707ab60",
+            "frame_count": 206
+          }
+        },
+        {
+          "arm": "Two-row swap",
+          "elapsed_s": 5.98377462499775,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "e4c9072125bf488bd278eea39bb069d4144453dd3dec8aafca42fe65c26b3526",
+          "receipt": "email-inbox-104-edited.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 1.9337746249977499,
+            "source_sha256": "ed5227ad3c7a9a44c11b380bd85960c691ee8cc46fa1be754a45061d0dacf3b1",
+            "timing_manifest_sha256": "c0284e5f6372e4d63e1a835bb30390cca3ed62ec86514b1602a44b366e990b5c",
+            "frame_count": 49
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "start_s": 20.75,
+      "duration_s": 3.25,
+      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "task": "Seed 101",
+      "title": "Like every post from one account",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 20.16481412493158,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "4c14d15d582ab4266aab07f068e91f1585ea48eb03d8bf543c13b0dfd1c530e3",
+          "receipt": "social-media-all-101-original.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 16.91481412493158,
+            "source_sha256": "5a6d0777378409f6eef724dcc619730a421370a5c1e477ff1a45ac13026e7544",
+            "timing_manifest_sha256": "726a597396101b4d3412f6e0631b4dd9dab77ddd379a54077b2029b7021db09e",
+            "frame_count": 160
+          }
+        },
+        {
+          "arm": "Two-row swap",
+          "elapsed_s": 5.829392791958526,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "9c72c15bd32d0d89bd95bf1ef85d9b880d506629e8be014c8f718a1b3e97d5eb",
+          "receipt": "social-media-all-101-edited.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 2.5793927919585258,
+            "source_sha256": "0faed0ad2dbd2480afdc77f1b1844ea53750f69d3560f4eed356991e223b63a2",
+            "timing_manifest_sha256": "83c29e31ae88d6a20a5fe55cca737ed51ccd2f541057d788296b0f1ae7164407",
+            "frame_count": 47
+          }
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "start_s": 24.0,
+      "duration_s": 3.25,
+      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "task": "Seed 101",
+      "title": "Pick a date",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 21.568157291971147,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "ac9c8f8ca21273947820aab7456d0e1cfa79a420d4d8a0f7d90daee765d0a063",
+          "receipt": "choose-date-101-original.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 18.318157291971147,
+            "source_sha256": "b37c67102485f4ac79f9b399599b0cc6e9d60496fe7262e0874d744040b9bef4",
+            "timing_manifest_sha256": "6a2c829c951ea6e6c771defe86e7e0a2213e314e26cc88c8d884deed80ae6b77",
+            "frame_count": 172
+          }
+        },
+        {
+          "arm": "Two-row swap",
+          "elapsed_s": 16.94887112500146,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "5d88b3b5b2b118224bd0980c69baefa7d21898228eb94f923340d02ded3c361f",
+          "receipt": "choose-date-101-edited.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 13.69887112500146,
+            "source_sha256": "ff657f909934323620646be6a81041a502f8925f67b1a80d9c89f0f0c803cd1a",
+            "timing_manifest_sha256": "27ea078b875eaab02210909e61032b7fc6597c577002938dbd03e4e2092c5897",
+            "frame_count": 135
+          }
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "start_s": 27.25,
+      "duration_s": 3.25,
+      "environment": "BrowserGym \u00b7 MiniWoB++",
+      "task": "Seed 101",
+      "title": "Book the shortest one-way flight",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 63.24608595808968,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "f5af0d7228f868bdb87cd815c0833364e82608948c40f9adb747acfda59a858c",
+          "receipt": "book-flight-101-original.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 59.99608595808968,
+            "source_sha256": "a54ebcf05f3b95ff7395113d60fa3e737eb433ba2455d97b5203361c50d5320e",
+            "timing_manifest_sha256": "31fbe4c309f615aa635d72f095479e35e6178af934223f7e849fb2a509a53b1c",
+            "frame_count": 499
+          }
+        },
+        {
+          "arm": "Two-row swap",
+          "elapsed_s": 90.67623720807023,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "3f5b947b0621d1c2bff09cdda3639257642bf703a6720d0ad96cfc69727fe7e9",
+          "receipt": "book-flight-101-edited.json",
+          "recording": {
+            "kind": "timestamped browser captures",
+            "start_s": 87.42623720807023,
+            "source_sha256": "94d7378ee86e6796df7005545270edf539d713b1447a4f14a06574d9bad8587b",
+            "timing_manifest_sha256": "0664f31709cf1cf0b2082180e305690e8a405d509985c83b0101819869d701a8",
+            "frame_count": 713
+          }
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "start_s": 30.5,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "21",
+      "title": "Read headphone reviews",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 14.290919666993432,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "67dfd0d778b9e046f1a0a35fb2c3f3b83fb3b4467be291c3cbf141b133aa0309",
+          "receipt": "021-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "52f058d3faeb02f519bde468ee6997b91bf1e3e6d2dd4f02673b10e51edf314d",
+            "start_s": 12.0,
+            "source_duration_s": 15.25,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Selective edit",
+          "elapsed_s": 9.804292374989018,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "06634e5687f057641486f0c070e283d7e6d989105a403675b980c0d69f7055c3",
+          "receipt": "021-selective.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "97ec666ed9f1215a484e727965837f815666ba603261804e293fe021e9d8e781",
+            "start_s": 7.550000000000001,
+            "source_duration_s": 10.8,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "start_s": 33.75,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "27",
+      "title": "Read the latest finance discussion",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 12.017803041962907,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "8885db630d211e440d3d723c64d32d493627a16d92c0c7e8949beae97403b97f",
+          "receipt": "027-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "bc559b70f6a20fb9f944f9cdfe41a9c80e6dd5ec7e6bac332a88f1c5223fb455",
+            "start_s": 8.75,
+            "source_duration_s": 12.0,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Selective edit",
+          "elapsed_s": 1.0350043339421973,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "ee0cb22aba3180b8e63b9751be0e6f078b6e294a82c93ec56edcd5c9dd15eb90",
+          "receipt": "027-selective.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "b7ebacb3fbbf9aa66c05120beaaa082afc6e8e6e475f533290bd9b451ed32604",
+            "start_s": 0,
+            "source_duration_s": 2.05,
+            "available_frames": 41
+          }
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "start_s": 37.0,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "66",
+      "title": "Find book recommendations",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 93.16534770908765,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "2ef0a76cbe8fed96735175027e4db53a6414138afc6caf3f105572ded0a2aa4d",
+          "receipt": "066-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "4ed4ce9f2135395cccaa6ddbde34f2de413ad1c619c5455edbdf3800ba25b3b1",
+            "start_s": 90.9,
+            "source_duration_s": 94.15,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Selective edit",
+          "elapsed_s": 32.15284504101146,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "c6db2eef52a9b7b7d671a810907bcbf995566a4e233f288125811776cd399b35",
+          "receipt": "066-selective.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "d750b2db988c7a8ef4a824e7a4d8926433565a4b24275b2aba1b8e65402b95ee",
+            "start_s": 29.9,
+            "source_duration_s": 33.15,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "start_s": 40.25,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "96",
+      "title": "Track the latest order",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 11.64999754098244,
+          "passed": true,
+          "device": "RTX 5090",
+          "receipt_sha256": "6ea1200ce4355c2d5287a5da992bbb574837354f5cc70b4bcb95515dbda8c951",
+          "receipt": "096-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "03b65eb9955f55c16ec1d7c6ec55b705e42886d21536332d7a77eaaad2e866b8",
+            "start_s": 8.4,
+            "source_duration_s": 11.65,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Click / stop edit",
+          "elapsed_s": 17.00080599996727,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "c99428031cd58e9f44e83cf69b4a95bfbf7f562cae8164c3f2398fef9092ce56",
+          "receipt": "096-candidate.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "e61ecc93a3d95d2e6f616a21b34f7cc17bb5409ccbc8f40877394d915ac33699",
+            "start_s": 13.75187612499576,
+            "source_duration_s": 17.95,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "start_s": 43.5,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "163",
+      "title": "Find low-star review titles",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 2.5146072920178995,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "d6b0f1ad89ad5dbbe2af4de8261561c090531ae4717185725bb83d723e80cbb4",
+          "receipt": "163-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "37b42a6f830145e8b01e6cec8c6d28fb89aa8fe801abe9919e3fe76d5ddfaeba",
+            "start_s": 0.25,
+            "source_duration_s": 3.5,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Selective edit",
+          "elapsed_s": 0.4777584580006078,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "3cde6bdc0aa98f6ce25ad143de37b65b65e52f515f84b6c172be435634481cd8",
+          "receipt": "163-selective.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "0c611de0ed923a1e4783be502e71797e3651f18b222148e5b80586284ef23572",
+            "start_s": 0,
+            "source_duration_s": 1.5,
+            "available_frames": 30
+          }
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "start_s": 46.75,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "231",
+      "title": "Find a canceled order number",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 6.6563728749752045,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "dba0db06cdd24a364d3d7ed703e8aa221607112e484ed065bfeae794a7720775",
+          "receipt": "231-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "7b3fa7670690b658d28ceb15bcd79caa6f9b0807a87040418099f3c18070528d",
+            "start_s": 4.4,
+            "source_duration_s": 7.65,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Selective edit",
+          "elapsed_s": 4.067517541931011,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "6ff7b40f9f37b75708af6b516d99bc3310d4c17014d14f3978026b3e3cb2d298",
+          "receipt": "231-selective.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "ff31faeef21323e7c9b0a1ef1256e39febbc70ce304011fca60c4e7f3693e3ba",
+            "start_s": 1.25,
+            "source_duration_s": 4.5,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "start_s": 50.0,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "260",
+      "title": "Browse video games",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 1.7300323750823736,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "6572f6525b5cd53e9209f7b4ad47d496ef0127bfa07be3bc4d6d45001ae4ff4b",
+          "receipt": "260-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "f843acca5acb2c45a0c0fa7c270f9c158fc40a9af337df8c37595fccba26a992",
+            "start_s": 0,
+            "source_duration_s": 2.7,
+            "available_frames": 54
+          }
+        },
+        {
+          "arm": "Selective edit",
+          "elapsed_s": 2.5460750829661265,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "2448812891647952494e84f31962d367ab1e8933593250ab74a665e94e86392a",
+          "receipt": "260-selective.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "d656fafbd06df21ba0aa012ede65d77d0d8a7270ba3ef4e9f17638f8576202ab",
+            "start_s": 0.2999999999999998,
+            "source_duration_s": 3.55,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "start_s": 53.25,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "269",
+      "title": "Filter shoes under $25",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 31.290332584059797,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "f203578690aa898f2da05005183436661df266655bef4e9472afe6ad17e19c80",
+          "receipt": "269-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "ca9f0cb2585200e98edefc752db33ef399456af00fab2d676711003ce1446176",
+            "start_s": 28.041356208967045,
+            "source_duration_s": 32.2,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Click / stop edit",
+          "elapsed_s": 27.34156583400909,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "264558df5dc080389b3efd246022b9c54d8e09b040578c63845e6c06f46da6d2",
+          "receipt": "269-candidate.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "a4da8be857d5ac2a6e75856e63069d36dc9d5db4022e54437951be198e17965c",
+            "start_s": 24.09343662497122,
+            "source_duration_s": 28.3,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "start_s": 56.5,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "270",
+      "title": "Filter men\u2019s shoes below $30",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 26.58710758399684,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "5abd4dea89adb3781d0f9aeb538b334ab7e99b4c56830f20b883cc50546ac042",
+          "receipt": "270-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "83196e62b497e1cc7418b0ef1e0389b36d1a66194397b96be5c61a1f19446c4c",
+            "start_s": 23.33832854195498,
+            "source_duration_s": 27.55,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Four-row edit",
+          "elapsed_s": 7.783542124903761,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "14886741a83d0cbdbf099501a961f49516b00773a124f83968d52027eed48b54",
+          "receipt": "270-edited.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "73288faace2fb00a3fcb19608f983bdebdaf5516b679cb546dba76bd715816fe",
+            "start_s": 4.534362249891274,
+            "source_duration_s": 8.6,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "start_s": 59.75,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "274",
+      "title": "Search for a USB Wi-Fi adapter",
+      "shared_elapsed_start_s": 0.9990047499770298,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 5.305215624975972,
+          "passed": true,
+          "device": "RTX 5090",
+          "receipt_sha256": "1ebe8e09273493122df72a1bcea5d9a8e895ffb4d163e7dea773a1949c3e6d2a",
+          "receipt": "274-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "c24804833c155641e9adb5f3421f1e591ae3037d5d6c8a80a883385dfdb356f7",
+            "start_s": 1.000099542015232,
+            "source_duration_s": 5.6,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Four-row edit",
+          "elapsed_s": 3.54900474997703,
+          "passed": true,
+          "device": "RTX 5090",
+          "receipt_sha256": "2e133dc6f32527362df138b3f34455f4567ad06da7604a0ea97a34f5c140dc4e",
+          "receipt": "274-edited.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "2d762b992940fafc1b11494875baf60784a4d9bde93a3a43cd83ff8a1613b083",
+            "start_s": 1.0004139579134061,
+            "source_duration_s": 4.65,
+            "available_frames": 52
+          }
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "start_s": 63.0,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "276",
+      "title": "Search for Switch accessories",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 5.3774351249448955,
+          "passed": true,
+          "device": "RTX 5090",
+          "receipt_sha256": "ee2119be7dea506ab3d701347f18c6bbbdc6c4d26bf7de8d176e68b67e13d5a1",
+          "receipt": "276-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "d4f8775dc31c364290010542e4eb05a8aee217415edcfded75efe2c213514562",
+            "start_s": 2.128152124932967,
+            "source_duration_s": 6.1,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Four-row edit",
+          "elapsed_s": 1.7381752079818398,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "2ad2b6df72ebf6202c50c92bcd3f73d125d9e84739e5281561993d6a30feb789",
+          "receipt": "276-edited.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "1d89fe9c77a35d742dcf1001072ae4eda39fddd0204a91fe4f3859cbf1325490",
+            "start_s": 0,
+            "source_duration_s": 2.7,
+            "available_frames": 36
+          }
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "start_s": 66.25,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "313",
+      "title": "Find customer service",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 15.730594541062601,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "a2242a6d96326dcc4520e061a9f588be4bc43c8ca398ba867ca608e6d0dca11f",
+          "receipt": "313-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "17ae6a74b8bedfac5aff872ff339927313b46ab01d199651778c2cb866a14a2d",
+            "start_s": 12.48175816598814,
+            "source_duration_s": 16.65,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Click / stop edit",
+          "elapsed_s": 17.031620875000954,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "7846098a3172221821062a368f9b743129b459e6d57cb7f52472dabb58199113",
+          "receipt": "313-candidate.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "7bd25009f7c92e838fd64ef0a10b474dec0958de1a28d33bdc68020fac472b4c",
+            "start_s": 13.782806040951982,
+            "source_duration_s": 17.95,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "start_s": 69.5,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "324",
+      "title": "Sort chairs by price",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 30.0253297080053,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "9c1c269ec32abe8e43ea1ed29980507159d696673b9319a590705c4b3284d076",
+          "receipt": "324-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "8df44618553af86755eaea7d406159d7f1a8001f403a1fa4c88810e42a89bad1",
+            "start_s": 27.75,
+            "source_duration_s": 31.0,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Selective edit",
+          "elapsed_s": 11.177542124991305,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "7c163e07d043bbe0bcfdcc3f349239eebdf7f5d922c3ccc8ec21fb37a8ec36f0",
+          "receipt": "324-selective.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "3332a57a3f93fade94bf96f303a192bf42cb9909394e68571b0bc5b92e2c1d80",
+            "start_s": 8.9,
+            "source_duration_s": 12.15,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "start_s": 72.75,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "358",
+      "title": "Check how an order shipped",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 9.758979709004052,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "0f3ba69b2c7781c67776b658e1c0f8b0391943dadb8cad018db2a6c14c3244e5",
+          "receipt": "358-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "f9d8b8b9a5131fc4c85ec7664d7ede173ebb8e9fd6177e509eb48666ebd3a16e",
+            "start_s": 7.5,
+            "source_duration_s": 10.75,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Selective edit",
+          "elapsed_s": 18.59243716695346,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "c84986785157b659a33094a501aede077ad601848b3d85021345476c6c7f21df",
+          "receipt": "358-selective.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "c14e04dc376b26d51c8b837cefac39b518050f0a9aee522d06da15810b5f2d8e",
+            "start_s": 16.0,
+            "source_duration_s": 19.25,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "start_s": 76.0,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "399",
+      "title": "Edit a forum profile",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 5.167680417071097,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "0d8533467c8c95298d7682544aceede284ecba7b2aacc3c187f95099af55a55f",
+          "receipt": "399-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "c421512ee0caefe06383ce23cd66006a0278751b9fc012a80e5a4b2602c577c8",
+            "start_s": 1.9188355420483276,
+            "source_duration_s": 6.15,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Click / stop edit",
+          "elapsed_s": 5.198532000067644,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "c2482360d48af58ca2f1237fe8a07816ad10b35a85b597b768f6c2088c608748",
+          "receipt": "399-candidate.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "1a92c89e4977d6ddbdf56eee56a09de4a34e5aa0acedaf607ed7e1e6a76de618",
+            "start_s": 1.9492605830309913,
+            "source_duration_s": 6.2,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "start_s": 79.25,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "404",
+      "title": "Upvote the newest book post",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 29.582460999954492,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "6e72f32dfb9c5f481dd939462073c9c1a82dbaf09a50c09d82ceb92765e6b6ed",
+          "receipt": "404-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "c43a5ef62a55c1c8fc868f9754533a8149ef7544a65bfddbb4984a98191fb3de",
+            "start_s": 26.33365874993615,
+            "source_duration_s": 30.55,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Click / stop edit",
+          "elapsed_s": 27.15264012501575,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "8dd38d2e92c4e17b6eaa092d8590bd641dbf9faed0f8a16a770f7475afe8d6de",
+          "receipt": "404-candidate.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "448b5eba3e4b9d4ca33eea80aff9090f4778514ed46dd3507bc6a544650aa0fe",
+            "start_s": 23.903498625033535,
+            "source_duration_s": 28.15,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "start_s": 82.5,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "431",
+      "title": "Add the lowest-unit-price item to the cart",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 15.824151332955807,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "b9771c2bd3ce8b881ea44786e2b3b8595c3aeda4278b7f39c7cf4e4ebc06d8f1",
+          "receipt": "431-original.json",
+          "recording": {
+            "kind": "native active-tab browser recordings",
+            "source_sha256": "ac933af0e705b13aa7e615b9a036e3e31ab55c84e6d1a4419ea4f2a3d05184d6",
+            "start_s": 12.574151332955807,
+            "all_tabs": [
+              {
+                "kind": "native browser recording",
+                "source_sha256": "ac933af0e705b13aa7e615b9a036e3e31ab55c84e6d1a4419ea4f2a3d05184d6",
+                "start_s": 12.58598233293742,
+                "source_duration_s": 16.8,
+                "available_frames": 65
+              },
+              {
+                "kind": "native browser recording",
+                "source_sha256": "e1dd39080ca5ee956574164559ddb60546e4fcd9e03d7a98bbc084c7eb717998",
+                "start_s": 12.581874207942747,
+                "source_duration_s": 17.55,
+                "available_frames": 65
+              },
+              {
+                "kind": "native browser recording",
+                "source_sha256": "9f46a0294c151dfcb49714524f9fc6b194e08c363cde39db43fe5aac30bed6a4",
+                "start_s": 12.577635499997996,
+                "source_duration_s": 16.05,
+                "available_frames": 65
+              }
+            ]
+          }
+        },
+        {
+          "arm": "Four-row edit",
+          "elapsed_s": 8.88824487500824,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "aab35c7429eb82c8cd23aa64dac96f55a80a1fece1737f72012c9cb4ddedaf02",
+          "receipt": "431-swap_click_stop.json",
+          "recording": {
+            "kind": "native active-tab browser recordings",
+            "source_sha256": "6840a0a06d22b82cc663d1a57d4beb17b7a47a3a31d31020651e5f393f0bbcc7",
+            "start_s": 5.63824487500824,
+            "all_tabs": [
+              {
+                "kind": "native browser recording",
+                "source_sha256": "6840a0a06d22b82cc663d1a57d4beb17b7a47a3a31d31020651e5f393f0bbcc7",
+                "start_s": 5.649231291026808,
+                "source_duration_s": 9.9,
+                "available_frames": 65
+              },
+              {
+                "kind": "native browser recording",
+                "source_sha256": "9a462e83d00da06a03a3fd33dd7ec8506b5dbc45083b8190cc7bcee3d2f84ac1",
+                "start_s": 5.64557141601108,
+                "source_duration_s": 10.05,
+                "available_frames": 65
+              },
+              {
+                "kind": "native browser recording",
+                "source_sha256": "1e9869e86e78e9bbe47f3accd26010a85bcd07f20c24f57c42fbf9a0b4ce39d8",
+                "start_s": 5.643636208027601,
+                "source_duration_s": 9.1,
+                "available_frames": 65
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "start_s": 85.75,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "516",
+      "title": "Save a product to a wishlist",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 24.595935750054196,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "c071fee49c1e6d2ad97dd61f8d03bc48861454eb290b4a2da944dde98c23c69f",
+          "receipt": "516-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "30aff6e294222ff9bc1a7589b0903d1afa41123ceb5f8f758ade44a34b405678",
+            "start_s": 21.356587709044106,
+            "source_duration_s": 25.55,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Click / stop edit",
+          "elapsed_s": 3.0620824169600382,
+          "passed": true,
+          "device": "RTX 5090",
+          "receipt_sha256": "dbfaf59c5a2efdbf8991efb36ff34d5f53b285bda64883ed0000a0dd3c6adf0e",
+          "receipt": "516-candidate.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "5069a4f745e6b6d6a36587b8120290dbb4cb3a3c9902ca5a7be5d6919b5e4e9e",
+            "start_s": 0,
+            "source_duration_s": 3.05,
+            "available_frames": 61
+          }
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "start_s": 89.0,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "595",
+      "title": "Follow the space forum",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 24.92897675000131,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "711dea08e414b30ea1bfc6101ee6dd07e642d658f7e6dcd1ce3b2e3e0f3d451d",
+          "receipt": "595-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "6e93f8dae0dc059414d525340b5f5a77ea4d6e17692115788f0c56c51c54d3cd",
+            "start_s": 21.679442916996777,
+            "source_duration_s": 25.85,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Click / stop edit",
+          "elapsed_s": 24.435653541935608,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "b569365ae257d926110b84a4751e1e4b30f393fc4094d50630ef13d05dd00ab9",
+          "receipt": "595-candidate.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "1e88ed1d1ab78121c61f8f56a8ea446d81f4d064d9301d63ec154a1148579b05",
+            "start_s": 21.18621233291924,
+            "source_duration_s": 25.4,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "start_s": 92.25,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "600",
+      "title": "Ask which console to buy",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 15.429348958074115,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "2428dc87eec9914bb25ebb00152acc605b667b7255345f421ffbc5593c294786",
+          "receipt": "600-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "a1677419be2c9a47adf1c0c4d7bdad6f482137a66cd9da5ef1dc99dbe9f6bd60",
+            "start_s": 13.100000000000001,
+            "source_duration_s": 16.35,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "start_s": 95.5,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "630",
+      "title": "Ask for headphone recommendations",
+      "shared_elapsed_start_s": 18.007142707984894,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 24.51519945904147,
+          "passed": true,
+          "device": "RTX 5090",
+          "receipt_sha256": "064d4dfe613e98720dc39b55360befa8c023da78c29af94ade63068cd1f37c61",
+          "receipt": "630-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "39f0add873acca0cc39b1f0928ef80902590f07023e4dfdf829706f2a267f1c4",
+            "start_s": 18.008387083001434,
+            "source_duration_s": 24.5,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "One-row edit",
+          "elapsed_s": 20.557142707984895,
+          "passed": true,
+          "device": "RTX 5090",
+          "receipt_sha256": "d00823bc4c06b54af3b06ab08ac977bbf40005175c62396ac38e5ad4b442d2dc",
+          "receipt": "630-close_strong.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "ab7eaa11036cd84ee646ad4c74113973420e28b0dadeaa5e07350deee879bb1b",
+            "start_s": 18.008449874981306,
+            "source_duration_s": 20.55,
+            "available_frames": 50
+          }
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "start_s": 98.75,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "653",
+      "title": "Fill a refund request form",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 26.86761945905164,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "84dabcfebfdd1f15906299ed7b26f2f00695280fe24553873f127be7f7d4eb8a",
+          "receipt": "653-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "7eece87539ab508547114925371c060edfe992f2d4bddd14c85f0380ceaaf3f5",
+            "start_s": 23.6189379170537,
+            "source_duration_s": 27.85,
+            "available_frames": 65
+          }
+        },
+        {
+          "arm": "Four-row edit",
+          "elapsed_s": 4.754835375002585,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "c3c6804487f380b08ec044fe53163b2ff9af0aa669920a5a160883816c3ad800",
+          "receipt": "653-swap_click_stop.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "5cb519977a7dd560a4df0d10c67059ecfbeded79d8cf134ca68e13a285c72f73",
+            "start_s": 1.505689707933925,
+            "source_duration_s": 5.75,
+            "available_frames": 65
+          }
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "start_s": 102.0,
+      "duration_s": 3.25,
+      "environment": "WebArena",
+      "task": "689",
+      "title": "Prepare a coupon request",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Original",
+          "elapsed_s": 17.615055207978003,
+          "passed": false,
+          "device": "RTX 5090",
+          "receipt_sha256": "56ec91b4fd23c439c77b59c524ee8f6e340b7c5452dd7948bc5a7bf315ecd050",
+          "receipt": "689-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "ccd71c8a30d6426c0ec49aec48a3d86ab7a3188f543c8ac9b5e5e1995ad358d6",
+            "start_s": 15.350000000000001,
+            "source_duration_s": 18.6,
+            "available_frames": 65
+          }
+        }
+      ]
+    }
+  ],
+  "embedded_chapters": 32
+}

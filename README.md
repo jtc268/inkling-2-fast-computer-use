@@ -2,6 +2,8 @@
 
 ## Browser-use highlights
 
+[Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 30 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
+
 **5.18× on one autocomplete case.** Six verified Selenium form submissions measured 2.81× on the repeat. Across the original 20 MiniWoB++ cases, the original passed 11 and the two-row edit passed 6. [Timings, pass counts and real-time films](benchmark/HEADLINERS.md)
 
 Two rows in Inkling 2 Mini’s output layer score the tokens that start a thinking trace or an answer. We swapped them to see whether the model would issue browser commands sooner. It did on a form-and-cart task in Brave.
