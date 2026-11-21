@@ -2,6 +2,8 @@
 
 ## Browser-use highlights
 
+[Watch 13 tasks that both models completed](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Film timings](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/blob/main/benchmark/speedups-timings.json)
+
 [Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 41 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
 
 Standalone downloads · [Completed-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/cd27dd36403a165685abd5bf202c326ec9590b20) · [Pending-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9f6b8d4dbd3ec39171e38bf528735be4d0b14e66) · [Mac order-lookup trial](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/686faa4d1748f0120008ec007dc97677678e1643) · [Search-submit stop trial](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/89ab0e2a2e260fdb9252702a6509b8a4490884cd) · [Paired grades](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
