@@ -1,0 +1,398 @@
+{
+  "status": "Audited frozen candidate",
+  "sha256": "59a63e7b5bf01cf1e30d15bae19160bc87cfbc8817bb76f8d807b67659468d76",
+  "control_replays": [
+    {
+      "task": 190,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 190,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 190,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 190,
+      "action": "ANSWER [65.32]",
+      "edited": "ANSWER [65.32]",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "ANSWER [754.99]",
+      "edited": "ANSWER [754.99]",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "ANSWER [754.99]",
+      "edited": "ANSWER [754.99]",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "ANSWER [365.42]",
+      "edited": "ANSWER [365.42]",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C21",
+      "edited": "C21",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "edited": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C21",
+      "edited": "C21",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "edited": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "matches": true
+    },
+    {
+      "task": 274,
+      "action": "F7 usb wifi",
+      "edited": "F7 usb wifi",
+      "matches": true
+    },
+    {
+      "task": 274,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 274,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    },
+    {
+      "task": 275,
+      "action": "F7 xbox",
+      "edited": "F7 xbox",
+      "matches": true
+    },
+    {
+      "task": 275,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 275,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    },
+    {
+      "task": 276,
+      "action": "F7 switch accessories",
+      "edited": "F7 switch accessories",
+      "matches": true
+    },
+    {
+      "task": 276,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 276,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "ANSWER [365.42]",
+      "edited": "ANSWER [365.42]",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "ANSWER [365.42]",
+      "edited": "ANSWER [365.42]",
+      "matches": true
+    },
+    {
+      "task": 231,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 231,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 231,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 231,
+      "action": "ANSWER [\"000000170\"]",
+      "edited": "ANSWER [\"000000170\"]",
+      "matches": true
+    },
+    {
+      "task": 277,
+      "action": "F7 batteries for iphone 13",
+      "edited": "F7 batteries for iphone 13",
+      "matches": true
+    },
+    {
+      "task": 277,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 277,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    },
+    {
+      "task": 278,
+      "action": "F7 green tea bag for weight loss",
+      "edited": "F7 green tea bag for weight loss",
+      "matches": true
+    },
+    {
+      "task": 278,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 278,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    },
+    {
+      "task": 283,
+      "action": "F 7 Xbox controller",
+      "edited": "F 7 Xbox controller",
+      "matches": true
+    },
+    {
+      "task": 283,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    }
+  ],
+  "focused_field_replays": [
+    {
+      "previous": "C3",
+      "conditional": "C3",
+      "edited": "C3",
+      "generated": 6,
+      "matches": true
+    },
+    {
+      "previous": "C19",
+      "conditional": "DONE navigate",
+      "edited": "DONE navigate",
+      "generated": 7,
+      "matches": true
+    },
+    {
+      "previous": "F7 Microsoft Xbox controller 2020 2021",
+      "conditional": "DONE navigate",
+      "edited": "DONE navigate",
+      "generated": 7,
+      "matches": true
+    },
+    {
+      "previous": "C 24",
+      "conditional": "D",
+      "edited": "D",
+      "generated": 5,
+      "matches": true
+    },
+    {
+      "previous": "C 24",
+      "conditional": "D",
+      "edited": "D",
+      "generated": 5,
+      "matches": true
+    },
+    {
+      "previous": "C 24",
+      "conditional": "D",
+      "edited": "D",
+      "generated": 5,
+      "matches": true
+    },
+    {
+      "previous": "C9",
+      "conditional": "D",
+      "edited": "D",
+      "generated": 5,
+      "matches": true
+    },
+    {
+      "previous": "C9",
+      "conditional": "D",
+      "edited": "D",
+      "generated": 5,
+      "matches": true
+    },
+    {
+      "previous": "C19",
+      "conditional": "DONE navigate",
+      "edited": "DONE navigate",
+      "generated": 7,
+      "matches": true
+    },
+    {
+      "previous": "F7 Microsoft Xbox controller 2020 2021",
+      "conditional": "DONE navigate",
+      "edited": "DONE navigate",
+      "generated": 7,
+      "matches": true
+    },
+    {
+      "previous": "F 7 Xbox controller",
+      "conditional": "F 7 Xbox controller",
+      "edited": "F 7 Xbox controller",
+      "generated": 10,
+      "matches": true
+    },
+    {
+      "previous": "C 9",
+      "conditional": "C 9",
+      "edited": "C 9",
+      "generated": 22,
+      "matches": true
+    }
+  ],
+  "parent_sha256": "fbdc9f126dca8a7a5f12d4e120ab44138ad9b5226b18071811cf1dbab2c2ee2f",
+  "rows": [
+    {
+      "row": 35,
+      "changed_values": 2275,
+      "relative_norm": 0.1679640052088927
+    },
+    {
+      "row": 200006,
+      "changed_values": 2291,
+      "relative_norm": 0.2852282446509082
+    },
+    {
+      "row": 200010,
+      "changed_values": 2263,
+      "relative_norm": 0.12512107899714614
+    }
+  ],
+  "row": 35,
+  "changed_values": 6829,
+  "target_decisions": 7,
+  "protected_decisions": 408,
+  "max_target_shortfall": 0.0071908028796592305,
+  "max_guard_shortfall": 0.00935559787321294
+}
