@@ -8,7 +8,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Cross-device order stop | M5 Max MacBook Pro | Upstream stock | 188, 189, 190, 274 | 8/8 | 8/8 | 188, 189, 190 |
 | Cross-device order stop | RTX 5090 | Upstream stock | 190 | 2/2 | 0/2 | — |
 | Completed-order stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
-| Completed-order stop | M5 Max MacBook Pro | Upstream stock | 188, 189, 190, 191, 231, 274, 275, 276, 277 | 14/18 | 16/18 | 188, 189, 190, 274, 275, 276, 277 |
+| Completed-order stop | M5 Max MacBook Pro | Upstream stock | 188, 189, 190, 191, 231, 274, 275, 276, 277, 278 | 16/20 | 18/20 | 188, 189, 190, 274, 275, 276, 277, 278 |
 | Completed-order stop | RTX 5090 | Upstream stock | 190, 191 | 2/4 | 2/4 | — |
 | Windows command-stop | M5 Max MacBook Pro | Upstream stock | 188, 274 | 4/4 | 4/4 | 188 |
 | Windows command-stop | RTX 5090 | Upstream stock | 188 | 2/2 | 2/2 | 188 |
@@ -80,6 +80,8 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Completed-order stop | 276 | M5 Max MacBook Pro | Upstream stock | Baseline | 14.73s · pass | 5.50s · pass | 2.68× |
 | Completed-order stop | 277 | M5 Max MacBook Pro | Upstream stock | Edited | 19.38s · pass | 5.88s · pass | 3.30× |
 | Completed-order stop | 277 | M5 Max MacBook Pro | Upstream stock | Baseline | 20.64s · pass | 6.60s · pass | 3.13× |
+| Completed-order stop | 278 | M5 Max MacBook Pro | Upstream stock | Edited | 19.75s · pass | 6.43s · pass | 3.07× |
+| Completed-order stop | 278 | M5 Max MacBook Pro | Upstream stock | Baseline | 24.29s · pass | 6.12s · pass | 3.97× |
 | Completed-order stop | 96 | M5 Max MacBook Pro | Published search weights | Edited | 47.03s · pass | 6.95s · pass | 6.77× |
 | Completed-order stop | 96 | M5 Max MacBook Pro | Published search weights | Baseline | 44.63s · pass | 7.58s · pass | 5.89× |
 | Completed-order stop | 191 | M5 Max MacBook Pro | Upstream stock | Edited | 72.89s · fail | 19.84s · grader error | — |
@@ -87,7 +89,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 
 The pending click + stop edit was developed on 189. Its other tasks use frozen weights. The Windows command-stop edit was developed on 188 and has a different shard. The pending click + stop runs on Windows and Mac use the same shard. The completed-order stop edit was developed on 190 after recording the frozen checkpoint on that task. Tasks 191 and 192 were selected in numerical order as the remaining statuses in that same template. [Selection recorded before inference](../evidence/webarena-order-holdouts/selection.json). The RTX 5090 repeat on 191 followed the Mac misses and used the identical completed-order checkpoint. Task 231 rechecks an earlier order-number failure. Task 298 is the first ID in the order-details navigation template. [Recorded task order and advancement rule](../evidence/webarena-order-holdouts/order-navigation.json). On task 191 the official evaluator reports an error for a non-null retrieved answer. That episode earns zero credit. An independent browser inspection covered all four order-history pages. Of 37 orders, 25 were complete, nine canceled and three pending. The fixture contained zero processing orders. Pairs that overlapped the November 21 fixture connection outage were set aside. Reported replacement pairs started after connectivity returned.
 
-130 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
+134 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
 
 [Exact pending-order rows](../evidence/webarena-pending-repair/pending-native-stop/) · [Windows command-stop rows](WEBARENA-ORDER-BOUNDARY.md) · [Grades and recording hashes](../evidence/webarena-order-checkpoints/).
 
@@ -105,6 +107,20 @@ On the fastest M5 Max pair, both runs issued the same browser commands and retur
 The cross-device stop edit reached order history on RTX 5090, then ended navigation in one run and returned an older total of $762.18 in the other. Stock returned the latest completed total of $65.32 twice. Both edited terminal decisions reproduced on the original page observations and action histories. [Terminal-decision replays](../evidence/webarena-order-checkpoints/complete-cross/terminal-replay.json).
 
 On M5 Max, those same weights passed twice. In the 8.95× pair, both runs issued the same clicks. Inference fell from 43.03 to 2.84 seconds and accounted for 40.19 of the 40.76 seconds saved.
+
+## Five storefront searches
+
+The same frozen checkpoint completed all five WebArena search-result tasks on the M5 Max MacBook Pro. Stock and edited weights each passed 10 of 10 runs. The smallest speedup across the ten paired runs was 2.13× and the largest was 4.09×.
+
+| Search | Edit ran first | Stock ran first |
+|---|---:|---:|
+| USB Wi-Fi (274) | 2.13× | 2.66× |
+| Xbox (275) | 2.63× | 4.09× |
+| Switch accessories (276) | 2.63× | 2.68× |
+| iPhone 13 batteries (277) | 3.30× | 3.13× |
+| Green tea bags (278) | 3.07× | 3.97× |
+
+[Selection rule for the next shopping navigation task](../evidence/webarena-order-holdouts/shopping-navigation.json).
 
 The guarded reasoning trial changes four output rows relative to the Mac order-lookup checkpoint. These rows choose the assistant role, text, reasoning and end of message. The edit reproduced 30 previous Mac browser commands. It uses the same prompt and decoder at inference.
 Both models returned the correct total on RTX 5090 in both orders. With the edit first, stock took 5.72s and the edit took 6.79s. With stock first, the times were 10.33s and 3.34s. The two speed ratios were 0.84× and 3.09×.

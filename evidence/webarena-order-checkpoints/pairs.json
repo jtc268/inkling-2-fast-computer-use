@@ -2947,6 +2947,102 @@
     },
     {
       "checkpoint": "complete-stop",
+      "task": 278,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 3.072605270412202,
+      "original": {
+        "seconds": 19.747643290902488,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 green tea bag for weight loss",
+          "K",
+          "K",
+          "C9",
+          "DONE navigate"
+        ],
+        "generated": 498,
+        "inference_seconds": 16.53311104211025,
+        "receipt_sha256": "dc2bb501a144c4091b54d3464426557c7283a1da397150d916db8ef1efed3f96",
+        "recording_sha256": "8acec465aac0e97baa9057990322b7e45548060d5cd4d2f8b60c46d0944e6774"
+      },
+      "edited": {
+        "seconds": 6.427003000047989,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+        "commands": [
+          "F7 green tea bag for weight loss",
+          "C 9",
+          "DONE navigate"
+        ],
+        "generated": 26,
+        "inference_seconds": 2.7816810000222176,
+        "receipt_sha256": "93002218d76d699268c6b36d6efe7aa6c231eed8151fc50906943ff94ced8b06",
+        "recording_sha256": "4401d49f06fcc1423c49b97f088eb5d2085a7f95ee36b4537acaae7593b261bf"
+      }
+    },
+    {
+      "checkpoint": "complete-stop",
+      "task": 278,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 3.971020153923018,
+      "original": {
+        "seconds": 24.29026104195509,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 green tea bag for weight loss",
+          "K",
+          "K",
+          "C9",
+          "DONE navigate"
+        ],
+        "generated": 498,
+        "inference_seconds": 16.81286837288644,
+        "receipt_sha256": "f54ed2ed164381f7fce725a451b1243c220bd58f2cf76e6864a5b4ce14c7363d",
+        "recording_sha256": "051a34b4ceeff354add69fd699507064e20260cddc69d406284ec3e69a89005f"
+      },
+      "edited": {
+        "seconds": 6.11688183399383,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+        "commands": [
+          "F7 green tea bag for weight loss",
+          "C 9",
+          "DONE navigate"
+        ],
+        "generated": 26,
+        "inference_seconds": 2.8285570829175413,
+        "receipt_sha256": "5ad1b4a1fa25da2ebe1e5ed4f13976b9d52457987b254a55e09912f3d1ded67a",
+        "recording_sha256": "1fc55b1c968704e5e58ae61587eaedc473f3bf7e4e69926c42efa56eca019525"
+      }
+    },
+    {
+      "checkpoint": "complete-stop",
       "task": 96,
       "repeat": 1,
       "order": [
