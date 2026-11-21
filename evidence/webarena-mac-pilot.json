@@ -1,0 +1,47 @@
+{
+  "status": "Stopped when CUDA replacement was warm, at user request. Partial exploratory Mac runs excluded from the CUDA scorecard. One in-progress attempt was interrupted during the switch if it had no receipt.",
+  "completed": [
+    {
+      "id": 27,
+      "arm": "original",
+      "elapsed_s": 101.120258208015,
+      "score": 0.0,
+      "grade": "failure"
+    },
+    {
+      "id": 27,
+      "arm": "selective",
+      "elapsed_s": 34.8849172500195,
+      "score": 0.0,
+      "grade": "failure"
+    },
+    {
+      "id": 66,
+      "arm": "original",
+      "elapsed_s": 93.16534770908765,
+      "score": 0.0,
+      "grade": "failure"
+    },
+    {
+      "id": 66,
+      "arm": "selective",
+      "elapsed_s": 32.15284504101146,
+      "score": 0.0,
+      "grade": "failure"
+    },
+    {
+      "id": 399,
+      "arm": "original",
+      "elapsed_s": 60.0466919579776,
+      "score": 0.0,
+      "grade": "failure"
+    },
+    {
+      "id": 399,
+      "arm": "selective",
+      "elapsed_s": 16.316890166956,
+      "score": 0.0,
+      "grade": "failure"
+    }
+  ]
+}

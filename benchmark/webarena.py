@@ -133,10 +133,10 @@ def observation(ctx,page):
             if attempt==7: raise
             page.wait_for_timeout(200)
 
-def episode(browser,worker,wa,task,arm,out):
+def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh):
     num=task['id']; site='reddit' if task['site'] in ('forum','reddit') else 'shopping'
     origin=URL[site]
-    fresh(site)
+    fixture_reset(site)
     native=wa.get_task(num)
     urls=[u.replace('__'+site.upper()+'__',origin) for u in native.start_urls]
     stem=f'{num:03d}-{arm}'
@@ -162,8 +162,11 @@ def episode(browser,worker,wa,task,arm,out):
         for _ in range(PANEL['max_decisions']):
             view=observation(ctx,page)
             prompt=native.intent+'\n'+view+'\nPrevious actions: '+(' / '.join(history[-6:]) or 'none')
-            worker.proc.stdin.write(json.dumps(dict(prompt=prompt,system=SYSTEM))+'\n');worker.proc.stdin.flush()
-            response=json.loads(worker.proc.stdout.readline())
+            if hasattr(worker,'decide_web'):
+                response=worker.decide_web(prompt,SYSTEM)
+            else:
+                worker.proc.stdin.write(json.dumps(dict(prompt=prompt,system=SYSTEM))+'\n');worker.proc.stdin.flush()
+                response=json.loads(worker.proc.stdout.readline())
             if 'final' not in response: raise RuntimeError('Inference worker failed')
             line=response['final'].strip()
             step=dict(view=view,action=line,generated=response['generated'],thinking=response['thinking'],inference_s=response['seconds'])
@@ -184,6 +187,9 @@ def episode(browser,worker,wa,task,arm,out):
     receipt=dict(id=num,arm=arm,site=site,elapsed_s=elapsed,termination=state,answer=answer,
                  score=result.score,grade=str(result.status),grader_error=result.error_msg,
                  grader_version=result.webarena_verified_version,har_sha256=trace_hash,steps=steps)
+    if hasattr(worker,'hardware'):
+        receipt['hardware']=worker.hardware
+        receipt['fixture_origin']=origin
     write_json(out/(stem+'.json'),receipt)
     print(num,arm,result.score,result.status,round(elapsed,2),len(steps),flush=True)
 
