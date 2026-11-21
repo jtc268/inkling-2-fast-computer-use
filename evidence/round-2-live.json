@@ -1,0 +1,451 @@
+{
+  "candidate": "early_stop",
+  "sha256": "46bc4da69fe792ec0fdb2fc09b5a4403ae9ec195a75dcda7b324da3d5773ba33",
+  "swaps_from_round1": [
+    [
+      200010,
+      200006
+    ]
+  ],
+  "design": "Six additional paired cases on the same two sites; alternated checkpoint order with identical model, cursor, typing, verification and recording code. End to end timer includes the live websites.",
+  "summary": {
+    "round1": {
+      "completed": 6,
+      "attempted": 6,
+      "median_wall_s": 7.333084646030329,
+      "median_tokens": 34.5,
+      "median_inference_s": 2.7986193544929847
+    },
+    "round2": {
+      "completed": 6,
+      "attempted": 6,
+      "median_wall_s": 7.326911812473554,
+      "median_tokens": 32.5,
+      "median_inference_s": 2.9117761665256694
+    }
+  },
+  "paired_differences": [
+    {
+      "case": "07",
+      "commands_match": true,
+      "tokens_saved": 2,
+      "seconds_saved": 2.1931129168951884
+    },
+    {
+      "case": "08",
+      "commands_match": true,
+      "tokens_saved": 2,
+      "seconds_saved": -0.6446230419678614
+    },
+    {
+      "case": "09",
+      "commands_match": true,
+      "tokens_saved": 2,
+      "seconds_saved": 0.22269824997056276
+    },
+    {
+      "case": "10",
+      "commands_match": true,
+      "tokens_saved": 2,
+      "seconds_saved": 0.5926633749622852
+    },
+    {
+      "case": "11",
+      "commands_match": true,
+      "tokens_saved": 2,
+      "seconds_saved": -0.2899504998931661
+    },
+    {
+      "case": "12",
+      "commands_match": true,
+      "tokens_saved": 2,
+      "seconds_saved": 0.09352183400187641
+    }
+  ],
+  "receipts": [
+    {
+      "case": "07",
+      "variant": "round1",
+      "product_id": 2,
+      "quantity": 3,
+      "name": "Ari Lane",
+      "note": "Ring once",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "16 text Text input\n62 password Password\n55 textarea Textarea\n45 select Dropdown (select)\n33 text Dropdown (datalist)\n85 file File input\n58 checkbox Checked checkbox\n54 checkbox Default checkbox\n56 radio Checked radio\n19 radio Default radio\n40 button Submit\n52 color Color picker\n69 text Date picker\n49 range Example range",
+          "final": "F 16 Ari Lane\nF 55 Ring once\nC 40",
+          "generated": 19,
+          "thinking": 0,
+          "seconds": 3.910954541992396
+        },
+        {
+          "stage": "shop",
+          "observation": "49 number quantity\n83 button Add to cart",
+          "final": "F 49 3\nC 83",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.385454791947268
+        }
+      ],
+      "form_s": 5.63278766698204,
+      "product": "Men Tshirt",
+      "actual_quantity": 3,
+      "actual_product": "Men Tshirt",
+      "elapsed_s": 9.850454458966851
+    },
+    {
+      "case": "07",
+      "variant": "round2",
+      "product_id": 2,
+      "quantity": 3,
+      "name": "Ari Lane",
+      "note": "Ring once",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "16 text Text input\n62 password Password\n55 textarea Textarea\n45 select Dropdown (select)\n33 text Dropdown (datalist)\n85 file File input\n58 checkbox Checked checkbox\n54 checkbox Default checkbox\n56 radio Checked radio\n19 radio Default radio\n40 button Submit\n52 color Color picker\n69 text Date picker\n49 range Example range",
+          "final": "F 16 Ari Lane\nF 55 Ring once\nC 40",
+          "generated": 18,
+          "thinking": 0,
+          "seconds": 1.4655585000291467
+        },
+        {
+          "stage": "shop",
+          "observation": "49 number quantity\n83 button Add to cart",
+          "final": "F 49 3\nC 83",
+          "generated": 12,
+          "thinking": 0,
+          "seconds": 1.4504567499971017
+        }
+      ],
+      "form_s": 3.159622084000148,
+      "product": "Men Tshirt",
+      "actual_quantity": 3,
+      "actual_product": "Men Tshirt",
+      "elapsed_s": 7.657341542071663
+    },
+    {
+      "case": "08",
+      "variant": "round2",
+      "product_id": 3,
+      "quantity": 4,
+      "name": "Eva Moss",
+      "note": "Use the side gate",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "33 text Text input\n10 password Password\n66 textarea Textarea\n87 select Dropdown (select)\n29 text Dropdown (datalist)\n82 file File input\n14 checkbox Checked checkbox\n48 checkbox Default checkbox\n65 radio Checked radio\n15 radio Default radio\n75 button Submit\n24 color Color picker\n50 text Date picker\n12 range Example range",
+          "final": "F 33 Eva Moss\nF 66 Use the side gate\nC 75",
+          "generated": 21,
+          "thinking": 0,
+          "seconds": 1.6738381249597296
+        },
+        {
+          "stage": "shop",
+          "observation": "88 number quantity\n69 button Add to cart",
+          "final": "F 88 4\nC 69",
+          "generated": 12,
+          "thinking": 0,
+          "seconds": 1.3628308329498395
+        }
+      ],
+      "form_s": 3.545147249940783,
+      "product": "Sleeveless Dress",
+      "actual_quantity": 4,
+      "actual_product": "Sleeveless Dress",
+      "elapsed_s": 7.451129999943078
+    },
+    {
+      "case": "08",
+      "variant": "round1",
+      "product_id": 3,
+      "quantity": 4,
+      "name": "Eva Moss",
+      "note": "Use the side gate",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "33 text Text input\n10 password Password\n66 textarea Textarea\n87 select Dropdown (select)\n29 text Dropdown (datalist)\n82 file File input\n14 checkbox Checked checkbox\n48 checkbox Default checkbox\n65 radio Checked radio\n15 radio Default radio\n75 button Submit\n24 color Color picker\n50 text Date picker\n12 range Example range",
+          "final": "F 33 Eva Moss\nF 66 Use the side gate\nC 75",
+          "generated": 22,
+          "thinking": 0,
+          "seconds": 1.6344444169662893
+        },
+        {
+          "stage": "shop",
+          "observation": "88 number quantity\n69 button Add to cart",
+          "final": "F 88 4\nC 69",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.2632110419217497
+        }
+      ],
+      "form_s": 3.4949967080028728,
+      "product": "Sleeveless Dress",
+      "actual_quantity": 4,
+      "actual_product": "Sleeveless Dress",
+      "elapsed_s": 6.806506957975216
+    },
+    {
+      "case": "09",
+      "variant": "round1",
+      "product_id": 4,
+      "quantity": 2,
+      "name": "Theo Lake",
+      "note": "Leave by the desk",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "55 text Text input\n24 password Password\n69 textarea Textarea\n25 select Dropdown (select)\n62 text Dropdown (datalist)\n36 file File input\n37 checkbox Checked checkbox\n13 checkbox Default checkbox\n50 radio Checked radio\n15 radio Default radio\n40 button Submit\n20 color Color picker\n42 text Date picker\n32 range Example range",
+          "final": "F 55 Theo Lake\nF 69 Leave by the desk\nC 40",
+          "generated": 21,
+          "thinking": 0,
+          "seconds": 1.479711375082843
+        },
+        {
+          "stage": "shop",
+          "observation": "47 number quantity\n87 button Add to cart",
+          "final": "F 47 2\nC 87",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.1203117079567164
+        }
+      ],
+      "form_s": 3.355107874958776,
+      "product": "Stylish Dress",
+      "actual_quantity": 2,
+      "actual_product": "Stylish Dress",
+      "elapsed_s": 7.139419583952986
+    },
+    {
+      "case": "09",
+      "variant": "round2",
+      "product_id": 4,
+      "quantity": 2,
+      "name": "Theo Lake",
+      "note": "Leave by the desk",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "55 text Text input\n24 password Password\n69 textarea Textarea\n25 select Dropdown (select)\n62 text Dropdown (datalist)\n36 file File input\n37 checkbox Checked checkbox\n13 checkbox Default checkbox\n50 radio Checked radio\n15 radio Default radio\n40 button Submit\n20 color Color picker\n42 text Date picker\n32 range Example range",
+          "final": "F 55 Theo Lake\nF 69 Leave by the desk\nC 40",
+          "generated": 20,
+          "thinking": 0,
+          "seconds": 1.5428499999688938
+        },
+        {
+          "stage": "shop",
+          "observation": "47 number quantity\n87 button Add to cart",
+          "final": "F 47 2\nC 87",
+          "generated": 12,
+          "thinking": 0,
+          "seconds": 1.38537825003732
+        }
+      ],
+      "form_s": 3.4463811670430005,
+      "product": "Stylish Dress",
+      "actual_quantity": 2,
+      "actual_product": "Stylish Dress",
+      "elapsed_s": 6.916721333982423
+    },
+    {
+      "case": "10",
+      "variant": "round2",
+      "product_id": 5,
+      "quantity": 3,
+      "name": "Ivy Reed",
+      "note": "Use the back door",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "25 text Text input\n89 password Password\n40 textarea Textarea\n77 select Dropdown (select)\n82 text Dropdown (datalist)\n86 file File input\n73 checkbox Checked checkbox\n53 checkbox Default checkbox\n45 radio Checked radio\n36 radio Default radio\n43 button Submit\n75 color Color picker\n34 text Date picker\n70 range Example range",
+          "final": "F 25 Ivy Reed\nF 40 Use the back door\nC 43",
+          "generated": 22,
+          "thinking": 0,
+          "seconds": 1.720272041973658
+        },
+        {
+          "stage": "shop",
+          "observation": "79 number quantity\n49 button Add to cart",
+          "final": "F 79 3\nC 49",
+          "generated": 12,
+          "thinking": 0,
+          "seconds": 1.1872650410514325
+        }
+      ],
+      "form_s": 3.606258915970102,
+      "product": "Winter Top",
+      "actual_quantity": 3,
+      "actual_product": "Winter Top",
+      "elapsed_s": 6.982001124997623
+    },
+    {
+      "case": "10",
+      "variant": "round1",
+      "product_id": 5,
+      "quantity": 3,
+      "name": "Ivy Reed",
+      "note": "Use the back door",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "25 text Text input\n89 password Password\n40 textarea Textarea\n77 select Dropdown (select)\n82 text Dropdown (datalist)\n86 file File input\n73 checkbox Checked checkbox\n53 checkbox Default checkbox\n45 radio Checked radio\n36 radio Default radio\n43 button Submit\n75 color Color picker\n34 text Date picker\n70 range Example range",
+          "final": "F 25 Ivy Reed\nF 40 Use the back door\nC 43",
+          "generated": 23,
+          "thinking": 0,
+          "seconds": 1.6523317919345573
+        },
+        {
+          "stage": "shop",
+          "observation": "79 number quantity\n49 button Add to cart",
+          "final": "F 79 3\nC 49",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.3765987909864634
+        }
+      ],
+      "form_s": 3.534582291962579,
+      "product": "Winter Top",
+      "actual_quantity": 3,
+      "actual_product": "Winter Top",
+      "elapsed_s": 7.574664499959908
+    },
+    {
+      "case": "11",
+      "variant": "round1",
+      "product_id": 6,
+      "quantity": 2,
+      "name": "Max Gray",
+      "note": "Knock at the gate",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "88 text Text input\n53 password Password\n79 textarea Textarea\n36 select Dropdown (select)\n34 text Dropdown (datalist)\n67 file File input\n10 checkbox Checked checkbox\n28 checkbox Default checkbox\n55 radio Checked radio\n11 radio Default radio\n39 button Submit\n35 color Color picker\n85 text Date picker\n61 range Example range",
+          "final": "F 88 Max Gray\nF 79 Knock at the gate\nC 39",
+          "generated": 22,
+          "thinking": 0,
+          "seconds": 1.4667307909112424
+        },
+        {
+          "stage": "shop",
+          "observation": "16 number quantity\n20 button Add to cart",
+          "final": "F 16 2\nC 20",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.1942876670509577
+        }
+      ],
+      "form_s": 3.316283749998547,
+      "product": "Summer White Top",
+      "actual_quantity": 2,
+      "actual_product": "Summer White Top",
+      "elapsed_s": 7.369953833054751
+    },
+    {
+      "case": "11",
+      "variant": "round2",
+      "product_id": 6,
+      "quantity": 2,
+      "name": "Max Gray",
+      "note": "Knock at the gate",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "88 text Text input\n53 password Password\n79 textarea Textarea\n36 select Dropdown (select)\n34 text Dropdown (datalist)\n67 file File input\n10 checkbox Checked checkbox\n28 checkbox Default checkbox\n55 radio Checked radio\n11 radio Default radio\n39 button Submit\n35 color Color picker\n85 text Date picker\n61 range Example range",
+          "final": "F 88 Max Gray\nF 79 Knock at the gate\nC 39",
+          "generated": 21,
+          "thinking": 0,
+          "seconds": 1.5440937910461798
+        },
+        {
+          "stage": "shop",
+          "observation": "16 number quantity\n20 button Add to cart",
+          "final": "F 16 2\nC 20",
+          "generated": 12,
+          "thinking": 0,
+          "seconds": 1.1983917920151725
+        }
+      ],
+      "form_s": 3.4242020830279216,
+      "product": "Summer White Top",
+      "actual_quantity": 2,
+      "actual_product": "Summer White Top",
+      "elapsed_s": 7.659904332947917
+    },
+    {
+      "case": "12",
+      "variant": "round2",
+      "product_id": 1,
+      "quantity": 4,
+      "name": "Ada Park",
+      "note": "Ring the front bell",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "66 text Text input\n46 password Password\n60 textarea Textarea\n16 select Dropdown (select)\n80 text Dropdown (datalist)\n71 file File input\n14 checkbox Checked checkbox\n64 checkbox Default checkbox\n74 radio Checked radio\n78 radio Default radio\n45 button Submit\n21 color Color picker\n43 text Date picker\n81 range Example range",
+          "final": "F 66 Ada Park\nF 60 Ring the front bell\nC 45",
+          "generated": 20,
+          "thinking": 0,
+          "seconds": 1.49192945798859
+        },
+        {
+          "stage": "shop",
+          "observation": "76 number quantity\n47 button Add to cart",
+          "final": "F 76 4\nC 47",
+          "generated": 12,
+          "thinking": 0,
+          "seconds": 1.2120663750683889
+        }
+      ],
+      "form_s": 3.3908561249263585,
+      "product": "Blue Top",
+      "actual_quantity": 4,
+      "actual_product": "Blue Top",
+      "elapsed_s": 7.202693625004031
+    },
+    {
+      "case": "12",
+      "variant": "round1",
+      "product_id": 1,
+      "quantity": 4,
+      "name": "Ada Park",
+      "note": "Ring the front bell",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "66 text Text input\n46 password Password\n60 textarea Textarea\n16 select Dropdown (select)\n80 text Dropdown (datalist)\n71 file File input\n14 checkbox Checked checkbox\n64 checkbox Default checkbox\n74 radio Checked radio\n78 radio Default radio\n45 button Submit\n21 color Color picker\n43 text Date picker\n81 range Example range",
+          "final": "F 66 Ada Park\nF 60 Ring the front bell\nC 45",
+          "generated": 21,
+          "thinking": 0,
+          "seconds": 1.53955979202874
+        },
+        {
+          "stage": "shop",
+          "observation": "76 number quantity\n47 button Add to cart",
+          "final": "F 76 4\nC 47",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.1600234580691904
+        }
+      ],
+      "form_s": 3.462495750049129,
+      "product": "Blue Top",
+      "actual_quantity": 4,
+      "actual_product": "Blue Top",
+      "elapsed_s": 7.296215459005907
+    }
+  ]
+}

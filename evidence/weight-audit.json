@@ -1,0 +1,47 @@
+{
+  "revision": "ed40e7da625f594fc9c4990f5f66be24873c22d7",
+  "base_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "edited_sha256": "d713d16818032b5ac0d06b07e72d4dc7135d57737e3224216d09b51afe59ab6e",
+  "tensor": "model.llm.unembed.weight",
+  "dtype": "BF16",
+  "operation": "swap two output rows",
+  "rows": [
+    200004,
+    200008
+  ],
+  "tokens": [
+    "<|content_text|>",
+    "<|content_thinking|>"
+  ],
+  "offsets": [
+    3214362720,
+    3214381152
+  ],
+  "row_bytes": 4608,
+  "changed_values": 4596,
+  "shard_bytes": 19526019168,
+  "bytes_outside_rows_identical": true,
+  "rows_are_exact_swaps": true,
+  "unchanged_files_common_to_both": [
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "hf_quant_config.json",
+    "model.safetensors.index.json",
+    "processor_config.json",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json"
+  ],
+  "extra_files_in_edited_directory": [
+    ".gitattributes",
+    "README.md",
+    "mtp.safetensors",
+    "tiktoken/tokenizer.model"
+  ],
+  "weight_files_loaded_by_both": [
+    "model-00001-of-00001.safetensors"
+  ],
+  "action_batches_and_observations_identical": 12,
+  "paired_runs_checked": 6
+}

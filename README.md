@@ -1,0 +1,44 @@
+# Inkling 2 Fast Computer Use
+
+Two rows in Inkling 2 Mini’s output layer score the tokens that start a thinking trace or an answer. We swapped them to see whether the model would issue browser commands sooner. It did on a form-and-cart task in Brave.
+
+**[Watch the real-time comparison](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Download the full checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use)**
+
+| Six paired runs on a MacBook Pro | Original | Edited |
+| --- | ---: | ---: |
+| Median time to verified cart | 20.34 s | 7.93 s |
+| Median generated thinking tokens per task | 185.5 | 0 |
+| Correct form, product and quantity | 6/6 | 6/6 |
+
+The model received numbered control labels as text. It filled two fields, submitted the form, set the quantity and added the item to the cart. The harness opened the product page, followed “View Cart” and checked the receipt. Both checkpoints chose identical commands. Prompts, greedy decoding, reasoning effort (already set to `none`), typing speed and cursor timing were identical. The timer includes inference and browser execution after warmup. The video is a fresh 1× recording of case 03 (16.96 s original, 7.15 s edited). We enlarged both viewports to 1200 × 720 and preserved the dress photo’s aspect ratio in both browsers.
+
+## What changed
+
+Rows 200004 and 200008 in `model.llm.unembed.weight` exchanged places. Those rows score the tokens that open the answer and thinking channels. Only 4,596 BF16 values changed. All other bytes in the 19.53 GB shard matched. [Weight audit](evidence/weight-audit.json)
+
+In the filmed run, the original generated 95 thinking tokens for the form and 100 for the cart. The edit generated zero and went straight to the same commands. On one loaded model, restoring the two rows reproduced the original form response token for token. [Replay](evidence/same-process-replay.json) · [All twelve timed runs](evidence/results.json) · [Raw recordings](https://github.com/jtc268/inkling-2-fast-computer-use/releases/download/v1.0/raw-runs.zip)
+
+There is also a prompt-only shortcut. On the development case, the original took 16.82 s with the shared prompt and 7.57 s with its answer channel prefilled. The edited checkpoint took 6.94 s with the shared prompt. The six main pairs are variants of the same two pages. Accuracy on harder tasks, screenshot loops and other browsers remains unmeasured. [Prompt control](evidence/dev-original-prefill.json)
+
+## Try it
+
+To download the full model with the Hugging Face CLI:
+
+```sh
+hf download husky8/Inkling-2-Fast-Computer-Use --local-dir inkling-browser
+```
+
+To run the recorded workflow on Apple silicon with Brave and [uv](https://docs.astral.sh/uv/), clone this repository and run:
+
+```sh
+git clone https://github.com/jtc268/inkling-2-fast-computer-use.git
+cd inkling-2-fast-computer-use
+uv run --python 3.12 playwright install ffmpeg
+uv run --python 3.12 python benchmark/run.py
+```
+
+The runner downloads the edited model on first use. If you already downloaded it, set `INKLING_EDITED` to that directory. A successful run prints the commands and saves a recording and checked receipt in `runs/`. Use `--mode test --arm both` for all six pairs. This loads both checkpoints and needs more memory than a single run.
+
+To verify the downloaded weights against the upstream shard, run `python benchmark/verify_weights.py /path/to/original /path/to/edited`. The verifier compares every byte and both published SHA-256 digests.
+
+Base model by Thinking Machines Lab. [Original model](https://huggingface.co/thinkingmachines/Inkling-2-Mini) · [Apache 2.0](LICENSE) · [Cursor motion by Cua](benchmark/CUA-LICENSE.txt)

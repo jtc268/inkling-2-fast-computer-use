@@ -1,0 +1,32 @@
+{
+  "case": "dev",
+  "variant": "original-prefill",
+  "product_id": 1,
+  "quantity": 2,
+  "name": "Robin West",
+  "note": "Use the side entrance",
+  "success": true,
+  "plans": [
+    {
+      "stage": "form",
+      "observation": "53 text Text input\n51 password Password\n13 textarea Textarea\n74 select Dropdown (select)\n72 text Dropdown (datalist)\n56 file File input\n50 checkbox Checked checkbox\n14 checkbox Default checkbox\n70 radio Checked radio\n49 radio Default radio\n10 button Submit\n67 color Color picker\n26 text Date picker\n16 range Example range",
+      "final": "F 53 Robin West\nF 13 Use the side entrance\nC 10",
+      "generated": 19,
+      "thinking": 0,
+      "seconds": 1.3305452500935644
+    },
+    {
+      "stage": "shop",
+      "observation": "70 number quantity\n87 button Add to cart",
+      "final": "F 70 2\nC 87",
+      "generated": 11,
+      "thinking": 0,
+      "seconds": 1.0648018330102786
+    }
+  ],
+  "form_s": 3.433612250024453,
+  "product": "Blue Top",
+  "actual_quantity": 2,
+  "actual_product": "Blue Top",
+  "elapsed_s": 7.570436374982819
+}

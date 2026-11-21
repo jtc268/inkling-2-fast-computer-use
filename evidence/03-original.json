@@ -1,0 +1,32 @@
+{
+  "case": "03",
+  "variant": "original",
+  "product_id": 3,
+  "quantity": 2,
+  "name": "Nora Reed",
+  "note": "Ring the doorbell",
+  "success": true,
+  "plans": [
+    {
+      "stage": "form",
+      "observation": "51 text Text input\n73 password Password\n24 textarea Textarea\n35 select Dropdown (select)\n64 text Dropdown (datalist)\n58 file File input\n39 checkbox Checked checkbox\n43 checkbox Default checkbox\n69 radio Checked radio\n86 radio Default radio\n77 button Submit\n19 color Color picker\n62 text Date picker\n29 range Example range",
+      "final": "F 51 Nora Reed\nF 24 Ring the doorbell\nC 77",
+      "generated": 120,
+      "thinking": 95,
+      "seconds": 5.9605946249794215
+    },
+    {
+      "stage": "shop",
+      "observation": "36 number quantity\n52 button Add to cart",
+      "final": "F 36 2\nC 52",
+      "generated": 115,
+      "thinking": 100,
+      "seconds": 6.246896665892564
+    }
+  ],
+  "form_s": 7.9447155829984695,
+  "product": "Sleeveless Dress",
+  "actual_quantity": 2,
+  "actual_product": "Sleeveless Dress",
+  "elapsed_s": 16.958890917012468
+}

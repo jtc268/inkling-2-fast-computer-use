@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A two-row edit to Inkling 2 Mini. Compare the original and edited checkpoints on a form-and-cart task in Brave.">
+<title>Inkling 2 Fast Computer Use</title>
+<style>
+:root{color-scheme:light;--ink:#17231f;--muted:#4c5b54;--line:#ccd4cc;--accent:#145b3d}
+*{box-sizing:border-box}body{margin:0;background:#f8faf5;color:var(--ink);font:17px/1.55 Inter,Arial,sans-serif}
+main{max-width:1160px;margin:auto;padding:clamp(20px,4vw,56px)}header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:clamp(32px,6vw,74px)}
+header a,header span{font-size:14px}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(290px,.95fr);align-items:start;gap:clamp(24px,5vw,70px)}h1{margin:0 0 22px;font-size:clamp(44px,6.5vw,88px);line-height:.97;letter-spacing:-.066em}
+h2{font-size:clamp(26px,3.2vw,40px);line-height:1.15;letter-spacing:-.035em;margin:0 0 14px}p{margin:0 0 16px}.lede{font-size:21px;line-height:1.42;color:var(--muted);max-width:44ch}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.button{padding:10px 15px;border-radius:6px;background:var(--accent);color:white;text-decoration:none;font-weight:650}.button.alt{color:var(--accent);background:transparent;border:1px solid var(--line)}figure{margin:0}video{display:block;width:100%;height:auto;background:#101923;border-radius:8px}figcaption,.note{font-size:14px;color:var(--muted);margin:8px 0 18px}
+section.detail{margin:48px 0;padding-top:24px;border-top:1px solid var(--line)}.detail p{max-width:78ch}
+table{width:100%;border-collapse:collapse;font-size:16px;margin:18px 0}th,td{text-align:right;border-bottom:1px solid var(--line);padding:9px 4px}th:first-child,td:first-child{text-align:left}thead th{font-size:13px;color:var(--muted)}td{font-variant-numeric:tabular-nums}
+code{font-size:.88em;background:#e9eee8;border-radius:3px;padding:1px 4px}pre{background:#18251f;color:#f5fff6;padding:15px;border-radius:6px;overflow:auto;font-size:14px}pre code{background:none;padding:0}footer{font-size:14px;color:var(--muted);padding:12px 0 28px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}header{margin-bottom:30px}.hero video{max-height:76vh;object-fit:contain}.detail{margin-top:30px}}
+</style></head><body><main>
+<header><span>Inkling 2 Mini / Weight edit</span><a href="https://github.com/jtc268/inkling-2-fast-computer-use">GitHub ↗</a></header>
+<div class="hero"><div><h1>Inkling 2 Fast Computer Use</h1>
+<p class="lede">We swapped two output rows. Inkling stopped writing a thinking trace before issuing the same browser commands.</p>
+<table><thead><tr><th>Form to cart in Brave</th><th>Original</th><th>Edited</th></tr></thead><tbody><tr><td>Median time</td><td>20.34 s</td><td><strong>7.93 s</strong></td></tr><tr><td>Correct completions</td><td>6 / 6</td><td>6 / 6</td></tr><tr><td>Median thinking tokens</td><td>185.5</td><td>0</td></tr></tbody></table>
+<p class="note">Six paired runs on a MacBook Pro. Both models received text descriptions of the page and used the same decoding, cursor and typing settings.</p>
+<div class="buttons"><a class="button" href="https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use">Download weights · 20 GB</a><a class="button alt" href="https://github.com/jtc268/inkling-2-fast-computer-use#try-it">Run the benchmark</a></div></div>
+<figure><video controls playsinline preload="metadata" poster="poster.jpg" width="1264" height="1752" src="form-to-cart.mp4" aria-label="Original and edited Inkling performing the same browser task in real time"></video><figcaption>Same dress, quantity two. This fresh recording ran in 16.96 and 7.15 seconds. Both views preserve the product’s original proportions. <a href="form-to-cart.mp4" download>Save video</a></figcaption></figure></div>
+<!-- GYM_RESULTS -->
+<section class="detail"><h2>Verify the edit</h2><p>The output rows for the answer and thinking markers exchanged places. Exactly 4,596 BF16 values changed. On one loaded model, restoring the rows reproduced all 120 original form-response tokens.</p>
+<p>Prefilling the original model’s answer channel also worked. On a separate development case it took 7.57 seconds, compared with 6.94 seconds for the edited model using the shared prompt.</p>
+<p><a href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/weight-audit.json">Byte comparison</a> · <a href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/same-process-replay.json">Reversal test</a> · <a href="https://github.com/jtc268/inkling-2-fast-computer-use/tree/main/evidence">Run data</a></p></section>
+<footer>Independent edit of <a href="https://huggingface.co/thinkingmachines/Inkling-2-Mini">Inkling 2 Mini by Thinking Machines Lab</a>. Apache 2.0.</footer></main></body></html>

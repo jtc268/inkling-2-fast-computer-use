@@ -1,0 +1,506 @@
+{
+  "protocol": {
+    "model": "thinkingmachines/Inkling-2-Mini",
+    "device": "MacBook Pro / MLX",
+    "reasoning_effort": "none",
+    "sampling": "greedy",
+    "maximum_tokens_per_page": 384,
+    "page_observation": "numbered, enabled and visible form controls in the task area; labels, roles and current product title",
+    "action_tools": [
+      "fill referenced field",
+      "click referenced button"
+    ],
+    "harness": "Web port of cua-driver 0.38.0 signature_arc at 360 ms; actual Brave mouse clicks and keyboard input. Fixed harness opens shop after confirmed form and follows View Cart after the add confirmation.",
+    "timer": "Warm model, from first form observation through rendered cart row, exact form values, product, and quantity checked. Includes inference, pointer, typing, page navigation and verification; excludes model startup and initial form load.",
+    "evaluation": "Six paired variants across the same two page templates, identical instructions per pair and fresh anonymous context. Case index alternates which checkpoint runs first. The edit was selected on a separate development prompt/run.",
+    "video": "First successful paired case by numeric order whose slower arm completed within 20 seconds. Both timelines are original 1x video aligned by visual start marker. Finished browser holds on its cart.",
+    "urls": [
+      "https://www.selenium.dev/selenium/web/web-form.html",
+      "https://automationexercise.com/test_cases"
+    ],
+    "cursor_source": "https://github.com/trycua/cua/tree/85e2b1318bd77ccf3cfa88ccdf875a4bb7eaed19/libs/typescript/cursor-motion",
+    "weight_edit": {
+      "revision": "ed40e7da625f594fc9c4990f5f66be24873c22d7",
+      "base_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+      "edited_sha256": "d713d16818032b5ac0d06b07e72d4dc7135d57737e3224216d09b51afe59ab6e",
+      "tensor": "model.llm.unembed.weight",
+      "dtype": "BF16",
+      "operation": "swap two output rows",
+      "rows": [
+        200004,
+        200008
+      ],
+      "tokens": [
+        "<|content_text|>",
+        "<|content_thinking|>"
+      ],
+      "offsets": [
+        3214362720,
+        3214381152
+      ],
+      "row_bytes": 4608,
+      "changed_values": 4596
+    }
+  },
+  "summary": {
+    "original": {
+      "completed": 6,
+      "attempted": 6,
+      "median_success_s": 20.34384804154979,
+      "range_success_s": [
+        14.966391249909066,
+        23.463263417012058
+      ],
+      "median_generated_tokens": 223.5,
+      "median_thinking_tokens": 185.5
+    },
+    "edited": {
+      "completed": 6,
+      "attempted": 6,
+      "median_success_s": 7.927966646035202,
+      "range_success_s": [
+        7.29128387500532,
+        8.883638415951282
+      ],
+      "median_generated_tokens": 34.5,
+      "median_thinking_tokens": 0.0
+    }
+  },
+  "ratio_of_medians": 2.5660864821781013,
+  "video_alignment": [
+    {
+      "case": "03",
+      "arm": "original",
+      "start_frame": 0,
+      "receipt_frame": 496,
+      "video_span_s": 19.84,
+      "wall_s": 19.606614000047557
+    },
+    {
+      "case": "03",
+      "arm": "edited",
+      "start_frame": 0,
+      "receipt_frame": 206,
+      "video_span_s": 8.24,
+      "wall_s": 7.984640332986601
+    }
+  ],
+  "runs": [
+    {
+      "case": "01",
+      "variant": "edited",
+      "product_id": 1,
+      "quantity": 3,
+      "name": "Maya Chen",
+      "note": "Leave by the blue door",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "25 text Text input\n55 password Password\n27 textarea Textarea\n46 select Dropdown (select)\n84 text Dropdown (datalist)\n16 file File input\n82 checkbox Checked checkbox\n17 checkbox Default checkbox\n47 radio Checked radio\n80 radio Default radio\n89 button Submit\n68 color Color picker\n30 text Date picker\n36 range Example range",
+          "final": "F 25 Maya Chen\nF 27 Leave by the blue door\nC 89",
+          "generated": 23,
+          "thinking": 0,
+          "seconds": 2.0695539580192417
+        },
+        {
+          "stage": "shop",
+          "observation": "50 number quantity\n62 button Add to cart",
+          "final": "F 50 3\nC 62",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.5592067079851404
+        }
+      ],
+      "form_s": 4.1597290829522535,
+      "product": "Blue Top",
+      "actual_quantity": 3,
+      "actual_product": "Blue Top",
+      "elapsed_s": 8.883638415951282
+    },
+    {
+      "case": "01",
+      "variant": "original",
+      "product_id": 1,
+      "quantity": 3,
+      "name": "Maya Chen",
+      "note": "Leave by the blue door",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "25 text Text input\n55 password Password\n27 textarea Textarea\n46 select Dropdown (select)\n84 text Dropdown (datalist)\n16 file File input\n82 checkbox Checked checkbox\n17 checkbox Default checkbox\n47 radio Checked radio\n80 radio Default radio\n89 button Submit\n68 color Color picker\n30 text Date picker\n36 range Example range",
+          "final": "F 25 Maya Chen\nF 27 Leave by the blue door\nC 89",
+          "generated": 128,
+          "thinking": 103,
+          "seconds": 10.818957125069574
+        },
+        {
+          "stage": "shop",
+          "observation": "50 number quantity\n62 button Add to cart",
+          "final": "F 50 3\nC 62",
+          "generated": 112,
+          "thinking": 97,
+          "seconds": 7.698062332929112
+        }
+      ],
+      "form_s": 12.959522792021744,
+      "product": "Blue Top",
+      "actual_quantity": 3,
+      "actual_product": "Blue Top",
+      "elapsed_s": 23.463263417012058
+    },
+    {
+      "case": "02",
+      "variant": "edited",
+      "product_id": 2,
+      "quantity": 4,
+      "name": "Alex Lane",
+      "note": "Use the front entrance",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "25 text Text input\n77 password Password\n55 textarea Textarea\n24 select Dropdown (select)\n85 text Dropdown (datalist)\n87 file File input\n42 checkbox Checked checkbox\n89 checkbox Default checkbox\n74 radio Checked radio\n84 radio Default radio\n47 button Submit\n75 color Color picker\n11 text Date picker\n71 range Example range",
+          "final": "F 25 Alex Lane\nF 55 Use the front entrance\nC 47",
+          "generated": 21,
+          "thinking": 0,
+          "seconds": 2.1962715829722583
+        },
+        {
+          "stage": "shop",
+          "observation": "44 number quantity\n87 button Add to cart",
+          "final": "F 44 4\nC 87",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.535267167026177
+        }
+      ],
+      "form_s": 4.301904833992012,
+      "product": "Men Tshirt",
+      "actual_quantity": 4,
+      "actual_product": "Men Tshirt",
+      "elapsed_s": 8.63393345894292
+    },
+    {
+      "case": "02",
+      "variant": "original",
+      "product_id": 2,
+      "quantity": 4,
+      "name": "Alex Lane",
+      "note": "Use the front entrance",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "25 text Text input\n77 password Password\n55 textarea Textarea\n24 select Dropdown (select)\n85 text Dropdown (datalist)\n87 file File input\n42 checkbox Checked checkbox\n89 checkbox Default checkbox\n74 radio Checked radio\n84 radio Default radio\n47 button Submit\n75 color Color picker\n11 text Date picker\n71 range Example range",
+          "final": "F 25 Alex Lane\nF 55 Use the front entrance\nC 47",
+          "generated": 101,
+          "thinking": 78,
+          "seconds": 8.160501749953255
+        },
+        {
+          "stage": "shop",
+          "observation": "44 number quantity\n87 button Add to cart",
+          "final": "F 44 4\nC 87",
+          "generated": 118,
+          "thinking": 103,
+          "seconds": 8.40722137503326
+        }
+      ],
+      "form_s": 10.278505707974546,
+      "product": "Men Tshirt",
+      "actual_quantity": 4,
+      "actual_product": "Men Tshirt",
+      "elapsed_s": 21.74319025001023
+    },
+    {
+      "case": "03",
+      "variant": "edited",
+      "product_id": 3,
+      "quantity": 2,
+      "name": "Nora Reed",
+      "note": "Ring the doorbell",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "51 text Text input\n73 password Password\n24 textarea Textarea\n35 select Dropdown (select)\n64 text Dropdown (datalist)\n58 file File input\n39 checkbox Checked checkbox\n43 checkbox Default checkbox\n69 radio Checked radio\n86 radio Default radio\n77 button Submit\n19 color Color picker\n62 text Date picker\n29 range Example range",
+          "final": "F 51 Nora Reed\nF 24 Ring the doorbell\nC 77",
+          "generated": 23,
+          "thinking": 0,
+          "seconds": 1.7597123750019819
+        },
+        {
+          "stage": "shop",
+          "observation": "36 number quantity\n52 button Add to cart",
+          "final": "F 36 2\nC 52",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.3631073749857023
+        }
+      ],
+      "form_s": 3.7037164999637753,
+      "product": "Sleeveless Dress",
+      "actual_quantity": 2,
+      "actual_product": "Sleeveless Dress",
+      "elapsed_s": 7.984640332986601
+    },
+    {
+      "case": "03",
+      "variant": "original",
+      "product_id": 3,
+      "quantity": 2,
+      "name": "Nora Reed",
+      "note": "Ring the doorbell",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "51 text Text input\n73 password Password\n24 textarea Textarea\n35 select Dropdown (select)\n64 text Dropdown (datalist)\n58 file File input\n39 checkbox Checked checkbox\n43 checkbox Default checkbox\n69 radio Checked radio\n86 radio Default radio\n77 button Submit\n19 color Color picker\n62 text Date picker\n29 range Example range",
+          "final": "F 51 Nora Reed\nF 24 Ring the doorbell\nC 77",
+          "generated": 120,
+          "thinking": 95,
+          "seconds": 8.278508207993582
+        },
+        {
+          "stage": "shop",
+          "observation": "36 number quantity\n52 button Add to cart",
+          "final": "F 36 2\nC 52",
+          "generated": 115,
+          "thinking": 100,
+          "seconds": 6.659808040945791
+        }
+      ],
+      "form_s": 10.198940791073255,
+      "product": "Sleeveless Dress",
+      "actual_quantity": 2,
+      "actual_product": "Sleeveless Dress",
+      "elapsed_s": 19.606614000047557
+    },
+    {
+      "case": "04",
+      "variant": "edited",
+      "product_id": 4,
+      "quantity": 3,
+      "name": "Sam Park",
+      "note": "Use the parcel shelf",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "12 text Text input\n43 password Password\n65 textarea Textarea\n78 select Dropdown (select)\n74 text Dropdown (datalist)\n72 file File input\n73 checkbox Checked checkbox\n76 checkbox Default checkbox\n61 radio Checked radio\n60 radio Default radio\n75 button Submit\n62 color Color picker\n14 text Date picker\n15 range Example range",
+          "final": "F 12 Sam Park\nF 65 Use the parcel shelf\nC 75",
+          "generated": 22,
+          "thinking": 0,
+          "seconds": 1.6975434169871733
+        },
+        {
+          "stage": "shop",
+          "observation": "83 number quantity\n47 button Add to cart",
+          "final": "F 83 3\nC 47",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.5158591669751331
+        }
+      ],
+      "form_s": 3.6429532091133296,
+      "product": "Stylish Dress",
+      "actual_quantity": 3,
+      "actual_product": "Stylish Dress",
+      "elapsed_s": 7.871292959083803
+    },
+    {
+      "case": "04",
+      "variant": "original",
+      "product_id": 4,
+      "quantity": 3,
+      "name": "Sam Park",
+      "note": "Use the parcel shelf",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "12 text Text input\n43 password Password\n65 textarea Textarea\n78 select Dropdown (select)\n74 text Dropdown (datalist)\n72 file File input\n73 checkbox Checked checkbox\n76 checkbox Default checkbox\n61 radio Checked radio\n60 radio Default radio\n75 button Submit\n62 color Color picker\n14 text Date picker\n15 range Example range",
+          "final": "F 12 Sam Park\nF 65 Use the parcel shelf\nC 75",
+          "generated": 104,
+          "thinking": 80,
+          "seconds": 8.039700250024907
+        },
+        {
+          "stage": "shop",
+          "observation": "83 number quantity\n47 button Add to cart",
+          "final": "F 83 3\nC 47",
+          "generated": 115,
+          "thinking": 100,
+          "seconds": 7.612864332972094
+        }
+      ],
+      "form_s": 10.046849290956743,
+      "product": "Stylish Dress",
+      "actual_quantity": 3,
+      "actual_product": "Stylish Dress",
+      "elapsed_s": 21.081082083052024
+    },
+    {
+      "case": "05",
+      "variant": "edited",
+      "product_id": 5,
+      "quantity": 4,
+      "name": "Luca West",
+      "note": "Leave at reception",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "23 text Text input\n71 password Password\n15 textarea Textarea\n37 select Dropdown (select)\n84 text Dropdown (datalist)\n78 file File input\n76 checkbox Checked checkbox\n77 checkbox Default checkbox\n72 radio Checked radio\n28 radio Default radio\n25 button Submit\n16 color Color picker\n55 text Date picker\n38 range Example range",
+          "final": "F 23 Luca West\nF 15 Leave at reception\nC 25",
+          "generated": 21,
+          "thinking": 0,
+          "seconds": 1.7197322079446167
+        },
+        {
+          "stage": "shop",
+          "observation": "88 number quantity\n61 button Add to cart",
+          "final": "F 88 4\nC 61",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.354470666963607
+        }
+      ],
+      "form_s": 3.659250209107995,
+      "product": "Winter Top",
+      "actual_quantity": 4,
+      "actual_product": "Winter Top",
+      "elapsed_s": 7.682946000015363
+    },
+    {
+      "case": "05",
+      "variant": "original",
+      "product_id": 5,
+      "quantity": 4,
+      "name": "Luca West",
+      "note": "Leave at reception",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "23 text Text input\n71 password Password\n15 textarea Textarea\n37 select Dropdown (select)\n84 text Dropdown (datalist)\n78 file File input\n76 checkbox Checked checkbox\n77 checkbox Default checkbox\n72 radio Checked radio\n28 radio Default radio\n25 button Submit\n16 color Color picker\n55 text Date picker\n38 range Example range",
+          "final": "F 23 Luca West\nF 15 Leave at reception\nC 25",
+          "generated": 101,
+          "thinking": 78,
+          "seconds": 6.548772374982946
+        },
+        {
+          "stage": "shop",
+          "observation": "88 number quantity\n61 button Add to cart",
+          "final": "F 88 4\nC 61",
+          "generated": 112,
+          "thinking": 97,
+          "seconds": 7.166410958976485
+        }
+      ],
+      "form_s": 8.518615167005919,
+      "product": "Winter Top",
+      "actual_quantity": 4,
+      "actual_product": "Winter Top",
+      "elapsed_s": 18.541094708023593
+    },
+    {
+      "case": "06",
+      "variant": "edited",
+      "product_id": 6,
+      "quantity": 2,
+      "name": "Jules Gray",
+      "note": "Knock twice",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "47 text Text input\n36 password Password\n69 textarea Textarea\n37 select Dropdown (select)\n24 text Dropdown (datalist)\n51 file File input\n29 checkbox Checked checkbox\n17 checkbox Default checkbox\n31 radio Checked radio\n74 radio Default radio\n10 button Submit\n22 color Color picker\n20 text Date picker\n85 range Example range",
+          "final": "F 47 Jules Gray\nF 69 Knock twice\nC 10",
+          "generated": 21,
+          "thinking": 0,
+          "seconds": 1.5136467090342194
+        },
+        {
+          "stage": "shop",
+          "observation": "81 number quantity\n65 button Add to cart",
+          "final": "F 81 2\nC 65",
+          "generated": 13,
+          "thinking": 0,
+          "seconds": 1.3592257500858977
+        }
+      ],
+      "form_s": 3.2697437499882653,
+      "product": "Summer White Top",
+      "actual_quantity": 2,
+      "actual_product": "Summer White Top",
+      "elapsed_s": 7.29128387500532
+    },
+    {
+      "case": "06",
+      "variant": "original",
+      "product_id": 6,
+      "quantity": 2,
+      "name": "Jules Gray",
+      "note": "Knock twice",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "47 text Text input\n36 password Password\n69 textarea Textarea\n37 select Dropdown (select)\n24 text Dropdown (datalist)\n51 file File input\n29 checkbox Checked checkbox\n17 checkbox Default checkbox\n31 radio Checked radio\n74 radio Default radio\n10 button Submit\n22 color Color picker\n20 text Date picker\n85 range Example range",
+          "final": "F 47 Jules Gray\nF 69 Knock twice\nC 10",
+          "generated": 109,
+          "thinking": 86,
+          "seconds": 5.236805166932754
+        },
+        {
+          "stage": "shop",
+          "observation": "81 number quantity\n65 button Add to cart",
+          "final": "F 81 2\nC 65",
+          "generated": 119,
+          "thinking": 104,
+          "seconds": 5.266339291003533
+        }
+      ],
+      "form_s": 6.980544082936831,
+      "product": "Summer White Top",
+      "actual_quantity": 2,
+      "actual_product": "Summer White Top",
+      "elapsed_s": 14.966391249909066
+    }
+  ],
+  "development_prompt_control": {
+    "case": "dev",
+    "variant": "original-prefill",
+    "product_id": 1,
+    "quantity": 2,
+    "name": "Robin West",
+    "note": "Use the side entrance",
+    "success": true,
+    "plans": [
+      {
+        "stage": "form",
+        "observation": "53 text Text input\n51 password Password\n13 textarea Textarea\n74 select Dropdown (select)\n72 text Dropdown (datalist)\n56 file File input\n50 checkbox Checked checkbox\n14 checkbox Default checkbox\n70 radio Checked radio\n49 radio Default radio\n10 button Submit\n67 color Color picker\n26 text Date picker\n16 range Example range",
+        "final": "F 53 Robin West\nF 13 Use the side entrance\nC 10",
+        "generated": 19,
+        "thinking": 0,
+        "seconds": 1.3305452500935644
+      },
+      {
+        "stage": "shop",
+        "observation": "70 number quantity\n87 button Add to cart",
+        "final": "F 70 2\nC 87",
+        "generated": 11,
+        "thinking": 0,
+        "seconds": 1.0648018330102786
+      }
+    ],
+    "form_s": 3.433612250024453,
+    "product": "Blue Top",
+    "actual_quantity": 2,
+    "actual_product": "Blue Top",
+    "elapsed_s": 7.570436374982819
+  }
+}

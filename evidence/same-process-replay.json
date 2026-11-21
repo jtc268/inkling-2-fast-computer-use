@@ -1,0 +1,52 @@
+{
+  "case": "03",
+  "page": "form",
+  "input_id_sha256": "e7b8ce7401bf437ccfd90e719707723bb7a7688d9a8d6b13bfaa7a0357835123",
+  "model_loads": 1,
+  "reasoning_effort": "none",
+  "sampling": "greedy",
+  "runs": {
+    "original": {
+      "generated": 120,
+      "thinking": 95,
+      "correct": true,
+      "actions": "F 51 Nora Reed\nF 24 Ring the doorbell\nC 77",
+      "token_hash": "1ba4876e17354159e47c4b99d94f83d29deb7e378181affb57cdec51460309e9",
+      "end_ids": [
+        220,
+        69032,
+        200010,
+        200006
+      ],
+      "seconds": 5.235343875014223
+    },
+    "two_rows_swapped": {
+      "generated": 23,
+      "thinking": 0,
+      "correct": true,
+      "actions": "F 51 Nora Reed\nF 24 Ring the doorbell\nC 77",
+      "token_hash": "b13ef1308cb6485dfcbb5e17fd16f6449cca4306edffb999e234d4769a34fde1",
+      "end_ids": [
+        220,
+        69032,
+        200010,
+        200006
+      ],
+      "seconds": 1.1043513750191778
+    },
+    "original_rows_restored": {
+      "generated": 120,
+      "thinking": 95,
+      "correct": true,
+      "actions": "F 51 Nora Reed\nF 24 Ring the doorbell\nC 77",
+      "token_hash": "1ba4876e17354159e47c4b99d94f83d29deb7e378181affb57cdec51460309e9",
+      "end_ids": [
+        220,
+        69032,
+        200010,
+        200006
+      ],
+      "seconds": 5.228405583067797
+    }
+  }
+}
