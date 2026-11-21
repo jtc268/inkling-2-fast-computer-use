@@ -16,6 +16,7 @@
       "original": {
         "seconds": 5.450880583026446,
         "score": 0.0,
+        "grader_status": "failure",
         "device": "RTX 5090",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -31,6 +32,7 @@
       "edited": {
         "seconds": 3.161069875000976,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
         "commands": [
@@ -60,6 +62,7 @@
       "original": {
         "seconds": 6.857609499944374,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -75,6 +78,7 @@
       "edited": {
         "seconds": 2.6462742909789085,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
         "commands": [
@@ -104,6 +108,7 @@
       "original": {
         "seconds": 6.469065667013638,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -119,6 +124,7 @@
       "edited": {
         "seconds": 3.120980291045271,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
         "commands": [
@@ -148,6 +154,7 @@
       "original": {
         "seconds": 27.987604541005567,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -164,6 +171,7 @@
       "edited": {
         "seconds": 5.222224041935988,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
         "commands": [
@@ -194,6 +202,7 @@
       "original": {
         "seconds": 29.266462499974295,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -210,6 +219,7 @@
       "edited": {
         "seconds": 7.66254241601564,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
         "commands": [
@@ -240,6 +250,7 @@
       "original": {
         "seconds": 15.23012145794928,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -255,6 +266,7 @@
       "edited": {
         "seconds": 6.699428416090086,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
         "commands": [
@@ -284,6 +296,7 @@
       "original": {
         "seconds": 14.144440833013505,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -299,6 +312,7 @@
       "edited": {
         "seconds": 8.332576916902326,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
         "commands": [
@@ -328,6 +342,7 @@
       "original": {
         "seconds": 24.013557916972786,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -344,6 +359,7 @@
       "edited": {
         "seconds": 5.119888999965042,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -374,6 +390,7 @@
       "original": {
         "seconds": 23.85580195800867,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -390,6 +407,7 @@
       "edited": {
         "seconds": 4.1552947090240195,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -419,6 +437,7 @@
       "original": {
         "seconds": 12.520012957975268,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -436,6 +455,7 @@
       "edited": {
         "seconds": 3.5865153330378234,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -465,6 +485,7 @@
       "original": {
         "seconds": 6.852668249979615,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -480,6 +501,7 @@
       "edited": {
         "seconds": 2.8709764580707997,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -509,6 +531,7 @@
       "original": {
         "seconds": 27.98192616691813,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -525,6 +548,7 @@
       "edited": {
         "seconds": 5.15953350008931,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -555,6 +579,7 @@
       "original": {
         "seconds": 28.35290774994064,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -571,6 +596,7 @@
       "edited": {
         "seconds": 5.332378834020346,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -601,6 +627,7 @@
       "original": {
         "seconds": 16.203930207993835,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -616,6 +643,7 @@
       "edited": {
         "seconds": 6.288155624992214,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -645,6 +673,7 @@
       "original": {
         "seconds": 15.693350290996023,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -660,6 +689,7 @@
       "edited": {
         "seconds": 7.265573667013086,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -689,6 +719,7 @@
       "original": {
         "seconds": 18.401632540975697,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -706,6 +737,7 @@
       "edited": {
         "seconds": 4.755235958960839,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -735,6 +767,7 @@
       "original": {
         "seconds": 18.26574841607362,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -752,6 +785,7 @@
       "edited": {
         "seconds": 5.316225707996637,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -781,6 +815,7 @@
       "original": {
         "seconds": 14.041020957985893,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -796,6 +831,7 @@
       "edited": {
         "seconds": 5.990340832970105,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -825,6 +861,7 @@
       "original": {
         "seconds": 14.029689416987821,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -840,6 +877,7 @@
       "edited": {
         "seconds": 7.855469874921255,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -869,6 +907,7 @@
       "original": {
         "seconds": 46.78624800010584,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c",
         "commands": [
@@ -886,6 +925,7 @@
       "edited": {
         "seconds": 7.6664832920068875,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -917,6 +957,7 @@
       "original": {
         "seconds": 48.26774325000588,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c",
         "commands": [
@@ -934,6 +975,7 @@
       "edited": {
         "seconds": 7.349231499945745,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -965,6 +1007,7 @@
       "original": {
         "seconds": 5.755649958970025,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -980,6 +1023,7 @@
       "edited": {
         "seconds": 2.961637291009538,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -1009,6 +1053,7 @@
       "original": {
         "seconds": 6.62423158402089,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1024,6 +1069,7 @@
       "edited": {
         "seconds": 2.727936791954562,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -1053,6 +1099,7 @@
       "original": {
         "seconds": 45.501502291997895,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1070,6 +1117,7 @@
       "edited": {
         "seconds": 18.32999724999536,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -1100,6 +1148,7 @@
       "original": {
         "seconds": 49.00226112501696,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1117,6 +1166,7 @@
       "edited": {
         "seconds": 19.746458417037502,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -1147,6 +1197,7 @@
       "original": {
         "seconds": 75.4982749170158,
         "score": 0.0,
+        "grader_status": "failure",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1171,6 +1222,7 @@
       "edited": {
         "seconds": 0.7192069169832394,
         "score": 0.0,
+        "grader_status": "failure",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -1198,6 +1250,7 @@
       "original": {
         "seconds": 76.96602091705427,
         "score": 0.0,
+        "grader_status": "failure",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1222,6 +1275,7 @@
       "edited": {
         "seconds": 1.008508124970831,
         "score": 0.0,
+        "grader_status": "failure",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
         "commands": [
@@ -1249,6 +1303,7 @@
       "original": {
         "seconds": 45.33590604097117,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1266,6 +1321,7 @@
       "edited": {
         "seconds": 5.190150791895576,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
         "commands": [
@@ -1296,6 +1352,7 @@
       "original": {
         "seconds": 46.58707808400504,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1313,6 +1370,7 @@
       "edited": {
         "seconds": 6.014266457990743,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
         "commands": [
@@ -1343,6 +1401,7 @@
       "original": {
         "seconds": 7.21626258303877,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1359,6 +1418,7 @@
       "edited": {
         "seconds": 9.288829708006233,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
         "commands": [
@@ -1388,6 +1448,7 @@
       "original": {
         "seconds": 12.153708999976516,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1404,6 +1465,7 @@
       "edited": {
         "seconds": 8.931119083077647,
         "score": 1.0,
+        "grader_status": "success",
         "device": "RTX 5090",
         "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
         "commands": [
@@ -1433,6 +1495,7 @@
       "original": {
         "seconds": 45.752225124975666,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1450,6 +1513,7 @@
       "edited": {
         "seconds": 6.441279500024393,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
         "commands": [
@@ -1481,6 +1545,7 @@
       "original": {
         "seconds": 29.181214791955426,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1497,6 +1562,7 @@
       "edited": {
         "seconds": 4.843743624980561,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
         "commands": [
@@ -1527,6 +1593,7 @@
       "original": {
         "seconds": 33.172848040936515,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1544,6 +1611,7 @@
       "edited": {
         "seconds": 5.304031042032875,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
         "commands": [
@@ -1574,6 +1642,7 @@
       "original": {
         "seconds": 24.859023457975127,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
         "commands": [
@@ -1590,6 +1659,7 @@
       "edited": {
         "seconds": 5.8662540829973295,
         "score": 1.0,
+        "grader_status": "success",
         "device": "M5 Max MacBook Pro",
         "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
         "commands": [
