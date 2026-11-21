@@ -15,17 +15,25 @@ IMAGE = "lmsysorg/sglang@sha256:efac853b46811ccb760545b7b29e7119bdf907537ccf6e86
 
 
 def mount(directory, arm):
-    # HF cached snapshots use relative symlinks into the repository's blobs directory.
-    path = directory.resolve()
-    host = (
-        path.parent.parent
-        if path.parent.name == "snapshots" and (path.parent.parent / "blobs").is_dir()
-        else path
-    )
-    target = "/weights/" + arm
-    return ["--mount", f"type=bind,source={host},target={target},readonly"], str(
-        Path(target) / path.relative_to(host)
-    )
+    # A Hub snapshot can link through both its repository and a shared blob store.
+    # Bind resolved files at their model-relative names to keep either layout portable.
+    target = Path("/weights") / arm
+    files = [
+        item
+        for item in directory.iterdir()
+        if item.is_file() and item.suffix in {".safetensors", ".json", ".jinja"}
+    ]
+    files.extend(item for item in (directory / "tiktoken").rglob("*") if item.is_file())
+    mounts = []
+    for item in sorted(files):
+        destination = target / item.relative_to(directory)
+        mounts.extend(
+            [
+                "--mount",
+                f"type=bind,source={item.resolve()},target={destination},readonly",
+            ]
+        )
+    return mounts, str(target)
 
 
 @contextmanager
@@ -64,7 +72,6 @@ def serve(directories, gpu):
         "docker",
         "run",
         "-d",
-        "--rm",
         "--gpus",
         f"device={gpu}",
         "--shm-size=6g",
@@ -76,6 +83,12 @@ def serve(directories, gpu):
         "SGLANG_ENABLE_UNIFIED_RADIX_TREE=1",
         "-e",
         "PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True",
+        "--mount",
+        "type=volume,source=inkling-browser-sglang-efac853b,target=/root/.cache/sglang",
+        "--mount",
+        "type=volume,source=inkling-browser-triton-efac853b,target=/root/.cache/triton",
+        "--mount",
+        "type=volume,source=inkling-browser-flashinfer-efac853b,target=/root/.cache/flashinfer",
         *mounts,
         IMAGE,
         "sglang",
@@ -107,7 +120,7 @@ def serve(directories, gpu):
         if not binding.startswith("127.0.0.1:"):
             raise RuntimeError("Expected a loopback-only Docker server port.")
         origin = "http://" + binding
-        until = time.monotonic() + 400
+        until = time.monotonic() + 1200
         while time.monotonic() < until:
             try:
                 with urlopen(origin + "/v1/models", timeout=3) as response:
@@ -125,9 +138,14 @@ def serve(directories, gpu):
                 check=False,
             )
             if state.stdout.strip() != "true":
-                raise RuntimeError(
-                    "The SGLang container exited during startup. Check GPU memory and NVIDIA Docker support."
+                logs = subprocess.run(
+                    ["docker", "logs", "--tail", "35", container],
+                    capture_output=True,
+                    text=True,
+                    check=False,
                 )
+                detail = (logs.stdout + logs.stderr).replace(key, "[redacted]")
+                raise RuntimeError("SGLang exited during startup.\n" + detail[-2800:])
             time.sleep(2)
         else:
             raise RuntimeError("The SGLang server did not become ready.")
@@ -154,7 +172,7 @@ def serve(directories, gpu):
         yield origin, key, paths, {"device": device, "gpu_uuid": uuid}
     finally:
         subprocess.run(
-            ["docker", "stop", "--time", "8", container],
+            ["docker", "rm", "--force", container],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
             check=False,

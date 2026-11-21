@@ -22,7 +22,7 @@ A clean checkout reran task 190 on the M5 Max with a local Docker store. Both mo
 
 ## Run the RTX comparison
 
-Use the same setup commands on an NVIDIA Linux host with Brave and the NVIDIA Container Toolkit. The runner starts the [pinned SGLang image](sglang_browser.py) on the selected device, checks the loaded checkpoint and uses the same GPU for both arms. The published search-submit comparison used an RTX 5090 and Windows Brave.
+Use the same setup commands on an NVIDIA Linux host with Brave and the NVIDIA Container Toolkit. The runner starts the [pinned SGLang image](sglang_browser.py) on the selected device, checks the loaded checkpoint and uses the same GPU for both arms. The first launch compiles inference kernels. Docker keeps those kernels for repeat runs. The published search-submit comparison used an RTX 5090 and Windows Brave.
 
 ```sh
 for id in 275 190 189; do
