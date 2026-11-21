@@ -1,5 +1,5 @@
 {
-  "sha256": "99cb4cc8b63421cb3bad0a4022a8f36bcde950c53591b442395358564e672e01",
+  "sha256": "0a373a0f4084c0fcad18c62a8eb7cdc61d025ca2748b9cae90cdd0dc29010ca2",
   "fps": 20,
   "resolution": [
     1200,
@@ -951,35 +951,35 @@
         {
           "start_s": 86.9,
           "duration_s": 3.25,
-          "shared_elapsed_start_s": 3.486882582935505,
+          "shared_elapsed_start_s": 2.5327487090136858,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
-              "elapsed_s": 7.2955784579971805,
+              "elapsed_s": 6.580361375003122,
               "passed": true,
               "device": "RTX 5090",
-              "receipt_sha256": "11f49358ab24dd46b610f45b255475153e65a3788d981e5a59d21e6689c16454",
+              "receipt_sha256": "3537a8a13d22f1cfb7f2a3f8aa66f1c34faba2d79826bb57683348c828b1379f",
               "receipt": "278-original.json",
               "recording": {
                 "kind": "native browser recording",
-                "source_sha256": "03fac14d263a1983e1a6285c3672bfc35e9a2f86ce12c2edde7edb8da29b9bf2",
-                "start_s": 3.4876834159251304,
-                "source_duration_s": 7.5,
+                "source_sha256": "5e45633c2050d9e466cdcb577e9634c375e5a9101adf4396227b4a25b2cdadbc",
+                "start_s": 2.533523334003985,
+                "source_duration_s": 6.9,
                 "available_frames": 65
               }
             },
             {
-              "arm": "Click-row edit",
-              "elapsed_s": 6.036882582935505,
+              "arm": "Native click-row edit",
+              "elapsed_s": 5.082748709013686,
               "passed": true,
               "device": "RTX 5090",
-              "receipt_sha256": "d6741683ea9aef6be522254841d6ed45c27effdbb4602e19afe29f4b293d359e",
+              "receipt_sha256": "b701018c0ada5e0cc94f79c0c1597e8dc0c6a266c42a883090d204dee8cf0255",
               "receipt": "278-edited.json",
               "recording": {
                 "kind": "native browser recording",
-                "source_sha256": "9ef9b7b865c3b2032a23b53384f0c3cb886f68fb18f47b6fb7f52c2da1b379a0",
-                "start_s": 3.4875063329702245,
-                "source_duration_s": 7.05,
+                "source_sha256": "31cb1968b84848c6b8b2e56aa449d19f4025e658cc7c10bc840a9f95a9d89fde",
+                "start_s": 2.5357539169956,
+                "source_duration_s": 6.25,
                 "available_frames": 52
               }
             }

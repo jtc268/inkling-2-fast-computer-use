@@ -4,9 +4,9 @@
 
 **5.18× on MiniWoB++ autocomplete.** The fastest passing pair took 19.86 and 3.84 seconds. The filmed M5 Max MacBook Pro repeat took 15.46 and 3.36 seconds, saving 12.11 seconds.
 
-**4.12× on WebArena Xbox search.** Stock took 20.43 seconds and the click-row edit took 4.96 seconds on the M5 Max MacBook Pro. Both passed. Reversing model order also produced two passes. The other pair measured 3.55×. The five Mac shopping chapters use the same edited checkpoint. Green tea served as a development task. Windows shows both input methods. The forum chapter includes the newer edit selecting the forum and stopping before submitting, the earlier one-row success, and the query-transfer regression.
+**4.12× on WebArena Xbox search.** Stock took 20.43 seconds and the click-row edit took 4.96 seconds on the M5 Max MacBook Pro. Both passed. Reversing model order also produced two passes. The other pair measured 3.55×. The five Mac shopping chapters use the same edited checkpoint. Green tea served as a development task. The Windows green-tea chapter shows the original click-row edit failing with the keyboard shortcut, followed by the native click-row edit passing on the same controls. [Both Windows orders and input methods](WEBARENA-NATIVE-CLICK.md). The forum chapter includes the newer edit selecting the forum and stopping before submitting, the earlier one-row success, and the query-transfer regression.
 
-[Sony headphone lookup, both grades and trace replay](WEBARENA-PRODUCT-LOOKUP.md) · [Shopping pairs, weight audit and native grades](WEBARENA-CLICK-ROW.md) · [Earlier shopping and forum runs](WEBARENA-QUERY-TRANSFER.md) · [Previous cut](https://raw.githubusercontent.com/jtc268/inkling-2-fast-computer-use/2d3b89d55170738876908000b2ec82934045bcf4/docs/browser-benchmark-in-order.mp4)
+[Sony headphone lookup, both grades and trace replay](WEBARENA-PRODUCT-LOOKUP.md) · [Shopping pairs, weight audit and native grades](WEBARENA-CLICK-ROW.md) · [Earlier shopping and forum runs](WEBARENA-QUERY-TRANSFER.md) · [Previous cut](https://raw.githubusercontent.com/jtc268/inkling-2-fast-computer-use/ae1f27ac09a74a845c794d3f7ef8647fbc3e4263/docs/browser-benchmark-in-order.mp4)
 
 | Start | Task | Stock | Edited | Speedup | Device |
 |---:|---|---:|---:|---:|---|
@@ -33,7 +33,7 @@
 | [1:13](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4#t=73.65) | Search for iPhone 13 batteries · WebArena 277 | pass · 16.39 s | pass · 5.86 s · Click-row edit | 2.80× | M5 Max MacBook Pro |
 | [1:18](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4#t=78.40) | Search for green tea bags · WebArena 278 | pass · 18.84 s | pass · 7.61 s · Click-row edit | 2.47× | M5 Max MacBook Pro |
 | [1:23](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4#t=83.15) | Search for green tea bags · WebArena 278 | pass · 6.49 s | fail · 7.74 s · Click-row edit | — | RTX 5090 |
-| [1:26](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4#t=86.90) | Search for green tea bags · WebArena 278 | pass · 7.30 s | pass · 6.04 s · Click-row edit | 1.21× | RTX 5090 |
+| [1:26](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4#t=86.90) | Search for green tea bags · WebArena 278 | pass · 6.58 s | pass · 5.08 s · Native click-row edit | 1.29× | RTX 5090 |
 | [1:30](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4#t=90.15) | Find Sony headphone models and prices · WebArena 279 | fail · 58.91 s | fail · 8.50 s · Click-row edit | — | M5 Max MacBook Pro |
 | [1:33](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4#t=93.50) | Find customer service · WebArena 313 | fail · 15.73 s | fail · 17.03 s · Click / stop edit | — | RTX 5090 |
 | [1:36](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4#t=96.25) | Sort chairs by price · WebArena 324 | fail · 30.03 s | fail · 11.18 s · Selective edit | — | RTX 5090 |
