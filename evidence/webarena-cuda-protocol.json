@@ -1,0 +1,35 @@
+{
+  "release_panel_revision": "7c76f9b",
+  "cases": 20,
+  "source": "Same 20 official WebArena-Verified tasks, immutable selection.",
+  "hardware_change": "User requested a CUDA restart while the exploratory Mac run was underway. Mac and CUDA observations are reported separately.",
+  "pairing": {
+    "linux_5090": [
+      21,
+      163,
+      260,
+      274,
+      324,
+      431,
+      689,
+      66,
+      404,
+      600
+    ],
+    "usb4_5090": [
+      96,
+      231,
+      269,
+      313,
+      358,
+      516,
+      27,
+      399,
+      595,
+      630
+    ],
+    "order": "Even manifest indices run upstream first. Odd indices run selective first. Each device completes its first arm, then loads the other physical checkpoint from disk and repeats its exact task IDs."
+  },
+  "replica": "A third RTX 5090 running the existing upstream service repeats the 20 baseline tasks independently. It uses its resident serving profile. Replica timings are excluded from the weight-edit comparison.",
+  "controls": "Same container image and SGLang flags on the two paired GPUs, 8192-token context, greedy sampling, same chat template and reasoning_effort none, at most 384 new tokens and eight decisions. Each arm receives the exact same verification rules. Browser viewport 1200x720 in Brave, same mouse and typing speed. New signed-in fixture and browser context for each episode. Timer excludes fixture reset, model load and grader."
+}
