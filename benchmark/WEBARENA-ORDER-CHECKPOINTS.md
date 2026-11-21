@@ -1,6 +1,12 @@
 # Frozen order checkpoints
 
-Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verified passes on matched fixtures. The full-task clock includes model generation and browser actions. Both arms use greedy decoding and the same 512-token limit.
+Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verified passes on matched fixtures. The full-task clock includes model generation and browser actions. Both arms read visible page text and numbered controls and use greedy decoding with a 512-token limit.
+
+| Checkpoint | Hardware | Baseline | Task IDs | Baseline passes | Edited passes | IDs at ≥2× in both orders |
+|---|---|---|---|---:|---:|---|
+| Windows command-stop | M5 Max MacBook Pro | Upstream stock | 188 | 2/2 | 2/2 | 188 |
+| Windows command-stop | RTX 5090 | Upstream stock | 188 | 2/2 | 2/2 | 188 |
+| Pending click + stop | M5 Max MacBook Pro | Upstream stock | 188, 189 | 4/4 | 4/4 | 188, 189 |
 
 | Checkpoint | Task | Hardware | Baseline | Ran first | Baseline time | Edited time | Speedup |
 |---|---:|---|---|---|---:|---:|---:|
