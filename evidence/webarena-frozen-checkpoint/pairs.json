@@ -1,0 +1,691 @@
+{
+  "model_revision": "dc1cecc5b251ed3d4a4202a2267486a84a6f4684",
+  "edited_shard_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+  "unique_webarena_ids": [
+    96,
+    188,
+    274,
+    275,
+    276,
+    277,
+    278,
+    432
+  ],
+  "replayed_grades": 36,
+  "recorded_pairs": [
+    {
+      "id": 96,
+      "repeat": 1,
+      "baseline": "Published search weights",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 6.776576642634595,
+      "original": {
+        "sha256": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c",
+        "score": 1.0,
+        "seconds": 46.71270216605626,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 43.73021258111112,
+        "actions": 5,
+        "generated_tokens": 1568,
+        "recording_sha256": "a5eec98a9d3b8b1d7fd392442b2921648e280d51bde5595b9ca7cd5b97e95660",
+        "receipt_sha256": "ba4155116b598270399c505a9bafef59c4d5f18e5eeec94b4164d41603cbfe35"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 6.893259624950588,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 3.8787522499915212,
+        "actions": 5,
+        "generated_tokens": 50,
+        "recording_sha256": "703012eb551efa4e4581cd97e1d0f6ef118cc9bb5048b8eac514c75da78cba0f",
+        "receipt_sha256": "e7cdc0cc51e500151f87c21e2f2ed0c0b1cb255531f0b38d9d286d7f494eb0c2"
+      }
+    },
+    {
+      "id": 96,
+      "repeat": 2,
+      "baseline": "Published search weights",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 4.400566166433974,
+      "original": {
+        "sha256": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c",
+        "score": 1.0,
+        "seconds": 33.08671120798681,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 30.0599574589869,
+        "actions": 5,
+        "generated_tokens": 1062,
+        "recording_sha256": "6767685660508d8601b2c4d219e7436b840af442e52d0ce28897173b063c6d0c",
+        "receipt_sha256": "f68d8a1ca14562e790c92c556e37cc97450763f8cdf81a4e16831296502a5908"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 7.51873962499667,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 4.54330824885983,
+        "actions": 5,
+        "generated_tokens": 50,
+        "recording_sha256": "c40cca76b9452bb9aab40c1db55dab0c14de701086c8e55742feea4cf80e6e4f",
+        "receipt_sha256": "57d59d653bd4c018728f0fa758b715782ba3f8625446fe65d6875a8fe94a40e7"
+      }
+    },
+    {
+      "id": 275,
+      "repeat": 1,
+      "baseline": "Upstream stock",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 3.9710593937964216,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 18.687497916980647,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 15.72823991801124,
+        "actions": 5,
+        "generated_tokens": 491,
+        "recording_sha256": "12f00d57c24aadf7e1cb23edbd7affe8e1df65e145d943ff1f4552eb7a4ed9bc",
+        "receipt_sha256": "ace603be9953216dacaf258fcedf31b48977c7b5da63e69d28603c482b68f80a"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 4.7059225420234725,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.331556792021729,
+        "actions": 3,
+        "generated_tokens": 22,
+        "recording_sha256": "8b17ac983517be35d3a7f695282d428c6d77dc5f24238241cc7d43fbdb45ff2b",
+        "receipt_sha256": "b77b226bfe29156cc661e360baf14e7bfebbd77f67ae573f61f7ff998b0dc1cd"
+      }
+    },
+    {
+      "id": 275,
+      "repeat": 2,
+      "baseline": "Upstream stock",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 4.031875109442876,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 19.09435220900923,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 15.6370355009567,
+        "actions": 5,
+        "generated_tokens": 491,
+        "recording_sha256": "b6afc2ad56a5071183270907d4a24be70ea731ce9f811c6a419ab521b714ac81",
+        "receipt_sha256": "f81dcf0d741a95e2d836fdfbc0897fc07a6ed3d2df82ce44f4615971d3412eaf"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 4.735849124961533,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.512163873994723,
+        "actions": 3,
+        "generated_tokens": 22,
+        "recording_sha256": "f5aa473ed5420990fbf3da13adeea4006a28099615ab4ced4d361d9bb775b1ff",
+        "receipt_sha256": "ed4fd08da098cf8da94e4a0f8ef2e37135e7163d17051051bff07ddf1ecf0caa"
+      }
+    },
+    {
+      "id": 278,
+      "repeat": 1,
+      "baseline": "Upstream stock",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 3.2554774565971707,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 19.34357445896603,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 16.163915375014767,
+        "actions": 5,
+        "generated_tokens": 498,
+        "recording_sha256": "3fe08112066b9deb8717ea3fb83b38416344b74615a5c7885ac2ca640a30911e",
+        "receipt_sha256": "269834a15b6fab625a2e1d392207abe73e60fb7fddf9e17481ebc74cb87e293a"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 5.941854832926765,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.8282621239777654,
+        "actions": 3,
+        "generated_tokens": 26,
+        "recording_sha256": "340fe61cf805fcb5dd8b0348c321e283fe23f41043a20f7c582e9570ff864df3",
+        "receipt_sha256": "0b84d0de2295b4934bbd8ae4fe87a165fd11805f7e5b49497171cb0d28c44a0d"
+      }
+    },
+    {
+      "id": 278,
+      "repeat": 2,
+      "baseline": "Upstream stock",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 2.969375387183231,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 19.36447079188656,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 16.25870154297445,
+        "actions": 5,
+        "generated_tokens": 498,
+        "recording_sha256": "ca4517e7d70471657a675386c71ca2c5e5635821511d46b01d722df9f545000d",
+        "receipt_sha256": "777d0297eba34c4cdb354b74789c63ef0f008e02973be48a26681a5d24533759"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 6.521395332994871,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.9079327499493957,
+        "actions": 3,
+        "generated_tokens": 26,
+        "recording_sha256": "02e340569fdbb3be96884c76e791afea34b91aca58985897864781010c1d2a21",
+        "receipt_sha256": "593b489467a6c96044b00ac8f8ba1b526f7c1f2ba86fd0d07089e7fa8a4987f5"
+      }
+    },
+    {
+      "id": 96,
+      "repeat": 1,
+      "baseline": "Upstream stock",
+      "order": null,
+      "ratio": null,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 0.0,
+        "seconds": 26.085084333084524,
+        "device": "RTX 5090",
+        "engine": "SGLang",
+        "inference_seconds": 22.27207933110185,
+        "actions": 12,
+        "generated_tokens": 3229,
+        "recording_sha256": "e9ac1aae1feb9aed31aec0cf50ffcef31b83672800d669620bd6c35252939b2a",
+        "receipt_sha256": "64e17086125e8b7415df7d67bc3c392bf5d9e0607b0fa01e2d3adca800e08bd0"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 12.522111167083494,
+        "device": "RTX 5090",
+        "engine": "SGLang",
+        "inference_seconds": 9.705314791062847,
+        "actions": 4,
+        "generated_tokens": 1061,
+        "recording_sha256": "78fd4bc93937f72e8c02cd87f2679dc34d0c0c5a6b056329be2cc067f71b3e4f",
+        "receipt_sha256": "ca17c3b57b21d5ba173a873789c99f78ffc47b5b00c754c206b55518396063eb"
+      }
+    },
+    {
+      "id": 188,
+      "repeat": 1,
+      "baseline": "Upstream stock",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 5.335846542095764,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 27.82845533301588,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 25.51322479103692,
+        "actions": 4,
+        "generated_tokens": 919,
+        "recording_sha256": "ec642f8c46a74743cac1669a727e102b9abc253393196d9deb9ad44b050d6577",
+        "receipt_sha256": "e8d4bf968632a8cef22b38ac5064ef06f481f8f575b43c325cc54dea1df69ad5"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 5.215377749991603,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.863866206840612,
+        "actions": 4,
+        "generated_tokens": 28,
+        "recording_sha256": "4d72502042f6f1d1e91ea088b8e29a95929ef8f80a60d9e45185d6ee83c3122f",
+        "receipt_sha256": "8fbb44b3a0bce442b32c1723080e9bfa2b2f358175f3d6aea8b902e7ba5d32ca"
+      }
+    },
+    {
+      "id": 188,
+      "repeat": 2,
+      "baseline": "Upstream stock",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 4.555999719878502,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 27.63670379098039,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 25.391452875221148,
+        "actions": 4,
+        "generated_tokens": 919,
+        "recording_sha256": "7f53e2b54ce131d0e5cf7108618dcf0a55e2e60295f015e6f8ce01ae743c353b",
+        "receipt_sha256": "dec7fe73bc6f1ff40ed97896a05da833195adbab378d7c33972b9fb847db0a76"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 6.0660020830109715,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 3.757434122962877,
+        "actions": 5,
+        "generated_tokens": 34,
+        "recording_sha256": "3d83196b171219d5275ac870df90dc38f66b076e5d910f3c82e22c35eccfb3f7",
+        "receipt_sha256": "474715376f313832e52a775b3e105bcde024654ce4a1e42ddaf37c9a86f0c4bf"
+      }
+    },
+    {
+      "id": 188,
+      "repeat": 1,
+      "baseline": "Upstream stock",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 1.0228164744006598,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 6.455109708942473,
+        "device": "RTX 5090",
+        "engine": "SGLang",
+        "inference_seconds": 4.383472000947222,
+        "actions": 3,
+        "generated_tokens": 636,
+        "recording_sha256": "e422aff860a9fc557cfeb046b11dcef4cb58e50dfd28e03725f43cfdd17b3e40",
+        "receipt_sha256": "eb515e24359a996a59494fbecf121524067d73640157d5f4bfd748738df8a64f"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 6.311112374998629,
+        "device": "RTX 5090",
+        "engine": "SGLang",
+        "inference_seconds": 4.378720583161339,
+        "actions": 5,
+        "generated_tokens": 548,
+        "recording_sha256": "70a0c736d6425b339e374a6f4463fdbf459dcf597c0c5fb38d27de840cab74c6",
+        "receipt_sha256": "b9d6575e06a3459f14d064e922fb9b89d6ac607e2fc258d5ce03f163c855f157"
+      }
+    },
+    {
+      "id": 188,
+      "repeat": 2,
+      "baseline": "Upstream stock",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 0.944708016237438,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 10.433790290961042,
+        "device": "RTX 5090",
+        "engine": "SGLang",
+        "inference_seconds": 7.6076299590058625,
+        "actions": 4,
+        "generated_tokens": 1077,
+        "recording_sha256": "ee35f6c6489d62388f4ee7c8f090f2a41fe76f4b48db33a86a5f3f3d8a41341d",
+        "receipt_sha256": "130fc8f00805b6db4440010a4723c3a7b90f7420ae96105acb124dc81c9005df"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 11.044460417004302,
+        "device": "RTX 5090",
+        "engine": "SGLang",
+        "inference_seconds": 6.994047208107077,
+        "actions": 8,
+        "generated_tokens": 572,
+        "recording_sha256": "ee3f4ace4ab74bb7ec7fadf49fc7f544c1c946f6e5dff254db950c72e6bc04e0",
+        "receipt_sha256": "f8a48bc0c8ec33d21d69df3cd9c8ce19f6d31c474ca367a60480a0bcc143ec66"
+      }
+    },
+    {
+      "id": 432,
+      "repeat": 1,
+      "baseline": "Upstream stock",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": null,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 0.0,
+        "seconds": 34.84325033298228,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 31.39384158188477,
+        "actions": 12,
+        "generated_tokens": 958,
+        "recording_sha256": "cdf08dda9f4162aceb0dfee3e06d679af589c71b5dd3d7d4e503a4bb99e20fc2",
+        "receipt_sha256": "a3b25743627fbfa772b9b4601a3b0a94a0e0750ac417424ce0e78d531e21d68e"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 0.0,
+        "seconds": 11.119863915955648,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 7.386285876855254,
+        "actions": 12,
+        "generated_tokens": 72,
+        "recording_sha256": "d243903dbad81ad0b5faf960807157607ee4d31858b96b9a4749b4c5c3b1df2e",
+        "receipt_sha256": "3f5122698ea14fba6f4e02f2924d0b86811abca0b15e937fbf1f1ccdea1f4116"
+      }
+    },
+    {
+      "id": 274,
+      "repeat": 1,
+      "baseline": "Upstream stock",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 3.0979471080613914,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 14.633767332998104,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 12.27657433215063,
+        "actions": 3,
+        "generated_tokens": 377,
+        "recording_sha256": "df3bab2792f9ec4726fd9a419418f76bfcb25aeea3d2c690b523bc34e26a9ea5",
+        "receipt_sha256": "a0030ee6bdaf34797101c31d7d61a9558428d07858421eca72c80c65bcd5b5ad"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 4.72369825001806,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.3756634161109105,
+        "actions": 3,
+        "generated_tokens": 24,
+        "recording_sha256": "bc53c19aaaf7f2477f261e63856cf1cc31ce09d01560717ffa08080d39d0e005",
+        "receipt_sha256": "69d948230e4f42f059e25fc52fa817a440d771f99f2e8709cec53d1b289244f7"
+      }
+    },
+    {
+      "id": 274,
+      "repeat": 2,
+      "baseline": "Upstream stock",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 2.934588683270127,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 14.44861037505325,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 12.089453125023283,
+        "actions": 3,
+        "generated_tokens": 377,
+        "recording_sha256": "c4f93a4ae0329c4a3a929752af2ee4e5c54cbf84bc20ce365239d2eab93806ee",
+        "receipt_sha256": "9135904616cce4cff7cfe9265bd0d50bfb405e68dff46c273c77ddb12732896f"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 4.923555542016402,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.588431541924365,
+        "actions": 3,
+        "generated_tokens": 24,
+        "recording_sha256": "1326d9c452d04b3fde2033fc587d332005ad7e50e6c20760698f128750ac1421",
+        "receipt_sha256": "af9ca698f572c43449c602b43f2ca50024fde9c631c00e4bba10be36c88c8ac6"
+      }
+    },
+    {
+      "id": 276,
+      "repeat": 1,
+      "baseline": "Upstream stock",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 2.353981639992814,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 12.694427624926902,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 10.008196541108191,
+        "actions": 3,
+        "generated_tokens": 312,
+        "recording_sha256": "b280fc2b371bf21865a4a5c9a970b46d63701559870522f5a289821b396cd13c",
+        "receipt_sha256": "40bcd4aa93c0be54795a5dac8e1c5fd3c33a24dd19b35a3139902a119f8022dd"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 5.392747084028088,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.742135373991914,
+        "actions": 3,
+        "generated_tokens": 23,
+        "recording_sha256": "a055067b40a14c653366a901afe0b815c774e7b18ed30b2ca18fc77c20a56a3d",
+        "receipt_sha256": "11e553a85d048b98a4ae4fd951c0d8f70a8a9ba083ce2ea5cdc1899beb6170a7"
+      }
+    },
+    {
+      "id": 276,
+      "repeat": 2,
+      "baseline": "Upstream stock",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 2.420894759426905,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 12.93084349995479,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 10.13159620796796,
+        "actions": 3,
+        "generated_tokens": 312,
+        "recording_sha256": "00d41ba656ae96772e431aed9aa84fdc9ddd8e57a3cedec0a3347eb37e73b1e9",
+        "receipt_sha256": "deb7733e8c1cdd4c0f5ac722d54636ee2672f96a1149b3d693436b42fb25ba9c"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 5.341348875081167,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.7079320829361677,
+        "actions": 3,
+        "generated_tokens": 23,
+        "recording_sha256": "b6aaf024685e66ba3d9d34a3b80f4ea03006abda6c5b3c715c7d3dc49dca19ce",
+        "receipt_sha256": "4fdcd3249c01cd5b857fc3bb1ab5c20cb53eb0873d775ec8bad3410e2d2ff02f"
+      }
+    },
+    {
+      "id": 277,
+      "repeat": 1,
+      "baseline": "Upstream stock",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 2.768391833847709,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 16.486053208005615,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 13.565554582863115,
+        "actions": 4,
+        "generated_tokens": 413,
+        "recording_sha256": "43c15d4e57d6fff7afdac8fe077de7dacc8b1851dac3893396bea512149af289",
+        "receipt_sha256": "af958d1e2f5fb262574c80e3ac4d8eaffd962c099aeff17f8da9a99ccc6ae5db"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 5.955101083032787,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.804198666010052,
+        "actions": 3,
+        "generated_tokens": 26,
+        "recording_sha256": "b3b61a256de4686abf1371236150799de29483442cd86013c7e0808fd7c3b35b",
+        "receipt_sha256": "71206fe63b447ec4488e522b220654b0b2df91bf67f1f1a5b983bebb7e1877b2"
+      }
+    },
+    {
+      "id": 277,
+      "repeat": 2,
+      "baseline": "Upstream stock",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 2.913536802634172,
+      "original": {
+        "sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "score": 1.0,
+        "seconds": 16.96133550000377,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 13.957547374884598,
+        "actions": 4,
+        "generated_tokens": 413,
+        "recording_sha256": "1ae3bb1db3e4d47e53d8b06684843b2aef8ce876e6becf70b0d9184665605b13",
+        "receipt_sha256": "988018672f26ffb16fe637c9f6473b257ba11914d25bd7359401539c81762a89"
+      },
+      "edited": {
+        "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+        "score": 1.0,
+        "seconds": 5.821562124998309,
+        "device": "M5 Max MacBook Pro",
+        "engine": "MLX",
+        "inference_seconds": 2.8149354581255466,
+        "actions": 3,
+        "generated_tokens": 26,
+        "recording_sha256": "1f34cfc44b67f4ae188868d7fa95b2a92af7abe7f2519e71cf57ff4c9c160417",
+        "receipt_sha256": "96b8493af4c46f44008da5e2735f4ec75ade194abba6b5dddf9d6f95091f6e3a"
+      }
+    }
+  ],
+  "twice_at_least_2x": [
+    {
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Published search weights",
+      "id": 96,
+      "ratios": [
+        6.776576642634595,
+        4.400566166433974
+      ]
+    },
+    {
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "id": 275,
+      "ratios": [
+        3.9710593937964216,
+        4.031875109442876
+      ]
+    },
+    {
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "id": 278,
+      "ratios": [
+        3.2554774565971707,
+        2.969375387183231
+      ]
+    },
+    {
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "id": 188,
+      "ratios": [
+        5.335846542095764,
+        4.555999719878502
+      ]
+    },
+    {
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "id": 274,
+      "ratios": [
+        3.0979471080613914,
+        2.934588683270127
+      ]
+    },
+    {
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "id": 276,
+      "ratios": [
+        2.353981639992814,
+        2.420894759426905
+      ]
+    },
+    {
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "id": 277,
+      "ratios": [
+        2.768391833847709,
+        2.913536802634172
+      ]
+    }
+  ]
+}
