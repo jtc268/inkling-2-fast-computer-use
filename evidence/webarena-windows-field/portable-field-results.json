@@ -1,0 +1,42 @@
+[
+  {
+    "id": 278,
+    "original": {
+      "score": 1.0,
+      "seconds": 7.3376548329833895,
+      "decisions": 4,
+      "inference_seconds": 3.3391477910336107,
+      "thinking_tokens": 343,
+      "generated_tokens": 387
+    },
+    "edited": {
+      "score": 1.0,
+      "seconds": 6.190574707929045,
+      "decisions": 4,
+      "inference_seconds": 1.1511767918709666,
+      "thinking_tokens": 0,
+      "generated_tokens": 39
+    },
+    "ratio": 1.1852946098179116
+  },
+  {
+    "id": 630,
+    "original": {
+      "score": 1.0,
+      "seconds": 22.34185954206623,
+      "decisions": 9,
+      "inference_seconds": 11.268778374185786,
+      "thinking_tokens": 1473,
+      "generated_tokens": 1638
+    },
+    "edited": {
+      "score": 0.0,
+      "seconds": 2.109600833035074,
+      "decisions": 3,
+      "inference_seconds": 0.6054524180945009,
+      "thinking_tokens": 0,
+      "generated_tokens": 31
+    },
+    "ratio": null
+  }
+]

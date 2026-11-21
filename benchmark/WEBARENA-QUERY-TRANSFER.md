@@ -77,3 +77,5 @@ The four published BF16 rows and stock weights reproduce the complete edited sha
 ```sh
 python benchmark/verify_row_payload.py ORIGINAL evidence/webarena-query-transfer/rows.npz evidence/webarena-query-transfer/weight-audit.json
 ```
+
+[Fresh Windows runs with portable field selection](WINDOWS-FIELD-CONTROL.md).
