@@ -1,0 +1,47 @@
+{
+  "row": 34,
+  "parent_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+  "development_states": 2,
+  "protected_positions": 573,
+  "bf16_values_changed": 2246,
+  "relative_norm": 0.07511961447519384,
+  "maximum_protected_shift": 0.012193436035886407,
+  "rounded_shortfall": -3.866816405206919e-05,
+  "status": "Verified table decisions",
+  "shard_sha256": "af0c483627798857030974b926b6cccfcb07e4d01b12ca7d65e7f08a862b026e",
+  "checks": [
+    {
+      "variant": "retry",
+      "changed_prices": false,
+      "unforced": "C33",
+      "expected": "C33",
+      "matches": true,
+      "generated": 6
+    },
+    {
+      "variant": "retry",
+      "changed_prices": true,
+      "unforced": "C28",
+      "expected": "C28",
+      "matches": true,
+      "generated": 512
+    },
+    {
+      "variant": "one-login",
+      "changed_prices": false,
+      "unforced": "C33",
+      "expected": "C33",
+      "matches": true,
+      "generated": 6
+    },
+    {
+      "variant": "one-login",
+      "changed_prices": true,
+      "unforced": "C28",
+      "expected": "C28",
+      "matches": true,
+      "generated": 6
+    }
+  ],
+  "scope": "The comparison-table decision only. End-to-end cart completion requires a separate fresh episode."
+}

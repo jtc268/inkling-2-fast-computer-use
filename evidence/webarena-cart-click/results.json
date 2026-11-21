@@ -1,0 +1,102 @@
+{
+  "shard_sha256": "af0c483627798857030974b926b6cccfcb07e4d01b12ca7d65e7f08a862b026e",
+  "parent_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+  "comparison_page": [
+    {
+      "layout": "retry",
+      "prices": [
+        "$36.99",
+        "$14.47"
+      ],
+      "price_swap": false,
+      "expected": "C33",
+      "published_parent": "DONE navigate",
+      "new_edit": "C33",
+      "parent_correct": false,
+      "new_correct": true
+    },
+    {
+      "layout": "retry",
+      "prices": [
+        "$14.47",
+        "$36.99"
+      ],
+      "price_swap": true,
+      "expected": "C28",
+      "published_parent": "DONE navigate",
+      "new_edit": "C28",
+      "parent_correct": false,
+      "new_correct": true
+    },
+    {
+      "layout": "one-login",
+      "prices": [
+        "$36.99",
+        "$14.47"
+      ],
+      "price_swap": false,
+      "expected": "C33",
+      "published_parent": "T1",
+      "new_edit": "C33",
+      "parent_correct": false,
+      "new_correct": true
+    },
+    {
+      "layout": "one-login",
+      "prices": [
+        "$14.47",
+        "$36.99"
+      ],
+      "price_swap": true,
+      "expected": "C28",
+      "published_parent": "T1",
+      "new_edit": "C28",
+      "parent_correct": false,
+      "new_correct": true
+    }
+  ],
+  "fresh_browser_control": {
+    "status": "Partial browser trial",
+    "navigation": "Scripted through the native comparison list",
+    "unforced_choice": "C33",
+    "expected_control": "C33",
+    "prices": [
+      36.99,
+      14.47
+    ],
+    "added": {
+      "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24": 1
+    },
+    "model_seconds": 0.8527844169875607,
+    "verified_cart_mutation": true,
+    "error": null,
+    "sha256": "af0c483627798857030974b926b6cccfcb07e4d01b12ca7d65e7f08a862b026e"
+  },
+  "complete_native_task": [
+    {
+      "id": 432,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": null,
+      "edited": {
+        "score": 0.0,
+        "seconds": 11.133564040996134,
+        "decisions": 12,
+        "inference_seconds": 7.391382249887101,
+        "thinking_tokens": 0,
+        "generated_tokens": 72
+      },
+      "original": {
+        "score": 0.0,
+        "seconds": 35.14532245800365,
+        "decisions": 12,
+        "inference_seconds": 31.705866334028542,
+        "thinking_tokens": 851,
+        "generated_tokens": 958
+      }
+    }
+  ]
+}
