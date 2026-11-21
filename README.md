@@ -2,7 +2,7 @@
 
 ## Browser-use highlights
 
-[Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 39 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
+[Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 40 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
 
 Standalone downloads · [Completed-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/cd27dd36403a165685abd5bf202c326ec9590b20) · [Pending-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9f6b8d4dbd3ec39171e38bf528735be4d0b14e66) · [Paired grades](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
 
@@ -28,7 +28,7 @@ The model received numbered control labels as text. It filled two fields, submit
 
 ## Replication and WebArena search
 
-32 WebArena IDs have native grades, and 30 have grades for stock and at least one edit. [All pairs for the downloadable checkpoint](benchmark/WEBARENA-FROZEN-CHECKPOINT.md). [New product lookup](benchmark/WEBARENA-PRODUCT-LOOKUP.md). [Shopping search, paired grades and the byte audit](benchmark/WEBARENA-QUERY-TRANSFER.md)
+33 WebArena IDs have native grades, and 31 have grades for stock and at least one edit. [All pairs for the downloadable checkpoint](benchmark/WEBARENA-FROZEN-CHECKPOINT.md). [New product lookup](benchmark/WEBARENA-PRODUCT-LOOKUP.md). [Shopping search, paired grades and the byte audit](benchmark/WEBARENA-QUERY-TRANSFER.md)
 
 On the fresh MacBook Pro form-and-cart run, the original finished 4/6 and all three edits finished 6/6. On the four common successes, the first release took 6.96 s versus 16.62 s original (2.39×). The four-row edit took 7.04 s (2.36×). On the same filmed case on RTX 5090, the two edits measured 1.03× and 1.18×. [All runs](benchmark/FORM-CART-RECHECK.md) · [Fresh form-to-cart video](https://jtc268.github.io/inkling-2-fast-computer-use/form-cart-recheck.mp4)
 
