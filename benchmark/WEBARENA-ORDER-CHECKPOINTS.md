@@ -133,6 +133,8 @@ The pending click + stop edit was developed on 189. Its other tasks use frozen w
 
 [Download the Mac order-lookup trial](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/686faa4d1748f0120008ec007dc97677678e1643). It failed both RTX 5090 runs on task 190.
 
+[Download the standalone search-submit stop trial](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/89ab0e2a2e260fdb9252702a6509b8a4490884cd).
+
 On the first frozen 190 run, the first complete account click appeared at generated token 5. The model continued until the 512-token limit. The browser received one command for that decision. [Decoder replay](../evidence/webarena-order-checkpoints/190-decoder.json).
 The follow-up edit changes 2,261 BF16 values in output row 200006, which ends generation. On the saved initial page, ordinary greedy decoding emitted the same account click in 6 tokens instead of 512. The edit preserved the expected commands on all 24 recorded replay states. The table gives fresh end-to-end browser timings. [Exact rows, decoder replays and byte audit](../evidence/webarena-order-checkpoints/complete-stop/).
 
