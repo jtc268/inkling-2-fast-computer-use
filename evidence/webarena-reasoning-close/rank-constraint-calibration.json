@@ -1,0 +1,12 @@
+{
+  "row": 200010,
+  "method": "Minimum-norm half-space projections, preserving the ranking of native channel tokens on protected states",
+  "sweeps": 464,
+  "target_screens": 21,
+  "crossed_top": 21,
+  "held_constraints": 248,
+  "guard_violation_beyond_point12": false,
+  "relative_norm": 0.5197201846587496,
+  "worst_residual_after_bf16": 0.02653603465296328,
+  "eligible": true
+}

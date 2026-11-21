@@ -34,3 +34,12 @@ On ten distinct synthetic action checks, correct commands and median generated t
 The attempted USB4 repeat did not start an episode. Docker inventory timed out before lease admission, so the order-reversed checks ran on Linux.
 
 [Exploratory receipts](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/webarena-reasoning-close/receipts.zip) · [Order-reversed receipts](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/webarena-reasoning-close/independent-receipts.zip). Replay either archive with `python benchmark/replay_search.py ARCHIVE.zip`. [Forum post at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-forum.mp4). [Download the one-row checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/forum-reasoning-close).
+
+## End-message row with ranking constraints
+
+On 21 unrelated synthetic screens, the command was verified at a prefix the original model normally used for thinking. The revised end-message row had the highest raw next-token score at 21 chosen positions after BF16 rounding. Its displacement was 0.520 times the original row norm. The fit used 248 additional token-ranking constraints.
+
+| Task | Original | Edited | Ratio on joint completion |
+| --- | ---: | ---: | ---: |
+| 630 | pass · 23.39 s | fail · 25.24 s | — |
+| 274 | pass · 4.83 s | pass · 5.15 s | 0.94× |

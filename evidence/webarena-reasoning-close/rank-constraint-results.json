@@ -1,0 +1,38 @@
+{
+  "630": {
+    "original": {
+      "score": 1.0,
+      "seconds": 23.394074790994637,
+      "decisions": 9,
+      "inference_seconds": 11.890257998835295,
+      "thinking_tokens": 1513,
+      "generated_tokens": 1678
+    },
+    "rank_closure": {
+      "score": 0.0,
+      "seconds": 25.236185499932617,
+      "decisions": 12,
+      "inference_seconds": 22.660374789964408,
+      "thinking_tokens": 2299,
+      "generated_tokens": 3421
+    }
+  },
+  "274": {
+    "original": {
+      "score": 1.0,
+      "seconds": 4.830604832968675,
+      "decisions": 3,
+      "inference_seconds": 2.329970208927989,
+      "thinking_tokens": 274,
+      "generated_tokens": 303
+    },
+    "rank_closure": {
+      "score": 1.0,
+      "seconds": 5.152103749918751,
+      "decisions": 5,
+      "inference_seconds": 2.3224602079717442,
+      "thinking_tokens": 187,
+      "generated_tokens": 239
+    }
+  }
+}
