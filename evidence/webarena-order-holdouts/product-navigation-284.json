@@ -1,0 +1,13 @@
+{
+  "task": 284,
+  "intent": "View the product page for the least expensive shoe storage with a minimum storage capacity of 12 pairs.",
+  "template_id": 207,
+  "site": "shopping",
+  "selection": "Lowest unfilmed shopping navigation ID above 283 whose instruction begins “View the product page”.",
+  "checkpoint_sha256": "01ee1183becc6f28e5518cee283271dc9d3b3548292589959519a8a715a6c7c7",
+  "fixture_image": "am1n3e/webarena-verified-shopping@sha256:3e8cb9b945ea9b1c94ab26dba53e8d12dd0406abbf4bf686fd3bb2b6a5908feb",
+  "device": "M5 Max MacBook Pro",
+  "prerequisites": "The edit must pass product navigation 283 in both orders. Stock and the same edit must pass 275, 190 and 189 at 2× or better in both orders.",
+  "protocol": "Use two fresh stock/edit comparisons in opposite orders. Report both grades even if any arm fails. Calculate time-to-success only for comparable joint passes.",
+  "model_episodes_on_holdout_at_selection": 0
+}
