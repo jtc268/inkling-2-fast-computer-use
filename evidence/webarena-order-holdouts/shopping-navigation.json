@@ -1,0 +1,28 @@
+{
+  "task": 283,
+  "intent": "Open the page showing the most recent Xbox controller models released between 2020-2021",
+  "template": 210,
+  "checkpoint": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+  "baseline": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "device": "M5 Max MacBook Pro",
+  "run_order": [
+    [
+      "edited",
+      "original"
+    ],
+    [
+      "original",
+      "edited"
+    ]
+  ],
+  "earlier_task_ids": [
+    274,
+    275,
+    276,
+    277,
+    278
+  ],
+  "selection": "First unseen storefront navigation ID after the five search-result cases. It adds a release-year range to an Xbox controller lookup.",
+  "gate": "Both models must pass each of 274 through 278 in both orders, and the frozen edit must be at least twice as fast in each pair.",
+  "scope": "Tasks 192 and 298 retain their separate order-history conditions."
+}
