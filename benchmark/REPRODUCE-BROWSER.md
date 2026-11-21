@@ -33,6 +33,8 @@ done
 
 The default uses local Brave. For a separate browser host, start a dedicated Brave profile with a loopback debugging port and pass its forwarded URL via `--cdp`. The browser must reach the fixture at the same loopback URL as the runner (shopping 7770, forum 9999). The runner also needs the corresponding fixture control port (7771 or 9998). Use `--gpu` to select a GPU by index or UUID. For existing checkpoint folders, pass `--original PATH --edited PATH`. The same shard checks apply.
 
+With local Linux Brave and the same RTX 5090 checkpoint, stock and edited weights both passed Xbox search (275) in each order. The edit took 4.59 s against 5.88 s stock (1.28×), then 3.22 s against 5.02 s stock (1.56×). [Pair timings](../evidence/public-rerun/rtx-pairs.json) · [Replayable grades](../evidence/public-rerun/rtx-grades.zip)
+
 ## Match a video chapter
 
 Use `--checkpoint NAME --id NUMBER` for a WebArena chapter. The opening and the later task 190 scene use different checkpoints. Download revisions and hashes are in the [checkpoint list](browser_checkpoints.json).
