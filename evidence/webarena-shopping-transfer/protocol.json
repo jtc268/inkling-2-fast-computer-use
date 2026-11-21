@@ -1,0 +1,55 @@
+{
+  "id": 279,
+  "template_id": 204,
+  "rule": "First numeric shopping ID after the full five-case search template. Frozen before any model run on this task.",
+  "original_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "edited_sha256": "da9fa2f698b8bd36f0e2446592dfe0674f26a276896124efdad662ce3015a5db",
+  "device": "M5 Max MacBook Pro",
+  "browser": "Brave",
+  "field_selection": "keyboard",
+  "sampler": "greedy",
+  "max_tokens": 512,
+  "prompt_sha256": "5ee4b23c4e14e9d1e681560b2c283d600b36530592ca5a115b551b0b49e33ae9",
+  "max_decisions": 12,
+  "order": [
+    [
+      "edited",
+      "original"
+    ],
+    [
+      "original",
+      "edited"
+    ]
+  ],
+  "averaging": "Ratio only for paired successes. Reverse the order after any first paired success.",
+  "catalog_section": "shopping",
+  "previous_distinct_ids": [
+    21,
+    27,
+    66,
+    96,
+    163,
+    231,
+    260,
+    269,
+    270,
+    274,
+    275,
+    276,
+    277,
+    278,
+    313,
+    324,
+    358,
+    399,
+    404,
+    431,
+    516,
+    595,
+    600,
+    630,
+    653,
+    689
+  ],
+  "record": "Both full browser recordings and native grade replay on every completed arm."
+}

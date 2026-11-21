@@ -1,0 +1,25 @@
+[
+  {
+    "id": 279,
+    "repeat": "r1",
+    "device": "M5 Max MacBook Pro",
+    "both_pass": false,
+    "speedup": null,
+    "edited": {
+      "score": 0.0,
+      "seconds": 8.496458709007129,
+      "decisions": 3,
+      "inference_seconds": 5.093147541163489,
+      "thinking_tokens": 0,
+      "generated_tokens": 26
+    },
+    "original": {
+      "score": 0.0,
+      "seconds": 58.91331287508365,
+      "decisions": 12,
+      "inference_seconds": 53.30863096192479,
+      "thinking_tokens": 1413,
+      "generated_tokens": 1542
+    }
+  }
+]
