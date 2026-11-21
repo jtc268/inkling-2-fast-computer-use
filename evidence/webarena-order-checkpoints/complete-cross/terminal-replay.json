@@ -1,0 +1,41 @@
+{
+  "task": 190,
+  "model_episodes": 0,
+  "shard_sha256": "3a62b5a986ea503b31809ef10717bd5c73ff0d377f87e77fc811323a60414889",
+  "traces": [
+    {
+      "repeat": 1,
+      "receipt_sha256": "c9c7fe2cf441982418f578852a90317ed712a0ff675a75864085f40825ccd304",
+      "recorded": "DONE navigate",
+      "reproduced": true,
+      "ordinary": "DONE navigate",
+      "ordinary_tokens": 7,
+      "prefix_text": "ANSWER",
+      "conditional": "ANSWER [65.32]",
+      "conditional_tokens": 10,
+      "conditional_valid": true,
+      "stopped": true,
+      "conditional_thinking": "",
+      "thinking_valid": false,
+      "thinking_tokens": 498,
+      "thinking_stopped": true
+    },
+    {
+      "repeat": 2,
+      "receipt_sha256": "82e5d2e9d7890ec8db155b8d402d9ea526073957c4b18cebd21a38c8211f48ac",
+      "recorded": "ANSWER [762.18]",
+      "reproduced": true,
+      "ordinary": "ANSWER [762.18]",
+      "ordinary_tokens": 10,
+      "prefix_text": "ANSWER",
+      "conditional": "ANSWER [762.18]",
+      "conditional_tokens": 10,
+      "conditional_valid": false,
+      "stopped": true,
+      "conditional_thinking": "",
+      "thinking_valid": false,
+      "thinking_tokens": 436,
+      "thinking_stopped": true
+    }
+  ]
+}

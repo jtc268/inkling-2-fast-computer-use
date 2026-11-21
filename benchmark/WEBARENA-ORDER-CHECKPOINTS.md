@@ -68,3 +68,7 @@ The pending click + stop edit was developed on 189. Its other tasks use frozen w
 
 On the first frozen 190 run, the first complete account click appeared at generated token 5. The model continued until the 512-token limit. The browser received one command for that decision. [Decoder replay](../evidence/webarena-order-checkpoints/190-decoder.json).
 The follow-up edit changes 2,261 BF16 values in output row 200006, which ends generation. On the saved initial page, ordinary greedy decoding emitted the same account click in 6 tokens instead of 512. The edit preserved the expected commands on all 24 recorded replay states. The table gives fresh end-to-end browser timings. [Exact rows, decoder replays and byte audit](../evidence/webarena-order-checkpoints/complete-stop/).
+
+On the fastest M5 Max pair, both runs issued the same browser commands and returned the same total. Model inference fell from 42.99 to 2.93 seconds. It accounted for 40.06 of the 40.15 seconds saved. Generated tokens fell from 1,555 to 28. Cursor timing was identical.
+
+The cross-device stop edit reached order history on RTX 5090, then ended navigation in one run and returned an older total of $762.18 in the other. Stock returned the latest completed total of $65.32 twice. Both edited terminal decisions reproduced on the original page observations and action histories. [Terminal-decision replays](../evidence/webarena-order-checkpoints/complete-cross/terminal-replay.json).
