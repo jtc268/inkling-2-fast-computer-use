@@ -1,0 +1,65 @@
+{
+  "sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
+  "task_id": 190,
+  "recorded_repeat": 1,
+  "decisions": [
+    {
+      "final": "C1",
+      "generated": 512,
+      "thinking": 343,
+      "first_content_index": 1,
+      "command_boundaries": [
+        {
+          "command": "C1",
+          "completed_at": 5,
+          "next_token": 200001
+        },
+        {
+          "command": "C1",
+          "completed_at": 10,
+          "next_token": 200001
+        },
+        {
+          "command": "C1",
+          "completed_at": 15,
+          "next_token": 200001
+        },
+        {
+          "command": "C1",
+          "completed_at": 20,
+          "next_token": 200001
+        },
+        {
+          "command": "C1",
+          "completed_at": 25,
+          "next_token": 200001
+        },
+        {
+          "command": "C1",
+          "completed_at": 30,
+          "next_token": 200001
+        }
+      ],
+      "first_symbols": [
+        200001,
+        200004,
+        34,
+        16,
+        200010,
+        200001,
+        200004,
+        34,
+        16,
+        200010
+      ],
+      "trailing_symbols": [
+        157562,
+        151433,
+        149880,
+        150294,
+        149876,
+        150313
+      ]
+    }
+  ]
+}
