@@ -1,0 +1,27 @@
+{
+  "task": 44,
+  "intent": "Open my todos page",
+  "site": "gitlab",
+  "selection": "Lowest previously ungraded task ID in the single-site GitLab NAVIGATE group.",
+  "checkpoint_sha256": "a393cbbe28eb0b830b7f9cbf00f4b7df4b85da74b62b7aa5aa20df78f9d4a073",
+  "stock_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "hardware": "M5 Max MacBook Pro",
+  "grade_source": "WebArena-Verified 1.2.3",
+  "order": [
+    [
+      "edited",
+      "original"
+    ],
+    [
+      "original",
+      "edited"
+    ]
+  ],
+  "gate": "The same frozen shard must recheck tasks 189, 190 and all five storefront searches (274\u2013278) at 2\u00d7 or better in both Mac run orders before task 44.",
+  "baseline": "Stock Inkling 2 Mini",
+  "clock": "From the signed-in start page to termination, including browser and model time.",
+  "fixture_image": "am1n3e/webarena-verified-gitlab@sha256:673ba94d757c5b3f4bb55751ad8b745a33bad2b987349322403cbc41035a92e0",
+  "method": "Same fixture, signed-in account, visible observations, cursor, prompt and greedy decoder on both arms. Report both grades and award a time-to-success ratio only on jointly passing pairs.",
+  "rtx_plan": "gitlab-navigation.json",
+  "rtx_status_at_selection": "Both models passed the Xbox search on RTX. The edit was slower in both orders. The RTX holdout is pending."
+}
