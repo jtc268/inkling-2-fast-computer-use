@@ -21,3 +21,5 @@ All rows above ran on an M5 Max MacBook Pro. In the separate upstream-stock comp
 python benchmark/replay_search.py evidence/webarena-order-stop/native-grades.zip
 python benchmark/verify_row_payload.py /path/to/Inkling-2-Mini evidence/webarena-order-stop/rows.npz evidence/webarena-order-stop/weight-audit.json
 ```
+
+[Download these standalone weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/dc1cecc5b251ed3d4a4202a2267486a84a6f4684).
