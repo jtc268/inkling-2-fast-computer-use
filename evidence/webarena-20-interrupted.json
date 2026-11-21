@@ -1,0 +1,405 @@
+{
+  "reason": "User requested restart with ten before the twenty-case run finished. Only completed receipts included.",
+  "runs": [
+    {
+      "group": "runs",
+      "id": 21,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 14.290919666993432
+    },
+    {
+      "group": "runs",
+      "id": 21,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 9.804292374989018
+    },
+    {
+      "group": "runs",
+      "id": 27,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 12.017803041962907
+    },
+    {
+      "group": "runs",
+      "id": 27,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 1.0350043339421973
+    },
+    {
+      "group": "runs",
+      "id": 66,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 12.14008962502703
+    },
+    {
+      "group": "runs",
+      "id": 96,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 15.591357375029474
+    },
+    {
+      "group": "runs",
+      "id": 96,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 9.15414670901373
+    },
+    {
+      "group": "runs",
+      "id": 163,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 2.5146072920178995
+    },
+    {
+      "group": "runs",
+      "id": 163,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 0.4777584580006078
+    },
+    {
+      "group": "runs",
+      "id": 231,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 6.6563728749752045
+    },
+    {
+      "group": "runs",
+      "id": 231,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 4.067517541931011
+    },
+    {
+      "group": "runs",
+      "id": 260,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 1.7300323750823736
+    },
+    {
+      "group": "runs",
+      "id": 260,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 2.5460750829661265
+    },
+    {
+      "group": "runs",
+      "id": 269,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 5.86602016701363
+    },
+    {
+      "group": "runs",
+      "id": 269,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 2.3236158749787137
+    },
+    {
+      "group": "runs",
+      "id": 274,
+      "arm": "original",
+      "score": 1.0,
+      "grade": "success",
+      "elapsed_s": 5.43323149997741
+    },
+    {
+      "group": "runs",
+      "id": 274,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 2.236194583005272
+    },
+    {
+      "group": "runs",
+      "id": 313,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 10.347178749972954
+    },
+    {
+      "group": "runs",
+      "id": 313,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 1.0535814159084111
+    },
+    {
+      "group": "runs",
+      "id": 324,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 30.0253297080053
+    },
+    {
+      "group": "runs",
+      "id": 324,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 11.177542124991305
+    },
+    {
+      "group": "runs",
+      "id": 358,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 9.758979709004052
+    },
+    {
+      "group": "runs",
+      "id": 358,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 18.59243716695346
+    },
+    {
+      "group": "runs",
+      "id": 399,
+      "arm": "original",
+      "score": 1.0,
+      "grade": "success",
+      "elapsed_s": 15.737591291894205
+    },
+    {
+      "group": "runs",
+      "id": 399,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 20.34743449999951
+    },
+    {
+      "group": "runs",
+      "id": 404,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 11.592680874979123
+    },
+    {
+      "group": "runs",
+      "id": 431,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 17.389629999990575
+    },
+    {
+      "group": "runs",
+      "id": 516,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 1.2719578329706565
+    },
+    {
+      "group": "runs",
+      "id": 516,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 12.269992417073809
+    },
+    {
+      "group": "runs",
+      "id": 595,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 10.558564416947775
+    },
+    {
+      "group": "runs",
+      "id": 600,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 15.429348958074115
+    },
+    {
+      "group": "runs",
+      "id": 630,
+      "arm": "selective",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 15.39583891700022
+    },
+    {
+      "group": "runs",
+      "id": 689,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 17.615055207978003
+    },
+    {
+      "group": "replica",
+      "id": 21,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 13.327515916898847
+    },
+    {
+      "group": "replica",
+      "id": 27,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 15.927373999962583
+    },
+    {
+      "group": "replica",
+      "id": 66,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 8.124578707967885
+    },
+    {
+      "group": "replica",
+      "id": 96,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 16.290376875083894
+    },
+    {
+      "group": "replica",
+      "id": 163,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 0.878332709078677
+    },
+    {
+      "group": "replica",
+      "id": 231,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 5.34746612503659
+    },
+    {
+      "group": "replica",
+      "id": 260,
+      "arm": "original",
+      "score": 1.0,
+      "grade": "success",
+      "elapsed_s": 3.4234165409579873
+    },
+    {
+      "group": "replica",
+      "id": 269,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 20.057321875006892
+    },
+    {
+      "group": "replica",
+      "id": 274,
+      "arm": "original",
+      "score": 1.0,
+      "grade": "success",
+      "elapsed_s": 6.02125041699037
+    },
+    {
+      "group": "replica",
+      "id": 313,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 11.084401124971919
+    },
+    {
+      "group": "replica",
+      "id": 324,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 14.71304466703441
+    },
+    {
+      "group": "replica",
+      "id": 358,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 7.707245833007619
+    },
+    {
+      "group": "replica",
+      "id": 399,
+      "arm": "original",
+      "score": 1.0,
+      "grade": "success",
+      "elapsed_s": 14.621166249969974
+    },
+    {
+      "group": "replica",
+      "id": 404,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 6.765676458016969
+    },
+    {
+      "group": "replica",
+      "id": 431,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 12.42160324996803
+    },
+    {
+      "group": "replica",
+      "id": 516,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 13.405303291976452
+    },
+    {
+      "group": "replica",
+      "id": 689,
+      "arm": "original",
+      "score": 0.0,
+      "grade": "failure",
+      "elapsed_s": 6.389112957986072
+    }
+  ]
+}
