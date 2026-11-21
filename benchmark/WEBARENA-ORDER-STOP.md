@@ -7,10 +7,11 @@ The change affects 2,288 BF16 values in one row relative to the published search
 | Task | Baseline checkpoint | First model | Baseline | Stop-row edit | Speedup |
 |---|---|---|---:|---:|---:|
 | 96 · Latest order | Search release | Stop-row edit | 46.71 s · pass | 6.89 s · pass | 6.78× |
+| 96 · Latest order | Search release | Search release | 33.09 s · pass | 7.52 s · pass | 4.40× |
 
 All rows above ran on an M5 Max MacBook Pro. In the separate upstream-stock comparison on the order lookup, stock failed after 65.12 seconds and the search release passed in 50.32 seconds. The order speedup above uses the previously passing search release as its baseline. Task 96 was used to develop the stop-row edit.
 
-2 native grades replayed. [Search baseline weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9a38b0bfc3f703da81ee3bca2e99da929c4623ad) · [Upstream-stock order trial](WEBARENA-CROSS-TASK.md) · [Exact replacement rows, byte audit and grade archive](../evidence/webarena-order-stop/)
+4 native grades replayed. [Search baseline weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9a38b0bfc3f703da81ee3bca2e99da929c4623ad) · [Upstream-stock order trial](WEBARENA-CROSS-TASK.md) · [Exact replacement rows, byte audit and grade archive](../evidence/webarena-order-stop/)
 
 ```sh
 python benchmark/replay_search.py evidence/webarena-order-stop/native-grades.zip
