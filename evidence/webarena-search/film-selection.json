@@ -1,0 +1,8 @@
+{
+  "reason": "Fastest edit reproduced on two physical cards, closest individual ratio to the median; fastest successful observation if no edit replicated.",
+  "variant": "direct",
+  "lane": "USB4",
+  "original_s": 5.306741334032267,
+  "edited_s": 3.494977500056848,
+  "ratio": 1.5183907003538506
+}

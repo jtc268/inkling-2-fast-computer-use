@@ -14,6 +14,12 @@ Two rows in Inkling 2 Mini’s output layer score the tokens that start a thinki
 
 The model received numbered control labels as text. It filled two fields, submitted the form, set the quantity and added the item to the cart. The harness opened the product page, followed “View Cart” and checked the receipt. Both checkpoints chose identical commands. Prompts, greedy decoding, reasoning effort (already set to `none`), typing speed and cursor timing were identical. The timer includes inference and browser execution after warmup. The video is a fresh 1× recording of case 03 (16.96 s original, 7.15 s edited). We enlarged both viewports to 1200 × 720 and preserved the dress photo’s aspect ratio in both browsers.
 
+## Replication and WebArena search
+
+On the fresh MacBook Pro form-and-cart run, the original finished 4/6 and all three edits finished 6/6. On the four common successes, the first release took 6.96 s versus 16.62 s original (2.39×). The four-row edit took 7.04 s (2.36×). On the same filmed case on RTX 5090, the two edits measured 1.03× and 1.18×. [All runs](benchmark/FORM-CART-RECHECK.md) · [Fresh form-to-cart video](https://jtc268.github.io/inkling-2-fast-computer-use/form-cart-recheck.mp4)
+
+On WebArena 274, the four-row edit and original both passed on two RTX 5090s, at 1.52× and 1.54× wall-clock speedups. The checkpoint swaps the two output-channel rows and adjusts the click and stop rows. [Search experiments](benchmark/WEBARENA-SEARCH.md) · [Watch at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-search-fast.mp4) · [Download these weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/fa1ef63d66ec9d489dc185cd0a8ca5452a28bfe9)
+
 ## Ten WebArena tasks on RTX 5090
 
 The original passed 8/30 attempts. The edit passed 5/30. Both earned full credit in 3 matched pairs. This checkpoint changes the click and end-of-generation output rows. [All ten tasks and replay instructions](benchmark/WEBARENA-10.md) · [1× video](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-ten.mp4) · [Standalone weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/2c522e2d40dab1e9193e9cb121e1f8e9c222c6c9)

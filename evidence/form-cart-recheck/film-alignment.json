@@ -1,0 +1,18 @@
+[
+  {
+    "case": "03",
+    "arm": "original",
+    "start_frame": 0,
+    "receipt_frame": 386,
+    "video_span_s": 15.44,
+    "wall_s": 15.2454666250851
+  },
+  {
+    "case": "03",
+    "arm": "swap_click_stop",
+    "start_frame": 1,
+    "receipt_frame": 169,
+    "video_span_s": 6.72,
+    "wall_s": 6.478217083029449
+  }
+]

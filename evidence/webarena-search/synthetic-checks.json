@@ -1,0 +1,162 @@
+[
+  {
+    "name": "lights",
+    "expected": "C 27",
+    "two_rows": {
+      "tokens": 38,
+      "action": "C27",
+      "correct": true,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 7,
+      "action": "C 27",
+      "correct": true,
+      "premature": false
+    }
+  },
+  {
+    "name": "player",
+    "expected": "C 32",
+    "two_rows": {
+      "tokens": 37,
+      "action": "C 32",
+      "correct": true,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 7,
+      "action": "C 32",
+      "correct": true,
+      "premature": false
+    }
+  },
+  {
+    "name": "title",
+    "expected": "F 2 Lantern",
+    "two_rows": {
+      "tokens": 120,
+      "action": "F 2 Lantern",
+      "correct": true,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 120,
+      "action": "F 2 Lantern",
+      "correct": true,
+      "premature": false
+    }
+  },
+  {
+    "name": "lookup",
+    "expected": "K Enter",
+    "two_rows": {
+      "tokens": 67,
+      "action": "K",
+      "correct": false,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 67,
+      "action": "K",
+      "correct": false,
+      "premature": false
+    }
+  },
+  {
+    "name": "state",
+    "expected": "DONE mutate",
+    "two_rows": {
+      "tokens": 512,
+      "action": "",
+      "correct": false,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 8,
+      "action": "DONE mutate",
+      "correct": true,
+      "premature": false
+    }
+  },
+  {
+    "name": "quantity",
+    "expected": "ANSWER [59]",
+    "two_rows": {
+      "tokens": 106,
+      "action": "ANSWER [59]",
+      "correct": true,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 106,
+      "action": "ANSWER [59]",
+      "correct": true,
+      "premature": false
+    }
+  },
+  {
+    "name": "location",
+    "expected": "C 16",
+    "two_rows": {
+      "tokens": 72,
+      "action": "C 16",
+      "correct": true,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 72,
+      "action": "C 16",
+      "correct": true,
+      "premature": false
+    }
+  },
+  {
+    "name": "verify",
+    "expected": "DONE navigate",
+    "two_rows": {
+      "tokens": 372,
+      "action": "DONE navigate",
+      "correct": true,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 372,
+      "action": "DONE navigate",
+      "correct": true,
+      "premature": false
+    }
+  },
+  {
+    "name": "unit",
+    "expected": "C 20",
+    "two_rows": {
+      "tokens": 75,
+      "action": "C20",
+      "correct": true,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 75,
+      "action": "C20",
+      "correct": true,
+      "premature": false
+    }
+  },
+  {
+    "name": "song",
+    "expected": "F 11 Opal",
+    "two_rows": {
+      "tokens": 75,
+      "action": "F 11 Opal",
+      "correct": true,
+      "premature": false
+    },
+    "next_edit": {
+      "tokens": 75,
+      "action": "F 11 Opal",
+      "correct": true,
+      "premature": false
+    }
+  }
+]

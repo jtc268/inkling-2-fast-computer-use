@@ -1,0 +1,63 @@
+{
+  "checkpoints": {
+    "original": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+    "release_swap": "d713d16818032b5ac0d06b07e72d4dc7135d57737e3224216d09b51afe59ab6e",
+    "click_stop": "4efc8b6af7aeb8d5a5d4b01b7bec0b499857ec6482fbf76b49ef49e1a5ec9b1a",
+    "swap_click_stop": "4b44d972d10fb288b0a130490a63968082c690d8e827f4ac5bfb253d0f1cf030"
+  },
+  "source": "Published benchmark/run.py, six test cases on Selenium and Automation Exercise",
+  "official_webarena": false,
+  "device": "MacBook Pro / MLX; browser-only Brave workload",
+  "viewport": {
+    "width": 1024,
+    "height": 680
+  },
+  "case_ids": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+  ],
+  "order": [
+    [
+      "original",
+      "release_swap",
+      "click_stop",
+      "swap_click_stop"
+    ],
+    [
+      "release_swap",
+      "click_stop",
+      "swap_click_stop",
+      "original"
+    ],
+    [
+      "click_stop",
+      "swap_click_stop",
+      "original",
+      "release_swap"
+    ],
+    [
+      "swap_click_stop",
+      "original",
+      "release_swap",
+      "click_stop"
+    ],
+    [
+      "original",
+      "release_swap",
+      "click_stop",
+      "swap_click_stop"
+    ],
+    [
+      "release_swap",
+      "click_stop",
+      "swap_click_stop",
+      "original"
+    ]
+  ],
+  "timing": "fresh browser context; all model decisions and browser work through cart verification; worker loading and warmup excluded",
+  "driver_sha256": "2a6db42049fc8cf7d749c1bdf08de80727418fff9e2270ab456c820122c5508a"
+}

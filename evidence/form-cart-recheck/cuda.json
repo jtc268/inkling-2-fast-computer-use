@@ -1,0 +1,38 @@
+{
+  "linux": {
+    "original": {
+      "success": true,
+      "elapsed_s": 7.076685874955729,
+      "actual_product": "Sleeveless Dress",
+      "actual_quantity": 2,
+      "form_s": 3.227728124940768,
+      "error": null
+    },
+    "release_swap": {
+      "success": true,
+      "elapsed_s": 6.888700500014238,
+      "actual_product": "Sleeveless Dress",
+      "actual_quantity": 2,
+      "form_s": 3.910092708072625,
+      "error": null
+    }
+  },
+  "internal": {
+    "original": {
+      "success": true,
+      "elapsed_s": 6.763599792029709,
+      "actual_product": "Sleeveless Dress",
+      "actual_quantity": 2,
+      "form_s": 3.0264073330909014,
+      "error": null
+    },
+    "swap_click_stop": {
+      "success": true,
+      "elapsed_s": 5.730165875051171,
+      "actual_product": "Sleeveless Dress",
+      "actual_quantity": 2,
+      "form_s": 2.845919125014916,
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "lane": "USB4",
+    "variant": "candidate",
+    "original": {
+      "score": 1.0,
+      "seconds": 5.306741334032267,
+      "decisions": 3,
+      "inference_seconds": 2.5621822921093553,
+      "thinking_tokens": 274,
+      "generated_tokens": 303
+    },
+    "edited": {
+      "score": 1.0,
+      "seconds": 4.9780092920409516,
+      "decisions": 3,
+      "inference_seconds": 2.2216282088775188,
+      "thinking_tokens": 223,
+      "generated_tokens": 250
+    },
+    "ratio": 1.0660368478051871
+  },
+  {
+    "lane": "USB4",
+    "variant": "direct",
+    "original": {
+      "score": 1.0,
+      "seconds": 5.306741334032267,
+      "decisions": 3,
+      "inference_seconds": 2.5621822921093553,
+      "thinking_tokens": 274,
+      "generated_tokens": 303
+    },
+    "edited": {
+      "score": 1.0,
+      "seconds": 3.494977500056848,
+      "decisions": 3,
+      "inference_seconds": 0.8266557069728151,
+      "thinking_tokens": 0,
+      "generated_tokens": 32
+    },
+    "ratio": 1.5183907003538506
+  },
+  {
+    "lane": "USB4",
+    "variant": "grammar",
+    "original": {
+      "score": 1.0,
+      "seconds": 5.306741334032267,
+      "decisions": 3,
+      "inference_seconds": 2.5621822921093553,
+      "thinking_tokens": 274,
+      "generated_tokens": 303
+    },
+    "edited": {
+      "score": 0.0,
+      "seconds": 1.7852802079869434,
+      "decisions": 2,
+      "inference_seconds": 0.7340143750188872,
+      "thinking_tokens": 0,
+      "generated_tokens": 21
+    },
+    "ratio": null
+  },
+  {
+    "lane": "Linux",
+    "variant": "direct",
+    "original": {
+      "score": 1.0,
+      "seconds": 5.289461958920583,
+      "decisions": 3,
+      "inference_seconds": 2.620139873935841,
+      "thinking_tokens": 274,
+      "generated_tokens": 303
+    },
+    "edited": {
+      "score": 1.0,
+      "seconds": 3.434352207928896,
+      "decisions": 3,
+      "inference_seconds": 1.060341333039105,
+      "thinking_tokens": 0,
+      "generated_tokens": 32
+    },
+    "ratio": 1.5401629299140582
+  },
+  {
+    "lane": "Tower internal",
+    "variant": "grammar",
+    "original": {
+      "score": 1.0,
+      "seconds": 5.106983833014965,
+      "decisions": 3,
+      "inference_seconds": 2.4741410008864477,
+      "thinking_tokens": 274,
+      "generated_tokens": 303
+    },
+    "edited": {
+      "score": 0.0,
+      "seconds": 1.747796208015643,
+      "decisions": 2,
+      "inference_seconds": 0.7182727920589969,
+      "thinking_tokens": 0,
+      "generated_tokens": 21
+    },
+    "ratio": null
+  },
+  {
+    "lane": "USB4",
+    "variant": "keyboard",
+    "original": {
+      "score": 1.0,
+      "seconds": 6.400497499969788,
+      "decisions": 3,
+      "inference_seconds": 2.499279707088135,
+      "thinking_tokens": 270,
+      "generated_tokens": 299
+    },
+    "edited": {
+      "score": 0.0,
+      "seconds": 1.7961408749688417,
+      "decisions": 2,
+      "inference_seconds": 0.7752691659843549,
+      "thinking_tokens": 0,
+      "generated_tokens": 32
+    },
+    "ratio": null
+  }
+]
