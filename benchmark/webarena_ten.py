@@ -192,16 +192,18 @@ def wait_for_start_page(page,site):
         page.locator('#productsOrderedGrid_table tbody td.col-product').first.wait_for(state='visible',timeout=30000)
         page.evaluate("async () => { await document.fonts.ready; await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))); }")
 
-def matched_admin_dashboard(ctx,page,expected=None):
+def matched_admin_dashboard(ctx,page,expected=None,*,attach_pointer=False):
     # The official storefront can list tied bestsellers in different orders.
     # Compare the complete observed UI before inference. Each retry loads the unmodified dashboard.
     for attempt in range(16):
         if attempt:
             page.reload(wait_until='load',timeout=45000)
         wait_for_start_page(page,'shopping_admin')
+        if attach_pointer:page.evaluate('attachPointer()')
+        observed_at=time.perf_counter()
         view=observation(ctx,page)
         if expected is None or view==expected:
-            return view,attempt
+            return view,attempt,observed_at
     raise RuntimeError('Could not reproduce the first arm’s dashboard before inference.')
 
 def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh,field_selection='keyboard',expected_start_view=None):
@@ -230,9 +232,7 @@ def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh,field_selection='
         page=ctx.pages[0];page.bring_to_front()
         prepared_view=None
         preflight_reloads=0
-        if site=='shopping_admin':
-            prepared_view,preflight_reloads=matched_admin_dashboard(ctx,page,expected_start_view)
-        else:wait_for_start_page(page,site)
+        wait_for_start_page(page,site)
         page.evaluate('attachPointer()')
         movie=out/(stem+'.webm')
         recorders = list(ctx.pages)
@@ -242,12 +242,18 @@ def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh,field_selection='
             capture_start.append(time.perf_counter())
             tab.screencast.start(path=path, fps=20, size={'width':1200,'height':720})
         start=time.perf_counter()
+        if site=='shopping_admin':
+            # Recording can change the visible viewport. Match the live decision input
+            # with the recorder attached, and include its observation in the task clock.
+            prepared_view,preflight_reloads,start=matched_admin_dashboard(
+                ctx,page,expected_start_view,attach_pointer=True)
         for _ in range(PANEL['max_decisions']):
             step_start=time.perf_counter()-start
             active_tab=ctx.pages.index(page)+1
-            view=observation(ctx,page)
-            if not steps and prepared_view is not None and view!=prepared_view:
-                raise RuntimeError('Admin dashboard changed before its first inference call.')
+            if not steps and prepared_view is not None:
+                step_start=0.0
+                view=prepared_view
+            else:view=observation(ctx,page)
             prompt=native.intent+'\n'+view+'\nPrevious actions: '+(' / '.join(history[-6:]) or 'none')
             if hasattr(worker,'decide_web'):
                 response=worker.decide_web(prompt,SYSTEM)
