@@ -12,7 +12,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Completed-order stop | RTX 5090 | Upstream stock | 190, 191, 275 | 4/6 | 4/6 | — |
 | Windows command-stop | M5 Max MacBook Pro | Upstream stock | 188, 274 | 4/4 | 4/4 | 188 |
 | Windows command-stop | RTX 5090 | Upstream stock | 188 | 2/2 | 2/2 | 188 |
-| Order-history routing trial | M5 Max MacBook Pro | Upstream stock | 190 | 2/2 | 2/2 | 190 |
+| Order-history routing trial | M5 Max MacBook Pro | Upstream stock | 189, 190 | 3/4 | 4/4 | 190 |
 | Order-history routing trial | RTX 5090 | Upstream stock | 188, 189, 190, 191, 275 | 8/10 | 8/10 | 188, 189, 190 |
 | Guarded reasoning trial | RTX 5090 | Upstream stock | 190 | 2/2 | 2/2 | — |
 | Pending click + stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
@@ -72,6 +72,8 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Order-history routing trial | 191 | RTX 5090 | Upstream stock | Baseline | 12.57s · fail | 11.34s · grader error | — |
 | Order-history routing trial | 275 | RTX 5090 | Upstream stock | Edited | 5.02s · pass | 6.35s · pass | 0.79× |
 | Order-history routing trial | 275 | RTX 5090 | Upstream stock | Baseline | 4.64s · pass | 6.01s · pass | 0.77× |
+| Order-history routing trial | 189 | M5 Max MacBook Pro | Upstream stock | Edited | 24.47s · pass | 5.35s · pass | 4.57× |
+| Order-history routing trial | 189 | M5 Max MacBook Pro | Upstream stock | Baseline | 10.68s · fail | 5.62s · pass | — |
 | Order-history routing trial | 190 | M5 Max MacBook Pro | Upstream stock | Edited | 33.89s · pass | 5.24s · pass | 6.46× |
 | Order-history routing trial | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 47.18s · pass | 5.76s · pass | 8.19× |
 | Focused search-field edit | 283 | M5 Max MacBook Pro | Upstream stock | Edited | 87.93s · fail | 18.77s · fail | — |
@@ -113,7 +115,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 
 The pending click + stop edit was developed on 189. Its other tasks use frozen weights. The Windows command-stop edit was developed on 188 and has a different shard. The pending click + stop runs on Windows and Mac use the same shard. The completed-order stop edit was developed on 190 after recording the frozen checkpoint on that task. Tasks 191 and 192 were selected in numerical order as the remaining statuses in that same template. [Selection recorded before inference](../evidence/webarena-order-holdouts/selection.json). The RTX 5090 repeat on 191 followed the Mac misses and used the identical completed-order checkpoint. Task 231 rechecks an earlier order-number failure. Task 298 is the first ID in the order-details navigation template. [Recorded task order and advancement rule](../evidence/webarena-order-holdouts/order-navigation.json). On task 191 the official evaluator reports an error for a non-null retrieved answer. That episode earns zero credit. An independent browser inspection covered all four order-history pages. Of 37 orders, 25 were complete, nine canceled and three pending. The fixture contained zero processing orders. Pairs that overlapped the November 21 fixture connection outage were set aside. Reported replacement pairs started after connectivity returned.
 
-174 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
+178 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
 
 [Exact pending-order rows](../evidence/webarena-pending-repair/pending-native-stop/) · [Windows command-stop rows](WEBARENA-ORDER-BOUNDARY.md) · [Grades and recording hashes](../evidence/webarena-order-checkpoints/).
 
@@ -161,7 +163,7 @@ On RTX 5090, stock and the order-history edit each passed all six runs across ca
 | WebArena lookup | RTX 5090, edit first | RTX 5090, stock first | M5 Max, edit first | M5 Max, stock first |
 |---|---:|---:|---:|---:|
 | Canceled (#188) | 2.23× | 3.53× | Pending | Pending |
-| Pending (#189) | 2.16× | 2.36× | Pending | Pending |
+| Pending (#189) | 2.16× | 2.36× | 4.57× | Edit passed |
 | Completed (#190) | 2.03× | 2.18× | 6.46× | 8.19× |
 | Processing (#191) | Neither passed | Neither passed | Pending | Pending |
 
