@@ -19,7 +19,7 @@ The 1× film shows the USB4 pair for channel swap plus click/stop. Both passed. 
 
 The conditional edit adjusts two channel rows using 22 synthetic screens where immediate answering was tested against known next actions. The global swap exchanges the output rows for thinking and answering. Both retain the earlier click and end-of-generation corrections. The third edit also adjusts command-verb scores, using synthetic expected first tokens. The search-key edit instead favors the model’s native `K Enter` command on twelve synthetic focused search forms. All calculations use forward activations or explicit row swaps. No official task answers enter the weight calculation. The search task informed which hypotheses to try, so its timings are development results.
 
-[Download the four-row checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/fa1ef63d66ec9d489dc185cd0a8ca5452a28bfe9) · [Byte audit](https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/webarena-search/direct-weight-audit.json) · [Offline grading traces](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/webarena-search/parallel-receipts.zip)
+[Download the four-row checkpoint](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/fa1ef63d66ec9d489dc185cd0a8ca5452a28bfe9) · [Byte audit](https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/webarena-search/direct-weight-audit.json) · [Offline grading traces](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/webarena-search/parallel-receipts.zip)
 
 ## Independent timing pair
 

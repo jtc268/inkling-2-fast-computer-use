@@ -15,11 +15,11 @@ The change affects 2,288 BF16 values in one row relative to the published search
 
 All rows above ran on an M5 Max MacBook Pro. In the separate upstream-stock comparison on the order lookup, stock failed after 65.12 seconds and the search release passed in 50.32 seconds. The order speedup above uses the previously passing search release as its baseline. Task 96 was used to develop the stop-row edit.
 
-12 native grades replayed. [Search baseline weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9a38b0bfc3f703da81ee3bca2e99da929c4623ad) · [Upstream-stock order trial](WEBARENA-CROSS-TASK.md) · [Exact replacement rows, byte audit and grade archive](../evidence/webarena-order-stop/)
+12 native grades replayed. [Search baseline weights](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/9a38b0bfc3f703da81ee3bca2e99da929c4623ad) · [Upstream-stock order trial](WEBARENA-CROSS-TASK.md) · [Exact replacement rows, byte audit and grade archive](../evidence/webarena-order-stop/)
 
 ```sh
 python benchmark/replay_search.py evidence/webarena-order-stop/native-grades.zip
 python benchmark/verify_row_payload.py /path/to/Inkling-2-Mini evidence/webarena-order-stop/rows.npz evidence/webarena-order-stop/weight-audit.json
 ```
 
-[Download these standalone weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/dc1cecc5b251ed3d4a4202a2267486a84a6f4684).
+[Download these standalone weights](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/dc1cecc5b251ed3d4a4202a2267486a84a6f4684).

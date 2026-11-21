@@ -36,4 +36,4 @@ export INKLING_EDITED=/absolute/path/to/selective-inkling
 
 The runner uses loopback ports 7770, 7771, 9998 and 9999. It recreates only containers with its experiment label and saves a receipt, original HAR and real-time video locally. Completed receipts are resumable. The downloadable checkpoint is the complete selective edit. It requires a compatible inference runtime and an agent that supplies browser observations and executes the model's actions.
 
-[Standalone model](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/selective-experiment) · [Weight audit](../evidence/selective-weight-audit.json) · [Nine calibration screens](../evidence/calibration-prompts.json) · [Reproduce the edited rows](derive_selective_rows.py)
+[Standalone model](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/selective-experiment) · [Weight audit](../evidence/selective-weight-audit.json) · [Nine calibration screens](../evidence/calibration-prompts.json) · [Reproduce the edited rows](derive_selective_rows.py)

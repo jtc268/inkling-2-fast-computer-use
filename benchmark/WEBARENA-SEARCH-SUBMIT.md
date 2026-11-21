@@ -35,4 +35,4 @@ To verify downloaded checkpoints against the measured four-row edit, run
 python benchmark/verify_output_rows.py ORIGINAL EDITED --rows 34 200004 200006 200008 --expect-base-sha256 65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1 --out weights.json
 ```
 
-[Download the standalone search-submit weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/658c5be9d81f5b2374bf6576d31ad47df904b0db).
+[Download the standalone search-submit weights](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/658c5be9d81f5b2374bf6576d31ad47df904b0db).

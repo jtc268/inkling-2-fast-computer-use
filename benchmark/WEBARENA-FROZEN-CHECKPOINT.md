@@ -35,7 +35,7 @@ Each arm used Brave, DOM observations, keyboard field selection, greedy decoding
 
 All 40 native grades reproduced from saved responses and network events. The full WebArena suite is pending.
 
-[Download the exact model](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/dc1cecc5b251ed3d4a4202a2267486a84a6f4684) · [Weight audit and reconstruction](WEBARENA-ORDER-STOP.md) · [Grade archive and pair timings](../evidence/webarena-frozen-checkpoint/) · [Watch the ordered film](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4)
+[Download the exact model](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/dc1cecc5b251ed3d4a4202a2267486a84a6f4684) · [Weight audit and reconstruction](WEBARENA-ORDER-STOP.md) · [Grade archive and pair timings](../evidence/webarena-frozen-checkpoint/) · [Watch the ordered film](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4)
 
 ```sh
 python benchmark/replay_search.py evidence/webarena-frozen-checkpoint/native-grades.zip

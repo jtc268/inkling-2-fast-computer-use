@@ -33,7 +33,7 @@ On ten distinct synthetic action checks, correct commands and median generated t
 
 The attempted USB4 repeat did not start an episode. Docker inventory timed out before lease admission, so the order-reversed checks ran on Linux.
 
-[Exploratory receipts](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/webarena-reasoning-close/receipts.zip) · [Order-reversed receipts](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/webarena-reasoning-close/independent-receipts.zip). Replay either archive with `python benchmark/replay_search.py ARCHIVE.zip`. [Forum post at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-forum.mp4). [Download the one-row checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/forum-reasoning-close).
+[Exploratory receipts](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/webarena-reasoning-close/receipts.zip) · [Order-reversed receipts](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/webarena-reasoning-close/independent-receipts.zip). Replay either archive with `python benchmark/replay_search.py ARCHIVE.zip`. [Forum post at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-forum.mp4). [Download the one-row checkpoint](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/forum-reasoning-close).
 
 ## End-message row with ranking constraints
 

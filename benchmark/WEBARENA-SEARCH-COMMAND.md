@@ -52,4 +52,4 @@ To time a new Mac pair with the pinned shopping fixture, run the following from 
 python benchmark/run_search_mac.py ORIGINAL EDITED --id 274 --repeats 2 --out usb-search-rerun
 ```
 
-[Download the standalone command-stop checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/bfd5050f8fb5ff8325ecde3008b842aeec2d467a).
+[Download the standalone command-stop checkpoint](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/bfd5050f8fb5ff8325ecde3008b842aeec2d467a).

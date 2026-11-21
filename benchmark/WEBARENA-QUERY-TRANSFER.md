@@ -70,7 +70,7 @@ python benchmark/run_search_mac.py ORIGINAL EDITED --id 630 --repeats 2 --field-
 
 These commands reproduce the recorded selection method. The runner defaults to portable field selection for fresh experiments.
 
-[Download the standalone weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/ba75284970e339d5cb957a206b3d4be6ce8d5f7d).
+[Download the standalone weights](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/ba75284970e339d5cb957a206b3d4be6ce8d5f7d).
 
 The four published BF16 rows and stock weights reproduce the complete edited shard hash. To check it locally, run
 

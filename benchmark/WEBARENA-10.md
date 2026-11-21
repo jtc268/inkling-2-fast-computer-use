@@ -2,7 +2,7 @@
 
 The original passed 8/30 attempts. The edit passed 5/30. Both earned full credit in 3 matched pairs. Each task ran three times per checkpoint on the same physical RTX 5090. An independent RTX 5090 baseline repeated all ten with the original and passed 2/10.
 
-**Search for a USB Wi-Fi adapter (WebArena 274).** The recorded pair took 4.75 s original and 4.71 s edited. Grader scores were 1 and 1. [Watch at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-ten.mp4) · [Download this checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/2c522e2d40dab1e9193e9cb121e1f8e9c222c6c9)
+**Search for a USB Wi-Fi adapter (WebArena 274).** The recorded pair took 4.75 s original and 4.71 s edited. Grader scores were 1 and 1. [Watch at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-ten.mp4) · [Download this checkpoint](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/2c522e2d40dab1e9193e9cb121e1f8e9c222c6c9)
 
 **Save a product to a wishlist (WebArena 516).** The edit completed 1/3 runs and the original completed 0/3. In this recording the edit completed in 3.06 s and the original failed. An unsuccessful attempt has no completion-time ratio. [Watch the completion difference at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-ten-completion.mp4)
 

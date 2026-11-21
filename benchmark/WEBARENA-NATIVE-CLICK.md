@@ -30,4 +30,4 @@ python benchmark/replay_search.py evidence/webarena-cuda-click/native-grades.zip
 python benchmark/verify_row_payload.py /path/to/original evidence/webarena-cuda-click/rows.npz evidence/webarena-cuda-click/weight-audit.json
 ```
 
-[Download the tested standalone checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9a38b0bfc3f703da81ee3bca2e99da929c4623ad).
+[Download the tested standalone checkpoint](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/9a38b0bfc3f703da81ee3bca2e99da929c4623ad).
