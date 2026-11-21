@@ -1,0 +1,332 @@
+{
+  "status": "Audited frozen candidate",
+  "sha256": "fbdc9f126dca8a7a5f12d4e120ab44138ad9b5226b18071811cf1dbab2c2ee2f",
+  "control_replays": [
+    {
+      "task": 190,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 190,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 190,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 190,
+      "action": "ANSWER [65.32]",
+      "edited": "ANSWER [65.32]",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "ANSWER [754.99]",
+      "edited": "ANSWER [754.99]",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 189,
+      "action": "ANSWER [754.99]",
+      "edited": "ANSWER [754.99]",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "ANSWER [365.42]",
+      "edited": "ANSWER [365.42]",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C21",
+      "edited": "C21",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "edited": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "C21",
+      "edited": "C21",
+      "matches": true
+    },
+    {
+      "task": 96,
+      "action": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "edited": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "matches": true
+    },
+    {
+      "task": 274,
+      "action": "F7 usb wifi",
+      "edited": "F7 usb wifi",
+      "matches": true
+    },
+    {
+      "task": 274,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 274,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    },
+    {
+      "task": 275,
+      "action": "F7 xbox",
+      "edited": "F7 xbox",
+      "matches": true
+    },
+    {
+      "task": 275,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 275,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    },
+    {
+      "task": 276,
+      "action": "F7 switch accessories",
+      "edited": "F7 switch accessories",
+      "matches": true
+    },
+    {
+      "task": 276,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 276,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "ANSWER [365.42]",
+      "edited": "ANSWER [365.42]",
+      "matches": true
+    },
+    {
+      "task": 188,
+      "action": "ANSWER [365.42]",
+      "edited": "ANSWER [365.42]",
+      "matches": true
+    },
+    {
+      "task": 231,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 231,
+      "action": "C1",
+      "edited": "C1",
+      "matches": true
+    },
+    {
+      "task": 231,
+      "action": "C27",
+      "edited": "C27",
+      "matches": true
+    },
+    {
+      "task": 231,
+      "action": "ANSWER [\"000000170\"]",
+      "edited": "ANSWER [\"000000170\"]",
+      "matches": true
+    },
+    {
+      "task": 277,
+      "action": "F7 batteries for iphone 13",
+      "edited": "F7 batteries for iphone 13",
+      "matches": true
+    },
+    {
+      "task": 277,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 277,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    },
+    {
+      "task": 278,
+      "action": "F7 green tea bag for weight loss",
+      "edited": "F7 green tea bag for weight loss",
+      "matches": true
+    },
+    {
+      "task": 278,
+      "action": "C 9",
+      "edited": "C 9",
+      "matches": true
+    },
+    {
+      "task": 278,
+      "action": "DONE navigate",
+      "edited": "DONE navigate",
+      "matches": true
+    }
+  ],
+  "focused_field_replays": [
+    {
+      "previous": "C7",
+      "conditional": "F7 Xbox controller",
+      "edited": "F7 Xbox controller",
+      "generated": 9,
+      "matches": true
+    },
+    {
+      "previous": "C7",
+      "conditional": "F7 Xbox controller",
+      "edited": "F7 Xbox controller",
+      "generated": 9,
+      "matches": true
+    },
+    {
+      "previous": "F7 Xbox controller",
+      "conditional": "C 9",
+      "edited": "C 9",
+      "generated": 22,
+      "matches": true
+    },
+    {
+      "previous": "F7 Xbox controller",
+      "conditional": "C 9",
+      "edited": "C 9",
+      "generated": 7,
+      "matches": true
+    },
+    {
+      "previous": "F7 Xbox controller",
+      "conditional": "C 9",
+      "edited": "C 9",
+      "generated": 7,
+      "matches": true
+    }
+  ],
+  "parent_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+  "rows": [
+    {
+      "row": 34,
+      "changed_values": 2220,
+      "relative_norm": 0.055288780313714765
+    },
+    {
+      "row": 37,
+      "changed_values": 2263,
+      "relative_norm": 0.08522043409268887
+    }
+  ],
+  "row": 37,
+  "changed_values": 4483,
+  "target_decisions": 3,
+  "protected_decisions": 373,
+  "max_target_shortfall": 0.013642410852495068,
+  "max_guard_shortfall": 0.01165921692737193
+}
