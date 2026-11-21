@@ -149,6 +149,19 @@ The guarded reasoning trial changes four output rows relative to the Mac order-l
 Both models returned the correct total on RTX 5090 in both orders. With the edit first, stock took 5.72s and the edit took 6.79s. With stock first, the times were 10.33s and 3.34s. The two speed ratios were 0.84× and 3.09×.
 [Row changes, regression replays and byte audit](../evidence/webarena-order-checkpoints/order-short-margin/).
 
+## Three order lookups with the same weights
+
+On RTX 5090, stock and the order-history edit each passed all six runs across canceled, pending and completed orders. The same edited shard ran 2.03× to 3.53× faster across those pairs. Task 190 was the development case. Tasks 188 and 189 were earlier wins rechecked with those weights.
+
+| WebArena lookup | RTX 5090, edit first | RTX 5090, stock first | M5 Max, edit first | M5 Max, stock first |
+|---|---:|---:|---:|---:|
+| Canceled (#188) | 2.23× | 3.53× | Pending | Pending |
+| Pending (#189) | 2.16× | 2.36× | Pending | Pending |
+| Completed (#190) | 2.03× | 2.18× | 6.46× | 8.19× |
+| Processing (#191) | Neither passed | Neither passed | Pending | Pending |
+
+Each timed run starts on the storefront. It ends when the agent submits its response. The full table above includes the elapsed seconds and the official evaluation status for each arm.
+
 The order-history routing trial changes 2,280 BF16 values in the end-of-message row relative to the guarded reasoning trial. The parent used 510 reasoning tokens without issuing a command on one recorded order-history page. A conditional replay reached the correct answer after 16 reasoning tokens. The trial in the table uses ordinary greedy generation. [Weight audit and unforced replay checks](../evidence/webarena-order-checkpoints/order-history-route/).
 
 On the RTX 5090 completed order lookup (#190), both models returned the correct total in both run orders. Stock needed 4 decisions and the edit needed 3. Stock generated 1,181 tokens, including 1,137 reasoning tokens. The edit generated 335, including 252 reasoning tokens. The two full-task speedups were 2.03× and 2.18×.
