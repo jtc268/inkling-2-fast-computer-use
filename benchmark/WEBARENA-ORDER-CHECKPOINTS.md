@@ -222,3 +222,11 @@ From the repository root, replay the official grades and check the reported spee
 python benchmark/replay_search.py evidence/webarena-order-checkpoints/native-grades.zip
 python benchmark/verify_browser_timings.py evidence/webarena-order-checkpoints/native-grades.zip evidence/webarena-order-checkpoints/pairs.json
 ```
+
+### Matching browser inputs
+
+The previous and new edits received the same system instruction, task, visible page and action history at all 12 decisions checked on RTX 5090. They produced the same browser commands and passed. The message hashes are reconstructed from the recorded observations and action histories.
+
+```sh
+python benchmark/compare_browser_inputs.py evidence/webarena-order-checkpoints/native-grades.zip evidence/webarena-order-checkpoints/pairs.json order-history-route search-submit-stop --device "RTX 5090" --tasks 275 190
+```
