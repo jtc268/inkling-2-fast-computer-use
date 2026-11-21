@@ -1,14 +1,14 @@
 {
-  "sha256": "dbd8f28088e9e0015a249738ab3d4f0fe920380b0f03ad9956d8f28b892f355c",
+  "sha256": "10a1b5ca381c25c84dd05e55a0589d76e36ac69595fd13da4b0d039789519188",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 270.4,
+  "duration_s": 273.4,
   "task_count": 41,
   "opening_s": 6.15,
-  "closing_start_s": 266.9,
+  "closing_start_s": 269.9,
   "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
   "chapters": [
     {
@@ -1267,7 +1267,7 @@
     {
       "number": 16,
       "start_s": 102.45,
-      "duration_s": 30.2,
+      "duration_s": 33.15,
       "environment": "WebArena",
       "task": "190",
       "title": "Find the total of the latest completed order",
@@ -1657,12 +1657,51 @@
               "grader_status": "success"
             }
           ]
+        },
+        {
+          "start_s": 132.65,
+          "duration_s": 2.95,
+          "shared_elapsed_start_s": 3.061038124957122,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 45.43856291694101,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "45df24edf60219d0e61d64a02c69e35e048d11f7d491ee3b2109cfd85cf2cc71",
+              "receipt": "190-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "ffbcc9cad73b37a6350063524e03cd3e3643732816e9f4e15dfbf481238e3b0b",
+                "start_s": 3.061735332943499,
+                "source_duration_s": 45.4,
+                "available_frames": 59
+              },
+              "grader_status": "success"
+            },
+            {
+              "arm": "Product-link selection edit",
+              "elapsed_s": 5.311038124957122,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "c465c7b586943e052d903a67139c94bf11c27aaeb1af0762f721614009925fb2",
+              "receipt": "190-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "5727b53a048fbdc1e198bb17f97cbbb3a63ca7f899f2c118d85bbe06914221ba",
+                "start_s": 3.0618657909799367,
+                "source_duration_s": 5.55,
+                "available_frames": 46
+              },
+              "grader_status": "success"
+            }
+          ]
         }
       ]
     },
     {
       "number": 17,
-      "start_s": 132.65,
+      "start_s": 135.6,
       "duration_s": 8.1,
       "environment": "WebArena",
       "task": "191",
@@ -1704,7 +1743,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 134.85,
+          "start_s": 137.8,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1743,7 +1782,7 @@
           ]
         },
         {
-          "start_s": 137.8,
+          "start_s": 140.75,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1785,8 +1824,8 @@
     },
     {
       "number": 18,
-      "start_s": 140.75,
-      "duration_s": 5.1,
+      "start_s": 143.7,
+      "duration_s": 5.15,
       "environment": "WebArena",
       "task": "231",
       "title": "Find a canceled order number",
@@ -1825,8 +1864,8 @@
       ],
       "additional_takes": [
         {
-          "start_s": 142.95,
-          "duration_s": 2.9,
+          "start_s": 145.9,
+          "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
             {
@@ -1839,9 +1878,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "3aea1b0be0d4e8bd1125a74b743474e3f4723109d8f6ecb2b6767bc86ce17ee2",
-                "start_s": 28.477904957975262,
+                "start_s": 28.42790495797526,
                 "source_duration_s": 32.35,
-                "available_frames": 58
+                "available_frames": 59
               },
               "grader_status": "failure"
             },
@@ -1855,9 +1894,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "fd230a0bf607e34cda779e74694430fb50e01c81b4fea13b87cecdac971afb6b",
-                "start_s": 2.222678832965903,
+                "start_s": 2.172678832965903,
                 "source_duration_s": 5.3,
-                "available_frames": 58
+                "available_frames": 59
               },
               "grader_status": "success"
             }
@@ -1867,7 +1906,7 @@
     },
     {
       "number": 19,
-      "start_s": 145.85,
+      "start_s": 148.85,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "260",
@@ -1908,7 +1947,7 @@
     },
     {
       "number": 20,
-      "start_s": 148.05,
+      "start_s": 151.05,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "269",
@@ -1949,7 +1988,7 @@
     },
     {
       "number": 21,
-      "start_s": 150.25,
+      "start_s": 153.25,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "270",
@@ -1990,7 +2029,7 @@
     },
     {
       "number": 22,
-      "start_s": 152.45,
+      "start_s": 155.45,
       "duration_s": 7.7,
       "environment": "WebArena",
       "task": "274",
@@ -2032,7 +2071,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 157.2,
+          "start_s": 160.2,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.1353435839992017,
           "arms": [
@@ -2074,7 +2113,7 @@
     },
     {
       "number": 23,
-      "start_s": 160.15,
+      "start_s": 163.15,
       "duration_s": 23.75,
       "environment": "WebArena",
       "task": "275",
@@ -2116,7 +2155,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 166.2,
+          "start_s": 169.2,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.7589218330103904,
           "arms": [
@@ -2155,7 +2194,7 @@
           ]
         },
         {
-          "start_s": 169.15,
+          "start_s": 172.15,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.770188458962366,
           "arms": [
@@ -2194,7 +2233,7 @@
           ]
         },
         {
-          "start_s": 172.1,
+          "start_s": 175.1,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 0.7524331250460816,
           "arms": [
@@ -2233,7 +2272,7 @@
           ]
         },
         {
-          "start_s": 175.05,
+          "start_s": 178.05,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.7378833330003545,
           "arms": [
@@ -2272,7 +2311,7 @@
           ]
         },
         {
-          "start_s": 178.0,
+          "start_s": 181.0,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 2.8694580829469487,
           "arms": [
@@ -2311,7 +2350,7 @@
           ]
         },
         {
-          "start_s": 180.95,
+          "start_s": 183.95,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.021435666945763,
           "arms": [
@@ -2353,7 +2392,7 @@
     },
     {
       "number": 24,
-      "start_s": 183.9,
+      "start_s": 186.9,
       "duration_s": 10.75,
       "environment": "WebArena",
       "task": "276",
@@ -2395,7 +2434,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 188.65,
+          "start_s": 191.65,
           "duration_s": 3.05,
           "shared_elapsed_start_s": 1.3485021249856801,
           "arms": [
@@ -2432,7 +2471,7 @@
           ]
         },
         {
-          "start_s": 191.7,
+          "start_s": 194.7,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.2479067909298465,
           "arms": [
@@ -2474,7 +2513,7 @@
     },
     {
       "number": 25,
-      "start_s": 194.65,
+      "start_s": 197.65,
       "duration_s": 7.7,
       "environment": "WebArena",
       "task": "277",
@@ -2516,7 +2555,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 199.4,
+          "start_s": 202.4,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.629690458998084,
           "arms": [
@@ -2558,7 +2597,7 @@
     },
     {
       "number": 26,
-      "start_s": 202.35,
+      "start_s": 205.35,
       "duration_s": 13.3,
       "environment": "WebArena",
       "task": "278",
@@ -2600,7 +2639,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 207.1,
+          "start_s": 210.1,
           "duration_s": 3.05,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2639,7 +2678,7 @@
           ]
         },
         {
-          "start_s": 210.15,
+          "start_s": 213.15,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 3.232748709013686,
           "arms": [
@@ -2678,7 +2717,7 @@
           ]
         },
         {
-          "start_s": 212.7,
+          "start_s": 215.7,
           "duration_s": 2.95,
           "shared_elapsed_start_s": 3.86688183399383,
           "arms": [
@@ -2720,7 +2759,7 @@
     },
     {
       "number": 27,
-      "start_s": 215.65,
+      "start_s": 218.65,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "279",
@@ -2763,7 +2802,7 @@
     },
     {
       "number": 28,
-      "start_s": 217.85,
+      "start_s": 220.85,
       "duration_s": 14.0,
       "environment": "WebArena",
       "task": "283",
@@ -2805,7 +2844,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 220.05,
+          "start_s": 223.05,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2844,7 +2883,7 @@
           ]
         },
         {
-          "start_s": 223.0,
+          "start_s": 226.0,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2883,7 +2922,7 @@
           ]
         },
         {
-          "start_s": 225.95,
+          "start_s": 228.95,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2922,7 +2961,7 @@
           ]
         },
         {
-          "start_s": 228.9,
+          "start_s": 231.9,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2964,7 +3003,7 @@
     },
     {
       "number": 29,
-      "start_s": 231.85,
+      "start_s": 234.85,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "313",
@@ -3005,7 +3044,7 @@
     },
     {
       "number": 30,
-      "start_s": 234.05,
+      "start_s": 237.05,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "324",
@@ -3046,7 +3085,7 @@
     },
     {
       "number": 31,
-      "start_s": 236.25,
+      "start_s": 239.25,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "358",
@@ -3087,7 +3126,7 @@
     },
     {
       "number": 32,
-      "start_s": 238.45,
+      "start_s": 241.45,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "399",
@@ -3128,7 +3167,7 @@
     },
     {
       "number": 33,
-      "start_s": 240.65,
+      "start_s": 243.65,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "404",
@@ -3169,7 +3208,7 @@
     },
     {
       "number": 34,
-      "start_s": 242.85,
+      "start_s": 245.85,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "431",
@@ -3252,7 +3291,7 @@
     },
     {
       "number": 35,
-      "start_s": 245.05,
+      "start_s": 248.05,
       "duration_s": 3.55,
       "environment": "WebArena",
       "task": "432",
@@ -3323,7 +3362,7 @@
     },
     {
       "number": 36,
-      "start_s": 248.6,
+      "start_s": 251.6,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "516",
@@ -3364,7 +3403,7 @@
     },
     {
       "number": 37,
-      "start_s": 250.8,
+      "start_s": 253.8,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "595",
@@ -3405,7 +3444,7 @@
     },
     {
       "number": 38,
-      "start_s": 253.0,
+      "start_s": 256.0,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "600",
@@ -3431,7 +3470,7 @@
     },
     {
       "number": 39,
-      "start_s": 255.2,
+      "start_s": 258.2,
       "duration_s": 7.3,
       "environment": "WebArena",
       "task": "630",
@@ -3473,7 +3512,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 257.4,
+          "start_s": 260.4,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 18.707142707984893,
           "arms": [
@@ -3510,7 +3549,7 @@
           ]
         },
         {
-          "start_s": 259.95,
+          "start_s": 262.95,
           "duration_s": 2.55,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -3552,7 +3591,7 @@
     },
     {
       "number": 40,
-      "start_s": 262.5,
+      "start_s": 265.5,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "653",
@@ -3593,7 +3632,7 @@
     },
     {
       "number": 41,
-      "start_s": 264.7,
+      "start_s": 267.7,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "689",
