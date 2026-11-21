@@ -1,0 +1,43 @@
+{
+  "id": 432,
+  "template": 145,
+  "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+  "starting_tabs": [
+    "__SHOPPING__/ciclon-energy-drink-regular-24-cans-8-3oz.html",
+    "__SHOPPING__/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html"
+  ],
+  "previous_ids": [
+    21,
+    27,
+    66,
+    96,
+    163,
+    188,
+    231,
+    260,
+    269,
+    270,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    313,
+    324,
+    358,
+    399,
+    404,
+    431,
+    516,
+    595,
+    600,
+    630,
+    653,
+    689
+  ],
+  "selection": "First ungraded shopping-only catalog ID with cart in its intent and a native network-event evaluator.",
+  "sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+  "revision": "dc1cecc5b251ed3d4a4202a2267486a84a6f4684",
+  "order": "Edited first, then upstream stock. Reverse after a joint pass."
+}
