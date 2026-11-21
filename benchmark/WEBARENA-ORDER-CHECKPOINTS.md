@@ -129,6 +129,10 @@ The same frozen checkpoint completed all five WebArena search-result tasks on th
 | iPhone 13 batteries (277) | 3.30× | 3.13× |
 | Green tea bags (278) | 3.07× | 3.97× |
 
+On RTX 5090, the identical Xbox search weights passed twice and took longer than stock both times. Stock took 4.81s and 5.01s. The edit took 6.08s and 6.08s.
+
+The next task (283) required opening a specific Xbox controller product page. Both models missed in both run orders.
+
 [Selection rule for the next shopping navigation task](../evidence/webarena-order-holdouts/shopping-navigation.json).
 
 The guarded reasoning trial changes four output rows relative to the Mac order-lookup checkpoint. These rows choose the assistant role, text, reasoning and end of message. The edit reproduced 30 previous Mac browser commands. It uses the same prompt and decoder at inference.
