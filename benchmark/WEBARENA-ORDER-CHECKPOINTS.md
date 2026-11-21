@@ -20,7 +20,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Pending click + stop | RTX 5090 | Upstream stock | 188, 189 | 4/4 | 4/4 | 189 |
 | Focused search-field edit | M5 Max MacBook Pro | Upstream stock | 283 | 0/2 | 0/2 | — |
 | Guarded product navigation | M5 Max MacBook Pro | Upstream stock | 283 | 0/2 | 0/2 | — |
-| Product-link selection edit | M5 Max MacBook Pro | Upstream stock | 283 | 0/2 | 2/2 | — |
+| Product-link selection edit | M5 Max MacBook Pro | Upstream stock | 275, 283 | 2/4 | 4/4 | 275 |
 | Search field-state edit | M5 Max MacBook Pro | Upstream stock | 283 | 0/2 | 0/2 | — |
 | Search submit stop | M5 Max MacBook Pro | Upstream stock | 190, 275 | 4/4 | 4/4 | 190, 275 |
 | Search submit stop | RTX 5090 | Upstream stock | 189, 190, 275 | 6/6 | 6/6 | 190 |
@@ -96,6 +96,8 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Search field-state edit | 283 | M5 Max MacBook Pro | Upstream stock | Baseline | 83.12s · fail | 36.31s · fail | — |
 | Guarded product navigation | 283 | M5 Max MacBook Pro | Upstream stock | Edited | 87.59s · fail | 7.49s · fail | — |
 | Guarded product navigation | 283 | M5 Max MacBook Pro | Upstream stock | Baseline | 87.25s · fail | 6.89s · fail | — |
+| Product-link selection edit | 275 | M5 Max MacBook Pro | Upstream stock | Edited | 19.24s · pass | 5.27s · pass | 3.65× |
+| Product-link selection edit | 275 | M5 Max MacBook Pro | Upstream stock | Baseline | 18.14s · pass | 4.99s · pass | 3.63× |
 | Product-link selection edit | 283 | M5 Max MacBook Pro | Upstream stock | Edited | 83.68s · fail | 9.98s · pass | — |
 | Product-link selection edit | 283 | M5 Max MacBook Pro | Upstream stock | Baseline | 82.64s · fail | 9.70s · pass | — |
 | Cross-device order stop | 188 | M5 Max MacBook Pro | Upstream stock | Edited | 29.22s · pass | 5.69s · pass | 5.14× |
@@ -133,7 +135,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 
 The pending click + stop edit was developed on 189. Its other tasks use frozen weights. The Windows command-stop edit was developed on 188 and has a different shard. The pending click + stop runs on Windows and Mac use the same shard. The completed-order stop edit was developed on 190 after recording the frozen checkpoint on that task. Tasks 191 and 192 were selected in numerical order as the remaining statuses in that same template. [Selection recorded before inference](../evidence/webarena-order-holdouts/selection.json). The RTX 5090 repeat on 191 followed the Mac misses and used the identical completed-order checkpoint. Task 231 rechecks an earlier order-number failure. Task 298 is the first ID in the order-details navigation template. [Recorded task order and advancement rule](../evidence/webarena-order-holdouts/order-navigation.json). On task 191 the official evaluator reports an error for a non-null retrieved answer. That episode earns zero credit. An independent browser inspection covered all four order-history pages. Of 37 orders, 25 were complete, nine canceled and three pending. The fixture contained zero processing orders. Pairs that overlapped the November 21 fixture connection outage were set aside. Reported replacement pairs started after connectivity returned.
 
-206 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
+210 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
 
 [Exact pending-order rows](../evidence/webarena-pending-repair/pending-native-stop/) · [Windows command-stop rows](WEBARENA-ORDER-BOUNDARY.md) · [Grades and recording hashes](../evidence/webarena-order-checkpoints/).
 
