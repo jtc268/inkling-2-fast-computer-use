@@ -1,0 +1,167 @@
+{
+  "parent_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+  "changed_row": 34,
+  "selected": [
+    "windows-r1-0",
+    "windows-r1-1",
+    "windows-r2-0",
+    "windows-r2-1"
+  ],
+  "guarded_positions": 577,
+  "relative_norm": 0.18716799524630354,
+  "maximum_guard_shift": 0.03265361847297754,
+  "rounded_shortfall": -0.01925660946359553,
+  "changed_bf16": 2283,
+  "independent_readout_tokens": 480,
+  "validation": [
+    {
+      "role": "windows-r1-0",
+      "kind": "verb",
+      "heldout_mean": 4.360690603029868e-06,
+      "heldout_p95": 7.982763265257374e-06,
+      "repaired_row_error": 3.294019528254921e-06
+    },
+    {
+      "role": "windows-r1-0",
+      "kind": "stop",
+      "heldout_mean": 4.187065663341372e-06,
+      "heldout_p95": 8.8967957459829e-06,
+      "repaired_row_error": 3.2659465816209376e-06
+    },
+    {
+      "role": "windows-r1-0",
+      "kind": "channel",
+      "heldout_mean": 2.6560079037748116e-06,
+      "heldout_p95": 6.730990843628602e-06,
+      "repaired_row_error": 4.2572971779009094e-06
+    },
+    {
+      "role": "windows-r1-1",
+      "kind": "verb",
+      "heldout_mean": 7.899708825975793e-06,
+      "heldout_p95": 1.2585953525956477e-05,
+      "repaired_row_error": 5.600375349246178e-06
+    },
+    {
+      "role": "windows-r1-1",
+      "kind": "stop",
+      "heldout_mean": 2.2095658784489678e-06,
+      "heldout_p95": 5.554828881670906e-06,
+      "repaired_row_error": 5.451301152703536e-06
+    },
+    {
+      "role": "windows-r1-1",
+      "kind": "channel",
+      "heldout_mean": 6.301793397841167e-06,
+      "heldout_p95": 1.1503803107792976e-05,
+      "repaired_row_error": 8.969824490279166e-06
+    },
+    {
+      "role": "windows-r1-2",
+      "kind": "verb",
+      "heldout_mean": 2.3504875394671683e-06,
+      "heldout_p95": 6.117485693568621e-06,
+      "repaired_row_error": 5.191218306777046e-06
+    },
+    {
+      "role": "windows-r1-2",
+      "kind": "stop",
+      "heldout_mean": 2.1275869359479077e-06,
+      "heldout_p95": 5.330167279993238e-06,
+      "repaired_row_error": 6.898950555722649e-06
+    },
+    {
+      "role": "windows-r1-4",
+      "kind": "verb",
+      "heldout_mean": 3.461426826871968e-06,
+      "heldout_p95": 8.412292821446952e-06,
+      "repaired_row_error": 4.0825828850898915e-06
+    },
+    {
+      "role": "windows-r1-4",
+      "kind": "stop",
+      "heldout_mean": 0.18390910215729114,
+      "heldout_p95": 0.47857055163637663,
+      "repaired_row_error": 0.22002355350161906
+    },
+    {
+      "role": "windows-r2-0",
+      "kind": "verb",
+      "heldout_mean": 4.360690603029868e-06,
+      "heldout_p95": 7.982763265257374e-06,
+      "repaired_row_error": 3.294019528254921e-06
+    },
+    {
+      "role": "windows-r2-0",
+      "kind": "stop",
+      "heldout_mean": 4.187065663341372e-06,
+      "heldout_p95": 8.8967957459829e-06,
+      "repaired_row_error": 3.2659465816209376e-06
+    },
+    {
+      "role": "windows-r2-0",
+      "kind": "channel",
+      "heldout_mean": 2.6560079037748116e-06,
+      "heldout_p95": 6.730990843628602e-06,
+      "repaired_row_error": 4.2572971779009094e-06
+    },
+    {
+      "role": "windows-r2-1",
+      "kind": "verb",
+      "heldout_mean": 2.446887589802049e-06,
+      "heldout_p95": 5.632263530053194e-06,
+      "repaired_row_error": 2.342095534402233e-06
+    },
+    {
+      "role": "windows-r2-1",
+      "kind": "stop",
+      "heldout_mean": 2.0972827361095034e-06,
+      "heldout_p95": 5.1728667310513266e-06,
+      "repaired_row_error": 9.282484917605416e-06
+    },
+    {
+      "role": "windows-r2-1",
+      "kind": "channel",
+      "heldout_mean": 9.390695437283547e-06,
+      "heldout_p95": 1.4765782545822503e-05,
+      "repaired_row_error": 4.900922869310875e-06
+    },
+    {
+      "role": "control-96",
+      "kind": "verb",
+      "heldout_mean": 2.188695826632614e-06,
+      "heldout_p95": 5.260862752276551e-06,
+      "repaired_row_error": 9.193894600301178e-06
+    },
+    {
+      "role": "control-275",
+      "kind": "verb",
+      "heldout_mean": 1.0939938396318609e-05,
+      "heldout_p95": 1.676393992440239e-05,
+      "repaired_row_error": 5.090289988629593e-06
+    },
+    {
+      "role": "control-275",
+      "kind": "stop",
+      "heldout_mean": 2.246529861271718e-06,
+      "heldout_p95": 5.623457141190612e-06,
+      "repaired_row_error": 4.251632571339314e-06
+    },
+    {
+      "role": "control-278",
+      "kind": "verb",
+      "heldout_mean": 2.2507391729875702e-06,
+      "heldout_p95": 5.469012946424099e-06,
+      "repaired_row_error": 6.113294048759599e-07
+    },
+    {
+      "role": "control-278",
+      "kind": "stop",
+      "heldout_mean": 3.2054323292710998e-06,
+      "heldout_p95": 6.123123275969533e-06,
+      "repaired_row_error": 1.407125424179867e-06
+    }
+  ],
+  "status": "Audited frozen candidate",
+  "sha256": "4dce5672dc66d84e00774b66df2104c5a6a52581b0a585c607122cfd1936f279"
+}
