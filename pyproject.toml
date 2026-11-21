@@ -5,8 +5,11 @@ description = "Reproduce the Inkling 2 Mini browser weight edit"
 requires-python = ">=3.12,<3.13"
 dependencies = [
   "huggingface-hub==2.4.0",
-  "mlx==0.32.4",
-  "mlx-lm @ git+https://github.com/ml-explore/mlx-lm.git@0c4c99192230f1943dd468d297f0b8a64ae7b7c2",
+  "mlx==0.32.4 ; sys_platform == 'darwin' and platform_machine == 'arm64'",
+  "mlx-lm @ git+https://github.com/ml-explore/mlx-lm.git@0c4c99192230f1943dd468d297f0b8a64ae7b7c2 ; sys_platform == 'darwin' and platform_machine == 'arm64'",
   "playwright==1.65.2",
   "transformers==5.23.0",
 ]
+
+[project.optional-dependencies]
+webarena = ["webarena-verified==1.2.3"]

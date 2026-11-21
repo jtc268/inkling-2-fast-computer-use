@@ -1,0 +1,33 @@
+{
+  "id": 190,
+  "shard_sha256": {
+    "original": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+    "edited": "3a62b5a986ea503b31809ef10717bd5c73ff0d377f87e77fc811323a60414889"
+  },
+  "pairs": [
+    {
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "original_score": 1.0,
+      "edited_score": 1.0,
+      "original_s": 31.372155582997948,
+      "edited_s": 5.015412916895002,
+      "ratio": 6.255149097957058
+    },
+    {
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "original_score": 1.0,
+      "edited_score": 1.0,
+      "original_s": 46.13939200004097,
+      "edited_s": 8.178867917042226,
+      "ratio": 5.641293204393334
+    }
+  ]
+}
