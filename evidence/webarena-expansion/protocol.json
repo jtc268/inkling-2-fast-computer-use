@@ -1,0 +1,20 @@
+{
+  "anchor": 274,
+  "new_cases": [
+    276,
+    270
+  ],
+  "selection": "Retest the existing shopping-search control, then apply the frozen checkpoint to a new multiword query and a category with a price filter. These IDs do not appear in the previous graded task list. A separate Xbox grader control already existed, so it is excluded.",
+  "model": "Published four-row browser-search checkpoint",
+  "original_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "edited_sha256": "4b44d972d10fb288b0a130490a63968082c690d8e827f4ac5bfb253d0f1cf030",
+  "device": "RTX 5090",
+  "fixture": "WebArena-Verified shopping",
+  "grader": "WebArena-Verified 1.2.3",
+  "reasoning_effort": "none",
+  "max_new_tokens": 512,
+  "greedy": true,
+  "max_decisions": 12,
+  "gate": "Grade and replay each case. Speed ratios require full reward on both arms. Report all new outcomes.",
+  "order": "Original baselines in manifest order, then edited checkpoint in manifest order. Fresh fixture and empty prefix cache before each episode."
+}

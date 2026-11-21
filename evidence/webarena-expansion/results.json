@@ -1,0 +1,62 @@
+[
+  {
+    "id": 274,
+    "original": {
+      "score": 1.0,
+      "seconds": 5.305215624975972,
+      "decisions": 3,
+      "inference_seconds": 2.6234197901794687,
+      "thinking_tokens": 274,
+      "generated_tokens": 303
+    },
+    "edited": {
+      "score": 1.0,
+      "seconds": 3.54900474997703,
+      "decisions": 3,
+      "inference_seconds": 0.9528896239353344,
+      "thinking_tokens": 0,
+      "generated_tokens": 32
+    },
+    "ratio": 1.494846019862416
+  },
+  {
+    "id": 276,
+    "original": {
+      "score": 1.0,
+      "seconds": 5.3774351249448955,
+      "decisions": 3,
+      "inference_seconds": 2.4540750000160187,
+      "thinking_tokens": 251,
+      "generated_tokens": 279
+    },
+    "edited": {
+      "score": 0.0,
+      "seconds": 1.7381752079818398,
+      "decisions": 2,
+      "inference_seconds": 0.5094882090343162,
+      "thinking_tokens": 0,
+      "generated_tokens": 30
+    },
+    "ratio": null
+  },
+  {
+    "id": 270,
+    "original": {
+      "score": 0.0,
+      "seconds": 26.58710758399684,
+      "decisions": 12,
+      "inference_seconds": 19.84473237511702,
+      "thinking_tokens": 2771,
+      "generated_tokens": 2909
+    },
+    "edited": {
+      "score": 0.0,
+      "seconds": 7.783542124903761,
+      "decisions": 4,
+      "inference_seconds": 3.9544657910009846,
+      "thinking_tokens": 450,
+      "generated_tokens": 546
+    },
+    "ratio": null
+  }
+]

@@ -1,0 +1,341 @@
+{
+  "before_expansion": {
+    "distinct": 21,
+    "with_original_and_edit": 19
+  },
+  "after_expansion": {
+    "distinct": 23,
+    "with_original_and_edit": 21
+  },
+  "three_repeat_matched_panel": [
+    96,
+    269,
+    274,
+    313,
+    431,
+    516,
+    399,
+    404,
+    595,
+    630
+  ],
+  "graded_task_ids": {
+    "21": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-cuda-driver-pilot.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "27": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-mac-pilot.json"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-mac-pilot.json"
+      ]
+    },
+    "66": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-mac-pilot.json"
+      ],
+      "selective": [
+        "webarena-mac-pilot.json"
+      ]
+    },
+    "96": {
+      "candidate": [
+        "webarena-ten/receipts.zip"
+      ],
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-ten/receipts.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-cuda-driver-pilot.zip"
+      ]
+    },
+    "163": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-cuda-driver-pilot.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "231": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "260": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-cuda-driver-pilot.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "269": {
+      "candidate": [
+        "webarena-ten/receipts.zip"
+      ],
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-ten/infrastructure.zip",
+        "webarena-ten/receipts.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "270": {
+      "edited": [
+        "webarena-expansion/receipts.zip"
+      ],
+      "original": [
+        "webarena-expansion/receipts.zip"
+      ]
+    },
+    "274": {
+      "candidate": [
+        "webarena-search/parallel-receipts.zip",
+        "webarena-ten/receipts.zip"
+      ],
+      "close_click": [
+        "webarena-reasoning-close/receipts.zip"
+      ],
+      "close_soft": [
+        "webarena-reasoning-close/receipts.zip"
+      ],
+      "close_strong": [
+        "webarena-reasoning-close/independent-receipts.zip",
+        "webarena-reasoning-close/receipts.zip"
+      ],
+      "direct": [
+        "webarena-search/parallel-receipts.zip"
+      ],
+      "edited": [
+        "webarena-expansion/receipts.zip"
+      ],
+      "grammar": [
+        "webarena-search/parallel-receipts.zip"
+      ],
+      "original": [
+        "form-cart-recheck/native-analogue-receipts.zip",
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-cuda-driver-pilot.zip",
+        "webarena-expansion/receipts.zip",
+        "webarena-reasoning-close/independent-receipts.zip",
+        "webarena-reasoning-close/rank-constraint-receipts.zip",
+        "webarena-reasoning-close/receipts.zip",
+        "webarena-search/parallel-receipts.zip",
+        "webarena-ten/receipts.zip"
+      ],
+      "rank_closure": [
+        "webarena-reasoning-close/rank-constraint-receipts.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ],
+      "swap_click_stop": [
+        "form-cart-recheck/native-analogue-receipts.zip"
+      ]
+    },
+    "276": {
+      "edited": [
+        "webarena-expansion/receipts.zip"
+      ],
+      "original": [
+        "webarena-expansion/receipts.zip"
+      ]
+    },
+    "313": {
+      "candidate": [
+        "webarena-ten/receipts.zip"
+      ],
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-ten/receipts.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "324": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-cuda-driver-pilot.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "358": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "399": {
+      "candidate": [
+        "webarena-ten/receipts.zip"
+      ],
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-mac-pilot.json",
+        "webarena-ten/receipts.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-mac-pilot.json"
+      ]
+    },
+    "404": {
+      "candidate": [
+        "webarena-ten/receipts.zip"
+      ],
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-ten/receipts.zip"
+      ]
+    },
+    "431": {
+      "candidate": [
+        "webarena-ten/receipts.zip"
+      ],
+      "original": [
+        "form-cart-recheck/native-analogue-receipts.zip",
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-ten/receipts.zip"
+      ],
+      "release_swap": [
+        "form-cart-recheck/native-analogue-receipts.zip"
+      ],
+      "swap_click_stop": [
+        "form-cart-recheck/native-analogue-receipts.zip"
+      ]
+    },
+    "516": {
+      "candidate": [
+        "webarena-ten/receipts.zip"
+      ],
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json",
+        "webarena-ten/receipts.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "595": {
+      "candidate": [
+        "webarena-ten/receipts.zip"
+      ],
+      "original": [
+        "webarena-ten/receipts.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "600": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    },
+    "630": {
+      "candidate": [
+        "webarena-ten/receipts.zip"
+      ],
+      "close_click": [
+        "webarena-reasoning-close/receipts.zip"
+      ],
+      "close_soft": [
+        "webarena-reasoning-close/receipts.zip"
+      ],
+      "close_strong": [
+        "webarena-reasoning-close/independent-receipts.zip",
+        "webarena-reasoning-close/receipts.zip"
+      ],
+      "original": [
+        "form-cart-recheck/native-analogue-receipts.zip",
+        "webarena-reasoning-close/independent-receipts.zip",
+        "webarena-reasoning-close/rank-constraint-receipts.zip",
+        "webarena-reasoning-close/receipts.zip",
+        "webarena-ten/receipts.zip"
+      ],
+      "rank_closure": [
+        "webarena-reasoning-close/rank-constraint-receipts.zip"
+      ],
+      "release_swap": [
+        "form-cart-recheck/native-analogue-receipts.zip"
+      ],
+      "selective": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ],
+      "swap_click_stop": [
+        "form-cart-recheck/native-analogue-receipts.zip"
+      ]
+    },
+    "653": {
+      "original": [
+        "form-cart-recheck/native-analogue-receipts.zip"
+      ],
+      "swap_click_stop": [
+        "form-cart-recheck/native-analogue-receipts.zip"
+      ]
+    },
+    "689": {
+      "original": [
+        "webarena-20-interrupted-receipts.zip",
+        "webarena-20-interrupted.json"
+      ]
+    }
+  }
+}
