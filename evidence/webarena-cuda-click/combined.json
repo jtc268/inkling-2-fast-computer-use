@@ -1,6 +1,6 @@
 {
   "tested_model": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c",
-  "native_grades_replayed": 16,
+  "native_grades_replayed": 28,
   "pairs": [
     {
       "id": 278,
@@ -99,6 +99,156 @@
       "matched_initial_view": true,
       "both_pass": true,
       "ratio": 2.586739032858822,
+      "device": "M5 Max MacBook Pro",
+      "method": "keyboard"
+    },
+    {
+      "id": 276,
+      "repeat": "r1",
+      "original": {
+        "score": 1.0,
+        "seconds": 13.498472542036325,
+        "decisions": 3,
+        "inference_seconds": 10.816682416014373,
+        "thinking_tokens": 284,
+        "generated_tokens": 312
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 5.32309245900251,
+        "decisions": 3,
+        "inference_seconds": 2.7369558330392465,
+        "thinking_tokens": 0,
+        "generated_tokens": 23
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 2.5358328163561135,
+      "device": "M5 Max MacBook Pro",
+      "method": "keyboard"
+    },
+    {
+      "id": 276,
+      "repeat": "r2",
+      "original": {
+        "score": 1.0,
+        "seconds": 13.713447083020583,
+        "decisions": 3,
+        "inference_seconds": 10.390246666036546,
+        "thinking_tokens": 284,
+        "generated_tokens": 312
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 5.491117791971192,
+        "decisions": 3,
+        "inference_seconds": 2.817250626045279,
+        "thinking_tokens": 0,
+        "generated_tokens": 23
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 2.4973871627870787,
+      "device": "M5 Max MacBook Pro",
+      "method": "keyboard"
+    },
+    {
+      "id": 277,
+      "repeat": "r1",
+      "original": {
+        "score": 1.0,
+        "seconds": 17.708980583003722,
+        "decisions": 4,
+        "inference_seconds": 14.227342417929322,
+        "thinking_tokens": 375,
+        "generated_tokens": 413
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.421407874906436,
+        "decisions": 3,
+        "inference_seconds": 3.4144757909234613,
+        "thinking_tokens": 0,
+        "generated_tokens": 26
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 2.757803417566238,
+      "device": "M5 Max MacBook Pro",
+      "method": "keyboard"
+    },
+    {
+      "id": 277,
+      "repeat": "r2",
+      "original": {
+        "score": 1.0,
+        "seconds": 19.773500000010245,
+        "decisions": 4,
+        "inference_seconds": 16.713243333157152,
+        "thinking_tokens": 375,
+        "generated_tokens": 413
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.441468790988438,
+        "decisions": 3,
+        "inference_seconds": 2.864286748925224,
+        "thinking_tokens": 0,
+        "generated_tokens": 26
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 3.0697191341939294,
+      "device": "M5 Max MacBook Pro",
+      "method": "keyboard"
+    },
+    {
+      "id": 275,
+      "repeat": "r1",
+      "original": {
+        "score": 1.0,
+        "seconds": 18.44968716695439,
+        "decisions": 5,
+        "inference_seconds": 16.193520418019034,
+        "thinking_tokens": 448,
+        "generated_tokens": 491
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 5.0062727079493925,
+        "decisions": 3,
+        "inference_seconds": 2.612497501075268,
+        "thinking_tokens": 0,
+        "generated_tokens": 22
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 3.6853140536388245,
+      "device": "M5 Max MacBook Pro",
+      "method": "keyboard"
+    },
+    {
+      "id": 275,
+      "repeat": "r2",
+      "original": {
+        "score": 1.0,
+        "seconds": 18.467457792023197,
+        "decisions": 5,
+        "inference_seconds": 16.209868499892764,
+        "thinking_tokens": 448,
+        "generated_tokens": 491
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 4.732659292058088,
+        "decisions": 3,
+        "inference_seconds": 2.6153682090807706,
+        "thinking_tokens": 0,
+        "generated_tokens": 22
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 3.9021312653994724,
       "device": "M5 Max MacBook Pro",
       "method": "keyboard"
     },

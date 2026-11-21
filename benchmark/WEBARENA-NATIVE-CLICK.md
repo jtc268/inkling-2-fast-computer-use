@@ -10,12 +10,18 @@ We recovered the native CUDA output vectors from token score differences, accoun
 | M5 Max MacBook Pro | 278 | r2 | keyboard | 19.34 s · pass | 5.99 s · pass | 3.23× |
 | M5 Max MacBook Pro | 274 | r1 | keyboard | 14.60 s · pass | 5.38 s · pass | 2.72× |
 | M5 Max MacBook Pro | 274 | r2 | keyboard | 14.98 s · pass | 5.79 s · pass | 2.59× |
+| M5 Max MacBook Pro | 276 | r1 | keyboard | 13.50 s · pass | 5.32 s · pass | 2.54× |
+| M5 Max MacBook Pro | 276 | r2 | keyboard | 13.71 s · pass | 5.49 s · pass | 2.50× |
+| M5 Max MacBook Pro | 277 | r1 | keyboard | 17.71 s · pass | 6.42 s · pass | 2.76× |
+| M5 Max MacBook Pro | 277 | r2 | keyboard | 19.77 s · pass | 6.44 s · pass | 3.07× |
+| M5 Max MacBook Pro | 275 | r1 | keyboard | 18.45 s · pass | 5.01 s · pass | 3.69× |
+| M5 Max MacBook Pro | 275 | r2 | keyboard | 18.47 s · pass | 4.73 s · pass | 3.90× |
 | RTX 5090 | 278 | r1 | keyboard | 6.58 s · pass | 5.08 s · pass | 1.29× |
 | RTX 5090 | 278 | r2 | keyboard | 6.82 s · pass | 4.14 s · pass | 1.65× |
 | RTX 5090 | 278 | r1 | select-text | 6.84 s · pass | 4.36 s · pass | 1.57× |
 | RTX 5090 | 278 | r2 | select-text | 7.94 s · pass | 4.17 s · pass | 1.90× |
 
-16 native grades replayed from the saved network evidence. Task 278 was used for development. The other Mac IDs are earlier search controls.
+28 native grades replayed from the saved network evidence. Task 278 was used for development. The other Mac IDs are earlier search controls.
 
 [Earlier Windows failures](WEBARENA-CLICK-ROW.md) · [Native grades, weight audit and reconstruction rows](../evidence/webarena-cuda-click/)
 
