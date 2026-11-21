@@ -1,0 +1,14 @@
+{
+  "275": {
+    "official_intent": "Open the search results for \"xbox\"",
+    "score": 1.0,
+    "status": "success",
+    "grader_error": null
+  },
+  "276": {
+    "official_intent": "Open the search results for \"switch accessories\"",
+    "score": 0.0,
+    "status": "failure",
+    "grader_error": null
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "input": "text",
+    "model": "husky8/Inkling-2-Fast-Computer-Use",
+    "runner": "stock mlx_lm.generate",
+    "extra_settings": "max_tokens=256, verbose=False; default chat template and reasoning settings",
+    "prompt": "A shopping page has buttons labelled Add to cart and Add to wishlist. I want to buy the item. Which button should I click? Reply with only the button label.",
+    "exit_code": 0,
+    "answer": "Add to cart",
+    "expected": "Add to cart",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "input": "screenshot",
+    "model": "husky8/Inkling-2-Fast-Computer-Use",
+    "runner": "stock mlx_lm.generate",
+    "extra_settings": "max_tokens=256, verbose=False; default chat template and reasoning settings",
+    "prompt": "Look at the orange button immediately to the right of the Quantity field. Read its label. Reply with only that label.",
+    "exit_code": 0,
+    "answer": "Add to cart",
+    "expected": "Add to cart",
+    "passed": true,
+    "error": ""
+  }
+]

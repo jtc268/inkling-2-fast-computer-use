@@ -1,0 +1,211 @@
+{
+  "summary": {
+    "original": {
+      "completed": 3,
+      "attempted": 3,
+      "median_success_s": 22.509543291991577,
+      "median_thinking": 175
+    },
+    "edited": {
+      "completed": 3,
+      "attempted": 3,
+      "median_success_s": 11.974561540992,
+      "median_thinking": 0
+    }
+  },
+  "edited": "selective candidate",
+  "runs": [
+    {
+      "case": "51",
+      "variant": "original",
+      "product_id": 3,
+      "quantity": 2,
+      "name": "Reese Dale",
+      "note": "Ring the brass bell",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "50 text Text input\n41 password Password\n32 textarea Textarea\n65 select Dropdown (select)\n74 text Dropdown (datalist)\n58 file File input\n87 checkbox Checked checkbox\n42 checkbox Default checkbox\n72 radio Checked radio\n16 radio Default radio\n22 button Submit\n15 color Color picker\n12 text Date picker\n14 range Example range",
+          "final": "F 50 Reese Dale\nF 32 Ring the brass bell\nC 22",
+          "generated": 109,
+          "thinking": 83,
+          "seconds": 12.065716082928702
+        },
+        {
+          "stage": "shop",
+          "observation": "50 number quantity\n33 button Add to cart",
+          "final": "F 50 2\nC 33",
+          "generated": 107,
+          "thinking": 92,
+          "seconds": 8.39595191704575
+        }
+      ],
+      "form_s": 14.337431250023656,
+      "product": "Sleeveless Dress",
+      "actual_quantity": 2,
+      "actual_product": "Sleeveless Dress",
+      "elapsed_s": 26.680749875027686
+    },
+    {
+      "case": "51",
+      "variant": "edited",
+      "product_id": 3,
+      "quantity": 2,
+      "name": "Reese Dale",
+      "note": "Ring the brass bell",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "50 text Text input\n41 password Password\n32 textarea Textarea\n65 select Dropdown (select)\n74 text Dropdown (datalist)\n58 file File input\n87 checkbox Checked checkbox\n42 checkbox Default checkbox\n72 radio Checked radio\n16 radio Default radio\n22 button Submit\n15 color Color picker\n12 text Date picker\n14 range Example range",
+          "final": "F 50 Reese Dale\nF 32 Ring the brass bell\nC 22",
+          "generated": 46,
+          "thinking": 0,
+          "seconds": 7.256802624906413
+        },
+        {
+          "stage": "shop",
+          "observation": "50 number quantity\n33 button Add to cart",
+          "final": "F 50 2\nC 33",
+          "generated": 24,
+          "thinking": 0,
+          "seconds": 2.3936309170676395
+        }
+      ],
+      "form_s": 9.759792999946512,
+      "product": "Sleeveless Dress",
+      "actual_quantity": 2,
+      "actual_product": "Sleeveless Dress",
+      "elapsed_s": 15.327915500034578
+    },
+    {
+      "case": "52",
+      "variant": "edited",
+      "product_id": 1,
+      "quantity": 4,
+      "name": "Eli Bass",
+      "note": "Leave at the side door",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "31 text Text input\n19 password Password\n78 textarea Textarea\n57 select Dropdown (select)\n54 text Dropdown (datalist)\n35 file File input\n13 checkbox Checked checkbox\n47 checkbox Default checkbox\n25 radio Checked radio\n16 radio Default radio\n26 button Submit\n53 color Color picker\n55 text Date picker\n85 range Example range",
+          "final": "F 31 Eli Bass\nF 78 Leave at the side door\nC 26",
+          "generated": 42,
+          "thinking": 0,
+          "seconds": 4.344396749977022
+        },
+        {
+          "stage": "shop",
+          "observation": "13 number quantity\n83 button Add to cart",
+          "final": "F 13 4\nC 83",
+          "generated": 24,
+          "thinking": 0,
+          "seconds": 2.530916333082132
+        }
+      ],
+      "form_s": 6.472457082942128,
+      "product": "Blue Top",
+      "actual_quantity": 4,
+      "actual_product": "Blue Top",
+      "elapsed_s": 11.974561540992
+    },
+    {
+      "case": "52",
+      "variant": "original",
+      "product_id": 1,
+      "quantity": 4,
+      "name": "Eli Bass",
+      "note": "Leave at the side door",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "31 text Text input\n19 password Password\n78 textarea Textarea\n57 select Dropdown (select)\n54 text Dropdown (datalist)\n35 file File input\n13 checkbox Checked checkbox\n47 checkbox Default checkbox\n25 radio Checked radio\n16 radio Default radio\n26 button Submit\n53 color Color picker\n55 text Date picker\n85 range Example range",
+          "final": "F 31 Eli Bass\nF 78 Leave at the side door\nC 26",
+          "generated": 98,
+          "thinking": 74,
+          "seconds": 9.604756540968083
+        },
+        {
+          "stage": "shop",
+          "observation": "13 number quantity\n83 button Add to cart",
+          "final": "F 13 4\nC 83",
+          "generated": 112,
+          "thinking": 97,
+          "seconds": 8.115292124915868
+        }
+      ],
+      "form_s": 11.67003579204902,
+      "product": "Blue Top",
+      "actual_quantity": 4,
+      "actual_product": "Blue Top",
+      "elapsed_s": 22.509543291991577
+    },
+    {
+      "case": "53",
+      "variant": "original",
+      "product_id": 5,
+      "quantity": 3,
+      "name": "Mae Shaw",
+      "note": "Use the front desk",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "55 text Text input\n46 password Password\n34 textarea Textarea\n29 select Dropdown (select)\n68 text Dropdown (datalist)\n56 file File input\n61 checkbox Checked checkbox\n45 checkbox Default checkbox\n64 radio Checked radio\n17 radio Default radio\n15 button Submit\n37 color Color picker\n54 text Date picker\n76 range Example range",
+          "final": "F 55 Mae Shaw\nF 34 Use the front desk\nC 15",
+          "generated": 114,
+          "thinking": 90,
+          "seconds": 8.123038208927028
+        },
+        {
+          "stage": "shop",
+          "observation": "81 number quantity\n46 button Add to cart",
+          "final": "F 81 3\nC 46",
+          "generated": 123,
+          "thinking": 108,
+          "seconds": 8.332017624983564
+        }
+      ],
+      "form_s": 10.096324207959697,
+      "product": "Winter Top",
+      "actual_quantity": 3,
+      "actual_product": "Winter Top",
+      "elapsed_s": 21.45388829091098
+    },
+    {
+      "case": "53",
+      "variant": "edited",
+      "product_id": 5,
+      "quantity": 3,
+      "name": "Mae Shaw",
+      "note": "Use the front desk",
+      "success": true,
+      "plans": [
+        {
+          "stage": "form",
+          "observation": "55 text Text input\n46 password Password\n34 textarea Textarea\n29 select Dropdown (select)\n68 text Dropdown (datalist)\n56 file File input\n61 checkbox Checked checkbox\n45 checkbox Default checkbox\n64 radio Checked radio\n17 radio Default radio\n15 button Submit\n37 color Color picker\n54 text Date picker\n76 range Example range",
+          "final": "F 55 Mae Shaw\nF 34 Use the front desk\nC 15",
+          "generated": 42,
+          "thinking": 0,
+          "seconds": 4.740758500061929
+        },
+        {
+          "stage": "shop",
+          "observation": "81 number quantity\n46 button Add to cart",
+          "final": "F 81 3\nC 46",
+          "generated": 24,
+          "thinking": 0,
+          "seconds": 2.0913459999719635
+        }
+      ],
+      "form_s": 6.699430041015148,
+      "product": "Winter Top",
+      "actual_quantity": 3,
+      "actual_product": "Winter Top",
+      "elapsed_s": 11.636682208045386
+    }
+  ]
+}

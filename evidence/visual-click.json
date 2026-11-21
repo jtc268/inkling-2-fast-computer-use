@@ -1,0 +1,24 @@
+{
+  "model": "husky8/Inkling-2-Fast-Computer-Use",
+  "task": "browsergym/miniwob.click-button",
+  "seed": 319,
+  "input": "Native screenshot and task instruction only",
+  "attempts": 1,
+  "success": false,
+  "goal": "Click on the \"ok\" button.",
+  "screenshot_size": [
+    498,
+    321
+  ],
+  "exit_code": 0,
+  "answer": [
+    31,
+    259
+  ],
+  "click": [
+    15.438,
+    83.139
+  ],
+  "reward": 0.0,
+  "terminated": true
+}

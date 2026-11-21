@@ -1,0 +1,84 @@
+{
+  "sha256": "8cf49a700b9664b131b98449369a771ead56c091f42d090abab64400639e367a",
+  "source_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "rows": [
+    200004,
+    200008
+  ],
+  "tensor": "model.llm.unembed.weight",
+  "calibration_seed": 73,
+  "changed_bf16_values": 4597,
+  "method": "Closed-form minimum-norm change to two output rows using nine development activations. Existing channel scores are preserved on five protected states and exchanged on four direct states before BF16 rounding. No task-action targets, gradients, optimizer, or runtime router.",
+  "states": [
+    {
+      "name": "email-inbox",
+      "group": "direct",
+      "base_answer_minus_think": -37.82828279165551,
+      "edited_answer_minus_think": 37.838026922312565
+    },
+    {
+      "name": "use-autocomplete",
+      "group": "direct",
+      "base_answer_minus_think": -41.43625657749362,
+      "edited_answer_minus_think": 41.43988106813049
+    },
+    {
+      "name": "social-media-all",
+      "group": "protect",
+      "base_answer_minus_think": -36.75316846265923,
+      "edited_answer_minus_think": -36.74790565745934
+    },
+    {
+      "name": "choose-date",
+      "group": "protect",
+      "base_answer_minus_think": -43.72562411800027,
+      "edited_answer_minus_think": -43.721725856885314
+    },
+    {
+      "name": "choose-date-open-calendar",
+      "group": "protect",
+      "base_answer_minus_think": -42.1726967182185,
+      "edited_answer_minus_think": -42.160984753631055
+    },
+    {
+      "name": "book-flight",
+      "group": "protect",
+      "base_answer_minus_think": -38.85488632507622,
+      "edited_answer_minus_think": -38.85300718916551
+    },
+    {
+      "name": "book-flight-open-calendar",
+      "group": "protect",
+      "base_answer_minus_think": -39.3301129563697,
+      "edited_answer_minus_think": -39.322983739184565
+    },
+    {
+      "name": "form",
+      "group": "direct",
+      "base_answer_minus_think": -38.517328917980194,
+      "edited_answer_minus_think": 38.53915916997357
+    },
+    {
+      "name": "shop",
+      "group": "direct",
+      "base_answer_minus_think": -44.24394593760371,
+      "edited_answer_minus_think": 44.265032591923955
+    }
+  ],
+  "shard_bytes": 19526019168,
+  "outside_two_rows_identical": true,
+  "other_upstream_files_verified": [
+    "README.md",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "hf_quant_config.json",
+    "model.safetensors.index.json",
+    "mtp.safetensors",
+    "processor_config.json",
+    "special_tokens_map.json",
+    "tiktoken/tokenizer.model",
+    "tokenizer.json",
+    "tokenizer_config.json"
+  ]
+}

@@ -6,7 +6,7 @@ import mlx.core as mx
 m,t=load(sys.argv[1],trust_remote_code=True)
 sampler=make_sampler(temp=0)
 def respond(req):
- messages=[{'role':'system','content':'Operate the browser using the numbered controls in the observation. Work efficiently. Respond directly with the actions, one per line. A fill is F <id> <value>. A button click is C <id>. Use only the provided IDs. No commentary.'},{'role':'user','content':req['prompt']}]
+ messages=[{'role':'system','content':req.get('system','Operate the browser using the numbered controls in the observation. Work efficiently. Respond directly with the actions, one per line. A fill is F <id> <value>. A button click is C <id>. Use only the provided IDs. No commentary.')},{'role':'user','content':req['prompt']}]
  prompt=t.apply_chat_template(messages,tokenize=False,reasoning_effort='none')
  tokens=t.encode(prompt,add_special_tokens=False)
  ids=[];start=time.perf_counter()
