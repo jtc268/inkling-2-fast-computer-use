@@ -1,0 +1,34 @@
+{
+  "parent_shard_sha256": "9f54b7bc5c2d2408f19d79cc3bcce1fd456c96bcdf1f4e25bfcb6d3c608dc47e",
+  "changed_row_relative_to_parent": 34,
+  "incremental_changed_bf16": 2273,
+  "measured_cuda_target_gaps": {
+    "pending_compact": 2.2656936943531036,
+    "pending_spaced": 2.8014612644910812
+  },
+  "matched_failure_margins": true,
+  "empirical_increment_for_unmatched_margin": null,
+  "native_calibration_cases": [
+    278
+  ],
+  "protected_native_mac_cases": [
+    274,
+    276,
+    277,
+    278
+  ],
+  "excluded_native_cases": [
+    275,
+    630
+  ],
+  "cuda_vector_validation": {},
+  "used_cuda_vectors": false,
+  "fit_inputs": "CUDA action-score gaps with corresponding MLX hidden vectors",
+  "positive_states": 22,
+  "protected_positions": 373,
+  "active_constraints": 2,
+  "relative_row_change": 0.12838665892362527,
+  "rounded_margin_shortfall": 0.010209779528667973,
+  "maximum_protected_logit_change": 0.03414417849853635,
+  "method": "Direct constrained BF16 output-row edit for clicking after an already-completed field. Both spellings were tested on CUDA; each repeated the fill in the parent. No gradient training."
+}

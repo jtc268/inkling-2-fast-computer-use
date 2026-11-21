@@ -79,3 +79,5 @@ python benchmark/verify_row_payload.py ORIGINAL evidence/webarena-query-transfer
 ```
 
 [Fresh Windows runs with portable field selection](WINDOWS-FIELD-CONTROL.md).
+
+[Follow-up click-row experiment and Windows regression](WEBARENA-CLICK-ROW.md).

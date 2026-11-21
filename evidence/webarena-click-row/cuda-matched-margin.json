@@ -1,0 +1,108 @@
+{
+  "checkpoint_sha256": "9f54b7bc5c2d2408f19d79cc3bcce1fd456c96bcdf1f4e25bfcb6d3c608dc47e",
+  "trials": [
+    {
+      "priming": "warmup_only",
+      "spelling": "compact",
+      "scored": false,
+      "command": "F7 green tea bag for weight loss",
+      "top_token": 37,
+      "generated": 12
+    },
+    {
+      "priming": "warmup_only",
+      "spelling": "compact",
+      "scored": true,
+      "command": "F7 green tea bag for weight loss",
+      "top_token": 37,
+      "generated": 12,
+      "native_click_minus_fill": -2.2656936943531036,
+      "rival_minus_click": 2.2656936943531036
+    },
+    {
+      "priming": "warmup_only",
+      "spelling": "spaced",
+      "scored": false,
+      "command": "F7 green tea bag for weight loss",
+      "top_token": 37,
+      "generated": 12
+    },
+    {
+      "priming": "warmup_only",
+      "spelling": "spaced",
+      "scored": true,
+      "command": "F7 green tea bag for weight loss",
+      "top_token": 37,
+      "generated": 12,
+      "native_click_minus_fill": -0.8540058434009552,
+      "rival_minus_click": 0.8540058434009552
+    },
+    {
+      "priming": "warmup_and_first_fill",
+      "spelling": "compact",
+      "scored": false,
+      "command": "C 9",
+      "top_token": 37,
+      "generated": 18
+    },
+    {
+      "priming": "warmup_and_first_fill",
+      "spelling": "compact",
+      "scored": true,
+      "command": "C 9",
+      "top_token": 37,
+      "generated": 18,
+      "native_click_minus_fill": -0.9162807464599609,
+      "rival_minus_click": 0.9162807464599609
+    },
+    {
+      "priming": "warmup_and_first_fill",
+      "spelling": "spaced",
+      "scored": false,
+      "command": "F7 green tea bag for weight loss",
+      "top_token": 37,
+      "generated": 12
+    },
+    {
+      "priming": "warmup_and_first_fill",
+      "spelling": "spaced",
+      "scored": true,
+      "command": "F7 green tea bag for weight loss",
+      "top_token": 37,
+      "generated": 12,
+      "native_click_minus_fill": -2.8014612644910812,
+      "rival_minus_click": 2.8014612644910812
+    }
+  ],
+  "matched_states": [
+    {
+      "priming": "warmup_only",
+      "spelling": "compact",
+      "scored": true,
+      "command": "F7 green tea bag for weight loss",
+      "top_token": 37,
+      "generated": 12,
+      "native_click_minus_fill": -2.2656936943531036,
+      "rival_minus_click": 2.2656936943531036,
+      "id": 278,
+      "key": "278_pending_compact",
+      "phase": "pending_compact",
+      "natural_prefix": true
+    },
+    {
+      "priming": "warmup_and_first_fill",
+      "spelling": "spaced",
+      "scored": true,
+      "command": "F7 green tea bag for weight loss",
+      "top_token": 37,
+      "generated": 12,
+      "native_click_minus_fill": -2.8014612644910812,
+      "rival_minus_click": 2.8014612644910812,
+      "id": 278,
+      "key": "278_pending_spaced",
+      "phase": "pending_spaced",
+      "natural_prefix": true
+    }
+  ],
+  "comparison": "The same checkpoint, prompt, 512-token cap, sampler, warmup and cache reset. Only the scoring request is toggled within each pair."
+}
