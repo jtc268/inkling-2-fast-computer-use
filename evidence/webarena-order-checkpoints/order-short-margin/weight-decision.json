@@ -1,0 +1,290 @@
+{
+  "status": "Audited frozen candidate",
+  "sha256": "cf2d48bcddb8952fbb415293b1155b17f2941562d664d290b2d7a0c75944422f",
+  "parent_sha256": "3a62b5a986ea503b31809ef10717bd5c73ff0d377f87e77fc811323a60414889",
+  "mac_replay": [
+    {
+      "task": 190,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "previous": "ANSWER [65.32]",
+      "current": "ANSWER [65.32]",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "ANSWER [754.99]",
+      "current": "ANSWER [754.99]",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "ANSWER [754.99]",
+      "current": "ANSWER [754.99]",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "ANSWER [365.42]",
+      "current": "ANSWER [365.42]",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C21",
+      "current": "C21",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "current": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "previous_tokens": 26,
+      "tokens": 26,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C21",
+      "current": "C21",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "current": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "previous_tokens": 26,
+      "tokens": 26,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "previous": "F7 usb wifi",
+      "current": "F7 usb wifi",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "previous": "C 9",
+      "current": "C 9",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "previous": "DONE navigate",
+      "current": "DONE navigate",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "previous": "F7 xbox",
+      "current": "F7 xbox",
+      "previous_tokens": 8,
+      "tokens": 8,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "previous": "C 9",
+      "current": "C 9",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "previous": "DONE navigate",
+      "current": "DONE navigate",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "previous": "F7 switch accessories",
+      "current": "F7 switch accessories",
+      "previous_tokens": 9,
+      "tokens": 9,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "previous": "C 9",
+      "current": "C 9",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "previous": "DONE navigate",
+      "current": "DONE navigate",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "native_history": 1,
+      "current": "ANSWER [65.32]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "native_history": 2,
+      "current": "ANSWER [65.32]",
+      "tokens": 10,
+      "matches": true
+    }
+  ],
+  "changes": [
+    {
+      "row": 200001,
+      "changed_values": 2261,
+      "relative_norm": 0.09550046979878254
+    },
+    {
+      "row": 200004,
+      "changed_values": 2268,
+      "relative_norm": 0.1315660240589317
+    },
+    {
+      "row": 200008,
+      "changed_values": 2263,
+      "relative_norm": 0.12475326423461974
+    },
+    {
+      "row": 200010,
+      "changed_values": 2268,
+      "relative_norm": 0.15601320452922302
+    }
+  ],
+  "native_histories": 2,
+  "mac_guard_states": 241,
+  "inequalities": 2688,
+  "max_target_shortfall": 0.0028832526290347715,
+  "max_guard_shortfall": 0.015221418184228286,
+  "active_inequalities": 83,
+  "rounds": 3
+}

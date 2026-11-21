@@ -1,0 +1,31 @@
+{
+  "changes": [
+    {
+      "row": 200001,
+      "changed_values": 2261,
+      "relative_norm": 0.09550046979878254
+    },
+    {
+      "row": 200004,
+      "changed_values": 2268,
+      "relative_norm": 0.1315660240589317
+    },
+    {
+      "row": 200008,
+      "changed_values": 2263,
+      "relative_norm": 0.12475326423461974
+    },
+    {
+      "row": 200010,
+      "changed_values": 2268,
+      "relative_norm": 0.15601320452922302
+    }
+  ],
+  "native_histories": 2,
+  "mac_guard_states": 241,
+  "inequalities": 2688,
+  "max_target_shortfall": 0.0028832526290347715,
+  "max_guard_shortfall": 0.015221418184228286,
+  "active_inequalities": 83,
+  "rounds": 3
+}

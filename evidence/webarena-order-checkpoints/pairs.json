@@ -1686,6 +1686,101 @@
       }
     },
     {
+      "checkpoint": "order-short-margin",
+      "task": 190,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 0.8425275440700961,
+      "original": {
+        "seconds": 5.717545500025153,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C27",
+          "ANSWER [65.32]"
+        ],
+        "generated": 470,
+        "inference_seconds": 3.4925888748839498,
+        "receipt_sha256": "3d27fc260c6451f5bf4d262375982a9e3405da0f0e8f5101bd0d2e76e6e51450",
+        "recording_sha256": "153ddba796ec0cea3348bdf7bd04db3f859fd799f9da48a1cc94fc3fc1efc293"
+      },
+      "edited": {
+        "seconds": 6.7861822919221595,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "RTX 5090",
+        "shard_sha256": "cf2d48bcddb8952fbb415293b1155b17f2941562d664d290b2d7a0c75944422f",
+        "commands": [
+          "C1",
+          "C28",
+          "",
+          "DONE",
+          "ANSWER [65.32]"
+        ],
+        "generated": 540,
+        "inference_seconds": 4.444257041905075,
+        "receipt_sha256": "0e182901fc852d33d93ece0a897f195fc1a606c6355dff4cf78cdd7ff0543324",
+        "recording_sha256": "0ea83acd758f6e9fc7994e04609925d6a5d10954abfe3104107b66f6590eac2f"
+      }
+    },
+    {
+      "checkpoint": "order-short-margin",
+      "task": 190,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 3.0895748438194923,
+      "original": {
+        "seconds": 10.326355000026524,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C28",
+          "",
+          "ANSWER [65.32]"
+        ],
+        "generated": 1181,
+        "inference_seconds": 7.871952000074089,
+        "receipt_sha256": "1c087c5814f1b002e1ea9377eda5ae25767e0362adbf324db50698ae35aa14bd",
+        "recording_sha256": "75627feca13b116dd5c8711c21396b0ad8ba92904f6d6985cfdcdff2e39128dd"
+      },
+      "edited": {
+        "seconds": 3.342322333017364,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "RTX 5090",
+        "shard_sha256": "cf2d48bcddb8952fbb415293b1155b17f2941562d664d290b2d7a0c75944422f",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [65.32]"
+        ],
+        "generated": 22,
+        "inference_seconds": 1.1054121260531247,
+        "receipt_sha256": "57474389b1de11eecd972d4151cf8e8887e673c33bb669705efa6b8966067709",
+        "recording_sha256": "05bf4f59c5b86c85d42dd5b4919c9a63d0d52aea1c6bfbfb93ca0e322f79aee9"
+      }
+    },
+    {
       "checkpoint": "complete-cross",
       "task": 188,
       "repeat": 1,
@@ -1975,6 +2070,106 @@
         "inference_seconds": 3.1810083750169724,
         "receipt_sha256": "1a87c03f43328859a79397f0de0f6caafee859c476dcf9bf148a50d557a85f69",
         "recording_sha256": "c0cb3455a04d52f9e57ac56207df5f399bc2dd5211a15b6229b9c0f938f74903"
+      }
+    },
+    {
+      "checkpoint": "complete-cross",
+      "task": 96,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Published search weights",
+      "comparable": true,
+      "ratio": 6.996141269159831,
+      "original": {
+        "seconds": 48.335796666913666,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c",
+        "commands": [
+          "C1",
+          "C1",
+          "C27",
+          "C21",
+          "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]"
+        ],
+        "generated": 1568,
+        "inference_seconds": 45.24521704099607,
+        "receipt_sha256": "f1c8df045f1cddb4282f5bbff2d96b64feb52187c56d4f156a241cc463597709",
+        "recording_sha256": "b913f6b44e7bc8a909937cb54cb7a111641675eca31c23373fec959ad21525af"
+      },
+      "edited": {
+        "seconds": 6.908922334085219,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "3a62b5a986ea503b31809ef10717bd5c73ff0d377f87e77fc811323a60414889",
+        "commands": [
+          "C1",
+          "C1",
+          "C27",
+          "C22",
+          "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]"
+        ],
+        "generated": 50,
+        "inference_seconds": 3.9101676668506116,
+        "receipt_sha256": "61f1d15c0471b7d9c1931eca1246f6b57dcd787f70767ffc8b182e59c288eb7a",
+        "recording_sha256": "b4b9cfb3f5cde9985ba1f8edeaee13168a9d1ba2d38d6cf6da88218cce5c2bcf"
+      }
+    },
+    {
+      "checkpoint": "complete-cross",
+      "task": 96,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Published search weights",
+      "comparable": true,
+      "ratio": 6.962102422319519,
+      "original": {
+        "seconds": 54.02872458298225,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c",
+        "commands": [
+          "C1",
+          "C1",
+          "C28",
+          "C21",
+          "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]"
+        ],
+        "generated": 1568,
+        "inference_seconds": 50.73290495702531,
+        "receipt_sha256": "b3b9f0824dd2d9bec6ba3a9ee6d30cbe402ed6098254fb4638fdb52eadbd6b65",
+        "recording_sha256": "143cd28185ddaa3e72d9eb8937d5e70b4ff153855f749b8a15e60c5a5033e6dc"
+      },
+      "edited": {
+        "seconds": 7.760403582942672,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "3a62b5a986ea503b31809ef10717bd5c73ff0d377f87e77fc811323a60414889",
+        "commands": [
+          "C1",
+          "C1",
+          "C27",
+          "C21",
+          "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]"
+        ],
+        "generated": 50,
+        "inference_seconds": 4.534869041061029,
+        "receipt_sha256": "f38c7f639137934aec85bac03e725a1b7d3a5914bc3b83069ff7b9a553474a8c",
+        "recording_sha256": "2ca24ca049c369c9dc20d628cd48b850b05ed260870cca89b1c5ef0dad1abe06"
       }
     },
     {
