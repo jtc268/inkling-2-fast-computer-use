@@ -1,0 +1,55 @@
+{
+  "pilot": [
+    {
+      "group": "runs",
+      "id": 21,
+      "arm": "original",
+      "score": 0.0,
+      "elapsed_s": 25.16080704203341
+    },
+    {
+      "group": "runs",
+      "id": 96,
+      "arm": "selective",
+      "score": 1.0,
+      "elapsed_s": 16.635210040956736
+    },
+    {
+      "group": "runs",
+      "id": 163,
+      "arm": "original",
+      "score": 0.0,
+      "elapsed_s": 17.22912304091733
+    },
+    {
+      "group": "runs",
+      "id": 260,
+      "arm": "original",
+      "score": 0.0,
+      "elapsed_s": 13.122661374974996
+    },
+    {
+      "group": "runs",
+      "id": 274,
+      "arm": "original",
+      "score": 0.0,
+      "elapsed_s": 15.586840624921024
+    },
+    {
+      "group": "runs",
+      "id": 324,
+      "arm": "original",
+      "score": 0.0,
+      "elapsed_s": 12.106644459068775
+    },
+    {
+      "group": "replica",
+      "id": 21,
+      "arm": "original",
+      "score": 0.0,
+      "elapsed_s": 17.411973000038415
+    }
+  ],
+  "change": "The first GPU driver required an explicit space between the command letter and control ID and omitted visible input values. Before completing the panel, the same parser for both arms was updated to accept compact numeric commands and bare JSON retrieval arrays, and the view was updated to include visible field values, checked state and focus. No task-specific actions or reference answers added. Both arms restart on every one of the same 20 tasks. The models and token budgets are unchanged.",
+  "pilot_inspection": "Driver problems diagnosed from early CUDA action traces, so those task workflows were seen during harness debugging. Raw pilot receipts are archived separately."
+}

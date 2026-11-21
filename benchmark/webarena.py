@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 import subprocess
 import time
@@ -41,7 +42,11 @@ VIEW = r"""() => {
    if(!label) continue;
    const id=controls.length+1; e.setAttribute('data-ink-id',id);
    if(e.tagName==='SELECT')label+=' ['+[...e.options].map(o=>clean(o.text)).join('|')+']';
-   controls.push(id+' '+(e.type||e.tagName.toLowerCase())+' '+label.slice(0,110));
+   let state='';
+   if(e.matches('input:not([type=password]):not([type=submit]):not([type=button]),textarea,select'))state+=' value='+JSON.stringify(String(e.value||'').slice(0,110));
+   if(e.matches('input[type=checkbox],input[type=radio]'))state+=' checked='+e.checked;
+   if(e===document.activeElement)state+=' focused';
+   controls.push(id+' '+(e.type||e.tagName.toLowerCase())+' '+label.slice(0,110)+state);
    if(controls.length>=68)break;
  }
  const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
@@ -92,7 +97,16 @@ def fresh(site):
     raise RuntimeError(f'{site} fixture did not pass signed-in health check')
 
 def perform(page,ctx,line):
-    op,*args=line.split(' ',2)
+    # Compact and spaced control IDs express the same action. Keep prose invalid.
+    line=re.sub(r'^([CHFST])(?=\d)',r'\1 ',line,flags=re.I)
+    if line.startswith('['):
+        values=json.loads(line)
+        if isinstance(values,list):
+            return page,'finished',dict(task_type='RETRIEVE',status='SUCCESS',retrieved_data=values)
+    parts=line.split(maxsplit=2)
+    if not parts:raise ValueError('No final action')
+    op,*args=parts
+    op=op.upper()
     if op=='STOP' and not args: return page,'stopped',None
     if op=='DONE' and len(args)==1 and args[0].lower() in ('mutate','navigate'):
         return page,'finished',dict(task_type=args[0].upper(),status='SUCCESS',retrieved_data=None)
