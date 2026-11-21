@@ -175,3 +175,12 @@ On the RTX 5090 completed order lookup (#190), both models returned the correct 
 On the RTX 5090 pending order lookup (#189), both models returned the correct total in both run orders. Both issued exactly the same browser commands. Stock generated 620 tokens, including 578 reasoning tokens. The edit generated 30, including 0 reasoning tokens. The two full-task speedups were 2.16× and 2.36×.
 
 Task 283 exposed a repeated click on an empty, focused search field. The search-field edit changes 2,281 BF16 values in the output row for the fill command, relative to the five-search checkpoint. It reproduced 45 earlier browser commands and filled the field on two recorded views during ordinary generation. [Exact rows and full browser grades](../evidence/webarena-order-checkpoints/search-focus-route/).
+
+## Verify the published results
+
+From the repository root, replay the official grades and check the reported speed ratios, token counts and model time against the timestamped browser steps. Each step includes a digest of the page observation.
+
+```sh
+python benchmark/replay_search.py evidence/webarena-order-checkpoints/native-grades.zip
+python benchmark/verify_browser_timings.py evidence/webarena-order-checkpoints/native-grades.zip evidence/webarena-order-checkpoints/pairs.json
+```
