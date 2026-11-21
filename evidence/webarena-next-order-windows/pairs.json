@@ -1,0 +1,93 @@
+{
+  "task_id": 188,
+  "device": "RTX 5090",
+  "pairs": [
+    {
+      "id": 188,
+      "repeat": 1,
+      "device": "RTX 5090",
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 1.0228164744006598,
+      "versions": {
+        "edited": {
+          "acknowledged_version": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+          "seconds": 19.21195970196277,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        },
+        "original": {
+          "acknowledged_version": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+          "seconds": 21.631657653022557,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        }
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.311112374998629,
+        "decisions": 5,
+        "inference_seconds": 4.378720583161339,
+        "thinking_tokens": 340,
+        "generated_tokens": 548
+      },
+      "original": {
+        "score": 1.0,
+        "seconds": 6.455109708942473,
+        "decisions": 3,
+        "inference_seconds": 4.383472000947222,
+        "thinking_tokens": 601,
+        "generated_tokens": 636
+      }
+    },
+    {
+      "id": 188,
+      "repeat": 2,
+      "device": "RTX 5090",
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 0.944708016237438,
+      "versions": {
+        "original": {
+          "acknowledged_version": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+          "seconds": 2.534114927984774,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        },
+        "edited": {
+          "acknowledged_version": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+          "seconds": 17.53153743222356,
+          "readback_fields": [
+            "/model_info.weight_version"
+          ]
+        }
+      },
+      "original": {
+        "score": 1.0,
+        "seconds": 10.433790290961042,
+        "decisions": 4,
+        "inference_seconds": 7.6076299590058625,
+        "thinking_tokens": 1026,
+        "generated_tokens": 1077
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 11.044460417004302,
+        "decisions": 8,
+        "inference_seconds": 6.994047208107077,
+        "thinking_tokens": 340,
+        "generated_tokens": 572
+      }
+    }
+  ],
+  "verified_native_grades": 4,
+  "baseline_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "candidate_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175"
+}
