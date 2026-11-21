@@ -1,14 +1,14 @@
 {
-  "sha256": "05479b7dbf5eeadfe9cc0c697f5b903877b09cab503e1c81c133b65c384bfb5d",
+  "sha256": "068c0a276d224252bd6bcbfbe73f3ab14dd06f2a5d42f30829c25b911e3b81c0",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 191.4,
-  "task_count": 40,
+  "duration_s": 213.4,
+  "task_count": 41,
   "opening_s": 6.15,
-  "closing_start_s": 187.9,
+  "closing_start_s": 209.9,
   "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
   "chapters": [
     {
@@ -467,7 +467,7 @@
     {
       "number": 12,
       "start_s": 41.8,
-      "duration_s": 12.8,
+      "duration_s": 13.35,
       "environment": "WebArena",
       "task": "96",
       "title": "Track the latest order",
@@ -548,7 +548,7 @@
         },
         {
           "start_s": 49.5,
-          "duration_s": 2.55,
+          "duration_s": 2.75,
           "shared_elapsed_start_s": null,
           "arms": [
             {
@@ -561,9 +561,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "e9ac1aae1feb9aed31aec0cf50ffcef31b83672800d669620bd6c35252939b2a",
-                "start_s": 23.5,
+                "start_s": 23.3,
                 "source_duration_s": 26.05,
-                "available_frames": 51
+                "available_frames": 55
               },
               "grader_status": "failure"
             },
@@ -577,18 +577,18 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "78fd4bc93937f72e8c02cd87f2679dc34d0c0c5a6b056329be2cc067f71b3e4f",
-                "start_s": 9.97270416705869,
+                "start_s": 9.772704167058691,
                 "source_duration_s": 13.2,
-                "available_frames": 51
+                "available_frames": 55
               },
               "grader_status": "success"
             }
           ]
         },
         {
-          "start_s": 52.05,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 5.058922334085219,
+          "start_s": 52.25,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 4.708922334085218,
           "arms": [
             {
               "arm": "Published search weights",
@@ -600,9 +600,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "b913f6b44e7bc8a909937cb54cb7a111641675eca31c23373fec959ad21525af",
-                "start_s": 5.059638125100173,
+                "start_s": 4.709638125100173,
                 "source_duration_s": 48.35,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -616,9 +616,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "b4b9cfb3f5cde9985ba1f8edeaee13168a9d1ba2d38d6cf6da88218cce5c2bcf",
-                "start_s": 5.059668625099585,
+                "start_s": 4.709668625099584,
                 "source_duration_s": 6.9,
-                "available_frames": 36
+                "available_frames": 43
               },
               "grader_status": "success"
             }
@@ -628,7 +628,7 @@
     },
     {
       "number": 13,
-      "start_s": 54.6,
+      "start_s": 55.15,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "163",
@@ -669,8 +669,8 @@
     },
     {
       "number": 14,
-      "start_s": 56.8,
-      "duration_s": 14.3,
+      "start_s": 57.35,
+      "duration_s": 14.7,
       "environment": "WebArena",
       "task": "188",
       "title": "Find the total of the latest canceled order",
@@ -711,7 +711,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 60.9,
+          "start_s": 61.45,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 4.4611123749986294,
           "arms": [
@@ -750,8 +750,8 @@
           ]
         },
         {
-          "start_s": 63.45,
-          "duration_s": 2.55,
+          "start_s": 64.0,
+          "duration_s": 2.6,
           "shared_elapsed_start_s": null,
           "arms": [
             {
@@ -764,9 +764,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "b4de1dbecbcf5d668e75ad47e9e47890390be59d66a813e988bdb450a033a35f",
-                "start_s": 7.085210167034529,
+                "start_s": 7.0352101670345295,
                 "source_duration_s": 9.65,
-                "available_frames": 51
+                "available_frames": 52
               },
               "grader_status": "success"
             },
@@ -780,16 +780,16 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "db00d2cd44f079b54492c7e7f1e7a7a34a4b91f5bb61b64385ab805a5fd4c846",
-                "start_s": 4.1845942079555245,
+                "start_s": 4.134594207955525,
                 "source_duration_s": 7.5,
-                "available_frames": 51
+                "available_frames": 52
               },
               "grader_status": "failure"
             }
           ]
         },
         {
-          "start_s": 66.0,
+          "start_s": 66.6,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 0.7962742909789087,
           "arms": [
@@ -828,9 +828,9 @@
           ]
         },
         {
-          "start_s": 68.55,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 4.591279500024394,
+          "start_s": 69.15,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 4.241279500024393,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -842,9 +842,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "441458b2d3e51e08b564656b24c2c6e591ce02670f9b444904aa0af865c9e537",
-                "start_s": 4.592172999959439,
+                "start_s": 4.242172999959439,
                 "source_duration_s": 45.75,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -858,9 +858,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "5b8f672631de970383c6adcfe4e3995a2cb1ddb5422085d72fc3656c5b2073f6",
-                "start_s": 4.59245058298111,
+                "start_s": 4.242450582981109,
                 "source_duration_s": 6.65,
-                "available_frames": 38
+                "available_frames": 45
               },
               "grader_status": "success"
             }
@@ -870,8 +870,8 @@
     },
     {
       "number": 15,
-      "start_s": 71.1,
-      "duration_s": 14.25,
+      "start_s": 72.05,
+      "duration_s": 15.35,
       "environment": "WebArena",
       "task": "189",
       "title": "Find the total of the latest pending order",
@@ -912,9 +912,9 @@
       ],
       "additional_takes": [
         {
-          "start_s": 75.15,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 2.30529470902402,
+          "start_s": 76.1,
+          "duration_s": 2.6,
+          "shared_elapsed_start_s": 2.255294709024019,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -926,9 +926,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "1ee1ac955ae3bda5d4734587196fc9c44130579aa394ed8db92f8f008b490ab0",
-                "start_s": 2.3059786259895194,
+                "start_s": 2.2559786259895187,
                 "source_duration_s": 23.85,
-                "available_frames": 51
+                "available_frames": 52
               },
               "grader_status": "success"
             },
@@ -942,18 +942,18 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "3cfe1ad7af674a69fbeca895f5c882f54b60d2cf811bcb95d1bb15552a817703",
-                "start_s": 2.306361583969556,
+                "start_s": 2.2563615839695554,
                 "source_duration_s": 4.35,
-                "available_frames": 38
+                "available_frames": 40
               },
               "grader_status": "success"
             }
           ]
         },
         {
-          "start_s": 77.7,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 1.7365153330378236,
+          "start_s": 78.7,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 1.3865153330378235,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -965,9 +965,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "d6dc8ea68b740d7ee8708a1a761b95a3f56f6a5ea020f8bdecde4fb3ba82bf4b",
-                "start_s": 1.7377253330545501,
+                "start_s": 1.38772533305455,
                 "source_duration_s": 15.75,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -981,18 +981,18 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "7dac24884bef50b5afebd54a69aeeedd5fdd67abbad3e484f7ddc8e978b055ef",
-                "start_s": 1.7375340419588612,
+                "start_s": 1.387534041958861,
                 "source_duration_s": 4.25,
-                "available_frames": 38
+                "available_frames": 45
               },
               "grader_status": "success"
             }
           ]
         },
         {
-          "start_s": 80.25,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 3.4540310420328755,
+          "start_s": 81.6,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 3.104031042032875,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -1004,9 +1004,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "c022881a4a31ff876167f106dba50a18a847ce86de0f5657f322ea6ccf10a997",
-                "start_s": 3.4548228340921927,
+                "start_s": 3.104822834092192,
                 "source_duration_s": 33.2,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -1020,18 +1020,18 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "0cd40fcf46fd1d432df3e67061b94ae37d77bd390c03a0c904bfcccb8b5d4ded",
-                "start_s": 3.4547632920788605,
+                "start_s": 3.10476329207886,
                 "source_duration_s": 5.5,
-                "available_frames": 38
+                "available_frames": 45
               },
               "grader_status": "success"
             }
           ]
         },
         {
-          "start_s": 82.8,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 3.402992832916789,
+          "start_s": 84.5,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 3.0529928329167886,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -1043,9 +1043,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "1ea97126fa12b6406a6cb817782c3a92b22b0e8085a4c1ef4cb276bf0dab9e31",
-                "start_s": 3.403792624920607,
+                "start_s": 3.0537926249206064,
                 "source_duration_s": 33.1,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -1059,9 +1059,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "b1bf7f929afa1478e03a8d2aa16c2b69d4631cbcd4d8fb469b17e21bb969f8c9",
-                "start_s": 3.4037339159753177,
+                "start_s": 3.053733915975317,
                 "source_duration_s": 5.45,
-                "available_frames": 38
+                "available_frames": 45
               },
               "grader_status": "success"
             }
@@ -1071,8 +1071,8 @@
     },
     {
       "number": 16,
-      "start_s": 85.35,
-      "duration_s": 16.4,
+      "start_s": 87.4,
+      "duration_s": 18.15,
       "environment": "WebArena",
       "task": "190",
       "title": "Find the total of the latest completed order",
@@ -1113,9 +1113,9 @@
       ],
       "additional_takes": [
         {
-          "start_s": 89.0,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 3.340150791895576,
+          "start_s": 91.05,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 2.9901507918955756,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -1127,9 +1127,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "942526c0551c329e1ac489749aad074e1ef028e893eb28801167a6512d218e66",
-                "start_s": 3.3408717509359125,
+                "start_s": 2.990871750935912,
                 "source_duration_s": 45.35,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -1143,18 +1143,18 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "7832813623fc7a3cf56fe92630aa5d7346ee07478b94d24bafffad56ced8b3fe",
-                "start_s": 3.3408789589069787,
+                "start_s": 2.990878958906978,
                 "source_duration_s": 5.4,
-                "available_frames": 38
+                "available_frames": 45
               },
               "grader_status": "success"
             }
           ]
         },
         {
-          "start_s": 91.55,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 7.081119083077647,
+          "start_s": 93.95,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 6.731119083077647,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -1166,9 +1166,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "24915a2e17337a0b0d87f7cfcdc83f58cd02e4c8d9b541a6811426a06e940a17",
-                "start_s": 7.081789208087139,
+                "start_s": 6.731789208087139,
                 "source_duration_s": 12.1,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -1182,17 +1182,17 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "bc1d171a325af34b00b81ba751c1d2f23b8a0a8b8ac5d6496264456aedbe319c",
-                "start_s": 7.081948500103318,
+                "start_s": 6.731948500103317,
                 "source_duration_s": 9.8,
-                "available_frames": 38
+                "available_frames": 45
               },
               "grader_status": "success"
             }
           ]
         },
         {
-          "start_s": 94.1,
-          "duration_s": 2.55,
+          "start_s": 96.85,
+          "duration_s": 2.9,
           "shared_elapsed_start_s": null,
           "arms": [
             {
@@ -1205,9 +1205,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "ca72633366aff0727d18d68f0fdb00af50b53630d994725e56f2055f9006fbb9",
-                "start_s": 6.750000000000001,
+                "start_s": 6.4,
                 "source_duration_s": 9.3,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -1221,18 +1221,18 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "8d5ee987796266a46304fc15dffd7e24e748c345cc6dae4bf3904712d795bba6",
-                "start_s": 0.7445419580210002,
+                "start_s": 0.3945419580210001,
                 "source_duration_s": 4.15,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "failure"
             }
           ]
         },
         {
-          "start_s": 96.65,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 3.2771139580057937,
+          "start_s": 99.75,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 2.927113958005793,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -1244,9 +1244,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "001a63b86d63e645ef77f990d03c3f2b17ea4dc17c1d6a34cc91e3b4126bca25",
-                "start_s": 3.277882999950089,
+                "start_s": 2.9278829999500884,
                 "source_duration_s": 45.9,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -1260,18 +1260,18 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "1c0b7325f4c3119182342a5017acce4187ed18802c46dddd919c151140565054",
-                "start_s": 3.2778513750294227,
+                "start_s": 2.927851375029422,
                 "source_duration_s": 5.35,
-                "available_frames": 38
+                "available_frames": 45
               },
               "grader_status": "success"
             }
           ]
         },
         {
-          "start_s": 99.2,
-          "duration_s": 2.55,
-          "shared_elapsed_start_s": 1.4923223330173643,
+          "start_s": 102.65,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 1.1423223330173642,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -1283,9 +1283,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "75627feca13b116dd5c8711c21396b0ad8ba92904f6d6985cfdcdff2e39128dd",
-                "start_s": 1.4932277080137284,
+                "start_s": 1.1432277080137283,
                 "source_duration_s": 12.9,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             },
@@ -1299,9 +1299,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "05bf4f59c5b86c85d42dd5b4919c9a63d0d52aea1c6bfbfb93ca0e322f79aee9",
-                "start_s": 1.4937854580115528,
+                "start_s": 1.1437854580115527,
                 "source_duration_s": 4.2,
-                "available_frames": 38
+                "available_frames": 45
               },
               "grader_status": "success"
             }
@@ -1311,8 +1311,8 @@
     },
     {
       "number": 17,
-      "start_s": 101.75,
-      "duration_s": 4.75,
+      "start_s": 105.55,
+      "duration_s": 5.1,
       "environment": "WebArena",
       "task": "191",
       "title": "Find the total of the latest processing order",
@@ -1353,8 +1353,8 @@
       ],
       "additional_takes": [
         {
-          "start_s": 103.95,
-          "duration_s": 2.55,
+          "start_s": 107.75,
+          "duration_s": 2.9,
           "shared_elapsed_start_s": null,
           "arms": [
             {
@@ -1367,9 +1367,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "cb08030636da33fcc3620fc94101b555aa61fc8f832e2382cacf13b30e318041",
-                "start_s": 9.179709249921142,
+                "start_s": 8.829709249921143,
                 "source_duration_s": 12.75,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "failure"
             },
@@ -1383,9 +1383,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "cbd08257ce72a112f677b7486daefa30e143b6a8c91b166a5e0f127f6ec55549",
-                "start_s": 0.46729824999347347,
+                "start_s": 0.11729824999347338,
                 "source_duration_s": 3.85,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "error"
             }
@@ -1395,8 +1395,8 @@
     },
     {
       "number": 18,
-      "start_s": 106.5,
-      "duration_s": 4.75,
+      "start_s": 110.65,
+      "duration_s": 5.1,
       "environment": "WebArena",
       "task": "231",
       "title": "Find a canceled order number",
@@ -1435,8 +1435,8 @@
       ],
       "additional_takes": [
         {
-          "start_s": 108.7,
-          "duration_s": 2.55,
+          "start_s": 112.85,
+          "duration_s": 2.9,
           "shared_elapsed_start_s": null,
           "arms": [
             {
@@ -1449,9 +1449,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "3aea1b0be0d4e8bd1125a74b743474e3f4723109d8f6ecb2b6767bc86ce17ee2",
-                "start_s": 28.82790495797526,
+                "start_s": 28.477904957975262,
                 "source_duration_s": 32.35,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "failure"
             },
@@ -1465,9 +1465,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "fd230a0bf607e34cda779e74694430fb50e01c81b4fea13b87cecdac971afb6b",
-                "start_s": 2.572678832965903,
+                "start_s": 2.222678832965903,
                 "source_duration_s": 5.3,
-                "available_frames": 51
+                "available_frames": 58
               },
               "grader_status": "success"
             }
@@ -1477,7 +1477,7 @@
     },
     {
       "number": 19,
-      "start_s": 111.25,
+      "start_s": 115.75,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "260",
@@ -1518,7 +1518,7 @@
     },
     {
       "number": 20,
-      "start_s": 113.45,
+      "start_s": 117.95,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "269",
@@ -1559,7 +1559,7 @@
     },
     {
       "number": 21,
-      "start_s": 115.65,
+      "start_s": 120.15,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "270",
@@ -1600,8 +1600,8 @@
     },
     {
       "number": 22,
-      "start_s": 117.85,
-      "duration_s": 4.75,
+      "start_s": 122.35,
+      "duration_s": 7.65,
       "environment": "WebArena",
       "task": "274",
       "title": "Search for a USB Wi-Fi adapter",
@@ -1639,12 +1639,53 @@
           },
           "grader_status": "success"
         }
+      ],
+      "additional_takes": [
+        {
+          "start_s": 127.1,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 3.1853435839992015,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 14.349906249903142,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "8e75836126e49acae38b153d83368055a0d49906c9f839a229005e60e8338762",
+              "receipt": "274-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "af12cc9808d1e46d8a9c2c52e2e5a547b9e1345a484eec137aa3090d7aa8f212",
+                "start_s": 3.1860501260496674,
+                "source_duration_s": 14.6,
+                "available_frames": 58
+              },
+              "grader_status": "success"
+            },
+            {
+              "arm": "Completed-order stop edit",
+              "elapsed_s": 5.385343583999202,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "1bbcfec71ea23fc04d20d9a67f569cf0acfa7a95e356897b655dc885a09a780e",
+              "receipt": "274-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "e897298b69c97db8c118e4c2317b0c5f90298da7dc204658cf5e7d67cf008e52",
+                "start_s": 3.1860644170781596,
+                "source_duration_s": 6.05,
+                "available_frames": 45
+              },
+              "grader_status": "success"
+            }
+          ]
+        }
       ]
     },
     {
       "number": 23,
-      "start_s": 122.6,
-      "duration_s": 6.05,
+      "start_s": 130.0,
+      "duration_s": 8.95,
       "environment": "WebArena",
       "task": "275",
       "title": "Search for Xbox",
@@ -1682,12 +1723,53 @@
           },
           "grader_status": "success"
         }
+      ],
+      "additional_takes": [
+        {
+          "start_s": 136.05,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 2.9194580829469485,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 20.91780145803932,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "bace17fc01e37ed306f4e64981bf49c67bb9a6b95100b1895f955c2e54fd1c54",
+              "receipt": "275-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "00c066740a18093c3dab6ab4a99c066338f6c2e60a0d3675214d560b8a216371",
+                "start_s": 2.9201725419377906,
+                "source_duration_s": 21.05,
+                "available_frames": 58
+              },
+              "grader_status": "success"
+            },
+            {
+              "arm": "Completed-order stop edit",
+              "elapsed_s": 5.119458082946949,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "ecec834e9b1f89a8d4a50df566ab0db1caea8bdaa500e96d765805ac755e99f0",
+              "receipt": "275-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "c3836f0939f129721c89b1c4493bc3339533ffd48694876bc341252d06cbca13",
+                "start_s": 2.920131207979284,
+                "source_duration_s": 5.6,
+                "available_frames": 45
+              },
+              "grader_status": "success"
+            }
+          ]
+        }
       ]
     },
     {
       "number": 24,
-      "start_s": 128.65,
-      "duration_s": 7.35,
+      "start_s": 138.95,
+      "duration_s": 10.65,
       "environment": "WebArena",
       "task": "276",
       "title": "Search for Switch accessories",
@@ -1728,9 +1810,9 @@
       ],
       "additional_takes": [
         {
-          "start_s": 133.4,
-          "duration_s": 2.6,
-          "shared_elapsed_start_s": 1.7985021249856799,
+          "start_s": 143.7,
+          "duration_s": 3.0,
+          "shared_elapsed_start_s": 1.39850212498568,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -1742,9 +1824,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "3981b646f3ef012a477b5324d53c26779b4d267bd4328d4668097d98fd59b05a",
-                "start_s": 1.7991462500300257,
+                "start_s": 1.3991462500300258,
                 "source_duration_s": 5.55,
-                "available_frames": 52
+                "available_frames": 60
               }
             },
             {
@@ -1757,10 +1839,49 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "eb3e5fcb71a4735f73bf19c46aea6f60f27fd7f6df72236f44b18d133cb47950",
-                "start_s": 1.7991312080062924,
+                "start_s": 1.3991312080062925,
                 "source_duration_s": 4.7,
-                "available_frames": 39
+                "available_frames": 47
               }
+            }
+          ]
+        },
+        {
+          "start_s": 146.7,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 3.2979067909298463,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 14.731332250055857,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "71905bf063f752c654a13cbfa2f216e892d4c18809658f74f083f4f4e39d1598",
+              "receipt": "276-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "18ca2607d91d54a0a6b66b8f3c13e657a3f1eaa1078ec0d2f15e48e8f2a415f1",
+                "start_s": 3.298648707871325,
+                "source_duration_s": 14.95,
+                "available_frames": 58
+              },
+              "grader_status": "success"
+            },
+            {
+              "arm": "Completed-order stop edit",
+              "elapsed_s": 5.4979067909298465,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "1382dbbfddbf5afaa24370bcf99eb3c6605aa18db4b9ba05d74e5a9259b1d686",
+              "receipt": "276-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "920d1fdd4076374344a35630e6bd209a8a639523021e90f779d93b62ba109726",
+                "start_s": 3.29867208302021,
+                "source_duration_s": 6.0,
+                "available_frames": 45
+              },
+              "grader_status": "success"
             }
           ]
         }
@@ -1768,8 +1889,8 @@
     },
     {
       "number": 25,
-      "start_s": 136.0,
-      "duration_s": 4.75,
+      "start_s": 149.6,
+      "duration_s": 7.65,
       "environment": "WebArena",
       "task": "277",
       "title": "Search for iPhone 13 batteries",
@@ -1807,12 +1928,53 @@
           },
           "grader_status": "success"
         }
+      ],
+      "additional_takes": [
+        {
+          "start_s": 154.35,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 3.679690458998084,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 19.38110354100354,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "cedcfe5b1a31810a6b057846f778a6502ee0c60f84ceb6dc279763555b30696b",
+              "receipt": "277-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "9c0d7164e632a65f82c2ab8b3ce320b5521b47404d104ca09247aa8050537c6c",
+                "start_s": 3.680406250944361,
+                "source_duration_s": 19.6,
+                "available_frames": 58
+              },
+              "grader_status": "success"
+            },
+            {
+              "arm": "Completed-order stop edit",
+              "elapsed_s": 5.879690458998084,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "c20a66a68f4fade474ce0021165497d211331c8281dc3136b93555e663b9c150",
+              "receipt": "277-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "372124866542f39ea4e2625481c057e19b69efe4e4ba55b88451f58e191a5c76",
+                "start_s": 3.680373541964218,
+                "source_duration_s": 6.35,
+                "available_frames": 45
+              },
+              "grader_status": "success"
+            }
+          ]
+        }
       ]
     },
     {
       "number": 26,
-      "start_s": 140.75,
-      "duration_s": 9.9,
+      "start_s": 157.25,
+      "duration_s": 13.2,
       "environment": "WebArena",
       "task": "278",
       "title": "Search for green tea bags",
@@ -1853,8 +2015,8 @@
       ],
       "additional_takes": [
         {
-          "start_s": 145.5,
-          "duration_s": 2.6,
+          "start_s": 162.0,
+          "duration_s": 3.0,
           "shared_elapsed_start_s": null,
           "arms": [
             {
@@ -1867,9 +2029,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "f423ea9fbe914caf95fdc105bfa61b5e149ea5fa133a62e4f2e237ea379dbd16",
-                "start_s": 3.886384665942751,
+                "start_s": 3.486384665942751,
                 "source_duration_s": 6.8,
-                "available_frames": 52
+                "available_frames": 60
               },
               "grader_status": "success"
             },
@@ -1883,16 +2045,16 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "eb1cf4fc23270a3feec6d23e585c4a73145a9f8523e5cefdbb502aca786ef1ff",
-                "start_s": 5.145583625044674,
+                "start_s": 4.745583625044674,
                 "source_duration_s": 8.9,
-                "available_frames": 52
+                "available_frames": 60
               },
               "grader_status": "failure"
             }
           ]
         },
         {
-          "start_s": 148.1,
+          "start_s": 165.0,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 3.232748709013686,
           "arms": [
@@ -1929,12 +2091,51 @@
               "grader_status": "success"
             }
           ]
+        },
+        {
+          "start_s": 167.55,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 3.9168818339938296,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 24.29026104195509,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "f54ed2ed164381f7fce725a451b1243c220bd58f2cf76e6864a5b4ce14c7363d",
+              "receipt": "278-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "051a34b4ceeff354add69fd699507064e20260cddc69d406284ec3e69a89005f",
+                "start_s": 3.917546875029802,
+                "source_duration_s": 24.55,
+                "available_frames": 58
+              },
+              "grader_status": "success"
+            },
+            {
+              "arm": "Completed-order stop edit",
+              "elapsed_s": 6.11688183399383,
+              "passed": true,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "5ad1b4a1fa25da2ebe1e5ed4f13976b9d52457987b254a55e09912f3d1ded67a",
+              "receipt": "278-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "1fc55b1c968704e5e58ae61587eaedc473f3bf7e4e69926c42efa56eca019525",
+                "start_s": 3.917606583982706,
+                "source_duration_s": 6.6,
+                "available_frames": 45
+              },
+              "grader_status": "success"
+            }
+          ]
         }
       ]
     },
     {
       "number": 27,
-      "start_s": 150.65,
+      "start_s": 170.45,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "279",
@@ -1977,7 +2178,50 @@
     },
     {
       "number": 28,
-      "start_s": 152.85,
+      "start_s": 172.65,
+      "duration_s": 2.2,
+      "environment": "WebArena",
+      "task": "283",
+      "title": "Find Xbox controllers released in 2020\u20132021",
+      "shared_elapsed_start_s": null,
+      "arms": [
+        {
+          "arm": "Stock Inkling 2 Mini",
+          "elapsed_s": 81.33533662499394,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "c0668e2011b93eb9c2e80746d17db3de4c0a07df6aee1b2dc76e65a918dbe99d",
+          "receipt": "283-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "fe0be6adb38961edcb5c4e5e48798336e93ebd4d962ea6db10fb51ecac152e67",
+            "start_s": 79.13605354093015,
+            "source_duration_s": 83.0,
+            "available_frames": 44
+          },
+          "grader_status": "failure"
+        },
+        {
+          "arm": "Completed-order stop edit",
+          "elapsed_s": 12.874797667027451,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "522a89222aa4484cb9a5801275aa38ea28c6451b336fe6327eb8ec1714590ff2",
+          "receipt": "283-edited.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "a2c70c7239ec95f2be1d56b722cf1d51d7fddca0c772d48f9e9dd0146b9c01e9",
+            "start_s": 10.675659332959913,
+            "source_duration_s": 13.85,
+            "available_frames": 44
+          },
+          "grader_status": "failure"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "start_s": 174.85,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "313",
@@ -2017,8 +2261,8 @@
       ]
     },
     {
-      "number": 29,
-      "start_s": 155.05,
+      "number": 30,
+      "start_s": 177.05,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "324",
@@ -2058,8 +2302,8 @@
       ]
     },
     {
-      "number": 30,
-      "start_s": 157.25,
+      "number": 31,
+      "start_s": 179.25,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "358",
@@ -2099,8 +2343,8 @@
       ]
     },
     {
-      "number": 31,
-      "start_s": 159.45,
+      "number": 32,
+      "start_s": 181.45,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "399",
@@ -2140,8 +2384,8 @@
       ]
     },
     {
-      "number": 32,
-      "start_s": 161.65,
+      "number": 33,
+      "start_s": 183.65,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "404",
@@ -2181,8 +2425,8 @@
       ]
     },
     {
-      "number": 33,
-      "start_s": 163.85,
+      "number": 34,
+      "start_s": 185.85,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "431",
@@ -2264,8 +2508,8 @@
       ]
     },
     {
-      "number": 34,
-      "start_s": 166.05,
+      "number": 35,
+      "start_s": 188.05,
       "duration_s": 3.55,
       "environment": "WebArena",
       "task": "432",
@@ -2335,8 +2579,8 @@
       ]
     },
     {
-      "number": 35,
-      "start_s": 169.6,
+      "number": 36,
+      "start_s": 191.6,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "516",
@@ -2376,8 +2620,8 @@
       ]
     },
     {
-      "number": 36,
-      "start_s": 171.8,
+      "number": 37,
+      "start_s": 193.8,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "595",
@@ -2417,8 +2661,8 @@
       ]
     },
     {
-      "number": 37,
-      "start_s": 174.0,
+      "number": 38,
+      "start_s": 196.0,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "600",
@@ -2443,8 +2687,8 @@
       ]
     },
     {
-      "number": 38,
-      "start_s": 176.2,
+      "number": 39,
+      "start_s": 198.2,
       "duration_s": 7.3,
       "environment": "WebArena",
       "task": "630",
@@ -2486,7 +2730,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 178.4,
+          "start_s": 200.4,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 18.707142707984893,
           "arms": [
@@ -2523,7 +2767,7 @@
           ]
         },
         {
-          "start_s": 180.95,
+          "start_s": 202.95,
           "duration_s": 2.55,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2564,8 +2808,8 @@
       ]
     },
     {
-      "number": 39,
-      "start_s": 183.5,
+      "number": 40,
+      "start_s": 205.5,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "653",
@@ -2605,8 +2849,8 @@
       ]
     },
     {
-      "number": 40,
-      "start_s": 185.7,
+      "number": 41,
+      "start_s": 207.7,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "689",
@@ -2652,5 +2896,5 @@
       }
     ]
   },
-  "embedded_chapters": 42
+  "embedded_chapters": 43
 }
