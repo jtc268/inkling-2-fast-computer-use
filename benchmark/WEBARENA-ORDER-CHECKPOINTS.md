@@ -13,7 +13,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Windows command-stop | M5 Max MacBook Pro | Upstream stock | 188, 274 | 4/4 | 4/4 | 188 |
 | Windows command-stop | RTX 5090 | Upstream stock | 188 | 2/2 | 2/2 | 188 |
 | Order-history routing trial | M5 Max MacBook Pro | Upstream stock | 190 | 2/2 | 2/2 | 190 |
-| Order-history routing trial | RTX 5090 | Upstream stock | 188, 189, 190, 191 | 6/8 | 6/8 | 188, 189, 190 |
+| Order-history routing trial | RTX 5090 | Upstream stock | 188, 189, 190, 191, 275 | 8/10 | 8/10 | 188, 189, 190 |
 | Guarded reasoning trial | RTX 5090 | Upstream stock | 190 | 2/2 | 2/2 | — |
 | Pending click + stop | M5 Max MacBook Pro | Published search weights | 96 | 2/2 | 2/2 | 96 |
 | Pending click + stop | M5 Max MacBook Pro | Upstream stock | 62, 188, 189, 190, 274, 275, 276 | 12/14 | 12/14 | 188, 189, 190, 274, 275 |
@@ -69,6 +69,8 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 | Order-history routing trial | 188 | RTX 5090 | Upstream stock | Baseline | 9.69s · pass | 2.75s · pass | 3.53× |
 | Order-history routing trial | 191 | RTX 5090 | Upstream stock | Edited | 8.42s · fail | 4.19s · grader error | — |
 | Order-history routing trial | 191 | RTX 5090 | Upstream stock | Baseline | 12.57s · fail | 11.34s · grader error | — |
+| Order-history routing trial | 275 | RTX 5090 | Upstream stock | Edited | 5.02s · pass | 6.35s · pass | 0.79× |
+| Order-history routing trial | 275 | RTX 5090 | Upstream stock | Baseline | 4.64s · pass | 6.01s · pass | 0.77× |
 | Order-history routing trial | 190 | M5 Max MacBook Pro | Upstream stock | Edited | 33.89s · pass | 5.24s · pass | 6.46× |
 | Order-history routing trial | 190 | M5 Max MacBook Pro | Upstream stock | Baseline | 47.18s · pass | 5.76s · pass | 8.19× |
 | Focused search-field edit | 283 | M5 Max MacBook Pro | Upstream stock | Edited | 87.93s · fail | 18.77s · fail | — |
@@ -108,7 +110,7 @@ Each row is a fresh pair in Brave. A speedup requires two native WebArena-Verifi
 
 The pending click + stop edit was developed on 189. Its other tasks use frozen weights. The Windows command-stop edit was developed on 188 and has a different shard. The pending click + stop runs on Windows and Mac use the same shard. The completed-order stop edit was developed on 190 after recording the frozen checkpoint on that task. Tasks 191 and 192 were selected in numerical order as the remaining statuses in that same template. [Selection recorded before inference](../evidence/webarena-order-holdouts/selection.json). The RTX 5090 repeat on 191 followed the Mac misses and used the identical completed-order checkpoint. Task 231 rechecks an earlier order-number failure. Task 298 is the first ID in the order-details navigation template. [Recorded task order and advancement rule](../evidence/webarena-order-holdouts/order-navigation.json). On task 191 the official evaluator reports an error for a non-null retrieved answer. That episode earns zero credit. An independent browser inspection covered all four order-history pages. Of 37 orders, 25 were complete, nine canceled and three pending. The fixture contained zero processing orders. Pairs that overlapped the November 21 fixture connection outage were set aside. Reported replacement pairs started after connectivity returned.
 
-166 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
+170 native grades replayed. The original mismatched Windows fixture remains in the table and contributes no speedup.
 
 [Exact pending-order rows](../evidence/webarena-pending-repair/pending-native-stop/) · [Windows command-stop rows](WEBARENA-ORDER-BOUNDARY.md) · [Grades and recording hashes](../evidence/webarena-order-checkpoints/).
 
@@ -161,6 +163,10 @@ On RTX 5090, stock and the order-history edit each passed all six runs across ca
 | Processing (#191) | Neither passed | Neither passed | Pending | Pending |
 
 Each timed run starts on the storefront. It ends when the agent submits its response. The full table above includes the elapsed seconds and the official evaluation status for each arm.
+
+## Xbox search on RTX 5090
+
+The same order-history weights completed the Xbox search in 6.35s and 6.01s. Stock took 5.02s and 4.64s. Both models filled the search field, clicked Search and stopped on the results page. The edit generated 512 and 512 tokens for the click alone. That one decision took 3.29s and 3.29s.
 
 The order-history routing trial changes 2,280 BF16 values in the end-of-message row relative to the guarded reasoning trial. The parent used 510 reasoning tokens without issuing a command on one recorded order-history page. A conditional replay reached the correct answer after 16 reasoning tokens. The trial in the table uses ordinary greedy generation. [Weight audit and unforced replay checks](../evidence/webarena-order-checkpoints/order-history-route/).
 
