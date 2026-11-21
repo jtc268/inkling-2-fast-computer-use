@@ -1,0 +1,86 @@
+{
+  "native_grades": 6,
+  "pairs": [
+    {
+      "id": 275,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 4.009948997272791,
+      "edited": {
+        "score": 1.0,
+        "seconds": 4.689458958921023,
+        "decisions": 3,
+        "inference_seconds": 2.537408584030345,
+        "thinking_tokens": 0,
+        "generated_tokens": 22
+      },
+      "original": {
+        "score": 1.0,
+        "seconds": 18.804491250077263,
+        "decisions": 5,
+        "inference_seconds": 16.716115832095966,
+        "thinking_tokens": 448,
+        "generated_tokens": 491
+      },
+      "checkpoint": "Forum submission",
+      "sha256": "325fa61fe8f33146d666eecd2a6a816f208f4b73f158cc147e84348f6cf97895"
+    },
+    {
+      "id": 275,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 3.4779369516571035,
+      "original": {
+        "score": 1.0,
+        "seconds": 18.05115112499334,
+        "decisions": 5,
+        "inference_seconds": 15.806399708148092,
+        "thinking_tokens": 448,
+        "generated_tokens": 491
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 5.1901892920723185,
+        "decisions": 3,
+        "inference_seconds": 2.537498166086152,
+        "thinking_tokens": 0,
+        "generated_tokens": 22
+      },
+      "checkpoint": "Forum submission",
+      "sha256": "325fa61fe8f33146d666eecd2a6a816f208f4b73f158cc147e84348f6cf97895"
+    },
+    {
+      "id": 96,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": null,
+      "edited": {
+        "score": 1.0,
+        "seconds": 50.31726612499915,
+        "decisions": 5,
+        "inference_seconds": 46.8426767908968,
+        "thinking_tokens": 1201,
+        "generated_tokens": 1568
+      },
+      "original": {
+        "score": 0.0,
+        "seconds": 65.1210219169734,
+        "decisions": 12,
+        "inference_seconds": 60.60325295699295,
+        "thinking_tokens": 1822,
+        "generated_tokens": 2143
+      },
+      "checkpoint": "Browser search",
+      "sha256": "d75b5709ac7a94fde651571ab7b810147f1c9ea43009a62bccfffbe4e3eab44c"
+    }
+  ]
+}
