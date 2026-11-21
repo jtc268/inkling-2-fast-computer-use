@@ -1,0 +1,78 @@
+{
+  "task_id": 630,
+  "rows": [
+    {
+      "checkpoint": "Select-transfer",
+      "sha256": "e915a45e4e0d4a2f0731b1ecd2f356b0b1675bb4a9ce2a845c9253276da6e46c",
+      "id": 630,
+      "repeat": "r1",
+      "device": "M5 Max MacBook Pro",
+      "ratio": null,
+      "edited": {
+        "score": 0.0,
+        "seconds": 9.418508041999303,
+        "decisions": 5,
+        "inference_seconds": 3.747999500017613,
+        "thinking_tokens": 0,
+        "generated_tokens": 62
+      },
+      "original": {
+        "score": 0.0,
+        "seconds": 88.90892704098951,
+        "decisions": 12,
+        "inference_seconds": 86.62624816491734,
+        "thinking_tokens": 2740,
+        "generated_tokens": 3202
+      }
+    },
+    {
+      "checkpoint": "Select-transfer",
+      "sha256": "e915a45e4e0d4a2f0731b1ecd2f356b0b1675bb4a9ce2a845c9253276da6e46c",
+      "id": 630,
+      "repeat": "r1",
+      "device": "RTX 5090",
+      "ratio": null,
+      "original": {
+        "score": 1.0,
+        "seconds": 23.369428791920654,
+        "decisions": 9,
+        "inference_seconds": 11.062409665901214,
+        "thinking_tokens": 1413,
+        "generated_tokens": 1578
+      },
+      "edited": {
+        "score": 0.0,
+        "seconds": 19.70625749998726,
+        "decisions": 12,
+        "inference_seconds": 9.785341332200915,
+        "thinking_tokens": 0,
+        "generated_tokens": 127
+      }
+    },
+    {
+      "checkpoint": "Forum-channel",
+      "sha256": "56719a98e3bd82212ba30cb93daa86f0a527127b913ce262a8ce413e309f74d6",
+      "id": 630,
+      "repeat": "r1",
+      "device": "M5 Max MacBook Pro",
+      "ratio": null,
+      "edited": {
+        "score": 0.0,
+        "seconds": 12.361424042028375,
+        "decisions": 6,
+        "inference_seconds": 6.371377083938569,
+        "thinking_tokens": 74,
+        "generated_tokens": 147
+      },
+      "original": {
+        "score": 0.0,
+        "seconds": 94.04221016599331,
+        "decisions": 12,
+        "inference_seconds": 91.17963383416645,
+        "thinking_tokens": 2740,
+        "generated_tokens": 3202
+      }
+    }
+  ],
+  "native_grades_replayed": 6
+}
