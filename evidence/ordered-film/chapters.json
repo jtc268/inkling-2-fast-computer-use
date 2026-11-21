@@ -1,14 +1,14 @@
 {
-  "sha256": "d43a79f87c3f246269b413672af1ae14597f2f0cef7e476051214778af58dd5e",
+  "sha256": "ff529df1f929207e4e8059b51504118d62155f6d529345e9620511d8e2b29f77",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 139.0,
+  "duration_s": 138.6,
   "task_count": 33,
   "opening_s": 2.75,
-  "closing_start_s": 135.5,
+  "closing_start_s": 135.1,
   "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
   "chapters": [
     {
@@ -178,7 +178,7 @@
     {
       "number": 5,
       "start_s": 20.75,
-      "duration_s": 3.25,
+      "duration_s": 2.95,
       "environment": "BrowserGym \u00b7 MiniWoB++",
       "task": "Seed 101",
       "title": "Like every post from one account",
@@ -193,7 +193,7 @@
           "receipt": "social-media-all-101-original.json",
           "recording": {
             "kind": "timestamped browser captures",
-            "start_s": 16.91481412493158,
+            "start_s": 17.214814124931582,
             "source_sha256": "5a6d0777378409f6eef724dcc619730a421370a5c1e477ff1a45ac13026e7544",
             "timing_manifest_sha256": "726a597396101b4d3412f6e0631b4dd9dab77ddd379a54077b2029b7021db09e",
             "frame_count": 160
@@ -208,7 +208,7 @@
           "receipt": "social-media-all-101-edited.json",
           "recording": {
             "kind": "timestamped browser captures",
-            "start_s": 2.5793927919585258,
+            "start_s": 2.8793927919585256,
             "source_sha256": "0faed0ad2dbd2480afdc77f1b1844ea53750f69d3560f4eed356991e223b63a2",
             "timing_manifest_sha256": "83c29e31ae88d6a20a5fe55cca737ed51ccd2f541057d788296b0f1ae7164407",
             "frame_count": 47
@@ -218,8 +218,8 @@
     },
     {
       "number": 6,
-      "start_s": 24.0,
-      "duration_s": 3.25,
+      "start_s": 23.7,
+      "duration_s": 2.95,
       "environment": "BrowserGym \u00b7 MiniWoB++",
       "task": "Seed 101",
       "title": "Pick a date",
@@ -234,7 +234,7 @@
           "receipt": "choose-date-101-original.json",
           "recording": {
             "kind": "timestamped browser captures",
-            "start_s": 18.318157291971147,
+            "start_s": 18.618157291971148,
             "source_sha256": "b37c67102485f4ac79f9b399599b0cc6e9d60496fe7262e0874d744040b9bef4",
             "timing_manifest_sha256": "6a2c829c951ea6e6c771defe86e7e0a2213e314e26cc88c8d884deed80ae6b77",
             "frame_count": 172
@@ -249,7 +249,7 @@
           "receipt": "choose-date-101-edited.json",
           "recording": {
             "kind": "timestamped browser captures",
-            "start_s": 13.69887112500146,
+            "start_s": 13.998871125001461,
             "source_sha256": "ff657f909934323620646be6a81041a502f8925f67b1a80d9c89f0f0c803cd1a",
             "timing_manifest_sha256": "27ea078b875eaab02210909e61032b7fc6597c577002938dbd03e4e2092c5897",
             "frame_count": 135
@@ -259,8 +259,8 @@
     },
     {
       "number": 7,
-      "start_s": 27.25,
-      "duration_s": 3.25,
+      "start_s": 26.65,
+      "duration_s": 2.95,
       "environment": "BrowserGym \u00b7 MiniWoB++",
       "task": "Seed 101",
       "title": "Book the shortest one-way flight",
@@ -275,7 +275,7 @@
           "receipt": "book-flight-101-original.json",
           "recording": {
             "kind": "timestamped browser captures",
-            "start_s": 59.99608595808968,
+            "start_s": 60.29608595808968,
             "source_sha256": "a54ebcf05f3b95ff7395113d60fa3e737eb433ba2455d97b5203361c50d5320e",
             "timing_manifest_sha256": "31fbe4c309f615aa635d72f095479e35e6178af934223f7e849fb2a509a53b1c",
             "frame_count": 499
@@ -290,7 +290,7 @@
           "receipt": "book-flight-101-edited.json",
           "recording": {
             "kind": "timestamped browser captures",
-            "start_s": 87.42623720807023,
+            "start_s": 87.72623720807023,
             "source_sha256": "94d7378ee86e6796df7005545270edf539d713b1447a4f14a06574d9bad8587b",
             "timing_manifest_sha256": "0664f31709cf1cf0b2082180e305690e8a405d509985c83b0101819869d701a8",
             "frame_count": 713
@@ -300,8 +300,8 @@
     },
     {
       "number": 8,
-      "start_s": 30.5,
-      "duration_s": 3.25,
+      "start_s": 29.6,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "21",
       "title": "Read headphone reviews",
@@ -317,9 +317,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "52f058d3faeb02f519bde468ee6997b91bf1e3e6d2dd4f02673b10e51edf314d",
-            "start_s": 12.0,
+            "start_s": 12.3,
             "source_duration_s": 15.25,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -332,17 +332,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "97ec666ed9f1215a484e727965837f815666ba603261804e293fe021e9d8e781",
-            "start_s": 7.550000000000001,
+            "start_s": 7.8500000000000005,
             "source_duration_s": 10.8,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 9,
-      "start_s": 33.75,
-      "duration_s": 3.25,
+      "start_s": 32.55,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "27",
       "title": "Read the latest finance discussion",
@@ -358,9 +358,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "bc559b70f6a20fb9f944f9cdfe41a9c80e6dd5ec7e6bac332a88f1c5223fb455",
-            "start_s": 8.75,
+            "start_s": 9.05,
             "source_duration_s": 12.0,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -382,8 +382,8 @@
     },
     {
       "number": 10,
-      "start_s": 37.0,
-      "duration_s": 3.25,
+      "start_s": 35.5,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "66",
       "title": "Find book recommendations",
@@ -399,9 +399,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "4ed4ce9f2135395cccaa6ddbde34f2de413ad1c619c5455edbdf3800ba25b3b1",
-            "start_s": 90.9,
+            "start_s": 91.2,
             "source_duration_s": 94.15,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -414,17 +414,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "d750b2db988c7a8ef4a824e7a4d8926433565a4b24275b2aba1b8e65402b95ee",
-            "start_s": 29.9,
+            "start_s": 30.2,
             "source_duration_s": 33.15,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 11,
-      "start_s": 40.25,
-      "duration_s": 3.25,
+      "start_s": 38.45,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "96",
       "title": "Track the latest order",
@@ -440,9 +440,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "03b65eb9955f55c16ec1d7c6ec55b705e42886d21536332d7a77eaaad2e866b8",
-            "start_s": 8.4,
+            "start_s": 8.7,
             "source_duration_s": 11.65,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -455,17 +455,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "e61ecc93a3d95d2e6f616a21b34f7cc17bb5409ccbc8f40877394d915ac33699",
-            "start_s": 13.75187612499576,
+            "start_s": 14.051876124995761,
             "source_duration_s": 17.95,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 12,
-      "start_s": 43.5,
-      "duration_s": 3.25,
+      "start_s": 41.4,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "163",
       "title": "Find low-star review titles",
@@ -481,9 +481,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "37b42a6f830145e8b01e6cec8c6d28fb89aa8fe801abe9919e3fe76d5ddfaeba",
-            "start_s": 0.25,
+            "start_s": 0.5499999999999998,
             "source_duration_s": 3.5,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -505,8 +505,8 @@
     },
     {
       "number": 13,
-      "start_s": 46.75,
-      "duration_s": 3.25,
+      "start_s": 44.35,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "231",
       "title": "Find a canceled order number",
@@ -522,9 +522,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "7b3fa7670690b658d28ceb15bcd79caa6f9b0807a87040418099f3c18070528d",
-            "start_s": 4.4,
+            "start_s": 4.7,
             "source_duration_s": 7.65,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -537,17 +537,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "ff31faeef21323e7c9b0a1ef1256e39febbc70ce304011fca60c4e7f3693e3ba",
-            "start_s": 1.25,
+            "start_s": 1.5499999999999998,
             "source_duration_s": 4.5,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 14,
-      "start_s": 50.0,
-      "duration_s": 3.25,
+      "start_s": 47.3,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "260",
       "title": "Browse video games",
@@ -578,17 +578,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "d656fafbd06df21ba0aa012ede65d77d0d8a7270ba3ef4e9f17638f8576202ab",
-            "start_s": 0.2999999999999998,
+            "start_s": 0.5999999999999996,
             "source_duration_s": 3.55,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 15,
-      "start_s": 53.25,
-      "duration_s": 3.25,
+      "start_s": 50.25,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "269",
       "title": "Filter shoes under $25",
@@ -604,9 +604,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "ca9f0cb2585200e98edefc752db33ef399456af00fab2d676711003ce1446176",
-            "start_s": 28.041356208967045,
+            "start_s": 28.341356208967046,
             "source_duration_s": 32.2,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -619,17 +619,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "a4da8be857d5ac2a6e75856e63069d36dc9d5db4022e54437951be198e17965c",
-            "start_s": 24.09343662497122,
+            "start_s": 24.39343662497122,
             "source_duration_s": 28.3,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 16,
-      "start_s": 56.5,
-      "duration_s": 3.25,
+      "start_s": 53.2,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "270",
       "title": "Filter men\u2019s shoes below $30",
@@ -645,9 +645,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "83196e62b497e1cc7418b0ef1e0389b36d1a66194397b96be5c61a1f19446c4c",
-            "start_s": 23.33832854195498,
+            "start_s": 23.63832854195498,
             "source_duration_s": 27.55,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -660,16 +660,16 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "73288faace2fb00a3fcb19608f983bdebdaf5516b679cb546dba76bd715816fe",
-            "start_s": 4.534362249891274,
+            "start_s": 4.8343622498912735,
             "source_duration_s": 8.6,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 17,
-      "start_s": 59.75,
+      "start_s": 56.15,
       "duration_s": 4.75,
       "environment": "WebArena",
       "task": "274",
@@ -710,7 +710,7 @@
     },
     {
       "number": 18,
-      "start_s": 64.5,
+      "start_s": 60.9,
       "duration_s": 5.25,
       "environment": "WebArena",
       "task": "275",
@@ -751,7 +751,7 @@
     },
     {
       "number": 19,
-      "start_s": 69.75,
+      "start_s": 66.15,
       "duration_s": 8.5,
       "environment": "WebArena",
       "task": "276",
@@ -791,7 +791,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 74.5,
+          "start_s": 70.9,
           "duration_s": 3.75,
           "shared_elapsed_start_s": 0.6485021249856799,
           "arms": [
@@ -831,7 +831,7 @@
     },
     {
       "number": 20,
-      "start_s": 78.25,
+      "start_s": 74.65,
       "duration_s": 4.75,
       "environment": "WebArena",
       "task": "277",
@@ -872,8 +872,8 @@
     },
     {
       "number": 21,
-      "start_s": 83.0,
-      "duration_s": 8.5,
+      "start_s": 79.4,
+      "duration_s": 11.75,
       "environment": "WebArena",
       "task": "278",
       "title": "Search for green tea bags",
@@ -912,7 +912,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 87.75,
+          "start_s": 84.15,
           "duration_s": 3.75,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -947,13 +947,50 @@
               }
             }
           ]
+        },
+        {
+          "start_s": 87.9,
+          "duration_s": 3.25,
+          "shared_elapsed_start_s": 3.640574707929045,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 7.3376548329833895,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "d27edbeee4e94d57094f6cace92a592d8f9584dc98b01b938ff1d009bc5a1459",
+              "receipt": "278-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "661709af09b0a115686739d383b943cd1d0136201ce2155159a6ca2b9811104f",
+                "start_s": 3.6415469999657946,
+                "source_duration_s": 7.65,
+                "available_frames": 65
+              }
+            },
+            {
+              "arm": "Query-transfer edit",
+              "elapsed_s": 6.190574707929045,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "3f9227953ea0b7a1998105077330aa3b48525dc9185168c9bfc2b70f15e5e8d6",
+              "receipt": "278-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "ec3f2e6cae882f66d6bb95aefda6585113434afb7948f7203c5b8c7d86c36372",
+                "start_s": 3.6411303750239314,
+                "source_duration_s": 7.35,
+                "available_frames": 52
+              }
+            }
+          ]
         }
       ]
     },
     {
       "number": 22,
-      "start_s": 91.5,
-      "duration_s": 3.25,
+      "start_s": 91.15,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "313",
       "title": "Find customer service",
@@ -969,9 +1006,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "17ae6a74b8bedfac5aff872ff339927313b46ab01d199651778c2cb866a14a2d",
-            "start_s": 12.48175816598814,
+            "start_s": 12.78175816598814,
             "source_duration_s": 16.65,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -984,17 +1021,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "7bd25009f7c92e838fd64ef0a10b474dec0958de1a28d33bdc68020fac472b4c",
-            "start_s": 13.782806040951982,
+            "start_s": 14.082806040951983,
             "source_duration_s": 17.95,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 23,
-      "start_s": 94.75,
-      "duration_s": 3.25,
+      "start_s": 94.1,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "324",
       "title": "Sort chairs by price",
@@ -1010,9 +1047,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "8df44618553af86755eaea7d406159d7f1a8001f403a1fa4c88810e42a89bad1",
-            "start_s": 27.75,
+            "start_s": 28.05,
             "source_duration_s": 31.0,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -1025,17 +1062,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "3332a57a3f93fade94bf96f303a192bf42cb9909394e68571b0bc5b92e2c1d80",
-            "start_s": 8.9,
+            "start_s": 9.2,
             "source_duration_s": 12.15,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 24,
-      "start_s": 98.0,
-      "duration_s": 3.25,
+      "start_s": 97.05,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "358",
       "title": "Check how an order shipped",
@@ -1051,9 +1088,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "f9d8b8b9a5131fc4c85ec7664d7ede173ebb8e9fd6177e509eb48666ebd3a16e",
-            "start_s": 7.5,
+            "start_s": 7.8,
             "source_duration_s": 10.75,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -1066,17 +1103,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "c14e04dc376b26d51c8b837cefac39b518050f0a9aee522d06da15810b5f2d8e",
-            "start_s": 16.0,
+            "start_s": 16.3,
             "source_duration_s": 19.25,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 25,
-      "start_s": 101.25,
-      "duration_s": 3.25,
+      "start_s": 100.0,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "399",
       "title": "Edit a forum profile",
@@ -1092,9 +1129,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "c421512ee0caefe06383ce23cd66006a0278751b9fc012a80e5a4b2602c577c8",
-            "start_s": 1.9188355420483276,
+            "start_s": 2.2188355420483274,
             "source_duration_s": 6.15,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -1107,17 +1144,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "1a92c89e4977d6ddbdf56eee56a09de4a34e5aa0acedaf607ed7e1e6a76de618",
-            "start_s": 1.9492605830309913,
+            "start_s": 2.249260583030991,
             "source_duration_s": 6.2,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 26,
-      "start_s": 104.5,
-      "duration_s": 3.25,
+      "start_s": 102.95,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "404",
       "title": "Upvote the newest book post",
@@ -1133,9 +1170,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "c43a5ef62a55c1c8fc868f9754533a8149ef7544a65bfddbb4984a98191fb3de",
-            "start_s": 26.33365874993615,
+            "start_s": 26.63365874993615,
             "source_duration_s": 30.55,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -1148,17 +1185,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "448b5eba3e4b9d4ca33eea80aff9090f4778514ed46dd3507bc6a544650aa0fe",
-            "start_s": 23.903498625033535,
+            "start_s": 24.203498625033536,
             "source_duration_s": 28.15,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 27,
-      "start_s": 107.75,
-      "duration_s": 3.25,
+      "start_s": 105.9,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "431",
       "title": "Add the lowest-unit-price item to the cart",
@@ -1174,28 +1211,28 @@
           "recording": {
             "kind": "native active-tab browser recordings",
             "source_sha256": "ac933af0e705b13aa7e615b9a036e3e31ab55c84e6d1a4419ea4f2a3d05184d6",
-            "start_s": 12.574151332955807,
+            "start_s": 12.874151332955808,
             "all_tabs": [
               {
                 "kind": "native browser recording",
                 "source_sha256": "ac933af0e705b13aa7e615b9a036e3e31ab55c84e6d1a4419ea4f2a3d05184d6",
-                "start_s": 12.58598233293742,
+                "start_s": 12.88598233293742,
                 "source_duration_s": 16.8,
-                "available_frames": 65
+                "available_frames": 59
               },
               {
                 "kind": "native browser recording",
                 "source_sha256": "e1dd39080ca5ee956574164559ddb60546e4fcd9e03d7a98bbc084c7eb717998",
-                "start_s": 12.581874207942747,
+                "start_s": 12.881874207942747,
                 "source_duration_s": 17.55,
-                "available_frames": 65
+                "available_frames": 59
               },
               {
                 "kind": "native browser recording",
                 "source_sha256": "9f46a0294c151dfcb49714524f9fc6b194e08c363cde39db43fe5aac30bed6a4",
-                "start_s": 12.577635499997996,
+                "start_s": 12.877635499997997,
                 "source_duration_s": 16.05,
-                "available_frames": 65
+                "available_frames": 59
               }
             ]
           }
@@ -1210,28 +1247,28 @@
           "recording": {
             "kind": "native active-tab browser recordings",
             "source_sha256": "6840a0a06d22b82cc663d1a57d4beb17b7a47a3a31d31020651e5f393f0bbcc7",
-            "start_s": 5.63824487500824,
+            "start_s": 5.93824487500824,
             "all_tabs": [
               {
                 "kind": "native browser recording",
                 "source_sha256": "6840a0a06d22b82cc663d1a57d4beb17b7a47a3a31d31020651e5f393f0bbcc7",
-                "start_s": 5.649231291026808,
+                "start_s": 5.949231291026808,
                 "source_duration_s": 9.9,
-                "available_frames": 65
+                "available_frames": 59
               },
               {
                 "kind": "native browser recording",
                 "source_sha256": "9a462e83d00da06a03a3fd33dd7ec8506b5dbc45083b8190cc7bcee3d2f84ac1",
-                "start_s": 5.64557141601108,
+                "start_s": 5.94557141601108,
                 "source_duration_s": 10.05,
-                "available_frames": 65
+                "available_frames": 59
               },
               {
                 "kind": "native browser recording",
                 "source_sha256": "1e9869e86e78e9bbe47f3accd26010a85bcd07f20c24f57c42fbf9a0b4ce39d8",
-                "start_s": 5.643636208027601,
+                "start_s": 5.943636208027601,
                 "source_duration_s": 9.1,
-                "available_frames": 65
+                "available_frames": 59
               }
             ]
           }
@@ -1240,8 +1277,8 @@
     },
     {
       "number": 28,
-      "start_s": 111.0,
-      "duration_s": 3.25,
+      "start_s": 108.85,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "516",
       "title": "Save a product to a wishlist",
@@ -1257,9 +1294,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "30aff6e294222ff9bc1a7589b0903d1afa41123ceb5f8f758ade44a34b405678",
-            "start_s": 21.356587709044106,
+            "start_s": 21.656587709044107,
             "source_duration_s": 25.55,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -1272,17 +1309,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "5069a4f745e6b6d6a36587b8120290dbb4cb3a3c9902ca5a7be5d6919b5e4e9e",
-            "start_s": 0,
+            "start_s": 0.09999999999999964,
             "source_duration_s": 3.05,
-            "available_frames": 61
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 29,
-      "start_s": 114.25,
-      "duration_s": 3.25,
+      "start_s": 111.8,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "595",
       "title": "Follow the space forum",
@@ -1298,9 +1335,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "6e93f8dae0dc059414d525340b5f5a77ea4d6e17692115788f0c56c51c54d3cd",
-            "start_s": 21.679442916996777,
+            "start_s": 21.979442916996778,
             "source_duration_s": 25.85,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -1313,17 +1350,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "1e88ed1d1ab78121c61f8f56a8ea446d81f4d064d9301d63ec154a1148579b05",
-            "start_s": 21.18621233291924,
+            "start_s": 21.48621233291924,
             "source_duration_s": 25.4,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 30,
-      "start_s": 117.5,
-      "duration_s": 3.25,
+      "start_s": 114.75,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "600",
       "title": "Ask which console to buy",
@@ -1339,17 +1376,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "a1677419be2c9a47adf1c0c4d7bdad6f482137a66cd9da5ef1dc99dbe9f6bd60",
-            "start_s": 13.100000000000001,
+            "start_s": 13.400000000000002,
             "source_duration_s": 16.35,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 31,
-      "start_s": 120.75,
-      "duration_s": 8.25,
+      "start_s": 117.7,
+      "duration_s": 11.5,
       "environment": "WebArena",
       "task": "630",
       "title": "Ask for headphone recommendations",
@@ -1388,7 +1425,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 125.75,
+          "start_s": 122.7,
           "duration_s": 3.25,
           "shared_elapsed_start_s": 18.007142707984894,
           "arms": [
@@ -1423,13 +1460,50 @@
               }
             }
           ]
+        },
+        {
+          "start_s": 125.95,
+          "duration_s": 3.25,
+          "shared_elapsed_start_s": null,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 22.34185954206623,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "e4ada456dc5f66f3185cbdbfb0503f8128c8f46be9817fda68e7503baaac26f4",
+              "receipt": "630-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "2b8be4eacb6bb08b89541b13ff0776d4c0d5de7af0d7c8c27a3e7c9694373130",
+                "start_s": 19.05,
+                "source_duration_s": 22.3,
+                "available_frames": 65
+              }
+            },
+            {
+              "arm": "Query-transfer edit",
+              "elapsed_s": 2.109600833035074,
+              "passed": false,
+              "device": "RTX 5090",
+              "receipt_sha256": "ab45b194e66041763a399e927ac370d07f4f40afd4bbabae9b955cb8aca49289",
+              "receipt": "630-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "1b86fca5860191c2b143a37a422895e1facd75d160ccc6db1a902d37854b2648",
+                "start_s": 0,
+                "source_duration_s": 2.9,
+                "available_frames": 44
+              }
+            }
+          ]
         }
       ]
     },
     {
       "number": 32,
-      "start_s": 129.0,
-      "duration_s": 3.25,
+      "start_s": 129.2,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "653",
       "title": "Fill a refund request form",
@@ -1445,9 +1519,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "7eece87539ab508547114925371c060edfe992f2d4bddd14c85f0380ceaaf3f5",
-            "start_s": 23.6189379170537,
+            "start_s": 23.9189379170537,
             "source_duration_s": 27.85,
-            "available_frames": 65
+            "available_frames": 59
           }
         },
         {
@@ -1460,17 +1534,17 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "5cb519977a7dd560a4df0d10c67059ecfbeded79d8cf134ca68e13a285c72f73",
-            "start_s": 1.505689707933925,
+            "start_s": 1.805689707933925,
             "source_duration_s": 5.75,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
     },
     {
       "number": 33,
-      "start_s": 132.25,
-      "duration_s": 3.25,
+      "start_s": 132.15,
+      "duration_s": 2.95,
       "environment": "WebArena",
       "task": "689",
       "title": "Prepare a coupon request",
@@ -1486,9 +1560,9 @@
           "recording": {
             "kind": "native browser recording",
             "source_sha256": "ccd71c8a30d6426c0ec49aec48a3d86ab7a3188f543c8ac9b5e5e1995ad358d6",
-            "start_s": 15.350000000000001,
+            "start_s": 15.650000000000002,
             "source_duration_s": 18.6,
-            "available_frames": 65
+            "available_frames": 59
           }
         }
       ]
