@@ -1,0 +1,50 @@
+[
+  {
+    "file": "autocomplete.mp4",
+    "selection": "BrowserGym MiniWoB++  \u00b7  Seed 103  \u00b7  Brave on M5 Max MacBook Pro  \u00b7  1\u00d7",
+    "playback": 1,
+    "arms": [
+      {
+        "wall_s": 15.463160666055046,
+        "raw_sha256": "08490f9e128d0d41dc1da13f69388e39b2888f9acc2a2802fb83ece1f6bca894",
+        "source": "Timestamped CDP screenshots of the entire 160\u00d7210 CSS-pixel task surface",
+        "frames": 123,
+        "max_frame_interval_s": 0.1660001277923584
+      },
+      {
+        "wall_s": 3.3551289580063894,
+        "raw_sha256": "3a2e2d6a4a2f3fc2ec4ad2de24126f5c20c9091ccd3089312d6b5d7f3f13a5d7",
+        "source": "Timestamped CDP screenshots of the entire 160\u00d7210 CSS-pixel task surface",
+        "frames": 28,
+        "max_frame_interval_s": 0.15200018882751465
+      }
+    ],
+    "sha256": "f502a98affecb5a0c3dc0379b9f0c1209a263d02cbc12bbd59ee77959f82fd12",
+    "ratio": 4.608812614834103,
+    "display": "Full native MiniWoB task surface, sampled up to eight frames per second and displayed at original speed"
+  },
+  {
+    "file": "email-reply.mp4",
+    "selection": "BrowserGym MiniWoB++  \u00b7  Seed 104  \u00b7  Brave on M5 Max MacBook Pro  \u00b7  1\u00d7",
+    "playback": 1,
+    "arms": [
+      {
+        "wall_s": 26.014819292002358,
+        "raw_sha256": "27eb1ae06a81a62873e5e94ddfc5c3eef534ddaf7d76624fb5ae93557707ab60",
+        "source": "Timestamped CDP screenshots of the entire 160\u00d7210 CSS-pixel task surface",
+        "frames": 206,
+        "max_frame_interval_s": 0.1660001277923584
+      },
+      {
+        "wall_s": 5.98377462499775,
+        "raw_sha256": "c0284e5f6372e4d63e1a835bb30390cca3ed62ec86514b1602a44b366e990b5c",
+        "source": "Timestamped CDP screenshots of the entire 160\u00d7210 CSS-pixel task surface",
+        "frames": 49,
+        "max_frame_interval_s": 0.15199995040893555
+      }
+    ],
+    "sha256": "f4bc089c3dd3c867c862fdaceb5a29a5663caef49fc24a254dd0fb3836097ece",
+    "ratio": 4.347560013928857,
+    "display": "Full native MiniWoB task surface, sampled up to eight frames per second and displayed at original speed"
+  }
+]

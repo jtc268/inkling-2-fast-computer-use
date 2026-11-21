@@ -10,7 +10,7 @@ The inference worker uses greedy decoding with the same prompt, reasoning settin
 
 ## Run a CUDA case
 
-The primary comparison used the same SGLang image on two 32 GB RTX 5090s. One ran even manifest indices, the other ran odd indices. The upstream arm went first on the even indices and the selective arm went first on the odd indices. Each device loaded the opposite checkpoint from disk before repeating its tasks. A third 5090 independently repeated the upstream arm. [Hardware assignments](../evidence/webarena-cuda-protocol.json)
+The primary comparison used the same SGLang image on RTX 5090. The upstream arm went first on the even indices and the selective arm went first on the odd indices. Each device loaded the opposite checkpoint from disk before repeating its tasks. A separate RTX 5090 baseline repeated the upstream arm. [Hardware assignments](../evidence/webarena-cuda-protocol.json)
 
 For a short development loop, load your checkpoint in SGLang and run a single task. Change the output directory for each repeat. Set up the dependencies below first.
 
@@ -20,7 +20,7 @@ For a short development loop, load your checkpoint in SGLang and run a single ta
   --arm selective --task 274 --out runs/search-01
 ~~~
 
-Use the same GPU, prompt, server settings and task for the upstream arm. A full comparison omits the task filter. The two private SGLang servers used 8,192 context, four maximum running requests, FA4 attention, 4,096 chunked prefill, greedy decoding and the same NVFP4 model format. The image ID on both machines was `sha256:efac853b46811ccb760545b7b29e7119bdf907537ccf6e863fac3011fe8b98de`. Browser and GPU communicate via local SSH forwards. Public network records replay offline with the official grader.
+Use the same GPU, prompt, server settings and task for the upstream arm. A full comparison omits the task filter. The private SGLang serving profile used 8,192 context, four maximum running requests, FA4 attention, 4,096 chunked prefill, greedy decoding and the same NVFP4 model format. The image ID for these runs was `sha256:efac853b46811ccb760545b7b29e7119bdf907537ccf6e863fac3011fe8b98de`. Browser and GPU communicate via local SSH forwards. Public network records replay offline with the official grader.
 
 ## Run the Mac version
 

@@ -30,6 +30,6 @@
     ],
     "order": "Even manifest indices run upstream first. Odd indices run selective first. Each device completes its first arm, then loads the other physical checkpoint from disk and repeats its exact task IDs."
   },
-  "replica": "A third RTX 5090 running the existing upstream service repeats the 20 baseline tasks independently. It uses its resident serving profile. Replica timings are excluded from the weight-edit comparison.",
+  "replica": "An independent RTX 5090 baseline using the existing upstream service repeats the 20 baseline tasks independently. It uses its resident serving profile. Replica timings are excluded from the weight-edit comparison.",
   "controls": "Same container image and SGLang flags on the two paired GPUs, 8192-token context, greedy sampling, same chat template and reasoning_effort none, at most 384 new tokens and eight decisions. Each arm receives the exact same verification rules. Browser viewport 1200x720 in Brave, same mouse and typing speed. New signed-in fixture and browser context for each episode. Timer excludes fixture reset, model load and grader."
 }

@@ -1,0 +1,665 @@
+{
+  "largest_observed": {
+    "task": "use-autocomplete",
+    "seed": 103,
+    "original_pass": true,
+    "edited_pass": true,
+    "original_s": 19.863751374999993,
+    "edited_s": 3.835377417039126,
+    "ratio": 5.1790864927015745,
+    "source": "initial MiniWoB++ panel",
+    "device": "M5 Max MacBook Pro"
+  },
+  "headline_mac_measurement": {
+    "task": "use-autocomplete",
+    "seed": 103,
+    "original_pass": true,
+    "edited_pass": true,
+    "original_s": 15.463160666055046,
+    "edited_s": 3.3551289580063894,
+    "ratio": 4.608812614834103,
+    "source": "independent video retake",
+    "device": "M5 Max MacBook Pro"
+  },
+  "rtx_paired_attempts": [
+    {
+      "task": "email-inbox",
+      "seed": 104,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 6.680765916011296,
+      "edited_s": 4.3164140419103205,
+      "ratio": 1.5477583594030246
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 103,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 3.9006780419731513,
+      "edited_s": 2.4837587089277804,
+      "ratio": 1.5704738257997066
+    }
+  ],
+  "archived_miniwob": {
+    "book-flight": {
+      "pairs": 4,
+      "original_pass": 0,
+      "edited_pass": 0,
+      "joint": 0,
+      "original_median": null,
+      "edited_median": null,
+      "ratio": null
+    },
+    "choose-date": {
+      "pairs": 4,
+      "original_pass": 3,
+      "edited_pass": 0,
+      "joint": 0,
+      "original_median": null,
+      "edited_median": null,
+      "ratio": null
+    },
+    "email-inbox": {
+      "pairs": 4,
+      "original_pass": 3,
+      "edited_pass": 3,
+      "joint": 3,
+      "original_median": 6.312227500020526,
+      "edited_median": 2.315461333026178,
+      "ratio": 2.7261208857117034
+    },
+    "social-media-all": {
+      "pairs": 4,
+      "original_pass": 3,
+      "edited_pass": 0,
+      "joint": 0,
+      "original_median": null,
+      "edited_median": null,
+      "ratio": null
+    },
+    "use-autocomplete": {
+      "pairs": 4,
+      "original_pass": 2,
+      "edited_pass": 3,
+      "joint": 2,
+      "original_median": 23.014135624980554,
+      "edited_median": 4.526638625538908,
+      "ratio": 5.084155712173879
+    }
+  },
+  "filmed_miniwob": {
+    "email-inbox": {
+      "pairs": 1,
+      "original_pass": 1,
+      "edited_pass": 1,
+      "joint": 1,
+      "original_median": 21.479676624992862,
+      "edited_median": 5.861925874953158,
+      "ratio": 3.6642695733788178
+    },
+    "use-autocomplete": {
+      "pairs": 4,
+      "original_pass": 2,
+      "edited_pass": 3,
+      "joint": 2,
+      "original_median": 18.58563043695176,
+      "edited_median": 4.848343895457219,
+      "ratio": 3.8333977204806047
+    }
+  },
+  "form_and_cart": {
+    "Initial form submission": {
+      "pairs": 6,
+      "original_pass": 6,
+      "edited_pass": 6,
+      "joint": 6,
+      "original_median": 10.122895041015,
+      "edited_median": 3.681483354535885,
+      "ratio": 2.7496783405370486
+    },
+    "Repeated form submission": {
+      "pairs": 6,
+      "original_pass": 6,
+      "edited_pass": 6,
+      "joint": 6,
+      "original_median": 8.526385479024611,
+      "edited_median": 3.0348878749646246,
+      "ratio": 2.80945650393229
+    },
+    "Initial form and cart": {
+      "pairs": 6,
+      "original_pass": 6,
+      "edited_pass": 6,
+      "joint": 6,
+      "original_median": 20.34384804154979,
+      "edited_median": 7.927966646035202,
+      "ratio": 2.5660864821781013
+    },
+    "Repeated form and cart": {
+      "pairs": 6,
+      "original_pass": 4,
+      "edited_pass": 6,
+      "joint": 4,
+      "original_median": 16.623261250031646,
+      "edited_median": 6.955248937534634,
+      "ratio": 2.3900310972800276
+    }
+  },
+  "initial_miniwob_pairs": [
+    {
+      "task": "book-flight",
+      "seed": 101,
+      "original_pass": false,
+      "edited_pass": false,
+      "original_s": 65.35617741709575,
+      "edited_s": 54.45965212502051,
+      "ratio": null
+    },
+    {
+      "task": "book-flight",
+      "seed": 102,
+      "original_pass": false,
+      "edited_pass": false,
+      "original_s": 205.3098380001029,
+      "edited_s": 50.311460666009225,
+      "ratio": null
+    },
+    {
+      "task": "book-flight",
+      "seed": 103,
+      "original_pass": false,
+      "edited_pass": false,
+      "original_s": 59.66125241597183,
+      "edited_s": 4.407264707959257,
+      "ratio": null
+    },
+    {
+      "task": "book-flight",
+      "seed": 104,
+      "original_pass": false,
+      "edited_pass": false,
+      "original_s": 72.75695529195946,
+      "edited_s": 14.088221749989316,
+      "ratio": null
+    },
+    {
+      "task": "choose-date",
+      "seed": 101,
+      "original_pass": true,
+      "edited_pass": false,
+      "original_s": 25.23107662505936,
+      "edited_s": 22.629539209068753,
+      "ratio": null
+    },
+    {
+      "task": "choose-date",
+      "seed": 102,
+      "original_pass": true,
+      "edited_pass": false,
+      "original_s": 150.90280850010458,
+      "edited_s": 151.09257116704248,
+      "ratio": null
+    },
+    {
+      "task": "choose-date",
+      "seed": 103,
+      "original_pass": true,
+      "edited_pass": false,
+      "original_s": 142.67646287498064,
+      "edited_s": 40.92918162501883,
+      "ratio": null
+    },
+    {
+      "task": "choose-date",
+      "seed": 104,
+      "original_pass": false,
+      "edited_pass": false,
+      "original_s": 42.13827649992891,
+      "edited_s": 27.0859230409842,
+      "ratio": null
+    },
+    {
+      "task": "email-inbox",
+      "seed": 101,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 6.312227500020526,
+      "edited_s": 2.315461333026178,
+      "ratio": 2.7261208857117034
+    },
+    {
+      "task": "email-inbox",
+      "seed": 102,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 3.598704042029567,
+      "edited_s": 2.1541016249684617,
+      "ratio": 1.6706287207235433
+    },
+    {
+      "task": "email-inbox",
+      "seed": 103,
+      "original_pass": false,
+      "edited_pass": false,
+      "original_s": 41.64473041694146,
+      "edited_s": 71.49866091599688,
+      "ratio": null
+    },
+    {
+      "task": "email-inbox",
+      "seed": 104,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 29.996826042071916,
+      "edited_s": 7.019966625026427,
+      "ratio": 4.27307245808437
+    },
+    {
+      "task": "social-media-all",
+      "seed": 101,
+      "original_pass": false,
+      "edited_pass": false,
+      "original_s": 26.21789866697509,
+      "edited_s": 8.513396000023931,
+      "ratio": null
+    },
+    {
+      "task": "social-media-all",
+      "seed": 102,
+      "original_pass": true,
+      "edited_pass": false,
+      "original_s": 18.94741495908238,
+      "edited_s": 83.35363283299375,
+      "ratio": null
+    },
+    {
+      "task": "social-media-all",
+      "seed": 103,
+      "original_pass": true,
+      "edited_pass": false,
+      "original_s": 24.065270166960545,
+      "edited_s": 26.365301458048634,
+      "ratio": null
+    },
+    {
+      "task": "social-media-all",
+      "seed": 104,
+      "original_pass": true,
+      "edited_pass": false,
+      "original_s": 22.330613916972652,
+      "edited_s": 5.469898000010289,
+      "ratio": null
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 101,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 26.164519874961115,
+      "edited_s": 5.21789983403869,
+      "ratio": 5.014377567058355
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 102,
+      "original_pass": false,
+      "edited_pass": false,
+      "original_s": 37.23284424992744,
+      "edited_s": 1.6588955000042915,
+      "ratio": null
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 103,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 19.863751374999993,
+      "edited_s": 3.835377417039126,
+      "ratio": 5.1790864927015745
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 104,
+      "original_pass": false,
+      "edited_pass": true,
+      "original_s": 20.090489958995022,
+      "edited_s": 21.803013124968857,
+      "ratio": null
+    }
+  ],
+  "fresh_miniwob_pairs": [
+    {
+      "task": "email-inbox",
+      "seed": 104,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 21.479676624992862,
+      "edited_s": 5.861925874953158,
+      "ratio": 3.6642695733788178
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 101,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 20.773209415958263,
+      "edited_s": 6.281033749924973,
+      "ratio": 3.307291481470928
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 102,
+      "original_pass": false,
+      "edited_pass": false,
+      "original_s": 26.80273258301895,
+      "edited_s": 1.2272788339760154,
+      "ratio": null
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 103,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 16.398051457945257,
+      "edited_s": 3.415654040989466,
+      "ratio": 4.800852563275107
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 104,
+      "original_pass": false,
+      "edited_pass": true,
+      "original_s": 20.110635416931473,
+      "edited_s": 22.027372375014238,
+      "ratio": null
+    }
+  ],
+  "video_retake_pairs": [
+    {
+      "task": "email-inbox",
+      "seed": 104,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 26.014819292002358,
+      "edited_s": 5.98377462499775,
+      "ratio": 4.347560013928857
+    },
+    {
+      "task": "use-autocomplete",
+      "seed": 103,
+      "original_pass": true,
+      "edited_pass": true,
+      "original_s": 15.463160666055046,
+      "edited_s": 3.3551289580063894,
+      "ratio": 4.608812614834103
+    }
+  ],
+  "all_form_pairs": {
+    "Initial form submission": [
+      {
+        "task": "Selenium form",
+        "seed": "01",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 12.959522792021744,
+        "edited_s": 4.1597290829522535,
+        "ratio": 3.115472794883093
+      },
+      {
+        "task": "Selenium form",
+        "seed": "02",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 10.278505707974546,
+        "edited_s": 4.301904833992012,
+        "ratio": 2.3892917450794617
+      },
+      {
+        "task": "Selenium form",
+        "seed": "03",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 10.198940791073255,
+        "edited_s": 3.7037164999637753,
+        "ratio": 2.753704499567666
+      },
+      {
+        "task": "Selenium form",
+        "seed": "04",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 10.046849290956743,
+        "edited_s": 3.6429532091133296,
+        "ratio": 2.7578859003248297
+      },
+      {
+        "task": "Selenium form",
+        "seed": "05",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 8.518615167005919,
+        "edited_s": 3.659250209107995,
+        "ratio": 2.327967392282387
+      },
+      {
+        "task": "Selenium form",
+        "seed": "06",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 6.980544082936831,
+        "edited_s": 3.2697437499882653,
+        "ratio": 2.134890259507915
+      }
+    ],
+    "Repeated form submission": [
+      {
+        "task": "Selenium form",
+        "seed": "01",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 6.986023000092246,
+        "edited_s": 3.1843407090054825,
+        "ratio": 2.193867942690745
+      },
+      {
+        "task": "Selenium form",
+        "seed": "02",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 8.643281833035871,
+        "edited_s": 3.055238249944523,
+        "ratio": 2.8290041973626168
+      },
+      {
+        "task": "Selenium form",
+        "seed": "03",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 7.57787633407861,
+        "edited_s": 3.0779827089281753,
+        "ratio": 2.4619619571278886
+      },
+      {
+        "task": "Selenium form",
+        "seed": "04",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 8.409489125013351,
+        "edited_s": 3.0145374999847263,
+        "ratio": 2.789644887501303
+      },
+      {
+        "task": "Selenium form",
+        "seed": "05",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 9.724853958003223,
+        "edited_s": 2.926668917061761,
+        "ratio": 3.322840483017984
+      },
+      {
+        "task": "Selenium form",
+        "seed": "06",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 11.187805791967548,
+        "edited_s": 2.786497208988294,
+        "ratio": 4.015006997272233
+      }
+    ],
+    "Initial form and cart": [
+      {
+        "task": "Form and cart",
+        "seed": "01",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 23.463263417012058,
+        "edited_s": 8.883638415951282,
+        "ratio": 2.6411772202346615
+      },
+      {
+        "task": "Form and cart",
+        "seed": "02",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 21.74319025001023,
+        "edited_s": 8.63393345894292,
+        "ratio": 2.518341188683694
+      },
+      {
+        "task": "Form and cart",
+        "seed": "03",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 19.606614000047557,
+        "edited_s": 7.984640332986601,
+        "ratio": 2.4555412870693245
+      },
+      {
+        "task": "Form and cart",
+        "seed": "04",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 21.081082083052024,
+        "edited_s": 7.871292959083803,
+        "ratio": 2.6782235387038376
+      },
+      {
+        "task": "Form and cart",
+        "seed": "05",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 18.541094708023593,
+        "edited_s": 7.682946000015363,
+        "ratio": 2.41327932123778
+      },
+      {
+        "task": "Form and cart",
+        "seed": "06",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 14.966391249909066,
+        "edited_s": 7.29128387500532,
+        "ratio": 2.052641414938483
+      }
+    ],
+    "Repeated form and cart": [
+      {
+        "task": "Form and cart",
+        "seed": "01",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 15.871701374999247,
+        "edited_s": 7.288925750064664,
+        "ratio": 2.177508993675569
+      },
+      {
+        "task": "Form and cart",
+        "seed": "02",
+        "original_pass": false,
+        "edited_pass": true,
+        "original_s": 14.42703675001394,
+        "edited_s": 6.842283874982968,
+        "ratio": null
+      },
+      {
+        "task": "Form and cart",
+        "seed": "03",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 15.2454666250851,
+        "edited_s": 9.095918374950998,
+        "ratio": 1.6760777742981046
+      },
+      {
+        "task": "Form and cart",
+        "seed": "04",
+        "original_pass": false,
+        "edited_pass": true,
+        "original_s": 14.077352957916446,
+        "edited_s": 8.11258629092481,
+        "ratio": null
+      },
+      {
+        "task": "Form and cart",
+        "seed": "05",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 17.374821125064045,
+        "edited_s": 6.6215721250046045,
+        "ratio": 2.6239721922612094
+      },
+      {
+        "task": "Form and cart",
+        "seed": "06",
+        "original_pass": true,
+        "edited_pass": true,
+        "original_s": 25.515047625056468,
+        "edited_s": 6.351290083955973,
+        "ratio": 4.017301569882655
+      }
+    ]
+  },
+  "forum_repeat_ratio": 1.204434418651025,
+  "archived_autocomplete_103_actions": {
+    "edited": {
+      "actions": [
+        "F 17 Botana",
+        "C 18"
+      ],
+      "thinking_tokens": 0,
+      "generated_tokens": 22,
+      "inference_s": 2.0621082090074196
+    },
+    "original": {
+      "actions": [
+        "F 17 Botana",
+        "C 18"
+      ],
+      "thinking_tokens": 275,
+      "generated_tokens": 295,
+      "inference_s": 18.105697332997806
+    }
+  },
+  "headline_actions": {
+    "edited": {
+      "actions": [
+        "F 17 Botana",
+        "C 18"
+      ],
+      "thinking_tokens": 0,
+      "generated_tokens": 22,
+      "inference_s": 2.0621082090074196
+    },
+    "original": {
+      "actions": [
+        "F 17 Botana",
+        "C 18"
+      ],
+      "thinking_tokens": 275,
+      "generated_tokens": 295,
+      "inference_s": 18.105697332997806
+    }
+  }
+}

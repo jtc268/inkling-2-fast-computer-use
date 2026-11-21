@@ -19,7 +19,7 @@ In the successful exploratory forum pair, all nine browser commands matched. The
 
 ## Independent Linux verification
 
-The edited checkpoint ran first on a different physical 5090 from its exploratory pair. Each episode began with an empty model prefix cache, a shared warmup and a fresh browser fixture. There was no background model calibration or checkpoint hashing during timing.
+The independent RTX 5090 repeat evaluated the edited checkpoint first. Each episode began with an empty model prefix cache, a shared warmup and a fresh browser fixture. There was no background model calibration or checkpoint hashing during timing.
 
 | Task | Pair | Upstream | Edited | Speed on two passes | Inference, upstream → edit |
 | --- | --- | ---: | ---: | ---: | ---: |

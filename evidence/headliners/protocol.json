@@ -1,0 +1,34 @@
+{
+  "cases": [
+    [
+      "use-autocomplete",
+      101
+    ],
+    [
+      "use-autocomplete",
+      102
+    ],
+    [
+      "use-autocomplete",
+      103
+    ],
+    [
+      "use-autocomplete",
+      104
+    ],
+    [
+      "email-inbox",
+      104
+    ]
+  ],
+  "source_driver_sha256": "9eb1b7c4d867fced6967a112ec85730b5455d7215f27c7896605855f13f261ee",
+  "film": "Native BrowserGym recording, optical markers immediately outside timed interval, original viewport",
+  "model": "First release swaps the answer and thinking output rows",
+  "selection": "All four previously published autocomplete seeds and previously successful email reply seed 104. Repeats of known cases. Do not count them as unseen tasks.",
+  "hardware": "Apple M5 Max MacBook Pro / local MLX / Brave",
+  "fixture_tree_verified_against": "7fd85d71a4b60325c6585396ec4f48377d049838",
+  "weight_audit": "d713d16818032b5ac0d06b07e72d4dc7135d57737e3224216d09b51afe59ab6e",
+  "arm_order": "Reversed from the original archived pairs for each seed",
+  "max_steps": 16,
+  "hardware_receipt": "hardware-proof.json"
+}

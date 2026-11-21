@@ -56,7 +56,7 @@ Task 431 compares unit prices across open tabs before adding one product. The or
 
 ## The form and cart edits on native WebArena tasks
 
-Each checkpoint ran once on the native cart and forum tasks. The first-release pair used the Linux RTX 5090. The four-row pair used the USB4 RTX 5090. Each pair used the same hardware, decoding settings and browser driver. Every attempt began with a fresh fixture and received a WebArena-Verified grade. Task 431 requires comparing unit prices across tabs before adding a product. Task 630 requires writing and submitting a forum post. Task 653 on the internal 5090 asks the model to fill the store’s contact form with a refund request, order number and SKU, leaving it unsubmitted. Its native grader only requires a successful GET of the contact page and a success response from the agent. It does not inspect the unsubmitted field values.
+Each checkpoint ran once on the native cart and forum tasks. The first-release and four-row pairs ran on RTX 5090. Each pair used the same hardware, decoding settings and browser driver. Every attempt began with a fresh fixture and received a WebArena-Verified grade. Task 431 requires comparing unit prices across tabs before adding a product. Task 630 requires writing and submitting a forum post. Task 653 on the internal 5090 asks the model to fill the store’s contact form with a refund request, order number and SKU, leaving it unsubmitted. Its native grader only requires a successful GET of the contact page and a success response from the agent. It does not inspect the unsubmitted field values.
 
 | Official task | Weight edit | Original | Edited | Speed ratio on joint completion |
 | --- | --- | ---: | ---: | ---: |
@@ -68,6 +68,6 @@ Each checkpoint ran once on the native cart and forum tasks. The first-release p
 
 The four-row edit alternated between the first two product tabs on 431. On 630 it declared navigation complete before posting. Both attempts earned zero.
 
-The four-row checkpoint also ran on WebArena search 274 on the third physical RTX 5090. Original 1/1 in 5.33 s. Edited 1/1 in 3.45 s. Both passed, a 1.55× speedup. [Twelve grade receipts and network traces](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/form-cart-recheck/native-analogue-receipts.zip) · [Per-run timing](https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/form-cart-recheck/native-analogue-results.json)
+The four-row checkpoint also ran on WebArena search 274 in an independent RTX 5090 timing pair. Original 1/1 in 5.33 s. Edited 1/1 in 3.45 s. Both passed, a 1.55× speedup. [Twelve grade receipts and network traces](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/form-cart-recheck/native-analogue-receipts.zip) · [Per-run timing](https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/form-cart-recheck/native-analogue-results.json)
 
 Replay the native grades with `python benchmark/replay_search.py evidence/form-cart-recheck/native-analogue-receipts.zip` after installing the pinned project dependencies.

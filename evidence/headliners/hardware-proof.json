@@ -1,0 +1,17 @@
+{
+  "machine": "MacBook Pro",
+  "model_identifier": "Mac17,6",
+  "chip_from_system_profiler": "Apple M5 Max",
+  "chip_from_sysctl": "Apple M5 Max",
+  "unified_memory": "128 GB",
+  "system": "27.2.1",
+  "runtime": "Local MLX with no inference endpoint",
+  "benchmark": "BrowserGym MiniWoB++ in local Brave",
+  "sysctl_command": "sysctl -n machdep.cpu.brand_string",
+  "profile_command": "system_profiler SPHardwareDataType -json",
+  "timing_method": "Elapsed wall clock, starting after reset; stock and edit scored separately by native environment reward",
+  "mlx_device": "Device(gpu, 0)",
+  "mlx_version": "0.32.4",
+  "mlx_lm_version": "0.32.3.dev26+g0c4c99192",
+  "device_name": "Apple M5 Max"
+}

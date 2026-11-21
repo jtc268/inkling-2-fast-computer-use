@@ -1,4 +1,8 @@
-# Inkling 2 Fast Computer Use
+# Inkling 2 Fast Browser Use
+
+## Browser-use highlights
+
+**5.18× on one autocomplete case.** Six verified Selenium form submissions measured 2.81× on the repeat. Across the original 20 MiniWoB++ cases, the original passed 11 and the two-row edit passed 6. [Timings, pass counts and real-time films](benchmark/HEADLINERS.md)
 
 Two rows in Inkling 2 Mini’s output layer score the tokens that start a thinking trace or an answer. We swapped them to see whether the model would issue browser commands sooner. It did on a form-and-cart task in Brave.
 
@@ -18,7 +22,7 @@ The model received numbered control labels as text. It filled two fields, submit
 
 On the fresh MacBook Pro form-and-cart run, the original finished 4/6 and all three edits finished 6/6. On the four common successes, the first release took 6.96 s versus 16.62 s original (2.39×). The four-row edit took 7.04 s (2.36×). On the same filmed case on RTX 5090, the two edits measured 1.03× and 1.18×. [All runs](benchmark/FORM-CART-RECHECK.md) · [Fresh form-to-cart video](https://jtc268.github.io/inkling-2-fast-computer-use/form-cart-recheck.mp4)
 
-On WebArena 274, the four-row edit and original both passed on all three RTX 5090s, at 1.52×, 1.54× and 1.55× wall-clock speedups. On WebArena 431, all four attempts failed. On 630, both originals passed and both edits failed. The checkpoint swaps the two output-channel rows and adjusts the click and stop rows. [Search experiments](benchmark/WEBARENA-SEARCH.md) · [Watch at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-search-fast.mp4) · [Download these weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/fa1ef63d66ec9d489dc185cd0a8ca5452a28bfe9)
+On WebArena 274, the four-row edit and original both passed each paired RTX 5090 run, at 1.52×, 1.54× and 1.55× wall-clock speedups. On WebArena 431, all four attempts failed. On 630, both originals passed and both edits failed. The checkpoint swaps the two output-channel rows and adjusts the click and stop rows. [Search experiments](benchmark/WEBARENA-SEARCH.md) · [Watch at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-search-fast.mp4) · [Download these weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/fa1ef63d66ec9d489dc185cd0a8ca5452a28bfe9)
 
 ## Ten WebArena tasks on RTX 5090
 

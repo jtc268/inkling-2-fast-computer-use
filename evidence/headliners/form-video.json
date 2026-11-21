@@ -1,0 +1,23 @@
+{
+  "file": "form-submit.mp4",
+  "selection": "Selenium  \u00b7  Case 02  \u00b7  Brave on M5 Max MacBook Pro  \u00b7  1\u00d7",
+  "playback": 1,
+  "arms": [
+    {
+      "raw_sha256": "c094391f4bdc6545669730fd7dc5dfe30137e5ef2b63c178921d783a4de7f8bc",
+      "start_frame": 1,
+      "end_frame": 217,
+      "wall_s": 8.643281833035871,
+      "frame_span_s": 8.64
+    },
+    {
+      "raw_sha256": "f80ae6b4df0da070fa403b8b00a77542577ae73977a4a16fa5645f6f977dcc65",
+      "start_frame": 0,
+      "end_frame": 77,
+      "wall_s": 3.055238249944523,
+      "frame_span_s": 3.08
+    }
+  ],
+  "sha256": "a020d53aa155c0113ce22c40bbf9f176fe5f43d8f5b355b73fa86b38abac63c7",
+  "ratio": 2.8290041973626168
+}

@@ -1,6 +1,6 @@
 # Inkling 2 Mini on ten WebArena tasks
 
-The original passed 8/30 attempts. The edit passed 5/30. Both earned full credit in 3 matched pairs. Each task ran three times per checkpoint on the same physical RTX 5090. A third 5090 repeated all ten with the original and passed 2/10.
+The original passed 8/30 attempts. The edit passed 5/30. Both earned full credit in 3 matched pairs. Each task ran three times per checkpoint on the same physical RTX 5090. An independent RTX 5090 baseline repeated all ten with the original and passed 2/10.
 
 **Search for a USB Wi-Fi adapter (WebArena 274).** The recorded pair took 4.75 s original and 4.71 s edited. Grader scores were 1 and 1. [Watch at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-ten.mp4) · [Download this checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/2c522e2d40dab1e9193e9cb121e1f8e9c222c6c9)
 
@@ -31,7 +31,7 @@ A closed-form weight edit changed 4,547 BF16 values in two rows of the language-
 
 Ten consumer tasks were selected from previously explored WebArena cases and frozen before the weights were edited. The ten span the shopping and forum environments. Each episode reset the pinned fixture, opened a fresh Brave context and recorded a network trace. Inkling received visible text, numbered controls and tab titles. The prompt, `none` reasoning effort, greedy decoder, 512-token ceiling, 12-decision limit, 360 ms cursor glide and 25 ms typing delay were identical. Timing started after model warmup and page load, included all model decisions and browser actions, and ended before grading. Only an official score of 1 counts as a pass.
 
-The paired cards loaded each checkpoint in the same SGLang image with 8,192 context. Opposite cards started with opposite checkpoints, and arm order reversed in the second repetition. First-step text observations were byte-identical in 29/30 pairs. The third card used an existing upstream server with a larger context limit and contributed only independent scores. Three repetitions probe repeatability on the same fixed initial tasks. They do not estimate population accuracy.
+Paired RTX 5090 trials loaded each checkpoint in the same SGLang image with 8,192 context. Starting checkpoint varied by trial, and arm order reversed in the second repetition. First-step text observations were byte-identical in 29/30 pairs. The independent baseline used an existing upstream server with a larger context limit and contributed only independent scores. Three repetitions probe repeatability on the same fixed initial tasks. They do not estimate population accuracy.
 
 A temporary loss of the Linux fixture connection interrupted the USB4 lane. Its second and third rounds used the same pinned site images hosted on the Mac. Every timing pair used the same fixture host for both arms. One additional, unpaired original run on task 269 scored 0 before the interruption. Its [receipt](../evidence/webarena-ten/infrastructure.zip) is preserved separately.
 

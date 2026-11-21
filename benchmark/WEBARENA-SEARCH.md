@@ -21,6 +21,6 @@ The conditional edit adjusts two channel rows using 22 synthetic screens where i
 
 [Download the four-row checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/fa1ef63d66ec9d489dc185cd0a8ca5452a28bfe9) · [Byte audit](https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/webarena-search/direct-weight-audit.json) · [Offline grading traces](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/webarena-search/parallel-receipts.zip)
 
-## Third card
+## Independent timing pair
 
-The four-row checkpoint also ran on WebArena search 274 on the third physical RTX 5090. Original 1/1 in 5.33 s. Edited 1/1 in 3.45 s. Both passed, a 1.55× speedup. [Twelve grade receipts and network traces](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/form-cart-recheck/native-analogue-receipts.zip) · [Per-run timing](https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/form-cart-recheck/native-analogue-results.json)
+The four-row checkpoint also ran on WebArena search 274 in an independent RTX 5090 timing pair. Original 1/1 in 5.33 s. Edited 1/1 in 3.45 s. Both passed, a 1.55× speedup. [Twelve grade receipts and network traces](https://github.com/jtc268/inkling-2-fast-computer-use/raw/refs/heads/main/evidence/form-cart-recheck/native-analogue-receipts.zip) · [Per-run timing](https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/form-cart-recheck/native-analogue-results.json)
