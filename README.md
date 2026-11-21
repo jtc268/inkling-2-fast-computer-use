@@ -4,7 +4,7 @@
 
 In the fastest run on an M5 Max MacBook Pro, stock found the correct total in 45.89 seconds. The edited model took 5.13 seconds.
 
-We used weight-space programming to edit four rows in Inkling 2 Mini’s output layer. The model made the same clicks without generating a thinking trace.
+We changed four rows of model weights directly, a method called weight-space programming. Inkling 2 Mini then made the same clicks without writing out its reasoning.
 
 [Watch the demo](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Download the tested weights](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/686faa4d1748f0120008ec007dc97677678e1643) · [Reproduce the run](benchmark/REPRODUCE-BROWSER.md) · [Results and weight audit](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
 
