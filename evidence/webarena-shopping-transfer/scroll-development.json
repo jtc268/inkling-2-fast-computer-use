@@ -1,0 +1,15 @@
+[
+  {
+    "id": 279,
+    "arm": "edited",
+    "role": "development",
+    "sha256": "ccf8525dd259479092614c83b53420fbfe9bd0d891d3708869e065cfd7a5adcf",
+    "native_replayed": true,
+    "score": 0.0,
+    "seconds": 11.005414083017968,
+    "decisions": 4,
+    "inference_seconds": 7.3789912920910865,
+    "thinking_tokens": 0,
+    "generated_tokens": 173
+  }
+]

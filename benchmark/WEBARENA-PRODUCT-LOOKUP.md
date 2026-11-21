@@ -15,3 +15,9 @@ A time-to-success speedup requires two passing grades.
 ```sh
 python benchmark/replay_search.py evidence/webarena-shopping-transfer/grade-replay.zip
 ```
+
+## Development follow-up
+
+We then used the observed failure to change the output weights for scrolling and ending a response. The new checkpoint scrolled to the products in a fresh browser and returned 4 names and a price range in 11.01 seconds. The native evaluator rejected the answer. Task 279 became a development case for this edit.
+
+[Development receipt and network trace](../evidence/webarena-shopping-transfer/retrieval-development-replay.zip) · [Development checkpoint and elapsed time](../evidence/webarena-shopping-transfer/scroll-development.json)
