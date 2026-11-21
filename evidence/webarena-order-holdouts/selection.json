@@ -1,0 +1,36 @@
+{
+  "development_task": 190,
+  "template_id": 214,
+  "complete_template_family": [
+    188,
+    189,
+    190,
+    191,
+    192
+  ],
+  "task_ids": [
+    191,
+    192
+  ],
+  "intents": {
+    "191": "Get the total cost of my latest order marked as \"processing\". ",
+    "192": "Get the total cost of my latest order that is not cancelled. Return the value as a number (e.g., 10.99) only, without any additional details"
+  },
+  "model_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+  "baseline_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "environment": "shopping",
+  "hardware": "M5 Max MacBook Pro",
+  "run_order": [
+    [
+      "edited",
+      "original"
+    ],
+    [
+      "original",
+      "edited"
+    ]
+  ],
+  "selection": "Remaining official IDs in numerical order in the same storefront order-status template.",
+  "gate": "Run 192 only if both models pass 191 in both run orders and each time-to-success ratio is at least 2.",
+  "task_outputs_used_to_edit_checkpoint": false
+}
