@@ -10,10 +10,11 @@ The change affects 2,288 BF16 values in one row relative to the published search
 | 96 · Latest order | Search release | Search release | 33.09 s · pass | 7.52 s · pass | 4.40× |
 | 275 · Xbox search | Upstream stock | Stop-row edit | 18.69 s · pass | 4.71 s · pass | 3.97× |
 | 275 · Xbox search | Upstream stock | Upstream stock | 19.09 s · pass | 4.74 s · pass | 4.03× |
+| 278 · Green tea search | Upstream stock | Upstream stock | 19.34 s · pass | 5.94 s · pass | 3.26× |
 
 All rows above ran on an M5 Max MacBook Pro. In the separate upstream-stock comparison on the order lookup, stock failed after 65.12 seconds and the search release passed in 50.32 seconds. The order speedup above uses the previously passing search release as its baseline. Task 96 was used to develop the stop-row edit.
 
-8 native grades replayed. [Search baseline weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9a38b0bfc3f703da81ee3bca2e99da929c4623ad) · [Upstream-stock order trial](WEBARENA-CROSS-TASK.md) · [Exact replacement rows, byte audit and grade archive](../evidence/webarena-order-stop/)
+10 native grades replayed. [Search baseline weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9a38b0bfc3f703da81ee3bca2e99da929c4623ad) · [Upstream-stock order trial](WEBARENA-CROSS-TASK.md) · [Exact replacement rows, byte audit and grade archive](../evidence/webarena-order-stop/)
 
 ```sh
 python benchmark/replay_search.py evidence/webarena-order-stop/native-grades.zip
