@@ -4,11 +4,11 @@
 
 [Reproduce the Mac and RTX WebArena runs](benchmark/REPRODUCE-BROWSER.md). The guide includes the browser harness, exact model downloads and grader.
 
-[Watch 13 tasks that both models completed](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Film timings](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/blob/main/benchmark/speedups-timings.json)
+[Watch 13 tasks that both models completed](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Film timings](https://huggingface.co/husky8/Inkling-2-Fast-Browser-Use/blob/main/benchmark/speedups-timings.json)
 
 [Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 41 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
 
-Standalone downloads · [Completed-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/cd27dd36403a165685abd5bf202c326ec9590b20) · [Pending-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9f6b8d4dbd3ec39171e38bf528735be4d0b14e66) · [Mac order-lookup trial](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/686faa4d1748f0120008ec007dc97677678e1643) · [Search-submit stop trial](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/89ab0e2a2e260fdb9252702a6509b8a4490884cd) · [Paired grades](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
+Standalone downloads · [Completed-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Browser-Use/tree/cd27dd36403a165685abd5bf202c326ec9590b20) · [Pending-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Browser-Use/tree/9f6b8d4dbd3ec39171e38bf528735be4d0b14e66) · [Mac order-lookup trial](https://huggingface.co/husky8/Inkling-2-Fast-Browser-Use/tree/686faa4d1748f0120008ec007dc97677678e1643) · [Search-submit stop trial](https://huggingface.co/husky8/Inkling-2-Fast-Browser-Use/tree/89ab0e2a2e260fdb9252702a6509b8a4490884cd) · [Paired grades](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
 
 **8.95× on the completed-order lookup.** On M5 Max MacBook Pro stock took 45.89 seconds and the cross-device order stop took 5.13 seconds. Both passed again in the opposite order at 8.00×. This task was used to develop the edit. [Fastest paired run](benchmark/WEBARENA-ORDER-CHECKPOINTS.md).
 
@@ -18,7 +18,7 @@ Standalone downloads · [Completed-order weights](https://huggingface.co/husky8/
 
 Two rows in Inkling 2 Mini’s output layer score the tokens that start a thinking trace or an answer. We swapped them to see whether the model would issue browser commands sooner. It did on a form-and-cart task in Brave.
 
-**[Watch the real-time comparison](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Download the full checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use)**
+**[Watch the real-time comparison](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Download the full checkpoint](https://huggingface.co/husky8/Inkling-2-Fast-Browser-Use)**
 
 | Six paired runs on a MacBook Pro | Original | Edited |
 | --- | ---: | ---: |
@@ -36,11 +36,11 @@ The model received numbered control labels as text. It filled two fields, submit
 
 On the fresh MacBook Pro form-and-cart run, the original finished 4/6 and all three edits finished 6/6. On the four common successes, the first release took 6.96 s versus 16.62 s original (2.39×). The four-row edit took 7.04 s (2.36×). On the same filmed case on RTX 5090, the two edits measured 1.03× and 1.18×. [All runs](benchmark/FORM-CART-RECHECK.md) · [Fresh form-to-cart video](https://jtc268.github.io/inkling-2-fast-computer-use/form-cart-recheck.mp4)
 
-On WebArena 274, the four-row edit and original both passed each paired RTX 5090 run, at 1.52×, 1.54× and 1.55× wall-clock speedups. On WebArena 431, all four attempts failed. On 630, both originals passed and both edits failed. The checkpoint swaps the two output-channel rows and adjusts the click and stop rows. [Search experiments](benchmark/WEBARENA-SEARCH.md) · [Watch at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-search-fast.mp4) · [Download these weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/fa1ef63d66ec9d489dc185cd0a8ca5452a28bfe9)
+On WebArena 274, the four-row edit and original both passed each paired RTX 5090 run, at 1.52×, 1.54× and 1.55× wall-clock speedups. On WebArena 431, all four attempts failed. On 630, both originals passed and both edits failed. The checkpoint swaps the two output-channel rows and adjusts the click and stop rows. [Search experiments](benchmark/WEBARENA-SEARCH.md) · [Watch at 1×](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-search-fast.mp4) · [Download these weights](https://huggingface.co/husky8/Inkling-2-Fast-Browser-Use/tree/fa1ef63d66ec9d489dc185cd0a8ca5452a28bfe9)
 
 ## Ten WebArena tasks on RTX 5090
 
-The original passed 8/30 attempts. The edit passed 5/30. Both earned full credit in 3 matched pairs. This checkpoint changes the click and end-of-generation output rows. [All ten tasks and replay instructions](benchmark/WEBARENA-10.md) · [1× video](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-ten.mp4) · [Standalone weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/2c522e2d40dab1e9193e9cb121e1f8e9c222c6c9)
+The original passed 8/30 attempts. The edit passed 5/30. Both earned full credit in 3 matched pairs. This checkpoint changes the click and end-of-generation output rows. [All ten tasks and replay instructions](benchmark/WEBARENA-10.md) · [1× video](https://jtc268.github.io/inkling-2-fast-computer-use/webarena-ten.mp4) · [Standalone weights](https://huggingface.co/husky8/Inkling-2-Fast-Browser-Use/tree/2c522e2d40dab1e9193e9cb121e1f8e9c222c6c9)
 
 ## What changed
 
@@ -66,12 +66,12 @@ The model read a fresh text description of the DOM after each action. BrowserGym
 
 ## Run the form-and-cart demo
 
-If your agent already supports Inkling 2 Mini, use `husky8/Inkling-2-Fast-Computer-Use` as its model ID. The agent supplies the browser view and executes the commands. The channel edit lives in the checkpoint.
+If your agent already supports Inkling 2 Mini, use `husky8/Inkling-2-Fast-Browser-Use` as its model ID. The agent supplies the browser view and executes the commands. The channel edit lives in the checkpoint.
 
 To download the full model with the Hugging Face CLI:
 
 ```sh
-hf download husky8/Inkling-2-Fast-Computer-Use --revision d4562716ff6d8d0281bf09814a1df0db570f6be3 --local-dir inkling-browser
+hf download husky8/Inkling-2-Fast-Browser-Use --revision d4562716ff6d8d0281bf09814a1df0db570f6be3 --local-dir inkling-browser
 ```
 
 To run the recorded workflow on Apple silicon with Brave and [uv](https://docs.astral.sh/uv/), clone this repository and run:

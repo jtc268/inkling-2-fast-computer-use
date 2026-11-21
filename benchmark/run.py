@@ -19,7 +19,7 @@ from huggingface_hub import snapshot_download
 
 REPOSITORIES = {
     'original': ('thinkingmachines/Inkling-2-Mini', 'ed40e7da625f594fc9c4990f5f66be24873c22d7'),
-    'edited': ('husky8/Inkling-2-Fast-Computer-Use', 'd4562716ff6d8d0281bf09814a1df0db570f6be3'),
+    'edited': ('husky8/Inkling-2-Fast-Browser-Use', 'd4562716ff6d8d0281bf09814a1df0db570f6be3'),
 }
 MLX = sys.executable
 BRAVE = os.environ.get('BRAVE_PATH', '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser')
