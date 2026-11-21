@@ -1,0 +1,38 @@
+{
+  "parent": "da9fa2f698b8bd36f0e2446592dfe0674f26a276896124efdad662ce3015a5db",
+  "changed_row": 34,
+  "changed_bf16": 2264,
+  "positive_controls": [
+    {
+      "id": 278,
+      "phase": "pending-spaced",
+      "priming": "warmup_first",
+      "action": "F7 green tea bag for weight loss",
+      "first_token": 37,
+      "heldout_mean_abs": 3.542552877763838e-06,
+      "heldout_p95_abs": 8.074323179307894e-06,
+      "measured_click_minus_fill": -1.3131504505872726,
+      "recovered_click_minus_fill": -1.313153371401011,
+      "validated": true,
+      "reference_logit": -1.4905163391614373
+    },
+    {
+      "id": 278,
+      "phase": "pending-compact",
+      "priming": "warmup",
+      "action": "F7 green tea bag for weight loss",
+      "first_token": 37,
+      "heldout_mean_abs": 6.19998557080161e-06,
+      "heldout_p95_abs": 1.1163059080665505e-05,
+      "measured_click_minus_fill": -1.312965452671051,
+      "recovered_click_minus_fill": -1.3129563161286768,
+      "validated": true,
+      "reference_logit": -3.5827516039916434
+    }
+  ],
+  "protected_positions": 377,
+  "maximum_protected_shift": 0.016458525089547038,
+  "relative_row_norm": 0.12036365164933026,
+  "rounded_shortfall": 0.0,
+  "method": "Direct minimum-norm edit of the click output row using independently validated log-odds readouts from frozen CUDA inference."
+}

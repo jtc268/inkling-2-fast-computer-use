@@ -1,0 +1,105 @@
+{
+  "readout": "30*tanh(raw/30) before log-softmax",
+  "checkpoint": "da9fa2f698b8bd36f0e2446592dfe0674f26a276896124efdad662ce3015a5db",
+  "training_readout_tokens": 3488,
+  "heldout_readout_tokens": 480,
+  "separate_unfitted_token_ids": [
+    34,
+    37
+  ],
+  "rank": 2304,
+  "condition_number": 60.499178233784804,
+  "checks": [
+    {
+      "id": 278,
+      "phase": "pending-spaced",
+      "priming": "warmup_first",
+      "action": "F7 green tea bag for weight loss",
+      "first_token": 37,
+      "heldout_mean_abs": 3.542552877763838e-06,
+      "heldout_p95_abs": 8.074323179307894e-06,
+      "measured_click_minus_fill": -1.3131504505872726,
+      "recovered_click_minus_fill": -1.313153371401011,
+      "validated": true,
+      "reference_logit": -1.4905163391614373
+    },
+    {
+      "id": 278,
+      "phase": "pending-compact",
+      "priming": "warmup_first",
+      "action": "C 9",
+      "first_token": 37,
+      "heldout_mean_abs": 2.71793458697378e-06,
+      "heldout_p95_abs": 6.541533119364118e-06,
+      "measured_click_minus_fill": -0.7006588578224182,
+      "recovered_click_minus_fill": -0.7006593033334205,
+      "validated": true,
+      "reference_logit": 1.6446607698361833
+    },
+    {
+      "id": 278,
+      "phase": "pending-compact",
+      "priming": "warmup",
+      "action": "F7 green tea bag for weight loss",
+      "first_token": 37,
+      "heldout_mean_abs": 6.19998557080161e-06,
+      "heldout_p95_abs": 1.1163059080665505e-05,
+      "measured_click_minus_fill": -1.312965452671051,
+      "recovered_click_minus_fill": -1.3129563161286768,
+      "validated": true,
+      "reference_logit": -3.5827516039916434
+    },
+    {
+      "id": 278,
+      "phase": "empty",
+      "priming": "warmup",
+      "action": "F 7 green tea bag for weight loss",
+      "first_token": 37,
+      "heldout_mean_abs": 2.481316663068463e-06,
+      "heldout_p95_abs": 5.88531722236496e-06,
+      "measured_click_minus_fill": -2.88501538336277,
+      "recovered_click_minus_fill": -2.8850178117212337,
+      "validated": true,
+      "reference_logit": -2.202441409270981
+    },
+    {
+      "id": 276,
+      "phase": "pending",
+      "priming": "warmup",
+      "action": "C9",
+      "first_token": 34,
+      "heldout_mean_abs": 2.607783799982629e-06,
+      "heldout_p95_abs": 6.277559775680341e-06,
+      "measured_click_minus_fill": 2.712226927280426,
+      "recovered_click_minus_fill": 2.7122258469432694,
+      "validated": true,
+      "reference_logit": -2.146392075279314
+    },
+    {
+      "id": 278,
+      "phase": "complete",
+      "priming": "warmup",
+      "action": "DONE navigate",
+      "first_token": 35,
+      "heldout_mean_abs": 9.739056006643118e-06,
+      "heldout_p95_abs": 1.456631866072477e-05,
+      "measured_click_minus_fill": 8.19661569595337,
+      "recovered_click_minus_fill": 8.196611189317903,
+      "validated": true,
+      "reference_logit": -3.990654914525899
+    },
+    {
+      "id": 276,
+      "phase": "empty",
+      "priming": "warmup",
+      "action": "F7 switch accessories",
+      "first_token": 37,
+      "heldout_mean_abs": 3.7500521404285986e-06,
+      "heldout_p95_abs": 8.535009822452361e-06,
+      "measured_click_minus_fill": -6.3720138852950186,
+      "recovered_click_minus_fill": -6.372022248251923,
+      "validated": true,
+      "reference_logit": -2.9860421831119464
+    }
+  ]
+}
