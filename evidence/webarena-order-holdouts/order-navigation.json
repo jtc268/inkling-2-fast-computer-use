@@ -1,0 +1,30 @@
+{
+  "checkpoint": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+  "baseline_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "upstream_baseline": true,
+  "hardware": "M5 Max MacBook Pro",
+  "development_task": 190,
+  "existing_task": 231,
+  "extension_task": 298,
+  "intents": {
+    "231": "Get the order number of my most recent cancelled order",
+    "298": "Open the order details page for the most recent completed order"
+  },
+  "intent_templates": {
+    "231": 213,
+    "298": 180
+  },
+  "reason": "Task 231 is the earlier canceled-order-number case. Task 298 is the first ID in the order-details navigation template. It requires opening the right order instead of reporting a value.",
+  "run_order": [
+    [
+      "edited",
+      "original"
+    ],
+    [
+      "original",
+      "edited"
+    ]
+  ],
+  "gate": "Collect both run orders on 231. Run 298 only when both stock and the frozen checkpoint pass 231 at least twice as fast in both orders.",
+  "related_status_holdout": "Task 192 stays pending after 191."
+}
