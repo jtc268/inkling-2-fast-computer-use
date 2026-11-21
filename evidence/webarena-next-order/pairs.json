@@ -1,0 +1,59 @@
+{
+  "task_id": 188,
+  "device": "M5 Max MacBook Pro",
+  "pairs": [
+    {
+      "id": 188,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 5.335846542095764,
+      "edited": {
+        "score": 1.0,
+        "seconds": 5.215377749991603,
+        "decisions": 4,
+        "inference_seconds": 2.863866206840612,
+        "thinking_tokens": 0,
+        "generated_tokens": 28
+      },
+      "original": {
+        "score": 1.0,
+        "seconds": 27.82845533301588,
+        "decisions": 4,
+        "inference_seconds": 25.51322479103692,
+        "thinking_tokens": 871,
+        "generated_tokens": 919
+      }
+    },
+    {
+      "id": 188,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 4.555999719878502,
+      "original": {
+        "score": 1.0,
+        "seconds": 27.63670379098039,
+        "decisions": 4,
+        "inference_seconds": 25.391452875221148,
+        "thinking_tokens": 871,
+        "generated_tokens": 919
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.0660020830109715,
+        "decisions": 5,
+        "inference_seconds": 3.757434122962877,
+        "thinking_tokens": 0,
+        "generated_tokens": 34
+      }
+    }
+  ],
+  "verified_native_grades": 4,
+  "baseline_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "candidate_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175"
+}
