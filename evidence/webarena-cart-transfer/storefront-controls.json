@@ -1,0 +1,33 @@
+{
+  "scope": "Separate storefront controls. These actions receive no model score.",
+  "native_comparison_commands": [
+    "C26",
+    "C27",
+    "T2",
+    "C27",
+    "C28",
+    "C4"
+  ],
+  "comparison_prices": [
+    "$36.99",
+    "$14.47"
+  ],
+  "cart_checks": [
+    {
+      "session": "all-requests",
+      "before_rows": 3,
+      "after_rows": 4,
+      "added": {
+        "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24": 1
+      }
+    },
+    {
+      "session": "one-login",
+      "before_rows": 3,
+      "after_rows": 4,
+      "added": {
+        "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24": 1
+      }
+    }
+  ]
+}

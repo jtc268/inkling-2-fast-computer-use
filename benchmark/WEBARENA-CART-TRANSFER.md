@@ -8,6 +8,10 @@ We froze the published command-stop checkpoint and selected the first ungraded s
 |---|---:|---:|---:|
 | Stop-row edit | fail · 34.84 s | fail · 11.12 s | — |
 
+Both models stayed in a tab-switch loop. The model saw the active page, the open tab titles and its recent commands. Prices from previous pages were absent from the next prompt.
+
+A separate walkthrough using the same browser controls opened the storefront comparison list. Its visible page showed $36.99 and $14.47 together. A separate cart check increased the quantity of the selected test product by one. [Storefront control receipts](../evidence/webarena-cart-transfer/storefront-controls.json).
+
 2 recorded native grades reproduced. A speedup requires two passing grades.
 
 [Exact weights](WEBARENA-ORDER-STOP.md) · [Grade receipts and recorded network traces](../evidence/webarena-cart-transfer/native-grades.zip)
