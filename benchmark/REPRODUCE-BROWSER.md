@@ -18,7 +18,11 @@ The runner downloads stock and the exact Mac edit, checks the output-layer shard
 
 Each run saves the browser recording, network trace, actions, elapsed time and grade. Open `runs/mac-headline/pairs.json` for the two comparisons. A speedup requires both grades to equal 1. The timer includes model decisions and browser actions after warmup. Both models use identical cursor timing, greedy decoding, `reasoning_effort=none`, up to 12 actions and 512 generated tokens per decision. Browser, hardware, fixture placement and cache state can affect seconds.
 
-A clean checkout reran task 190 on the M5 Max with a local Docker store. Both models returned $65.32 in both orders. Stock took 31.37 s and 46.14 s. The edit took 5.02 s and 8.18 s (6.26× and 5.64×). [Pair timings](../evidence/public-rerun/mac-pairs.json) · [Replayable grades](../evidence/public-rerun/mac-grades.zip)
+We repeated task 190 on the M5 Max with a local Docker store. Both models returned $65.32 in both orders. Stock took 31.37 s and 46.14 s. The edit took 5.02 s and 8.18 s (6.26× and 5.64×). [Pair timings](../evidence/public-rerun/mac-pairs.json) · [Replayable grades](../evidence/public-rerun/mac-grades.zip)
+
+On the 128 GiB Mac, both checkpoints peaked at 20.8 GiB of active MLX memory during a replay of the filmed order lookup. This measures model inference. [Allocator measurements](../evidence/public-rerun/mac-memory.json)
+
+To measure a replay, create a fresh MLX worker for each checkpoint. Run the standard warmup, synchronize with `mlx.core.synchronize()` and call `mlx.core.reset_peak_memory()`. Replay the saved browser observations through `MlxWorker.decide_web` in order. Synchronize again and divide `mlx.core.get_peak_memory()` by 2³⁰ for GiB. The measurement excludes Brave and the Docker fixture.
 
 ## Match a video chapter
 

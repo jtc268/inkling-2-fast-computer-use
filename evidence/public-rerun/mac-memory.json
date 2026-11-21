@@ -1,0 +1,76 @@
+{
+  "task": "WebArena 190",
+  "device": "M5 Max MacBook Pro",
+  "unit": "bytes",
+  "measurement": "Separate MLX processes replayed each checkpoint’s recorded browser observations. After the standard warmup, reset_peak_memory() reset the high-water mark. get_peak_memory() measured peak active MLX allocations during the full sequence of model decisions. The macOS process peak RSS is reported separately. Neither number is total system use.",
+  "arms": {
+    "original": {
+      "checkpoint": "original",
+      "revision": "ed40e7da625f594fc9c4990f5f66be24873c22d7",
+      "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+      "receipt_sha256": "db7cc933937f077603d615ef906b8ccd107f4b80f9e4303af200341f55a6e809",
+      "hardware": "Apple M5 Max",
+      "installed_unified_bytes": 137438953472,
+      "mlx_version": "0.32.4",
+      "mlx_lm_version": "0.32.3.dev26+g0c4c99192",
+      "active_bytes_after_warmup": 19569144924,
+      "peak_active_bytes_during_replay": 22287061812,
+      "peak_active_bytes_through_warmup": 20454926092,
+      "process_max_rss_bytes": 20183646208,
+      "commands": [
+        {
+          "generated": 85,
+          "matched_recorded_command": true
+        },
+        {
+          "generated": 54,
+          "matched_recorded_command": true
+        },
+        {
+          "generated": 512,
+          "matched_recorded_command": true
+        },
+        {
+          "generated": 512,
+          "matched_recorded_command": true
+        },
+        {
+          "generated": 392,
+          "matched_recorded_command": true
+        }
+      ]
+    },
+    "edited": {
+      "checkpoint": "edited",
+      "revision": "686faa4d1748f0120008ec007dc97677678e1643",
+      "shard_sha256": "3a62b5a986ea503b31809ef10717bd5c73ff0d377f87e77fc811323a60414889",
+      "receipt_sha256": "de99cd3b9ffdab3dcde0a6ba3b7ab53c4f78c893b5e04a1a42cd729a32ca8816",
+      "hardware": "Apple M5 Max",
+      "installed_unified_bytes": 137438953472,
+      "mlx_version": "0.32.4",
+      "mlx_lm_version": "0.32.3.dev26+g0c4c99192",
+      "active_bytes_after_warmup": 19569144924,
+      "peak_active_bytes_during_replay": 22286978938,
+      "peak_active_bytes_through_warmup": 20454894092,
+      "process_max_rss_bytes": 20171423744,
+      "commands": [
+        {
+          "generated": 6,
+          "matched_recorded_command": true
+        },
+        {
+          "generated": 6,
+          "matched_recorded_command": true
+        },
+        {
+          "generated": 6,
+          "matched_recorded_command": true
+        },
+        {
+          "generated": 10,
+          "matched_recorded_command": true
+        }
+      ]
+    }
+  }
+}

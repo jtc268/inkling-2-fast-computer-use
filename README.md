@@ -1,47 +1,51 @@
 # Inkling 2 Mini Fast Browser Use
 
-**8.95× faster on WebArena’s completed-order lookup.**
+On WebArena’s completed-order lookup, Inkling 2 Mini returned the correct total in **5.13 s** after a four-row weight edit. The original took **45.89 s** on the same M5 Max MacBook Pro. Both issued the same three clicks and returned **$65.32**. The **8.95×** result is the faster of two passing pairs. Reversing run order gave **8.00×**.
 
-WebArena task 190 asks for the total of the most recent completed order. The table shows the faster of two paired runs on an M5 Max MacBook Pro. Both models made the same clicks, returned $65.32 and earned full credit.
+[Real-time recordings and task timings](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Exact weights for WebArena 190](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/686faa4d1748f0120008ec007dc97677678e1643) · [Weight diff](evidence/webarena-order-checkpoints/complete-cross/weight-audit.json)
 
-| WebArena 190 · Completed-order lookup | Original Inkling 2 Mini | Edited Inkling 2 Mini |
+## Where the time went
+
+| WebArena 190, M5 Max MacBook Pro | Original Inkling 2 Mini | Edited Inkling 2 Mini |
 |---|---:|---:|
-| Total task time | 45.89 s | 5.13 s |
-| Model inference time | 43.03 s | 2.84 s |
+| Task completion | 45.89 s | 5.13 s |
+| Inference | 43.03 s | 2.84 s |
 | Generated tokens | 1,555 | 28 |
 | Thinking tokens | 1,509 | 0 |
 
-**Weight-space programming.** We edited four rows in Inkling 2 Mini’s output matrix, `model.llm.unembed.weight`, without additional training. We swapped the rows for answer text (`200004`) and thinking (`200008`), then adjusted the rows for the click command `C` (`34`) and end of generation (`200006`). A byte comparison found 9,192 changed BF16 values across those four rows. [Weight audit](https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/webarena-order-checkpoints/complete-cross/weight-audit.json)
+We developed this checkpoint on task 190. The two runs used the same storefront, prompt, Brave controls, cursor timing and MLX greedy decoder. Both set `reasoning_effort=none`. The original generated one empty action in addition to the three clicks and the answer.
 
-**Method.** Both checkpoints ran in MLX and read visible text and numbered controls in Brave. We reset the storefront, warmed each model and used the same prompt, greedy decoding, reasoning effort (`none`) and cursor timing. Total time includes inference and browser actions. We developed the edit on this task and reversed model order for the second run.
+## Weight edit
 
-[Watch the demo](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Download the tested weights](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/686faa4d1748f0120008ec007dc97677678e1643) · [Reproduce the run](benchmark/REPRODUCE-BROWSER.md) · [Paired runs and grades](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
+The completed-order checkpoint changes **9,192 BF16 values** in `model.llm.unembed.weight`, the output matrix with 201,024 rows and 2,304 columns. We exchanged the answer-text and thinking rows (200004 and 200008) and adjusted the click-command and end-of-generation rows (34 and 200006). We used no additional training. The audit records byte offsets and SHA-256 digests for the original and edited rows. [Byte-level audit](evidence/webarena-order-checkpoints/complete-cross/weight-audit.json)
 
-## BrowserGym accuracy
+The 11 filmed comparisons use four edited checkpoints. Both models passed each selected task. Mean completion time was **20.42 s original** and **5.30 s edited**. Dividing total original time by total edited time gives **3.85×** for this selection. On a separate panel of 20 MiniWoB++ cases, the original passed 11 and the two-row edit passed 6. [Filmed timings](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/blob/84e26036e22c6a1a4420cf37285c5f8a3946f4ec/benchmark/speedups-timings.json) · [Paired receipts](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/resolve/84e26036e22c6a1a4420cf37285c5f8a3946f4ec/benchmark/speedups-film-receipts.zip) · [MiniWoB++ scores](benchmark/BROWSERGYM.md)
 
-The default two-row checkpoint passed 6 of 20 MiniWoB++ cases. Stock passed 11. [Task scores](benchmark/BROWSERGYM.md) · [Receipts](evidence/browsergym-receipts.zip)
+On the 128 GiB Mac, both checkpoints peaked at 20.8 GiB of active MLX memory during a replay of the filmed order lookup. This measures model inference. [Measurement record](evidence/public-rerun/mac-memory.json)
 
-## Run the form-and-cart demo
+## Reproduce the completed-order lookup
 
-If your agent already supports Inkling 2 Mini, use `husky8/Inkling-2-Mini-Fast-Browser-Use` as its model ID. The agent supplies the browser view and executes the commands. The channel edit lives in the checkpoint.
-
-To download the full model with the Hugging Face CLI:
-
-```sh
-hf download husky8/Inkling-2-Mini-Fast-Browser-Use --revision d4562716ff6d8d0281bf09814a1df0db570f6be3 --local-dir inkling-browser
-```
-
-To run the recorded workflow on Apple silicon with Brave and [uv](https://docs.astral.sh/uv/), clone this repository and run:
+Install Brave, Docker and `uv` on Apple silicon. Start Docker with Linux/AMD64 emulation enabled.
 
 ```sh
 git clone https://github.com/jtc268/inkling-2-fast-computer-use.git
 cd inkling-2-fast-computer-use
-uv run --python 3.12 playwright install ffmpeg
-uv run --python 3.12 python benchmark/run.py
+uv sync --locked --python 3.12 --extra webarena
+.venv/bin/playwright install ffmpeg
+.venv/bin/python benchmark/reproduce_browser.py --out runs/mac-headline
 ```
 
-The runner downloads the edited model on first use. If you already downloaded it, set `INKLING_EDITED` to that directory. A successful run prints the commands and saves a recording and checked receipt in `runs/`. Use `--mode test --arm both` for all six pairs. This loads both checkpoints and needs more memory than a single run.
+The runner downloads the pinned checkpoints, checks their hashes and executes both model orders. Each arm starts with a fresh store. The output directory contains the browser recordings, observations, actions, grades and `pairs.json`. [Fixture setup, alternative tasks and grade replay](benchmark/REPRODUCE-BROWSER.md)
 
-To verify the downloaded weights against the upstream shard, run `python benchmark/verify_weights.py /path/to/original /path/to/edited`. The verifier compares every byte and both published SHA-256 digests.
+## Use the edited weights
 
-Base model by Thinking Machines Lab. [Original model](https://huggingface.co/thinkingmachines/Inkling-2-Mini) · [Apache 2.0](LICENSE) · [Cursor motion by Cua](benchmark/CUA-LICENSE.txt)
+The model card’s default revision contains the two-row edit used for the forms and MiniWoB++ runs. To use the four-row completed-order edit, download its exact revision. The caller supplies browser observations and executes the model’s commands. [Checkpoint registry](benchmark/browser_checkpoints.json)
+
+```sh
+hf download husky8/Inkling-2-Mini-Fast-Browser-Use \
+  --revision 686faa4d1748f0120008ec007dc97677678e1643 --local-dir inkling-browser
+```
+
+To run the form-and-cart harness, use `.venv/bin/python benchmark/run.py`. Set `INKLING_EDITED` to select an existing local checkpoint. [Form-and-cart comparisons](benchmark/FORM-CART-RECHECK.md)
+
+Base model by Thinking Machines Lab. [Inkling 2 Mini](https://huggingface.co/thinkingmachines/Inkling-2-Mini) · [Apache 2.0](LICENSE) · [Cursor motion license](benchmark/CUA-LICENSE.txt)

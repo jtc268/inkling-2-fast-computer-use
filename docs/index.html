@@ -1,22 +1,102 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Weight-only browser experiments with Inkling 2 Mini. Paired recordings, completion times and native grades.">
-<title>Inkling 2 Mini · Fast Browser Use</title>
-<style>
-:root{color-scheme:light;--ink:#17231f;--muted:#4c5b54;--line:#ccd4cc;--accent:#145b3d}
-*{box-sizing:border-box}body{margin:0;background:#f8faf5;color:var(--ink);font:17px/1.55 Inter,Arial,sans-serif}
-main{max-width:1160px;margin:auto;padding:clamp(20px,4vw,56px)}header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:clamp(32px,6vw,74px)}
-header a,header span{font-size:14px}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}
-.hero{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:clamp(24px,5vw,70px)}h1{margin:0 0 22px;font-size:clamp(44px,6.5vw,88px);line-height:.97;letter-spacing:-.066em}
-h2{font-size:clamp(26px,3.2vw,40px);line-height:1.15;letter-spacing:-.035em;margin:0 0 14px}p{margin:0 0 16px}.lede{font-size:21px;line-height:1.42;color:var(--muted);max-width:44ch}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.button{padding:10px 15px;border-radius:6px;background:var(--accent);color:white;text-decoration:none;font-weight:650}.button.alt{color:var(--accent);background:transparent;border:1px solid var(--line)}figure{margin:0}video{display:block;width:100%;height:auto;background:#101923;border-radius:8px}figcaption,.note{font-size:14px;color:var(--muted);margin:8px 0 18px}
-section.detail{margin:48px 0;padding-top:24px;border-top:1px solid var(--line)}.detail p{max-width:78ch}
-table{width:100%;border-collapse:collapse;font-size:16px;margin:18px 0}th,td{text-align:right;border-bottom:1px solid var(--line);padding:9px 4px}th:first-child,td:first-child{text-align:left}thead th{font-size:13px;color:var(--muted)}td{font-variant-numeric:tabular-nums}
-code{font-size:.88em;background:#e9eee8;border-radius:3px;padding:1px 4px}pre{background:#18251f;color:#f5fff6;padding:15px;border-radius:6px;overflow:auto;font-size:14px}pre code{background:none;padding:0}footer{font-size:14px;color:var(--muted);padding:12px 0 28px}
-@media(max-width:760px){.hero{grid-template-columns:1fr}header{margin-bottom:30px}.hero video{max-height:76vh;object-fit:contain}.detail{margin-top:30px}}
-table.result{width:100%;border-collapse:collapse;margin:1rem 0;text-align:left;font-size:clamp(13px,1.25vw,16px);line-height:1.4}.result th,.result td{padding:7px 6px;border-bottom:1px solid var(--line)}.result thead th{vertical-align:bottom}.result td{text-align:right;font-variant-numeric:tabular-nums}#weight-method code{overflow-wrap:anywhere}.hero>figure{grid-row:1}</style></head><body><main>
-<header><span>Inkling 2 Mini / Browser use</span><a href="https://github.com/jtc268/inkling-2-fast-computer-use">GitHub ↗</a></header>
-<div class="hero"><div><h1>8.95× faster on WebArena’s completed-order lookup</h1><p class="lede">WebArena task 190 asks for the total of the most recent completed order. The table shows the faster of two paired runs on an M5 Max MacBook Pro. Both models made the same clicks, returned $65.32 and earned full credit.</p><table class="result"><thead><tr><th scope="col">WebArena 190 · Completed-order lookup</th><th scope="col">Original Inkling 2 Mini</th><th scope="col">Edited Inkling 2 Mini</th></tr></thead><tbody><tr><th scope="row">Total task time</th><td>45.89 s</td><td>5.13 s</td></tr><tr><th scope="row">Model inference time</th><td>43.03 s</td><td>2.84 s</td></tr><tr><th scope="row">Generated tokens</th><td>1,555</td><td>28</td></tr><tr><th scope="row">Thinking tokens</th><td>1,509</td><td>0</td></tr></tbody></table><div class="buttons"><a class="button" href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/686faa4d1748f0120008ec007dc97677678e1643">Download the tested weights</a><a class="button alt" href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/benchmark/WEBARENA-ORDER-CHECKPOINTS.md">Paired runs and grades</a></div></div>
-<figure><video controls playsinline preload="metadata" poster="browser-speedups-poster.jpg" width="1200" height="868" src="browser-speedups.mp4" aria-label="Edited Inkling 2 Mini running browser tasks in real time"></video><figcaption>11 completed tasks · Edited model in real time · 1:16. <a href="browser-speedups.mp4" download>Save the film</a> · <a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/blob/main/benchmark/speedups-timings.json">Timings</a> · <a href="all-runs.html">Additional runs and grades</a>.</figcaption><div id="film-chapters" style="margin-block:8px 14px"><label for="film-chapter" style="display:block;font-size:14px">Jump to a chapter</label><select id="film-chapter" style="width:100%;max-width:100%;padding:8px;font:inherit"><option value="0.00">0:00 · Find the latest completed order total</option><option value="6.44">0:06 · Fill out and submit a form</option><option value="10.80">0:10 · Fill a form and add two dresses to the cart</option><option value="19.24">0:19 · Complete an autocomplete field</option><option value="23.88">0:23 · Reply to an email</option><option value="31.16">0:31 · Find the latest canceled order total</option><option value="37.68">0:37 · Search for a USB Wi-Fi adapter</option><option value="43.72">0:43 · Search for Xbox</option><option value="49.96">0:49 · Search for Switch accessories</option><option value="56.60">0:56 · Search for iPhone 13 batteries</option><option value="63.72">1:03 · Search for green tea bags</option><option value="72.64">1:12 · Mean time per task</option></select></div><script id="film-chapter-controls">(() => {const picker=document.getElementById("film-chapter"),video=picker.closest("figure").querySelector("video");const starts=Array.from(picker.options,option=>Number(option.value));picker.addEventListener("change",()=>{video.currentTime=Number(picker.value)});video.addEventListener("timeupdate",()=>{if(document.activeElement!==picker)picker.selectedIndex=starts.findLastIndex(t=>t<=video.currentTime+0.001)});})();</script></figure></div>
-
-<section id="weight-method" class="detail"><h2>Weight-space programming</h2><p>We edited four rows in Inkling 2 Mini’s output matrix, <code>model.llm.unembed.weight</code>, without additional training. We swapped the rows for answer text (<code>200004</code>) and thinking (<code>200008</code>), then adjusted the rows for the click command <code>C</code> (<code>34</code>) and end of generation (<code>200006</code>). A byte comparison found 9,192 changed BF16 values across those four rows. <a href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/webarena-order-checkpoints/complete-cross/weight-audit.json">Weight audit</a></p><h2>Method</h2><p>Both checkpoints ran in MLX and read visible text and numbered controls in Brave. We reset the storefront, warmed each model and used the same prompt, greedy decoding, reasoning effort (<code>none</code>) and cursor timing. Total time includes inference and browser actions. We developed the edit on this task and reversed model order for the second run.</p></section>
-<footer>Independent edit of <a href="https://huggingface.co/thinkingmachines/Inkling-2-Mini">Inkling 2 Mini by Thinking Machines Lab</a>. Apache 2.0.</footer></main></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Direct weight edits to Inkling 2 Mini. Real-time browser recordings, paired timings, memory measurements and instructions to reproduce the results on Apple silicon.">
+  <title>Inkling 2 Mini Fast Browser Use</title>
+  <style>
+    :root{color-scheme:light;--text:#192523;--sub:#4d5e59;--rule:#d8dfdb;--link:#155844;--washed:#f1f5f2;--mono:ui-monospace,"SFMono-Regular",Consolas,monospace}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fcfdfb;color:var(--text);font:17px/1.56 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:1060px;margin:auto;padding:0 clamp(18px,5vw,58px) 48px}a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:3px}a:hover{text-decoration-thickness:2px}
+    :focus-visible{outline:3px solid #137b66;outline-offset:3px}nav{display:flex;gap:20px;padding:19px 0;border-bottom:1px solid var(--rule);align-items:center;flex-wrap:wrap;font-size:14px}nav b{margin-right:auto;font-size:16px;letter-spacing:-.02em}nav a{text-decoration:none}
+    h1,h2,h3{line-height:1.13;letter-spacing:-.035em;margin:0}h1{font-size:clamp(32px,4.7vw,57px);max-width:860px;margin:32px 0 12px;font-weight:680}h2{font-size:clamp(27px,3.3vw,39px);font-weight:650;margin-bottom:14px}h3{font-size:22px;margin:28px 0 10px}
+    p{margin:0 0 14px;max-width:76ch}.lead{color:var(--sub);max-width:70ch;margin-bottom:24px;font-size:clamp(17px,2vw,21px)}figure{margin:0}video{display:block;width:100%;height:auto;background:#12201f;border:1px solid var(--rule)}
+    figcaption{display:flex;align-items:baseline;gap:8px 25px;flex-wrap:wrap;margin:9px 0 0;color:var(--sub);font-size:14px}.picker{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin:15px 0 0;font-size:14px}
+    select{min-width:0;max-width:100%;font:inherit;background:white;color:var(--text);border:1px solid #bfcac5;border-radius:4px;padding:6px 8px}
+    section.report{border-top:1px solid var(--rule);margin-top:38px;padding-top:28px}section.report>p{color:var(--sub)}
+    table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.35;margin:17px 0 12px}th,td{padding:11px 12px;text-align:right;border-bottom:1px solid var(--rule);font-variant-numeric:tabular-nums}th:first-child{text-align:left;padding-left:0}td:last-child,th:last-child{padding-right:0}
+    thead th{font-size:14px;padding-top:8px;padding-bottom:9px;color:var(--sub);font-weight:600}tbody th{font-weight:520}td{white-space:nowrap;font-family:var(--mono);font-size:.88em}tfoot{font-weight:650;background:var(--washed)}tfoot th:first-child{padding-left:10px}tfoot td:last-child{padding-right:10px}
+    small{display:block;color:var(--sub);font:12px/1.45 var(--mono);margin-top:2px}.result{max-width:730px}.resources,footer{font-size:15px}.resources a,footer a{display:inline-block;margin-right:16px}
+    code,pre{font-family:var(--mono);font-size:.88em}p code{word-break:break-word}pre{background:var(--washed);border-left:3px solid #67887b;padding:16px 20px;line-height:1.65;overflow:auto;margin:16px 0}footer{margin-top:36px;padding-top:17px;border-top:1px solid var(--rule);color:var(--sub)}
+    @media(max-width:580px){main{padding-inline:16px}nav{gap:9px 14px;font-size:13px}nav b{font-size:14px}nav b span{display:none}h1{margin-top:24px}
+    th,td{padding:9px 3px}table{font-size:14px}thead th{font-size:12px}small{font-size:10px}.picker label{width:100%}select{width:100%}.lead{margin-bottom:16px}section.report{margin-top:27px;padding-top:20px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body><main>
+<nav aria-label="Project"><b>Inkling 2 Mini<span> / Browser use</span></b><a href="#timings">Timings</a><a href="#reproduce">Reproduce</a><a href="https://github.com/jtc268/inkling-2-fast-computer-use">GitHub</a></nav>
+<header>
+  <h1>8.95× faster on WebArena 190</h1>
+  <p class="lead">Inkling 2 Mini took 45.89 seconds to find the latest completed order total. After a four-row weight edit, it returned the same answer ($65.32) in 5.13 seconds on an M5 Max MacBook Pro.</p>
+</header>
+<div class="hero"><figure>
+  <video controls playsinline preload="metadata" poster="browser-speedups-poster.jpg" width="1200" height="868" src="browser-speedups.mp4" aria-label="Edited Inkling 2 Mini running 11 Mac browser tasks in real time"></video>
+  <figcaption><span>Edited model at 1× on the M5 Max MacBook Pro · 1:16</span><a href="browser-speedups.mp4" download>Download video</a></figcaption>
+  <div class="picker"><label for="film-chapter">Jump to a chapter</label><select id="film-chapter">
+<option value="0.00">0:00 · Find the latest completed order total</option>
+<option value="6.44">0:06 · Fill out and submit a form</option>
+<option value="10.80">0:10 · Fill a form and add two dresses to the cart</option>
+<option value="19.24">0:19 · Complete an autocomplete field</option>
+<option value="23.88">0:23 · Reply to an email</option>
+<option value="31.16">0:31 · Find the latest canceled order total</option>
+<option value="37.68">0:37 · Search for a USB Wi-Fi adapter</option>
+<option value="43.72">0:43 · Search for Xbox</option>
+<option value="49.96">0:49 · Search for Switch accessories</option>
+<option value="56.60">0:56 · Search for iPhone 13 batteries</option>
+<option value="63.72">1:03 · Search for green tea bags</option>
+<option value="72.64">1:12 · Mean time per task</option>
+  </select></div>
+</figure></div>
+<section id="timings" class="report">
+  <h2>Times for the filmed runs</h2>
+  <p>Both models passed these 11 selected tasks. Times include inference and browser actions after warmup. Each edited time links to the checkpoint used for that recording.</p>
+  <table aria-label="Filmed browser task times"><thead><tr><th scope="col">Task</th><th scope="col">Original</th><th scope="col">Edited</th><th scope="col">Speedup</th></tr></thead>
+  <tbody><tr><th scope="row">Find the latest completed order total<small>WebArena 190</small></th><td>45.89 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/686faa4d1748f0120008ec007dc97677678e1643" aria-label="5.13 seconds, edited weights for Find the latest completed order total">5.13 s</a></td><td>8.95×</td></tr>
+<tr><th scope="row">Fill out and submit a form<small>Selenium case 02</small></th><td>8.64 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/d4562716ff6d8d0281bf09814a1df0db570f6be3" aria-label="3.06 seconds, edited weights for Fill out and submit a form">3.06 s</a></td><td>2.83×</td></tr>
+<tr><th scope="row">Fill a form and add two dresses to the cart<small>Form and cart case 03</small></th><td>16.96 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/d4562716ff6d8d0281bf09814a1df0db570f6be3" aria-label="7.15 seconds, edited weights for Fill a form and add two dresses to the cart">7.15 s</a></td><td>2.37×</td></tr>
+<tr><th scope="row">Complete an autocomplete field<small>MiniWoB++ seed 103</small></th><td>15.46 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/d4562716ff6d8d0281bf09814a1df0db570f6be3" aria-label="3.36 seconds, edited weights for Complete an autocomplete field">3.36 s</a></td><td>4.61×</td></tr>
+<tr><th scope="row">Reply to an email<small>MiniWoB++ seed 104</small></th><td>26.01 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/d4562716ff6d8d0281bf09814a1df0db570f6be3" aria-label="5.98 seconds, edited weights for Reply to an email">5.98 s</a></td><td>4.35×</td></tr>
+<tr><th scope="row">Find the latest canceled order total<small>WebArena 188</small></th><td>27.83 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/dc1cecc5b251ed3d4a4202a2267486a84a6f4684" aria-label="5.22 seconds, edited weights for Find the latest canceled order total">5.22 s</a></td><td>5.34×</td></tr>
+<tr><th scope="row">Search for a USB Wi-Fi adapter<small>WebArena 274</small></th><td>14.63 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/dc1cecc5b251ed3d4a4202a2267486a84a6f4684" aria-label="4.72 seconds, edited weights for Search for a USB Wi-Fi adapter">4.72 s</a></td><td>3.10×</td></tr>
+<tr><th scope="row">Search for Xbox<small>WebArena 275</small></th><td>20.43 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/94e67ef0f212bb338d3bff030e48279ab8dd226e" aria-label="4.96 seconds, edited weights for Search for Xbox">4.96 s</a></td><td>4.12×</td></tr>
+<tr><th scope="row">Search for Switch accessories<small>WebArena 276</small></th><td>12.93 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/dc1cecc5b251ed3d4a4202a2267486a84a6f4684" aria-label="5.34 seconds, edited weights for Search for Switch accessories">5.34 s</a></td><td>2.42×</td></tr>
+<tr><th scope="row">Search for iPhone 13 batteries<small>WebArena 277</small></th><td>16.96 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/dc1cecc5b251ed3d4a4202a2267486a84a6f4684" aria-label="5.82 seconds, edited weights for Search for iPhone 13 batteries">5.82 s</a></td><td>2.91×</td></tr>
+<tr><th scope="row">Search for green tea bags<small>WebArena 278</small></th><td>18.84 s</td><td><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/94e67ef0f212bb338d3bff030e48279ab8dd226e" aria-label="7.61 seconds, edited weights for Search for green tea bags">7.61 s</a></td><td>2.47×</td></tr></tbody><tfoot><tr><th scope="row">Mean per task</th><td>20.42 s</td><td>5.30 s</td><td>3.85×</td></tr></tfoot></table>
+  <p>The summary speedup divides the sum of original times by the sum of edited times. It describes the filmed selection.</p>
+  <p class="resources"><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/blob/84e26036e22c6a1a4420cf37285c5f8a3946f4ec/benchmark/speedups-timings.json">Timing data</a><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/resolve/84e26036e22c6a1a4420cf37285c5f8a3946f4ec/benchmark/speedups-film-receipts.zip">Grader receipts</a><a href="all-runs.html">Additional runs and grades</a></p>
+</section>
+<section id="weight-method" class="report">
+  <h2>What changed in the model</h2>
+  <p>For the completed-order checkpoint, we edited four rows of <code>model.llm.unembed.weight</code>, the matrix that maps the model’s hidden state to next-token scores. We exchanged the answer-text and thinking rows (200004 and 200008) and adjusted the click-command and end-of-generation rows (34 and 200006). A byte comparison found 9,192 changed BF16 values. We used no additional training.</p>
+  <p>The original and edited models issued the same three clicks. The original also generated one empty action. Most of the elapsed-time difference came from generating fewer tokens before responding.</p>
+  <table class="result" aria-label="Completed-order inference measurements"><thead><tr><th scope="col">WebArena 190</th><th scope="col">Original</th><th scope="col">Edited</th></tr></thead><tbody>
+  <tr><th scope="row">Inference time</th><td>43.03 s</td><td>2.84 s</td></tr>
+  <tr><th scope="row">Generated tokens</th><td>1,555</td><td>28</td></tr>
+  <tr><th scope="row">Thinking tokens</th><td>1,509</td><td>0</td></tr></tbody></table>
+  <p class="resources"><a href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/webarena-order-checkpoints/complete-cross/weight-audit.json">Byte-level weight diff</a><a href="https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/686faa4d1748f0120008ec007dc97677678e1643">Exact checkpoint</a><a href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/benchmark/WEBARENA-ORDER-CHECKPOINTS.md">Paired runs</a></p>
+  <h3>Inference setup</h3>
+  <p>Both models read visible text and numbered controls from Brave, used greedy decoding with <code>reasoning_effort=none</code>, and had identical cursor timing. On WebArena we reset the fixture between arms. Task 190 was a development task. The film shows the faster of two passing pairs. The pair with reversed run order measured 8.00×.</p>
+  <p>On the 128 GiB Mac, both checkpoints peaked at 20.8 GiB of active MLX memory during a replay of the filmed order lookup. This measures model inference. <a href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/public-rerun/mac-memory.json">Memory measurements</a></p>
+  <h3>Accuracy on a separate panel</h3>
+  <p>Across 20 MiniWoB++ cases, the original passed 11 and the two-row edit passed 6. The timing table includes only tasks both models completed successfully. <a href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/benchmark/BROWSERGYM.md">All 20 grades</a></p>
+</section>
+<section id="reproduce" class="report">
+  <h2>Reproduce WebArena 190</h2>
+  <p>Install Brave, Docker and <code>uv</code> on Apple silicon. Start Docker with Linux/AMD64 emulation enabled. The runner downloads both pinned checkpoints, verifies their weight hashes and runs the two model orders against fresh store fixtures.</p>
+  <pre><code>git clone https://github.com/jtc268/inkling-2-fast-computer-use.git
+cd inkling-2-fast-computer-use
+uv sync --locked --python 3.12 --extra webarena
+.venv/bin/playwright install ffmpeg
+.venv/bin/python benchmark/reproduce_browser.py --out runs/mac-headline</code></pre>
+  <p>Read <code>runs/mac-headline/pairs.json</code> for scores and times in both orders. <a href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/benchmark/REPRODUCE-BROWSER.md">Setup and grade replay</a></p>
+</section>
+<footer>Independent experiment with <a href="https://huggingface.co/thinkingmachines/Inkling-2-Mini">Inkling 2 Mini by Thinking Machines Lab</a><a href="https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/LICENSE">Apache 2.0</a></footer>
+</main>
+<script>
+const video=document.querySelector('video'), select=document.getElementById('film-chapter');
+const starts=Array.from(select.options,option=>Number(option.value));
+select.addEventListener('change',()=>{video.currentTime=Number(select.value)});
+video.addEventListener('timeupdate',()=>{if(document.activeElement!==select)select.selectedIndex=starts.findLastIndex(time=>time<=video.currentTime+.001)});
+</script>
+</body></html>
