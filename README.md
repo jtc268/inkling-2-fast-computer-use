@@ -2,7 +2,7 @@
 
 **8.95× faster on WebArena’s completed-order lookup.**
 
-WebArena task 190 asks for the total of the most recent completed order. In the fastest paired run on an M5 Max MacBook Pro, both models made the same clicks, returned $65.32 and earned full credit.
+WebArena task 190 asks for the total of the most recent completed order. The table shows the faster of two paired runs on an M5 Max MacBook Pro. Both models made the same clicks, returned $65.32 and earned full credit.
 
 | WebArena 190 · Completed-order lookup | Original Inkling 2 Mini | Edited Inkling 2 Mini |
 |---|---:|---:|
@@ -13,7 +13,7 @@ WebArena task 190 asks for the total of the most recent completed order. In the 
 
 **Weight-space programming.** We edited four rows in Inkling 2 Mini’s output matrix, `model.llm.unembed.weight`, without additional training. We swapped the rows for answer text (`200004`) and thinking (`200008`), then adjusted the rows for the click command `C` (`34`) and end of generation (`200006`). A byte comparison found 9,192 changed BF16 values across those four rows. [Weight audit](https://github.com/jtc268/inkling-2-fast-computer-use/blob/main/evidence/webarena-order-checkpoints/complete-cross/weight-audit.json)
 
-**Method.** Both checkpoints ran in MLX and read visible text and numbered controls in Brave. We reset the storefront, warmed each model and used the same prompt, greedy decoding, reasoning effort (`none`) and cursor timing. Total time includes inference and browser actions. We developed the edit on this task and tested both run orders.
+**Method.** Both checkpoints ran in MLX and read visible text and numbered controls in Brave. We reset the storefront, warmed each model and used the same prompt, greedy decoding, reasoning effort (`none`) and cursor timing. Total time includes inference and browser actions. We developed the edit on this task and reversed model order for the second run.
 
 [Watch the demo](https://jtc268.github.io/inkling-2-fast-computer-use/) · [Download the tested weights](https://huggingface.co/husky8/Inkling-2-Mini-Fast-Browser-Use/tree/686faa4d1748f0120008ec007dc97677678e1643) · [Reproduce the run](benchmark/REPRODUCE-BROWSER.md) · [Paired runs and grades](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
 
