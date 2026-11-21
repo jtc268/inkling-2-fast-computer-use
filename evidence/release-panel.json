@@ -1,0 +1,9 @@
+{
+  "scope": "Twenty distinct MiniWoB++ task types for tonight's release",
+  "selection": "Practical browser workflows and common UI controls drawn from BrowserGym's WebGUM subset. Includes all five initial task types and fifteen additional types. Curated coverage, not a popularity ranking.",
+  "selection_source": "https://github.com/ServiceNow/BrowserGym/blob/62a678feefaff0f93e9bab03f51c5402a1e1db00/browsergym/experiments/src/browsergym/experiments/benchmark/metadata/miniwob.csv",
+  "scope_amendment": "At the owner's request before the selective checkpoint was scored, this twenty-task panel replaces the planned 5 x 3 holdout. The separate three new form-and-cart cases and the underlying weight-edit method stay as specified. Do not tune on the release panel and then report it as held out.",
+  "seed": 201,
+  "checkpoints": ["upstream original", "selective candidate"],
+  "tasks": ["email-inbox", "use-autocomplete", "social-media-all", "choose-date", "book-flight", "login-user-popup", "search-engine", "multi-layouts", "multi-orderings", "navigate-tree", "click-tab-2", "click-dialog-2", "click-checkboxes", "click-option", "click-button-sequence", "click-menu", "click-link", "click-collapsible-2", "enter-password", "enter-text"]
+}
