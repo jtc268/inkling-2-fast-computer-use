@@ -1,0 +1,79 @@
+{
+  "task": 275,
+  "model_episodes": 0,
+  "shard_sha256": "a393cbbe28eb0b830b7f9cbf00f4b7df4b85da74b62b7aa5aa20df78f9d4a073",
+  "traces": [
+    {
+      "repeat": 1,
+      "step": 0,
+      "recorded": "F 7 xbox",
+      "ordinary": "F 7 xbox",
+      "length": 9,
+      "matches": true,
+      "receipt_sha256": "8ef5a9dda6679658b3549adf62a04655d89ca128503e539deab907b65d214294",
+      "first_complete": 8,
+      "selected": false,
+      "next_token": 200006
+    },
+    {
+      "repeat": 1,
+      "step": 1,
+      "recorded": "C 9",
+      "ordinary": "C 9",
+      "length": 512,
+      "matches": true,
+      "receipt_sha256": "8ef5a9dda6679658b3549adf62a04655d89ca128503e539deab907b65d214294",
+      "first_complete": 6,
+      "selected": true,
+      "next_token": 200001
+    },
+    {
+      "repeat": 1,
+      "step": 2,
+      "recorded": "DONE navigate",
+      "ordinary": "DONE navigate",
+      "length": 7,
+      "matches": true,
+      "receipt_sha256": "8ef5a9dda6679658b3549adf62a04655d89ca128503e539deab907b65d214294",
+      "first_complete": 6,
+      "selected": false,
+      "next_token": 200006
+    },
+    {
+      "repeat": 2,
+      "step": 0,
+      "recorded": "F 7 xbox",
+      "ordinary": "F 7 xbox",
+      "length": 9,
+      "matches": true,
+      "receipt_sha256": "7915ce1de6a4f4d67a5e2d30d84fdf7ce9a03380f8c3d76cea2333f9222268fc",
+      "first_complete": 8,
+      "selected": false,
+      "next_token": 200006
+    },
+    {
+      "repeat": 2,
+      "step": 1,
+      "recorded": "C 9",
+      "ordinary": "C 9",
+      "length": 512,
+      "matches": true,
+      "receipt_sha256": "7915ce1de6a4f4d67a5e2d30d84fdf7ce9a03380f8c3d76cea2333f9222268fc",
+      "first_complete": 6,
+      "selected": true,
+      "next_token": 200001
+    },
+    {
+      "repeat": 2,
+      "step": 2,
+      "recorded": "DONE navigate",
+      "ordinary": "DONE navigate",
+      "length": 7,
+      "matches": true,
+      "receipt_sha256": "7915ce1de6a4f4d67a5e2d30d84fdf7ce9a03380f8c3d76cea2333f9222268fc",
+      "first_complete": 6,
+      "selected": false,
+      "next_token": 200006
+    }
+  ]
+}

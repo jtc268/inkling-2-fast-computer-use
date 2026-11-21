@@ -171,6 +171,8 @@ Each timed run starts on the storefront. It ends when the agent submits its resp
 
 The same order-history weights completed the Xbox search in 6.35s and 6.01s. Stock took 5.02s and 4.64s. Both models filled the search field, clicked Search and stopped on the results page. The edit generated 512 and 512 tokens for the click alone. That one decision took 3.29s and 3.29s.
 
+Replaying each recorded browser observation through the same RTX decoder reproduced all six commands. The complete search click appeared at token 6 in the first run and token 6 in the second. The decoder then started another assistant message in both runs. [Token positions and original run hashes](../evidence/webarena-order-checkpoints/order-history-route/xbox-submit-replay.json).
+
 The order-history routing trial changes 2,280 BF16 values in the end-of-message row relative to the guarded reasoning trial. The parent used 510 reasoning tokens without issuing a command on one recorded order-history page. A conditional replay reached the correct answer after 16 reasoning tokens. The trial in the table uses ordinary greedy generation. [Weight audit and unforced replay checks](../evidence/webarena-order-checkpoints/order-history-route/).
 
 On the RTX 5090 completed order lookup (#190), both models returned the correct total in both run orders. Stock needed 4 decisions and the edit needed 3. Stock generated 1,181 tokens, including 1,137 reasoning tokens. The edit generated 335, including 252 reasoning tokens. The two full-task speedups were 2.03× and 2.18×.
