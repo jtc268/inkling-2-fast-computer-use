@@ -1,0 +1,319 @@
+{
+  "pairs": [
+    {
+      "checkpoint": "order-boundary",
+      "task": 188,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": false,
+      "ratio": null,
+      "original": {
+        "seconds": 5.450880583026446,
+        "score": 0.0,
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C1",
+          "FAIL RETRIEVE UNKNOWN_ERROR The site metis.lti.cs.cmu.edu is unreachable (ERR_FAILED), so no order data can be retrieved."
+        ],
+        "generated": 639,
+        "inference_seconds": 4.341966916923411,
+        "receipt_sha256": "957b7bbfe248a0d71c07dfe9f6143283ca95163ce64e0c4d27d3d58a78c7e0f8",
+        "recording_sha256": "9e49c54ad4cf8133a89475b938369b28d94fe9e23950def74d4329db26adb377"
+      },
+      "edited": {
+        "seconds": 3.161069875000976,
+        "score": 1.0,
+        "device": "RTX 5090",
+        "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [365.42]"
+        ],
+        "generated": 22,
+        "inference_seconds": 0.9746392919914797,
+        "receipt_sha256": "0f6c92e5cec25fca09c73407032489ee4f57b9fdb24eec2c419388557ab3ddf0",
+        "recording_sha256": "c576fd15d4c275fa3a4268d21074c49f47bf719c5e9853432f816bf289247064"
+      }
+    },
+    {
+      "checkpoint": "order-boundary",
+      "task": 188,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 2.591420520284619,
+      "original": {
+        "seconds": 6.857609499944374,
+        "score": 1.0,
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [365.42]"
+        ],
+        "generated": 636,
+        "inference_seconds": 4.802369457902387,
+        "receipt_sha256": "c7cec829eb022d0eedbe230b27a36d6ee5346ccd33ac284c0703eed777f3f584",
+        "recording_sha256": "fb5ff40e56daa8f3b1bb3ec7cf75c4737be808a7451d370246bb6cb44779c593"
+      },
+      "edited": {
+        "seconds": 2.6462742909789085,
+        "score": 1.0,
+        "device": "RTX 5090",
+        "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [365.42]"
+        ],
+        "generated": 22,
+        "inference_seconds": 0.6069882510928437,
+        "receipt_sha256": "f28317df706ae824db182c96082d262e272b6c3c545cf23251c189b8db5fe92a",
+        "recording_sha256": "dfd9521b812a2461962c05936ce0bf25ea5c2f998355315dc07d7ca122247807"
+      }
+    },
+    {
+      "checkpoint": "order-boundary",
+      "task": 188,
+      "repeat": 3,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 2.072767228160558,
+      "original": {
+        "seconds": 6.469065667013638,
+        "score": 1.0,
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [365.42]"
+        ],
+        "generated": 636,
+        "inference_seconds": 4.4553279160754755,
+        "receipt_sha256": "5ef518cc46d164ffeb4d3a3a80a4dc5563fb2f7f96daae5999c4534847fc483a",
+        "recording_sha256": "958c9ea2f0a1b32fc75186e207337bc871abf869e87d165836072698ac9dba36"
+      },
+      "edited": {
+        "seconds": 3.120980291045271,
+        "score": 1.0,
+        "device": "RTX 5090",
+        "shard_sha256": "3b6a96c60bbe2cfbea609f004386ad6ed4fed325184f0ec6658fcaa89efe331d",
+        "commands": [
+          "C1",
+          "C28",
+          "ANSWER [365.42]"
+        ],
+        "generated": 22,
+        "inference_seconds": 0.9501105819363147,
+        "receipt_sha256": "0357e8ffe6af7f1701f92db3a70b9078d706683ea6677b571462b4e0eabbc5e9",
+        "recording_sha256": "93072ab561becd3e4a598612f93a1332211a98caa87d7bd86ebe1d32301ccde3"
+      }
+    },
+    {
+      "checkpoint": "pending-native-stop",
+      "task": 189,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 4.690249713838864,
+      "original": {
+        "seconds": 24.013557916972786,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C1",
+          "C27",
+          "ANSWER [754.99]"
+        ],
+        "generated": 758,
+        "inference_seconds": 21.782493917038664,
+        "receipt_sha256": "92cded3eaeb1c6ac345ee7153dc235b48713bb1848157613b2a7a43cc61a2cca",
+        "recording_sha256": "1337f1b87fd8979bef3d2cdd755bf87c1334d23427d0f358a9728d715b836cc8"
+      },
+      "edited": {
+        "seconds": 5.119888999965042,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
+        "commands": [
+          "C1",
+          "C1",
+          "C27",
+          "ANSWER [754.99]"
+        ],
+        "generated": 28,
+        "inference_seconds": 2.8962276668753475,
+        "receipt_sha256": "20f5c7b9017be392ef4924dab5e91f762102f6d254f80148817a8d3b10ddba76",
+        "recording_sha256": "8244b9f143231b5b92e7ba0d60f39146d8e831f4d4ed68f5f7bc8e57c8c6d399"
+      }
+    },
+    {
+      "checkpoint": "pending-native-stop",
+      "task": 189,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 5.741061375550865,
+      "original": {
+        "seconds": 23.85580195800867,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C1",
+          "C1",
+          "C27",
+          "ANSWER [754.99]"
+        ],
+        "generated": 758,
+        "inference_seconds": 21.622225041966885,
+        "receipt_sha256": "b1634b0f8243545d4097ffe4ca933354bde835338404e687caf3aae5c2018efc",
+        "recording_sha256": "1ee1ac955ae3bda5d4734587196fc9c44130579aa394ed8db92f8f008b490ab0"
+      },
+      "edited": {
+        "seconds": 4.1552947090240195,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
+        "commands": [
+          "C1",
+          "C27",
+          "ANSWER [754.99]"
+        ],
+        "generated": 22,
+        "inference_seconds": 2.4584740839200094,
+        "receipt_sha256": "e6c644893422e06b9a286c7b2a9ddf26a1cde522b86c712bbf9ca2de49158152",
+        "recording_sha256": "3cfe1ad7af674a69fbeca895f5c882f54b60d2cf811bcb95d1bb15552a817703"
+      }
+    },
+    {
+      "checkpoint": "pending-native-stop",
+      "task": 188,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 5.4233442163780445,
+      "original": {
+        "seconds": 27.98192616691813,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C 1",
+          "C 1",
+          "C 27",
+          "ANSWER [365.42]"
+        ],
+        "generated": 919,
+        "inference_seconds": 25.61580516619142,
+        "receipt_sha256": "c4e77e913a2700d41fc3c2c0f92210fa9984f150e34db5108682efb9aa5d9d69",
+        "recording_sha256": "091e6e77a2fa5a8ee9236e8596ba70a97c218ae4adbf2002289786c8c1b615aa"
+      },
+      "edited": {
+        "seconds": 5.15953350008931,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
+        "commands": [
+          "C1",
+          "C1",
+          "C27",
+          "ANSWER [365.42]"
+        ],
+        "generated": 28,
+        "inference_seconds": 2.9151421249844134,
+        "receipt_sha256": "1a5fd921f02fcda29dda6d58913f0b3b9928f292b380cac33fbc33499bf1d2db",
+        "recording_sha256": "a4a1cb13c081ca25ec98305179606451fd1c39bd2d855bf5672a99cecc63d367"
+      }
+    },
+    {
+      "checkpoint": "pending-native-stop",
+      "task": 188,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 5.317121801071281,
+      "original": {
+        "seconds": 28.35290774994064,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "C 1",
+          "C 1",
+          "C 27",
+          "ANSWER [365.42]"
+        ],
+        "generated": 919,
+        "inference_seconds": 26.04253954195883,
+        "receipt_sha256": "f041e43abedf42b3a82505b3103d2ab475a775b192763acf9a0ca7950e5ec37a",
+        "recording_sha256": "f583df51c82b5316d8bec41dee8f2381a9521b08bb8694502721793998870939"
+      },
+      "edited": {
+        "seconds": 5.332378834020346,
+        "score": 1.0,
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "09a222296da27d31acd5d25a543063c395fb74560f8db61dda5ed4946110cc2c",
+        "commands": [
+          "C1",
+          "C1",
+          "C27",
+          "ANSWER [365.42]"
+        ],
+        "generated": 28,
+        "inference_seconds": 2.835695124929771,
+        "receipt_sha256": "a2cd8e1e72203e060e25b4fec5e3cf3ace430637e579fc2b81298b43ebcac803",
+        "recording_sha256": "03b6a501240822c7bbae639704f26618abac051a77a66ccbf60bb6f23901dfd9"
+      }
+    }
+  ]
+}
