@@ -4,7 +4,7 @@
 
 [Watch every task in order](https://jtc268.github.io/inkling-2-fast-computer-use/browser-benchmark-in-order.mp4) · [All 40 chapter times and outcomes](benchmark/ORDERED-BROWSER-VIDEO.md)
 
-Standalone downloads · [Completed-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/cd27dd36403a165685abd5bf202c326ec9590b20) · [Pending-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9f6b8d4dbd3ec39171e38bf528735be4d0b14e66) · [Paired grades](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
+Standalone downloads · [Completed-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/cd27dd36403a165685abd5bf202c326ec9590b20) · [Pending-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9f6b8d4dbd3ec39171e38bf528735be4d0b14e66) · [Mac order-lookup trial](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/686faa4d1748f0120008ec007dc97677678e1643) · [Paired grades](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
 
 **8.95× on the completed-order lookup.** On M5 Max MacBook Pro stock took 45.89 seconds and the cross-device order stop took 5.13 seconds. Both passed again in the opposite order at 8.00×. This task was used to develop the stop-row edit. [Fastest paired run](benchmark/WEBARENA-ORDER-CHECKPOINTS.md).
 
