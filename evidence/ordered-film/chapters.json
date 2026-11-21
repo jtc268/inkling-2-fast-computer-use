@@ -1,5 +1,5 @@
 {
-  "sha256": "0a373a0f4084c0fcad18c62a8eb7cdc61d025ca2748b9cae90cdd0dc29010ca2",
+  "sha256": "a24ec52890311b6e0c421afaac46cac7d5f1a6af2dec958a407cd730efd5bdb2",
   "fps": 20,
   "resolution": [
     1200,
@@ -1435,31 +1435,31 @@
       "arms": [
         {
           "arm": "Stock Inkling 2 Mini",
-          "elapsed_s": 94.04221016599331,
+          "elapsed_s": 95.00853933300823,
           "passed": false,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "280a265df39d9a942a31a0c549dc68be04957c57fad8cd6243fa033ac83686ff",
+          "receipt_sha256": "4cb3199a3fe86dbea6a1fa82743d1038699e3a0360a6967e72a247d2a69e913a",
           "receipt": "630-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "c19f6d2d8888974f1bd7c3b90292963614461634ff532606abe641ae7e7d7b67",
-            "start_s": 89.0430964580737,
-            "source_duration_s": 95.0,
+            "source_sha256": "5ad3614b2ce1d886f35c3e6f2aa7f406cc90a201690fa25a91255108587035e0",
+            "start_s": 90.00955016701482,
+            "source_duration_s": 95.95,
             "available_frames": 100
           }
         },
         {
-          "arm": "Forum-channel edit",
-          "elapsed_s": 12.361424042028375,
-          "passed": false,
+          "arm": "Cached-submit edit",
+          "elapsed_s": 20.946383042028174,
+          "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "f724750506c48114d4b50107ede0a0869626a6cad22b13ea271bb774d48fb047",
+          "receipt_sha256": "cbc711eb057d563054baaad79c58b12558d097df178a2ad2086ba58c6d7ce4f4",
           "receipt": "630-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "66aab487d570d9084d71fd27d5051e2af9ea99a715fe8080214f8f56199a433f",
-            "start_s": 7.362155500100926,
-            "source_duration_s": 13.35,
+            "source_sha256": "57222361251c34526466020f73d93916616fc724aae7f4f0e95622c4c816889f",
+            "start_s": 15.947268416988663,
+            "source_duration_s": 20.95,
             "available_frames": 100
           }
         }
