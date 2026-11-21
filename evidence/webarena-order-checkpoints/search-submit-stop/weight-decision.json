@@ -1,0 +1,387 @@
+{
+  "status": "Audited frozen candidate",
+  "sha256": "bbc639c4b54b0b748b011b9289512ccdce4c95298a4c19056d1b73a2a654e1d1",
+  "parent_sha256": "a393cbbe28eb0b830b7f9cbf00f4b7df4b85da74b62b7aa5aa20df78f9d4a073",
+  "mac_replay": [
+    {
+      "task": 190,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "previous": "ANSWER [65.32]",
+      "current": "ANSWER [65.32]",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "ANSWER [754.99]",
+      "current": "ANSWER [754.99]",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 189,
+      "previous": "ANSWER [754.99]",
+      "current": "ANSWER [754.99]",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "ANSWER [365.42]",
+      "current": "ANSWER [365.42]",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C21",
+      "current": "C21",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "current": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "previous_tokens": 26,
+      "tokens": 26,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "C21",
+      "current": "C21",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 96,
+      "previous": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "current": "ANSWER [{\"status\":\"Canceled\",\"arrival_date\":null}]",
+      "previous_tokens": 26,
+      "tokens": 26,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "previous": "F7 usb wifi",
+      "current": "F7 usb wifi",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "previous": "C 9",
+      "current": "C 9",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 274,
+      "previous": "DONE navigate",
+      "current": "DONE navigate",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "previous": "F7 xbox",
+      "current": "F7 xbox",
+      "previous_tokens": 8,
+      "tokens": 8,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "previous": "C 9",
+      "current": "C 9",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 275,
+      "previous": "DONE navigate",
+      "current": "DONE navigate",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "previous": "F7 switch accessories",
+      "current": "F7 switch accessories",
+      "previous_tokens": 9,
+      "tokens": 9,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "previous": "C 9",
+      "current": "C 9",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 276,
+      "previous": "DONE navigate",
+      "current": "DONE navigate",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "ANSWER [365.42]",
+      "current": "ANSWER [365.42]",
+      "previous_tokens": 28,
+      "tokens": 28,
+      "matches": true
+    },
+    {
+      "task": 188,
+      "previous": "ANSWER [365.42]",
+      "current": "ANSWER [365.42]",
+      "previous_tokens": 10,
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 231,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 231,
+      "previous": "C1",
+      "current": "C1",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 231,
+      "previous": "C27",
+      "current": "C27",
+      "previous_tokens": 6,
+      "tokens": 6,
+      "matches": true
+    },
+    {
+      "task": 231,
+      "previous": "ANSWER [\"000000170\"]",
+      "current": "ANSWER [\"000000170\"]",
+      "previous_tokens": 12,
+      "tokens": 12,
+      "matches": true
+    },
+    {
+      "task": 277,
+      "previous": "F7 batteries for iphone 13",
+      "current": "F7 batteries for iphone 13",
+      "previous_tokens": 12,
+      "tokens": 12,
+      "matches": true
+    },
+    {
+      "task": 277,
+      "previous": "DONE navigate",
+      "current": "DONE navigate",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 278,
+      "previous": "F7 green tea bag for weight loss",
+      "current": "F7 green tea bag for weight loss",
+      "previous_tokens": 12,
+      "tokens": 12,
+      "matches": true
+    },
+    {
+      "task": 278,
+      "previous": "C 9",
+      "current": "C 9",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 278,
+      "previous": "DONE navigate",
+      "current": "DONE navigate",
+      "previous_tokens": 7,
+      "tokens": 7,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "native_history": 1,
+      "current": "ANSWER [65.32]",
+      "tokens": 10,
+      "matches": true
+    },
+    {
+      "task": 190,
+      "native_history": 2,
+      "current": "ANSWER [65.32]",
+      "tokens": 10,
+      "matches": true
+    }
+  ],
+  "changes": [
+    {
+      "row": 200006,
+      "changed_values": 2282,
+      "relative_norm": 0.2011242546035637
+    }
+  ],
+  "native_histories": 2,
+  "mac_guard_states": 382,
+  "inequalities": 839,
+  "max_target_shortfall": 0.002096333189673061,
+  "max_guard_shortfall": 0.0050956626217146805,
+  "active_inequalities": 50,
+  "rounds": 2
+}
