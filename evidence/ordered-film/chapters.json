@@ -1,14 +1,14 @@
 {
-  "sha256": "de691c93cffb2d88161dea2d95b48637e231ff5b8a6e1e596de3e384be348990",
+  "sha256": "80737a1e6dd61517c0372167e677cabd94f08bc32968d9141e046684da172a54",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 243.4,
+  "duration_s": 252.4,
   "task_count": 41,
   "opening_s": 6.15,
-  "closing_start_s": 239.9,
+  "closing_start_s": 248.9,
   "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
   "chapters": [
     {
@@ -1189,7 +1189,7 @@
     {
       "number": 16,
       "start_s": 96.55,
-      "duration_s": 24.3,
+      "duration_s": 27.25,
       "environment": "WebArena",
       "task": "190",
       "title": "Find the total of the latest completed order",
@@ -1466,6 +1466,45 @@
         {
           "start_s": 117.9,
           "duration_s": 2.95,
+          "shared_elapsed_start_s": 0.5983604160137472,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 9.295178166008554,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "10e113f940c9e247fd8334c79dbad2180d4601a67a2dc440581a33b0dd942ed8",
+              "receipt": "190-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "3cbd6436db955b45efb52b2295633470ed96ded06e28bfaa7a7d9a23acadee81",
+                "start_s": 0.599131125025451,
+                "source_duration_s": 9.25,
+                "available_frames": 59
+              },
+              "grader_status": "success"
+            },
+            {
+              "arm": "Search submit stop",
+              "elapsed_s": 2.8483604160137475,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "2944f50cd972d2d335dead10baae03824517bccd51345bb5254e87b397ecbb44",
+              "receipt": "190-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "b6aa451ecac294a4142363a3ebec5555bda2325574d81e31a24ab89d071345d0",
+                "start_s": 0.59967129107099,
+                "source_duration_s": 3.45,
+                "available_frames": 46
+              },
+              "grader_status": "success"
+            }
+          ]
+        },
+        {
+          "start_s": 120.85,
+          "duration_s": 2.95,
           "shared_elapsed_start_s": 3.5121810829732567,
           "arms": [
             {
@@ -1506,7 +1545,7 @@
     },
     {
       "number": 17,
-      "start_s": 120.85,
+      "start_s": 123.8,
       "duration_s": 8.1,
       "environment": "WebArena",
       "task": "191",
@@ -1548,7 +1587,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 123.05,
+          "start_s": 126.0,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1587,7 +1626,7 @@
           ]
         },
         {
-          "start_s": 126.0,
+          "start_s": 128.95,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1629,7 +1668,7 @@
     },
     {
       "number": 18,
-      "start_s": 128.95,
+      "start_s": 131.9,
       "duration_s": 5.1,
       "environment": "WebArena",
       "task": "231",
@@ -1669,7 +1708,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 131.15,
+          "start_s": 134.1,
           "duration_s": 2.9,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -1711,7 +1750,7 @@
     },
     {
       "number": 19,
-      "start_s": 134.05,
+      "start_s": 137.0,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "260",
@@ -1752,7 +1791,7 @@
     },
     {
       "number": 20,
-      "start_s": 136.25,
+      "start_s": 139.2,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "269",
@@ -1793,7 +1832,7 @@
     },
     {
       "number": 21,
-      "start_s": 138.45,
+      "start_s": 141.4,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "270",
@@ -1834,7 +1873,7 @@
     },
     {
       "number": 22,
-      "start_s": 140.65,
+      "start_s": 143.6,
       "duration_s": 7.65,
       "environment": "WebArena",
       "task": "274",
@@ -1876,7 +1915,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 145.4,
+          "start_s": 148.35,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 3.1853435839992015,
           "arms": [
@@ -1918,8 +1957,8 @@
     },
     {
       "number": 23,
-      "start_s": 148.3,
-      "duration_s": 14.75,
+      "start_s": 151.25,
+      "duration_s": 17.65,
       "environment": "WebArena",
       "task": "275",
       "title": "Search for Xbox",
@@ -1960,7 +1999,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 154.35,
+          "start_s": 157.3,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 2.8089218330103902,
           "arms": [
@@ -1999,7 +2038,7 @@
           ]
         },
         {
-          "start_s": 157.25,
+          "start_s": 160.2,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 2.820188458962366,
           "arms": [
@@ -2038,7 +2077,46 @@
           ]
         },
         {
-          "start_s": 160.15,
+          "start_s": 163.1,
+          "duration_s": 2.9,
+          "shared_elapsed_start_s": 0.8024331250460819,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 4.751382500049658,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "1ed81a2acf8fc1c1f74a90b325579f1692c73339bcc2581c8f8484c2de7c0887",
+              "receipt": "275-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "3d8f81550117b42ee36ada4ccd70dff5808fd4c6c9bf9685eb305daa60e4ffa7",
+                "start_s": 0.8034510829718784,
+                "source_duration_s": 4.95,
+                "available_frames": 58
+              },
+              "grader_status": "success"
+            },
+            {
+              "arm": "Search submit stop",
+              "elapsed_s": 3.002433125046082,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "05fbd793a01633e453f840b53c32ce89d0b97515fcd68aced3b9bdf24de01554",
+              "receipt": "275-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "993a915623f7851110f0178c347bd5ae29ad90318f9e9c1c9ace7c0bf53aff2a",
+                "start_s": 0.8031419170554728,
+                "source_duration_s": 4.1,
+                "available_frames": 45
+              },
+              "grader_status": "success"
+            }
+          ]
+        },
+        {
+          "start_s": 166.0,
           "duration_s": 2.9,
           "shared_elapsed_start_s": 2.9194580829469485,
           "arms": [
@@ -2080,8 +2158,8 @@
     },
     {
       "number": 24,
-      "start_s": 163.05,
-      "duration_s": 10.65,
+      "start_s": 168.9,
+      "duration_s": 10.7,
       "environment": "WebArena",
       "task": "276",
       "title": "Search for Switch accessories",
@@ -2122,7 +2200,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 167.8,
+          "start_s": 173.65,
           "duration_s": 3.0,
           "shared_elapsed_start_s": 1.39850212498568,
           "arms": [
@@ -2159,9 +2237,9 @@
           ]
         },
         {
-          "start_s": 170.8,
-          "duration_s": 2.9,
-          "shared_elapsed_start_s": 3.2979067909298463,
+          "start_s": 176.65,
+          "duration_s": 2.95,
+          "shared_elapsed_start_s": 3.2479067909298465,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -2173,9 +2251,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "18ca2607d91d54a0a6b66b8f3c13e657a3f1eaa1078ec0d2f15e48e8f2a415f1",
-                "start_s": 3.298648707871325,
+                "start_s": 3.2486487078713253,
                 "source_duration_s": 14.95,
-                "available_frames": 58
+                "available_frames": 59
               },
               "grader_status": "success"
             },
@@ -2189,9 +2267,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "920d1fdd4076374344a35630e6bd209a8a639523021e90f779d93b62ba109726",
-                "start_s": 3.29867208302021,
+                "start_s": 3.2486720830202103,
                 "source_duration_s": 6.0,
-                "available_frames": 45
+                "available_frames": 46
               },
               "grader_status": "success"
             }
@@ -2201,8 +2279,8 @@
     },
     {
       "number": 25,
-      "start_s": 173.7,
-      "duration_s": 7.65,
+      "start_s": 179.6,
+      "duration_s": 7.7,
       "environment": "WebArena",
       "task": "277",
       "title": "Search for iPhone 13 batteries",
@@ -2243,9 +2321,9 @@
       ],
       "additional_takes": [
         {
-          "start_s": 178.45,
-          "duration_s": 2.9,
-          "shared_elapsed_start_s": 3.679690458998084,
+          "start_s": 184.35,
+          "duration_s": 2.95,
+          "shared_elapsed_start_s": 3.629690458998084,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -2257,9 +2335,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "9c0d7164e632a65f82c2ab8b3ce320b5521b47404d104ca09247aa8050537c6c",
-                "start_s": 3.680406250944361,
+                "start_s": 3.630406250944361,
                 "source_duration_s": 19.6,
-                "available_frames": 58
+                "available_frames": 59
               },
               "grader_status": "success"
             },
@@ -2273,9 +2351,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "372124866542f39ea4e2625481c057e19b69efe4e4ba55b88451f58e191a5c76",
-                "start_s": 3.680373541964218,
+                "start_s": 3.630373541964218,
                 "source_duration_s": 6.35,
-                "available_frames": 45
+                "available_frames": 46
               },
               "grader_status": "success"
             }
@@ -2285,8 +2363,8 @@
     },
     {
       "number": 26,
-      "start_s": 181.35,
-      "duration_s": 13.2,
+      "start_s": 187.3,
+      "duration_s": 13.3,
       "environment": "WebArena",
       "task": "278",
       "title": "Search for green tea bags",
@@ -2327,8 +2405,8 @@
       ],
       "additional_takes": [
         {
-          "start_s": 186.1,
-          "duration_s": 3.0,
+          "start_s": 192.05,
+          "duration_s": 3.05,
           "shared_elapsed_start_s": null,
           "arms": [
             {
@@ -2341,9 +2419,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "f423ea9fbe914caf95fdc105bfa61b5e149ea5fa133a62e4f2e237ea379dbd16",
-                "start_s": 3.486384665942751,
+                "start_s": 3.436384665942751,
                 "source_duration_s": 6.8,
-                "available_frames": 60
+                "available_frames": 61
               },
               "grader_status": "success"
             },
@@ -2357,16 +2435,16 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "eb1cf4fc23270a3feec6d23e585c4a73145a9f8523e5cefdbb502aca786ef1ff",
-                "start_s": 4.745583625044674,
+                "start_s": 4.695583625044674,
                 "source_duration_s": 8.9,
-                "available_frames": 60
+                "available_frames": 61
               },
               "grader_status": "failure"
             }
           ]
         },
         {
-          "start_s": 189.1,
+          "start_s": 195.1,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 3.232748709013686,
           "arms": [
@@ -2405,9 +2483,9 @@
           ]
         },
         {
-          "start_s": 191.65,
-          "duration_s": 2.9,
-          "shared_elapsed_start_s": 3.9168818339938296,
+          "start_s": 197.65,
+          "duration_s": 2.95,
+          "shared_elapsed_start_s": 3.86688183399383,
           "arms": [
             {
               "arm": "Stock Inkling 2 Mini",
@@ -2419,9 +2497,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "051a34b4ceeff354add69fd699507064e20260cddc69d406284ec3e69a89005f",
-                "start_s": 3.917546875029802,
+                "start_s": 3.8675468750298023,
                 "source_duration_s": 24.55,
-                "available_frames": 58
+                "available_frames": 59
               },
               "grader_status": "success"
             },
@@ -2435,9 +2513,9 @@
               "recording": {
                 "kind": "native browser recording",
                 "source_sha256": "1fc55b1c968704e5e58ae61587eaedc473f3bf7e4e69926c42efa56eca019525",
-                "start_s": 3.917606583982706,
+                "start_s": 3.867606583982706,
                 "source_duration_s": 6.6,
-                "available_frames": 45
+                "available_frames": 46
               },
               "grader_status": "success"
             }
@@ -2447,7 +2525,7 @@
     },
     {
       "number": 27,
-      "start_s": 194.55,
+      "start_s": 200.6,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "279",
@@ -2490,8 +2568,8 @@
     },
     {
       "number": 28,
-      "start_s": 196.75,
-      "duration_s": 8.1,
+      "start_s": 202.8,
+      "duration_s": 11.05,
       "environment": "WebArena",
       "task": "283",
       "title": "Find Xbox controllers released in 2020\u20132021",
@@ -2532,7 +2610,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 198.95,
+          "start_s": 205.0,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2571,7 +2649,7 @@
           ]
         },
         {
-          "start_s": 201.9,
+          "start_s": 207.95,
           "duration_s": 2.95,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -2608,12 +2686,51 @@
               "grader_status": "failure"
             }
           ]
+        },
+        {
+          "start_s": 210.9,
+          "duration_s": 2.95,
+          "shared_elapsed_start_s": null,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 87.58633945893962,
+              "passed": false,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "9b65b62e25ac44058102f06c2d942d6126a77631c3ce56fbbd251db947e7ee9b",
+              "receipt": "283-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "34cbd3e8dbd7a2e06aba936385ed06dc098f249606cf3dbc4abc27cebab3d2dc",
+                "start_s": 84.63732720895204,
+                "source_duration_s": 89.2,
+                "available_frames": 59
+              },
+              "grader_status": "failure"
+            },
+            {
+              "arm": "Guarded product navigation",
+              "elapsed_s": 7.486511458992027,
+              "passed": false,
+              "device": "M5 Max MacBook Pro",
+              "receipt_sha256": "ecb4338098a011c1e62da6714b102055d2cb79f940f14c814134c395fa0410ea",
+              "receipt": "283-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "a9a065d9141c9c0330e4508a9b97e3394ffb043b9740630670f2ae6dea8b0ba2",
+                "start_s": 4.537230958999134,
+                "source_duration_s": 7.6,
+                "available_frames": 59
+              },
+              "grader_status": "failure"
+            }
+          ]
         }
       ]
     },
     {
       "number": 29,
-      "start_s": 204.85,
+      "start_s": 213.85,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "313",
@@ -2654,7 +2771,7 @@
     },
     {
       "number": 30,
-      "start_s": 207.05,
+      "start_s": 216.05,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "324",
@@ -2695,7 +2812,7 @@
     },
     {
       "number": 31,
-      "start_s": 209.25,
+      "start_s": 218.25,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "358",
@@ -2736,7 +2853,7 @@
     },
     {
       "number": 32,
-      "start_s": 211.45,
+      "start_s": 220.45,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "399",
@@ -2777,7 +2894,7 @@
     },
     {
       "number": 33,
-      "start_s": 213.65,
+      "start_s": 222.65,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "404",
@@ -2818,7 +2935,7 @@
     },
     {
       "number": 34,
-      "start_s": 215.85,
+      "start_s": 224.85,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "431",
@@ -2901,7 +3018,7 @@
     },
     {
       "number": 35,
-      "start_s": 218.05,
+      "start_s": 227.05,
       "duration_s": 3.55,
       "environment": "WebArena",
       "task": "432",
@@ -2972,7 +3089,7 @@
     },
     {
       "number": 36,
-      "start_s": 221.6,
+      "start_s": 230.6,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "516",
@@ -3013,7 +3130,7 @@
     },
     {
       "number": 37,
-      "start_s": 223.8,
+      "start_s": 232.8,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "595",
@@ -3054,7 +3171,7 @@
     },
     {
       "number": 38,
-      "start_s": 226.0,
+      "start_s": 235.0,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "600",
@@ -3080,7 +3197,7 @@
     },
     {
       "number": 39,
-      "start_s": 228.2,
+      "start_s": 237.2,
       "duration_s": 7.3,
       "environment": "WebArena",
       "task": "630",
@@ -3122,7 +3239,7 @@
       ],
       "additional_takes": [
         {
-          "start_s": 230.4,
+          "start_s": 239.4,
           "duration_s": 2.55,
           "shared_elapsed_start_s": 18.707142707984893,
           "arms": [
@@ -3159,7 +3276,7 @@
           ]
         },
         {
-          "start_s": 232.95,
+          "start_s": 241.95,
           "duration_s": 2.55,
           "shared_elapsed_start_s": null,
           "arms": [
@@ -3201,7 +3318,7 @@
     },
     {
       "number": 40,
-      "start_s": 235.5,
+      "start_s": 244.5,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "653",
@@ -3242,7 +3359,7 @@
     },
     {
       "number": 41,
-      "start_s": 237.7,
+      "start_s": 246.7,
       "duration_s": 2.2,
       "environment": "WebArena",
       "task": "689",
