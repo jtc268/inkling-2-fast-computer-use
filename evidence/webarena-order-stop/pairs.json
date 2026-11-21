@@ -144,8 +144,37 @@
       "baseline_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
       "candidate_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
       "same_command_sequence": false
+    },
+    {
+      "id": 278,
+      "repeat": 2,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "ratio": 2.969375387183231,
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.521395332994871,
+        "decisions": 3,
+        "inference_seconds": 2.9079327499493957,
+        "thinking_tokens": 0,
+        "generated_tokens": 26
+      },
+      "original": {
+        "score": 1.0,
+        "seconds": 19.36447079188656,
+        "decisions": 5,
+        "inference_seconds": 16.25870154297445,
+        "thinking_tokens": 447,
+        "generated_tokens": 498
+      },
+      "baseline": "Upstream stock",
+      "baseline_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+      "candidate_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175",
+      "same_command_sequence": false
     }
   ],
-  "verified_native_grades": 10,
+  "verified_native_grades": 12,
   "shard_sha256": "ffe9af7e8f8447b1d83643e3e5d0f43f2651c73150fe2a2f286b7c595a9d0175"
 }
