@@ -7,10 +7,13 @@ Each trial starts on a fresh forum. Stock and the named edit use the same browse
 | M5 Max MacBook Pro | Select-transfer | r1 | fail · 88.91 s | fail · 9.42 s | — |
 | RTX 5090 | Select-transfer | r1 | pass · 23.37 s | fail · 19.71 s | — |
 | M5 Max MacBook Pro | Forum-channel | r1 | fail · 94.04 s | fail · 12.36 s | — |
+| M5 Max MacBook Pro | Submit-margin | r1 | fail · 78.20 s | fail · 13.41 s | — |
 
 On the recorded Mac failure, the select-transfer edit stopped with the forum field empty. The forum-channel edit changed only the answer and reasoning output rows relative to that checkpoint. It selected the requested forum in a fresh run, then stopped without submitting the post.
 
-6 native grades reproduced from the recorded responses and network traces. [Grade archive](../evidence/webarena-forum-controls/native-grades.zip) · [Weights and paired results](../evidence/webarena-forum-controls/native-results.json)
+For the submit-margin experiment, a scripted development trace established that scrolling, clicking the visible submit button and observing the posted page completed the task. Only the model-driven fresh runs appear in the table.
+
+8 native grades reproduced from the recorded responses and network traces. [Grade archive](../evidence/webarena-forum-controls/native-grades.zip) · [Weights and paired results](../evidence/webarena-forum-controls/native-results.json)
 
 ```sh
 python benchmark/replay_search.py evidence/webarena-forum-controls/native-grades.zip

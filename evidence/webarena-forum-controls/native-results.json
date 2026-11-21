@@ -72,7 +72,31 @@
         "thinking_tokens": 2740,
         "generated_tokens": 3202
       }
+    },
+    {
+      "checkpoint": "Submit-margin",
+      "sha256": "165f184378f2fb9e0bac0270d19ed033c1dbdb25b6d38a2b0d743f4a3a9c5ffb",
+      "id": 630,
+      "repeat": "r1",
+      "device": "M5 Max MacBook Pro",
+      "ratio": null,
+      "edited": {
+        "score": 0.0,
+        "seconds": 13.40951858391054,
+        "decisions": 6,
+        "inference_seconds": 7.434572165948339,
+        "thinking_tokens": 74,
+        "generated_tokens": 147
+      },
+      "original": {
+        "score": 0.0,
+        "seconds": 78.19908679195214,
+        "decisions": 12,
+        "inference_seconds": 75.55906816595234,
+        "thinking_tokens": 2373,
+        "generated_tokens": 2712
+      }
     }
   ],
-  "native_grades_replayed": 6
+  "native_grades_replayed": 8
 }
