@@ -97,7 +97,7 @@ def fresh(site):
         time.sleep(2)
     raise RuntimeError(f'{site} fixture did not pass signed-in health check')
 
-def perform(page,ctx,line):
+def perform(page,ctx,line,field_selection='keyboard'):
     # Compact and spaced control IDs express the same action. Keep prose invalid.
     line=re.sub(r'^([CHFST])(?=\d)',r'\1 ',line,flags=re.I)
     if line.startswith('['):
@@ -140,7 +140,11 @@ def perform(page,ctx,line):
             tap(page,el)
             if op=='F':
                 if not el.is_editable(): raise ValueError('Control is not editable')
-                el.press('ControlOrMeta+a');page.keyboard.type(args[1],delay=25)
+                if field_selection=='select-text':
+                    el.select_text()
+                else:
+                    el.press('ControlOrMeta+a')
+                page.keyboard.type(args[1],delay=25)
     else: raise ValueError('Unrecognized action')
     page.wait_for_timeout(300)
     return page,'acting',None
@@ -156,7 +160,9 @@ def observation(ctx,page):
             if attempt==7: raise
             page.wait_for_timeout(200)
 
-def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh):
+def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh,field_selection='keyboard'):
+    if field_selection not in ('keyboard','select-text'):
+        raise ValueError('Unknown field selection method')
     num=task['id']; site='reddit' if task['site'] in ('forum','reddit') else 'shopping'
     origin=URL[site]
     fixture_reset(site)
@@ -202,7 +208,7 @@ def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh):
             step=dict(start_s=step_start,tab=active_tab,view=view,action=line,generated=response['generated'],thinking=response['thinking'],inference_s=response['seconds'])
             steps.append(step)
             try:
-                page,state,answer=perform(page,ctx,line)
+                page,state,answer=perform(page,ctx,line,field_selection)
             except (ValueError, AssertionError, BrowserError) as exc:
                 step['error']=str(exc).splitlines()[0][:180]
                 state='invalid'
@@ -220,6 +226,7 @@ def episode(browser,worker,wa,task,arm,out,fixture_reset=fresh):
     if hasattr(worker,'hardware'):
         receipt['hardware']=worker.hardware
         receipt['fixture_origin']=origin
+    receipt['field_selection']=field_selection
     write_json(out/(stem+'.json'),receipt)
     print(num,arm,result.score,result.status,round(elapsed,2),len(steps),flush=True)
 

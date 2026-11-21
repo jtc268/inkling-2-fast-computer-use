@@ -1,14 +1,14 @@
 {
-  "sha256": "0830d9889818fad6de497389c960190e53e06ea0789b6e4fcab12c122ed0efb4",
+  "sha256": "d2233a02ab7e2e7cfd098613635a07d7ca6ca0be790934787aa3d25efe83a0c2",
   "fps": 20,
   "resolution": [
     1200,
     900
   ],
-  "duration_s": 123.25,
-  "task_count": 32,
+  "duration_s": 142.25,
+  "task_count": 33,
   "opening_s": 2.75,
-  "closing_start_s": 119.75,
+  "closing_start_s": 138.75,
   "selection": "One actually recorded case per distinct task. Form then cart, five MiniWoB++ tasks, then every graded WebArena ID in numeric order. Comparison arms are from the same case and checkpoint study. The complete graded time is independent of the excerpt length.",
   "chapters": [
     {
@@ -674,35 +674,35 @@
       "environment": "WebArena",
       "task": "274",
       "title": "Search for a USB Wi-Fi adapter",
-      "shared_elapsed_start_s": 0.6392697500297799,
+      "shared_elapsed_start_s": 0.5170254579745233,
       "arms": [
         {
-          "arm": "Original",
-          "elapsed_s": 14.192223457968794,
+          "arm": "Stock Inkling 2 Mini",
+          "elapsed_s": 14.4645598330535,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "da8dad4652d5b2a9c56c8219fa82a8eecee00908b503c7a1b010a773893349bd",
+          "receipt_sha256": "7dd5b163ecda95dc095a8ba7d06264c53181c151ad9702a5952102aefd94466c",
           "receipt": "274-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "eb44c33955e1bff1e52b617ad668775ae23d5f512e6485dcae25ad3dc6b1c0bd",
-            "start_s": 0.6399634170113131,
-            "source_duration_s": 14.4,
+            "source_sha256": "2a4ca6055089cede549452b37cb326726464a2ec813eea341ce7c076ef9bad46",
+            "start_s": 0.5176799998618662,
+            "source_duration_s": 14.65,
             "available_frames": 105
           }
         },
         {
-          "arm": "Command-stop edit",
-          "elapsed_s": 5.18926975002978,
+          "arm": "Query-transfer edit",
+          "elapsed_s": 5.067025457974523,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "351a025d42c86c1c0a48def7c2f80efef1797b52390cddf0e5e510ff83aad5db",
+          "receipt_sha256": "b644a98c7eccde32872614661647269bceefad3edfcb04aa03e745fe87e0168a",
           "receipt": "274-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "add2cfbbdb0c8fdbe661ba449f3f010fc1b17eed503311111ec47d5a4f513bdc",
-            "start_s": 0.6401826249668374,
-            "source_duration_s": 5.55,
+            "source_sha256": "78560c26c461ee5465f5d0d3069a4cf1f652e33facede25b8b0521e030a57fce",
+            "start_s": 0.5176841670647263,
+            "source_duration_s": 5.7,
             "available_frames": 92
           }
         }
@@ -713,37 +713,37 @@
       "start_s": 65.0,
       "duration_s": 5.25,
       "environment": "WebArena",
-      "task": "276",
-      "title": "Search for Switch accessories",
-      "shared_elapsed_start_s": 0.6040942090796306,
+      "task": "275",
+      "title": "Search for Xbox",
+      "shared_elapsed_start_s": 0.16464374999050047,
       "arms": [
         {
-          "arm": "Original",
-          "elapsed_s": 14.387671292060986,
+          "arm": "Stock Inkling 2 Mini",
+          "elapsed_s": 17.980089125107042,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "fb1347e315e20e8a506d1b2a9a93b2a60490fab8ac436e06fa8e64541b989a97",
-          "receipt": "276-original.json",
+          "receipt_sha256": "625e8d0ea7c9a704006aea9b9f879453d760387497b45f91f7421c2107257fde",
+          "receipt": "275-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "db02693f16ff145b1ec7fa81ebce53cd4f47be6234e5bac5eae31c8498f2d04c",
-            "start_s": 0.6052038760855794,
-            "source_duration_s": 14.6,
+            "source_sha256": "e262e6dcb49c6c06327cb1691eb52544c3e572c9b339980a667f71f97a79d577",
+            "start_s": 0.16534245891962196,
+            "source_duration_s": 18.15,
             "available_frames": 105
           }
         },
         {
-          "arm": "Command-stop edit",
-          "elapsed_s": 5.154094209079631,
+          "arm": "Query-transfer edit",
+          "elapsed_s": 4.7146437499905005,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "6cc36823d78f1caad83133bc501182355f98065fd8b8503240fa2258349a0ea4",
-          "receipt": "276-edited.json",
+          "receipt_sha256": "d9e1a5e94971865e8393f3125e118a5fc8ef4bdbcda1e946297918823616d4f8",
+          "receipt": "275-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "f648507ea80b4d408f86b78b323b1effeb66ed66bc73a4241da8bd839ee6c7ee",
-            "start_s": 0.6048045841045677,
-            "source_duration_s": 5.85,
+            "source_sha256": "f5a41771f09448bb4f28e5a6d8b6d67c35223bf0ee7eb668f11172e158fb63d8",
+            "start_s": 0.16535787498578425,
+            "source_duration_s": 5.1,
             "available_frames": 92
           }
         }
@@ -752,88 +752,207 @@
     {
       "number": 19,
       "start_s": 70.25,
-      "duration_s": 5.25,
+      "duration_s": 9.5,
       "environment": "WebArena",
-      "task": "277",
-      "title": "Search for iPhone 13 batteries",
-      "shared_elapsed_start_s": 1.6270112080266699,
+      "task": "276",
+      "title": "Search for Switch accessories",
+      "shared_elapsed_start_s": 1.5718425839906558,
       "arms": [
         {
-          "arm": "Original",
-          "elapsed_s": 16.82288150000386,
+          "arm": "Stock Inkling 2 Mini",
+          "elapsed_s": 14.09692866599653,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "d6d93fba90b5b824431b37f161011e16c31031b5aebded76dbe15d0cf468594d",
-          "receipt": "277-original.json",
+          "receipt_sha256": "980a3e1c9c56d0d3e1b57e23f6ff5fca7ddaa9bcdf250066f4ceaf5ce96ce351",
+          "receipt": "276-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "82bb4aaacbf5d832fc38c13012d4c035458eff6f6df65d2207530fde1d02bad7",
-            "start_s": 1.6276512500364333,
-            "source_duration_s": 17.0,
+            "source_sha256": "a801a597d1eff96882c88e44550ddf04532c382590e91cd2b0521ff857d3d848",
+            "start_s": 1.5725632929708808,
+            "source_duration_s": 14.35,
             "available_frames": 105
           }
         },
         {
-          "arm": "Command-stop edit",
-          "elapsed_s": 6.17701120802667,
+          "arm": "Query-transfer edit",
+          "elapsed_s": 6.121842583990656,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "27668df9449a9e992a621f21a1f57da6bc3c5b83a7f4e76ad1eaae211849462e",
+          "receipt_sha256": "13da6f50497d0a3a287f53e10c517937cf936e06e478d1f93d7bb6d5804608e4",
+          "receipt": "276-edited.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "c5548c473088550c9c4e7308a3338f10e1b092ae9e26293c659f086a9fce27f9",
+            "start_s": 1.5724957919912412,
+            "source_duration_s": 6.45,
+            "available_frames": 92
+          }
+        }
+      ],
+      "additional_takes": [
+        {
+          "start_s": 75.5,
+          "duration_s": 4.25,
+          "shared_elapsed_start_s": 0.14850212498567994,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 5.319939290988259,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "73d8c217bdc2e7fedf38a37fc5d3088aa7e3100c8088a05b5e1fb4210cef57a9",
+              "receipt": "276-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "3981b646f3ef012a477b5324d53c26779b4d267bd4328d4668097d98fd59b05a",
+                "start_s": 0.1491462500300258,
+                "source_duration_s": 5.55,
+                "available_frames": 85
+              }
+            },
+            {
+              "arm": "Query-transfer edit",
+              "elapsed_s": 3.69850212498568,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "0ff0fbe4a87cb9cf4ab50f3b769f871255fbee0d5de6ad688e0b6de970e3ec9f",
+              "receipt": "276-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "eb3e5fcb71a4735f73bf19c46aea6f60f27fd7f6df72236f44b18d133cb47950",
+                "start_s": 0.14913120800629254,
+                "source_duration_s": 4.7,
+                "available_frames": 72
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "start_s": 79.75,
+      "duration_s": 5.25,
+      "environment": "WebArena",
+      "task": "277",
+      "title": "Search for iPhone 13 batteries",
+      "shared_elapsed_start_s": 1.9211640829918906,
+      "arms": [
+        {
+          "arm": "Stock Inkling 2 Mini",
+          "elapsed_s": 17.644869624986313,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "c9a0439dadcc31ac77593227121949bc84f4cb6210530416ef820d7a8891a89c",
+          "receipt": "277-original.json",
+          "recording": {
+            "kind": "native browser recording",
+            "source_sha256": "ced7faf88d1b8361911083dd8fb44d7b4024c1ce38e8e7d8d630f3bf3c7b1cc0",
+            "start_s": 1.9218664159299805,
+            "source_duration_s": 17.85,
+            "available_frames": 105
+          }
+        },
+        {
+          "arm": "Query-transfer edit",
+          "elapsed_s": 6.471164082991891,
+          "passed": true,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "3a108b2884dd800c35d0c42d0f545b7afbb35237f30caca45a950d9bcc49d468",
           "receipt": "277-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "ea9b1ebda0986513cde56308fbecc02ad357281961cec5cfbf74853d44326f0c",
-            "start_s": 1.6277235410409048,
-            "source_duration_s": 6.5,
+            "source_sha256": "48a3a2c5b8c7de723002ee8a2bbe6159e4c7c5c0c2a33390f4b3b84167acd0c6",
+            "start_s": 1.9218130419496446,
+            "source_duration_s": 6.8,
             "available_frames": 92
           }
         }
       ]
     },
     {
-      "number": 20,
-      "start_s": 75.5,
-      "duration_s": 5.25,
+      "number": 21,
+      "start_s": 85.0,
+      "duration_s": 9.5,
       "environment": "WebArena",
       "task": "278",
       "title": "Search for green tea bags",
-      "shared_elapsed_start_s": null,
+      "shared_elapsed_start_s": 1.4739852500380948,
       "arms": [
         {
-          "arm": "Original",
-          "elapsed_s": 20.43784629192669,
+          "arm": "Stock Inkling 2 Mini",
+          "elapsed_s": 20.263683500001207,
           "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "a4371c0e0a56bfe725f82c0967a0ebe8ba71ea9db7622c9534b553e6ac242431",
+          "receipt_sha256": "f9b71a5b2e94ee9abe895993334b96ebe220cfa862f267b651028acb50a21d56",
           "receipt": "278-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "29b6ff22486890f2b481dfadc4a398a75b12c94252a068d17408872c08ad0760",
-            "start_s": 15.188709124922752,
-            "source_duration_s": 20.6,
+            "source_sha256": "50e78f8db7f9a520264509cda0d282513ea6329dfe8c6fcf6c58e198a489f711",
+            "start_s": 1.4747789591085165,
+            "source_duration_s": 20.45,
             "available_frames": 105
           }
         },
         {
-          "arm": "Command-stop edit",
-          "elapsed_s": 39.68069729197305,
-          "passed": false,
+          "arm": "Query-transfer edit",
+          "elapsed_s": 6.023985250038095,
+          "passed": true,
           "device": "M5 Max MacBook Pro",
-          "receipt_sha256": "90e1db7afd7b47f896ebae8ca43348481fd8c866d9696d9eaf439a0de9f4e422",
+          "receipt_sha256": "283f337bcad71059cde107442b0e803552fff3daf46083958e07a9e9df783915",
           "receipt": "278-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "6f8f40b0560be59525f16358cf448e4cb850300dbecb9e60ed12fef8d83dfcd0",
-            "start_s": 34.43137279199436,
-            "source_duration_s": 40.65,
-            "available_frames": 105
+            "source_sha256": "8a6881b0cc927a920d9b2be8d03edbe7ba8abaf0c01a20d656458b3635d2926a",
+            "start_s": 1.4746891250135377,
+            "source_duration_s": 6.5,
+            "available_frames": 92
           }
+        }
+      ],
+      "additional_takes": [
+        {
+          "start_s": 90.25,
+          "duration_s": 4.25,
+          "shared_elapsed_start_s": null,
+          "arms": [
+            {
+              "arm": "Stock Inkling 2 Mini",
+              "elapsed_s": 6.919278040993959,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "da2a0d2275baba362cd15f879f39ba70a605a97c40e7b1386b59067ca835edc8",
+              "receipt": "278-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "95ee25eabcf2dfb1728c0e95b03e6236bcd97eca14c78e76647103a5939211ba",
+                "start_s": 2.669965415960178,
+                "source_duration_s": 7.25,
+                "available_frames": 85
+              }
+            },
+            {
+              "arm": "Query-transfer edit",
+              "elapsed_s": 11.511925667058676,
+              "passed": false,
+              "device": "RTX 5090",
+              "receipt_sha256": "d35e0b323a19a50a9530c8d0b6651d317b26ef392a6f86cd9a3815c450bfd952",
+              "receipt": "278-edited.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "b5dfca252b353fb5743d95d929d98e96d1f14b2b0ac8a3c5f5152a094cf86481",
+                "start_s": 7.262613874976523,
+                "source_duration_s": 12.5,
+                "available_frames": 85
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "number": 21,
-      "start_s": 80.75,
+      "number": 22,
+      "start_s": 94.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "313",
@@ -873,8 +992,8 @@
       ]
     },
     {
-      "number": 22,
-      "start_s": 84.0,
+      "number": 23,
+      "start_s": 97.75,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "324",
@@ -914,8 +1033,8 @@
       ]
     },
     {
-      "number": 23,
-      "start_s": 87.25,
+      "number": 24,
+      "start_s": 101.0,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "358",
@@ -955,8 +1074,8 @@
       ]
     },
     {
-      "number": 24,
-      "start_s": 90.5,
+      "number": 25,
+      "start_s": 104.25,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "399",
@@ -996,8 +1115,8 @@
       ]
     },
     {
-      "number": 25,
-      "start_s": 93.75,
+      "number": 26,
+      "start_s": 107.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "404",
@@ -1037,8 +1156,8 @@
       ]
     },
     {
-      "number": 26,
-      "start_s": 97.0,
+      "number": 27,
+      "start_s": 110.75,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "431",
@@ -1120,8 +1239,8 @@
       ]
     },
     {
-      "number": 27,
-      "start_s": 100.25,
+      "number": 28,
+      "start_s": 114.0,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "516",
@@ -1161,8 +1280,8 @@
       ]
     },
     {
-      "number": 28,
-      "start_s": 103.5,
+      "number": 29,
+      "start_s": 117.25,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "595",
@@ -1202,8 +1321,8 @@
       ]
     },
     {
-      "number": 29,
-      "start_s": 106.75,
+      "number": 30,
+      "start_s": 120.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "600",
@@ -1228,49 +1347,88 @@
       ]
     },
     {
-      "number": 30,
-      "start_s": 110.0,
-      "duration_s": 3.25,
+      "number": 31,
+      "start_s": 123.75,
+      "duration_s": 8.5,
       "environment": "WebArena",
       "task": "630",
       "title": "Ask for headphone recommendations",
-      "shared_elapsed_start_s": 18.007142707984894,
+      "shared_elapsed_start_s": null,
       "arms": [
         {
-          "arm": "Original",
-          "elapsed_s": 24.51519945904147,
-          "passed": true,
-          "device": "RTX 5090",
-          "receipt_sha256": "064d4dfe613e98720dc39b55360befa8c023da78c29af94ade63068cd1f37c61",
+          "arm": "Stock Inkling 2 Mini",
+          "elapsed_s": 89.23805470904335,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "8013318b896df063959a60e238f7e85c10f7b42030105031b50ec0348fa9a2d6",
           "receipt": "630-original.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "39f0add873acca0cc39b1f0928ef80902590f07023e4dfdf829706f2a267f1c4",
-            "start_s": 18.008387083001434,
-            "source_duration_s": 24.5,
-            "available_frames": 65
+            "source_sha256": "47f2f20329bcc0dbb1ecf143fdaf71de12358a6857dcf204ec5ad79625871237",
+            "start_s": 83.98876800003927,
+            "source_duration_s": 90.2,
+            "available_frames": 105
           }
         },
         {
-          "arm": "One-row edit",
-          "elapsed_s": 20.557142707984895,
-          "passed": true,
-          "device": "RTX 5090",
-          "receipt_sha256": "d00823bc4c06b54af3b06ab08ac977bbf40005175c62396ac38e5ad4b442d2dc",
-          "receipt": "630-close_strong.json",
+          "arm": "Query-transfer edit",
+          "elapsed_s": 0.9599808329949155,
+          "passed": false,
+          "device": "M5 Max MacBook Pro",
+          "receipt_sha256": "678d0c79976fdbfbc1642808403a2aedf7cef67a694fcf0302daaa11aa43b0d5",
+          "receipt": "630-edited.json",
           "recording": {
             "kind": "native browser recording",
-            "source_sha256": "ab7eaa11036cd84ee646ad4c74113973420e28b0dadeaa5e07350deee879bb1b",
-            "start_s": 18.008449874981306,
-            "source_duration_s": 20.55,
-            "available_frames": 50
+            "source_sha256": "a4309145ba9dd269fbd63f6c37c38958e8ee8c95ebcc2a459b8f77e0c5ac201f",
+            "start_s": 0,
+            "source_duration_s": 1.95,
+            "available_frames": 21
           }
+        }
+      ],
+      "additional_takes": [
+        {
+          "start_s": 129.0,
+          "duration_s": 3.25,
+          "shared_elapsed_start_s": 18.007142707984894,
+          "arms": [
+            {
+              "arm": "Original",
+              "elapsed_s": 24.51519945904147,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "064d4dfe613e98720dc39b55360befa8c023da78c29af94ade63068cd1f37c61",
+              "receipt": "630-original.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "39f0add873acca0cc39b1f0928ef80902590f07023e4dfdf829706f2a267f1c4",
+                "start_s": 18.008387083001434,
+                "source_duration_s": 24.5,
+                "available_frames": 65
+              }
+            },
+            {
+              "arm": "One-row edit",
+              "elapsed_s": 20.557142707984895,
+              "passed": true,
+              "device": "RTX 5090",
+              "receipt_sha256": "d00823bc4c06b54af3b06ab08ac977bbf40005175c62396ac38e5ad4b442d2dc",
+              "receipt": "630-close_strong.json",
+              "recording": {
+                "kind": "native browser recording",
+                "source_sha256": "ab7eaa11036cd84ee646ad4c74113973420e28b0dadeaa5e07350deee879bb1b",
+                "start_s": 18.008449874981306,
+                "source_duration_s": 20.55,
+                "available_frames": 50
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "number": 31,
-      "start_s": 113.25,
+      "number": 32,
+      "start_s": 132.25,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "653",
@@ -1310,8 +1468,8 @@
       ]
     },
     {
-      "number": 32,
-      "start_s": 116.5,
+      "number": 33,
+      "start_s": 135.5,
       "duration_s": 3.25,
       "environment": "WebArena",
       "task": "689",
@@ -1336,5 +1494,5 @@
       ]
     }
   ],
-  "embedded_chapters": 34
+  "embedded_chapters": 35
 }

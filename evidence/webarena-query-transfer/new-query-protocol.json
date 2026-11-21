@@ -1,0 +1,14 @@
+{
+  "id": 275,
+  "checkpoint_sha256": "9f54b7bc5c2d2408f19d79cc3bcce1fd456c96bcdf1f4e25bfcb6d3c608dc47e",
+  "role": "Unseen WebArena shopping query from the same search template. Selected before its first run.",
+  "initial_arm_order": [
+    "edited",
+    "original"
+  ],
+  "repeat_arm_order": [
+    "original",
+    "edited"
+  ],
+  "advance": "Run once the four correction and regression queries clear their median 2\u00d7 gate. Reverse order if the first pair passes and reaches 2\u00d7. Keep every graded attempt."
+}

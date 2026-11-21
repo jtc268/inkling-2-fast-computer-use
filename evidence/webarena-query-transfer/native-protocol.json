@@ -1,0 +1,20 @@
+{
+  "id_order": [
+    278,
+    274,
+    276,
+    277
+  ],
+  "candidate_sha256": "9f54b7bc5c2d2408f19d79cc3bcce1fd456c96bcdf1f4e25bfcb6d3c608dc47e",
+  "original_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "roles": {
+    "278": "development after fresh-query failure",
+    "274": "prior control",
+    "276": "prior control",
+    "277": "prior transferred win, protected during this edit"
+  },
+  "gate": "Run the reversed pair only after a first joint success. Advance to the next task when both repetitions pass with a per-pair speedup and median paired speed ratio of at least 2.",
+  "cap_tokens": 512,
+  "sampler": "greedy",
+  "fixture": "fresh per episode"
+}

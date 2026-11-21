@@ -1,4 +1,4 @@
-"""Run two Inkling checkpoints on one official shopping-search task in Brave."""
+"""Run two Inkling checkpoints on a single-site WebArena shopping or forum task in Brave."""
 import argparse
 import gc
 import hashlib
@@ -48,25 +48,39 @@ def shard_digest(directory):
     with (directory / shard).open('rb') as stream:
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
+def official_task(task_id):
+    config = bench.WebArenaVerifiedConfig(
+        environments={name: {'urls': [origin]} for name, origin in bench.URL.items()}
+    )
+    grader = bench.WebArenaVerified(config=config)
+    task = grader.get_task(task_id)
+    sites = [site.value for site in task.sites]
+    if len(sites) != 1 or sites[0] not in bench.FIXTURE_IMAGES:
+        raise ValueError(f'Task {task_id} needs {", ".join(sites)}. This runner supports single-site shopping and reddit tasks.')
+    return grader, sites[0]
+
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('original', type=Path)
     parser.add_argument('edited', type=Path)
-    parser.add_argument('--id', required=True, type=int, choices=range(274, 279))
+    parser.add_argument('--id', required=True, type=int, help='Official WebArena task ID on shopping or reddit')
     parser.add_argument('--out', required=True, type=Path, help='New directory for receipts, HARs and recordings')
     parser.add_argument('--repeats', default=2, type=int)
     parser.add_argument('--edited-first', action='store_true')
     parser.add_argument('--brave', default=bench.BRAVE)
+    parser.add_argument('--field-selection', choices=('select-text', 'keyboard'), default='select-text',
+                        help='Select the current field contents before typing. Historical runs used keyboard.')
     args = parser.parse_args()
     if args.repeats < 1:
         parser.error('Use at least one repeat.')
+    try:
+        wa, site = official_task(args.id)
+    except (ValueError, IndexError, KeyError) as exc:
+        parser.error(str(exc))
     checkpoints = {'original': args.original, 'edited': args.edited}
     digests = {arm: shard_digest(directory) for arm, directory in checkpoints.items()}
     args.out.mkdir(parents=True, exist_ok=False)
-    origin = bench.URL['shopping']
-    config = bench.WebArenaVerifiedConfig(environments={'shopping': {'urls': [origin]}})
-    wa = bench.WebArenaVerified(config=config)
     pairs = []
     with bench.sync_playwright() as pw:
         browser = pw.chromium.launch(executable_path=args.brave, headless=True)
@@ -77,13 +91,16 @@ def main():
             for arm in order:
                 worker = MlxWorker(checkpoints[arm], digests[arm])
                 worker.decide_web('Click Go. Controls: 7 button Go.', bench.SYSTEM)
-                bench.episode(browser, worker, wa, dict(id=args.id, site='shopping'), arm, folder)
+                bench.episode(browser, worker, wa, dict(id=args.id, site=site), arm, folder,
+                              field_selection=args.field_selection)
                 del worker
                 gc.collect()
                 mx.clear_cache()
             records = [json.loads((folder / f'{args.id:03}-{arm}.json').read_text())
                        for arm in ('original', 'edited')]
             stock, edit = records
+            if any(record['grader_error'] is not None for record in records):
+                raise RuntimeError(f'Native grader error in {folder}.')
             if stock['steps'][0]['view'] != edit['steps'][0]['view']:
                 raise ValueError('Initial browser observations differ.')
             joint = stock['score'] == edit['score'] == 1

@@ -1,0 +1,15 @@
+{
+  "source_checkpoint": "9f54b7bc5c2d2408f19d79cc3bcce1fd456c96bcdf1f4e25bfcb6d3c608dc47e",
+  "cases": [
+    278,
+    276
+  ],
+  "order": [
+    "compact",
+    "spaced",
+    "spaced",
+    "compact"
+  ],
+  "browser_trials": false,
+  "perturbation": "One ASCII space between F and its control number in the previous-action history. All other input bytes are fixed within task."
+}

@@ -1,0 +1,67 @@
+{
+  "browser": "Chrome/158.0.8127.42",
+  "platform": "Windows Brave through Mac Playwright CDP",
+  "text": "green tea bag for weight loss",
+  "tests": [
+    {
+      "method": "ControlOrMeta+a",
+      "passes": [
+        {
+          "selected": [
+            0,
+            0
+          ],
+          "value": "green tea bag for weight loss"
+        },
+        {
+          "selected": [
+            19,
+            19
+          ],
+          "value": "green tea bag for wgreen tea bag for weight losseight loss"
+        }
+      ],
+      "exact_replacement": false
+    },
+    {
+      "method": "Control+a",
+      "passes": [
+        {
+          "selected": [
+            0,
+            0
+          ],
+          "value": "green tea bag for weight loss"
+        },
+        {
+          "selected": [
+            0,
+            29
+          ],
+          "value": "green tea bag for weight loss"
+        }
+      ],
+      "exact_replacement": true
+    },
+    {
+      "method": "locator.select_text",
+      "passes": [
+        {
+          "selected": [
+            0,
+            0
+          ],
+          "value": "green tea bag for weight loss"
+        },
+        {
+          "selected": [
+            0,
+            29
+          ],
+          "value": "green tea bag for weight loss"
+        }
+      ],
+      "exact_replacement": true
+    }
+  ]
+}

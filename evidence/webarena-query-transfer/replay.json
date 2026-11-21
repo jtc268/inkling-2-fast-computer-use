@@ -1,0 +1,240 @@
+{
+  "grader": "WebArena-Verified 1.2.3",
+  "reproduced": 26,
+  "episodes": [
+    {
+      "id": 278,
+      "repeat": "r1",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "f9b71a5b2e94ee9abe895993334b96ebe220cfa862f267b651028acb50a21d56",
+      "recording_sha256": "50e78f8db7f9a520264509cda0d282513ea6329dfe8c6fcf6c58e198a489f711",
+      "network_sha256": "dcc319debda9cd92359729d83570124d3c0e136bce589ec21720ca6f9fe1b19f"
+    },
+    {
+      "id": 278,
+      "repeat": "r1",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "283f337bcad71059cde107442b0e803552fff3daf46083958e07a9e9df783915",
+      "recording_sha256": "8a6881b0cc927a920d9b2be8d03edbe7ba8abaf0c01a20d656458b3635d2926a",
+      "network_sha256": "dc235039aeb44cc3fadb5447383e1ea928d8bc4ec56502ec4d0fa8732dd4e6e2"
+    },
+    {
+      "id": 278,
+      "repeat": "r2",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "20763e357cce86307b32659cc873272b2a37954cc99944886f0bf73d01377f55",
+      "recording_sha256": "e7fae24b0d0c3a4a3613e96915d78710f731bdd479aef9981721aafe740b607e",
+      "network_sha256": "a3aba57065b6afc203b3f9a5f73bd2c20c445f6225960b5880b21306141cd433"
+    },
+    {
+      "id": 278,
+      "repeat": "r2",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "60db5885418a3bbd35963734e77909bdf120cb0ebc6d48f0512fc6b3b0f9111b",
+      "recording_sha256": "4b8e4eab95ed36663ec3262a31a511e21dbfb8ff8d7500ff44601017db30543f",
+      "network_sha256": "a899d1fd4ceed16b8489b76a1896943b0df559322c0961faf638427f85f9cd6b"
+    },
+    {
+      "id": 274,
+      "repeat": "r1",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "7dd5b163ecda95dc095a8ba7d06264c53181c151ad9702a5952102aefd94466c",
+      "recording_sha256": "2a4ca6055089cede549452b37cb326726464a2ec813eea341ce7c076ef9bad46",
+      "network_sha256": "e553bfbe106d663602f5975dff3e77fd6c265c1d1bb234a80dcf16574623aced"
+    },
+    {
+      "id": 274,
+      "repeat": "r1",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "b644a98c7eccde32872614661647269bceefad3edfcb04aa03e745fe87e0168a",
+      "recording_sha256": "78560c26c461ee5465f5d0d3069a4cf1f652e33facede25b8b0521e030a57fce",
+      "network_sha256": "c4b7396c6aa81c73b04c2b6fc45a2cbe0ee65f67a3b74c2f640c4728d5f50718"
+    },
+    {
+      "id": 274,
+      "repeat": "r2",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "7a497e164e3ea5cda1086a064e330a97b584d56d3a81ebd7574e1a3cac0f5630",
+      "recording_sha256": "928acd9585ff350611a4bb06f69227dbf44bc66c958b7086b30b6553e9d2b89d",
+      "network_sha256": "085276bdc0f665fe6c9341d74f6f71803901e53272693bdccd12711ab26dbabc"
+    },
+    {
+      "id": 274,
+      "repeat": "r2",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "551b6c58271bfe364472a7851783b0c6e2c42ad31160eab9d38d0e136014b2c5",
+      "recording_sha256": "f5859b5893fa16e3955805fa6502aee63118ae68938d2d0d6b92887bbaad728b",
+      "network_sha256": "e8b2764805a7ee6498bc3d5a398266a55369c45392e2bd5cc15aa9b52f1a1437"
+    },
+    {
+      "id": 276,
+      "repeat": "r1",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "980a3e1c9c56d0d3e1b57e23f6ff5fca7ddaa9bcdf250066f4ceaf5ce96ce351",
+      "recording_sha256": "a801a597d1eff96882c88e44550ddf04532c382590e91cd2b0521ff857d3d848",
+      "network_sha256": "43026fd4d346747add985f07cf7c73c28ec134e47248fbd8df4fa8ffe55347c0"
+    },
+    {
+      "id": 276,
+      "repeat": "r1",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "13da6f50497d0a3a287f53e10c517937cf936e06e478d1f93d7bb6d5804608e4",
+      "recording_sha256": "c5548c473088550c9c4e7308a3338f10e1b092ae9e26293c659f086a9fce27f9",
+      "network_sha256": "7cf6520de992686ae6731dd60ac38fcadd511338024299179fae3c8974d777a6"
+    },
+    {
+      "id": 276,
+      "repeat": "r2",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "4cd17a358cc64b9320f85412e9beeeb68a1030c4ba336fc290ad82932ea36848",
+      "recording_sha256": "9ce4666a873242979e0a69fa1f6c6332c276afc35a5055b0ee31aafc953c4ecc",
+      "network_sha256": "cfec00688dea37567005e37d165f7a5b43a2d5c7be0eaf9919897f3b5749c46d"
+    },
+    {
+      "id": 276,
+      "repeat": "r2",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "be2d407077b8c4dda7591d11c15ffc7e1619787ed566336605b623cc3294ce80",
+      "recording_sha256": "9ea4255dddec237c9458c05bebe2d0a9ddb54a5a185e57be19ee57933d5bc78c",
+      "network_sha256": "b50c639b540e49a9bd499007cc70d302aed13a28eae0cedb80d6a17defc9d85e"
+    },
+    {
+      "id": 277,
+      "repeat": "r1",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "c9a0439dadcc31ac77593227121949bc84f4cb6210530416ef820d7a8891a89c",
+      "recording_sha256": "ced7faf88d1b8361911083dd8fb44d7b4024c1ce38e8e7d8d630f3bf3c7b1cc0",
+      "network_sha256": "394c024f0d10042bc607e7ea2ff39534e6f2bdec6f4ef4a4ce0eb07cbe232dde"
+    },
+    {
+      "id": 277,
+      "repeat": "r1",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "3a108b2884dd800c35d0c42d0f545b7afbb35237f30caca45a950d9bcc49d468",
+      "recording_sha256": "48a3a2c5b8c7de723002ee8a2bbe6159e4c7c5c0c2a33390f4b3b84167acd0c6",
+      "network_sha256": "298df2c51b2adecd8a12ea540a5b728d1e30973ea5057a45bfad1ace5246fc9c"
+    },
+    {
+      "id": 277,
+      "repeat": "r2",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "d93816cba85a7748cb4d9d6ae23129e9d8fd23fb5ef0f6e5dcc5762e4a209bb9",
+      "recording_sha256": "e1895f5ff8ea6f839e57dda782b6ee8bef9aeb31afdb9696fde557210579c76c",
+      "network_sha256": "34f6cd82939a4fa0eb4dd3b34083e524400650cfe82b3c4723d1bc92d7dad988"
+    },
+    {
+      "id": 277,
+      "repeat": "r2",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "55944a8a01114094ffd6ec9b59d238bed37fdf3d746965b871b6970fc971b29e",
+      "recording_sha256": "6aaaeecec7c9b49adea8a1b51a84c001c10cd6d9fc1d2c6c1547ed025d3b1927",
+      "network_sha256": "83a191e5224aac1172595368520a8893733985fe7ef049bf4dc7288be908d0e9"
+    },
+    {
+      "id": 630,
+      "repeat": "r1",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "8013318b896df063959a60e238f7e85c10f7b42030105031b50ec0348fa9a2d6",
+      "recording_sha256": "47f2f20329bcc0dbb1ecf143fdaf71de12358a6857dcf204ec5ad79625871237",
+      "network_sha256": "10d62ccf4fe385d90788f800c80b88491b2c070d3473cd887625b71c2295cc5e"
+    },
+    {
+      "id": 630,
+      "repeat": "r1",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "678d0c79976fdbfbc1642808403a2aedf7cef67a694fcf0302daaa11aa43b0d5",
+      "recording_sha256": "a4309145ba9dd269fbd63f6c37c38958e8ee8c95ebcc2a459b8f77e0c5ac201f",
+      "network_sha256": "33ffa1d3d5843760b69c8d642a2751faa13f94cd134d71d8cf554b78d719dffa"
+    },
+    {
+      "id": 275,
+      "repeat": "r1",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "625e8d0ea7c9a704006aea9b9f879453d760387497b45f91f7421c2107257fde",
+      "recording_sha256": "e262e6dcb49c6c06327cb1691eb52544c3e572c9b339980a667f71f97a79d577",
+      "network_sha256": "29879af34d20a7e55a0937704c4295f4b7b2c66c7e88bbb921e8f6874add4f74"
+    },
+    {
+      "id": 275,
+      "repeat": "r1",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "d9e1a5e94971865e8393f3125e118a5fc8ef4bdbcda1e946297918823616d4f8",
+      "recording_sha256": "f5a41771f09448bb4f28e5a6d8b6d67c35223bf0ee7eb668f11172e158fb63d8",
+      "network_sha256": "7dc08900a9f1c7b7c202bf256500cc3e6c7fee1f1b0aea805a7974a9058c7691"
+    },
+    {
+      "id": 275,
+      "repeat": "r2",
+      "arm": "original",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "1cdd3c02a1be89c26dff2a83f341565e26d36f6aaa70b49fb4560be8828bcaf8",
+      "recording_sha256": "823a6c56cb0dc1d0a6af02f94f5ad5ca68cbb80e1632a320ddee6c9d5e76be8e",
+      "network_sha256": "7303e9288db35d9e7188ab875f7cb90cc42b20dd14d8acb2b53917da0b256543"
+    },
+    {
+      "id": 275,
+      "repeat": "r2",
+      "arm": "edited",
+      "device": "M5 Max MacBook Pro",
+      "receipt_sha256": "672d609ccccf34dbb08ad76758b8196eeceaae3c50ea0a4eed8eff890c5eee39",
+      "recording_sha256": "47b13e8b56c522c7ab944267318abc1dda139b79be1ef7b00ba2558145bd59a5",
+      "network_sha256": "50ee7b9f4fde973e1e540cde62ed0d4a711e4f8682de77356c99aba5b45b05a9"
+    },
+    {
+      "id": 278,
+      "repeat": "r1",
+      "arm": "original",
+      "device": "RTX 5090",
+      "receipt_sha256": "da2a0d2275baba362cd15f879f39ba70a605a97c40e7b1386b59067ca835edc8",
+      "recording_sha256": "95ee25eabcf2dfb1728c0e95b03e6236bcd97eca14c78e76647103a5939211ba",
+      "network_sha256": "1b79866782c96d3b53100abaaa4927ffbf7f2d457ef8f3683cc7b8fc0822ea81"
+    },
+    {
+      "id": 278,
+      "repeat": "r1",
+      "arm": "edited",
+      "device": "RTX 5090",
+      "receipt_sha256": "d35e0b323a19a50a9530c8d0b6651d317b26ef392a6f86cd9a3815c450bfd952",
+      "recording_sha256": "b5dfca252b353fb5743d95d929d98e96d1f14b2b0ac8a3c5f5152a094cf86481",
+      "network_sha256": "579492e5da68d721ab2ec6579f680c165b59a9c769777a7f52b160faa2b7525f"
+    },
+    {
+      "id": 276,
+      "repeat": "r1",
+      "arm": "original",
+      "device": "RTX 5090",
+      "receipt_sha256": "73d8c217bdc2e7fedf38a37fc5d3088aa7e3100c8088a05b5e1fb4210cef57a9",
+      "recording_sha256": "3981b646f3ef012a477b5324d53c26779b4d267bd4328d4668097d98fd59b05a",
+      "network_sha256": "6397eb58d0829404e84f9a81c537ddb3f732645adeabbb9d1d1af6cf8fbbf230"
+    },
+    {
+      "id": 276,
+      "repeat": "r1",
+      "arm": "edited",
+      "device": "RTX 5090",
+      "receipt_sha256": "0ff0fbe4a87cb9cf4ab50f3b769f871255fbee0d5de6ad688e0b6de970e3ec9f",
+      "recording_sha256": "eb3e5fcb71a4735f73bf19c46aea6f60f27fd7f6df72236f44b18d133cb47950",
+      "network_sha256": "6ece028a33985f41c3eacf807744dc9194f05cebd36f0a131d3c9a0078760357"
+    }
+  ]
+}

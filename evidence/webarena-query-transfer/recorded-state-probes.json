@@ -1,0 +1,247 @@
+[
+  {
+    "source": "274",
+    "query": "usb wifi",
+    "decisions": [
+      {
+        "phase": 0,
+        "action": "F7 usb wifi",
+        "expected": [
+          "F7 usb wifi"
+        ],
+        "correct": true,
+        "generated": 10
+      },
+      {
+        "phase": 1,
+        "action": "C 9",
+        "expected": [
+          "C9",
+          "K Enter"
+        ],
+        "correct": true,
+        "generated": 7
+      },
+      {
+        "phase": 2,
+        "action": "DONE navigate",
+        "expected": [
+          "DONE navigate"
+        ],
+        "correct": true,
+        "generated": 7
+      }
+    ],
+    "all_correct": true
+  },
+  {
+    "source": "276",
+    "query": "switch accessories",
+    "decisions": [
+      {
+        "phase": 0,
+        "action": "F7 switch accessories",
+        "expected": [
+          "F7 switch accessories"
+        ],
+        "correct": true,
+        "generated": 9
+      },
+      {
+        "phase": 1,
+        "action": "C 9",
+        "expected": [
+          "C9",
+          "K Enter"
+        ],
+        "correct": true,
+        "generated": 7
+      },
+      {
+        "phase": 2,
+        "action": "DONE navigate",
+        "expected": [
+          "DONE navigate"
+        ],
+        "correct": true,
+        "generated": 7
+      }
+    ],
+    "all_correct": true
+  },
+  {
+    "source": "277",
+    "query": "batteries for iphone 13",
+    "decisions": [
+      {
+        "phase": 0,
+        "action": "F7 batteries for iphone 13",
+        "expected": [
+          "F7 batteries for iphone 13"
+        ],
+        "correct": true,
+        "generated": 12
+      },
+      {
+        "phase": 1,
+        "action": "C 9",
+        "expected": [
+          "C9",
+          "K Enter"
+        ],
+        "correct": true,
+        "generated": 7
+      },
+      {
+        "phase": 2,
+        "action": "DONE navigate",
+        "expected": [
+          "DONE navigate"
+        ],
+        "correct": true,
+        "generated": 7
+      }
+    ],
+    "all_correct": true
+  },
+  {
+    "source": "278",
+    "query": "green tea bag for weight loss",
+    "decisions": [
+      {
+        "phase": 0,
+        "action": "F7 green tea bag for weight loss",
+        "expected": [
+          "F7 green tea bag for weight loss"
+        ],
+        "correct": true,
+        "generated": 12
+      },
+      {
+        "phase": 1,
+        "action": "C 9",
+        "expected": [
+          "C9",
+          "K Enter"
+        ],
+        "correct": true,
+        "generated": 7
+      },
+      {
+        "phase": 2,
+        "action": "DONE navigate",
+        "expected": [
+          "DONE navigate"
+        ],
+        "correct": true,
+        "generated": 7
+      }
+    ],
+    "all_correct": true
+  },
+  {
+    "source": "synthetic",
+    "query": "oak book stand",
+    "decisions": [
+      {
+        "phase": 0,
+        "action": "F 12 oak book stand",
+        "expected": [
+          "F12 oak book stand"
+        ],
+        "correct": true,
+        "generated": 11
+      },
+      {
+        "phase": 1,
+        "action": "C 14",
+        "expected": [
+          "C14",
+          "K Enter"
+        ],
+        "correct": true,
+        "generated": 7
+      },
+      {
+        "phase": 2,
+        "action": "DONE navigate",
+        "expected": [
+          "DONE navigate"
+        ],
+        "correct": true,
+        "generated": 7
+      }
+    ],
+    "all_correct": true
+  },
+  {
+    "source": "synthetic",
+    "query": "paper filters size 4",
+    "decisions": [
+      {
+        "phase": 0,
+        "action": "F 7 paper filters size 4",
+        "expected": [
+          "F7 paper filters size 4"
+        ],
+        "correct": true,
+        "generated": 12
+      },
+      {
+        "phase": 1,
+        "action": "C 9",
+        "expected": [
+          "C9",
+          "K Enter"
+        ],
+        "correct": true,
+        "generated": 7
+      },
+      {
+        "phase": 2,
+        "action": "DONE navigate",
+        "expected": [
+          "DONE navigate"
+        ],
+        "correct": true,
+        "generated": 7
+      }
+    ],
+    "all_correct": true
+  },
+  {
+    "source": "synthetic",
+    "query": "compact clip light",
+    "decisions": [
+      {
+        "phase": 0,
+        "action": "F16 compact clip light",
+        "expected": [
+          "F16 compact clip light"
+        ],
+        "correct": true,
+        "generated": 9
+      },
+      {
+        "phase": 1,
+        "action": "C18",
+        "expected": [
+          "C18",
+          "K Enter"
+        ],
+        "correct": true,
+        "generated": 6
+      },
+      {
+        "phase": 2,
+        "action": "DONE navigate",
+        "expected": [
+          "DONE navigate"
+        ],
+        "correct": true,
+        "generated": 7
+      }
+    ],
+    "all_correct": true
+  }
+]

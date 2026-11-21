@@ -1,0 +1,74 @@
+[
+  {
+    "id": 278,
+    "spelling": "compact",
+    "previous_command": "F7 green tea bag for weight loss",
+    "command": "F7 green tea bag for weight loss",
+    "generated": 12,
+    "thinking": 0,
+    "fixed_prefix_sha256": "aac1ca46301fb6736bfacf62fafe788310e604955094b8f8973e8c09dc4bfb83"
+  },
+  {
+    "id": 278,
+    "spelling": "spaced",
+    "previous_command": "F 7 green tea bag for weight loss",
+    "command": "F7 green tea bag for weight loss",
+    "generated": 12,
+    "thinking": 0,
+    "fixed_prefix_sha256": "aac1ca46301fb6736bfacf62fafe788310e604955094b8f8973e8c09dc4bfb83"
+  },
+  {
+    "id": 278,
+    "spelling": "spaced",
+    "previous_command": "F 7 green tea bag for weight loss",
+    "command": "F7 green tea bag for weight loss",
+    "generated": 12,
+    "thinking": 0,
+    "fixed_prefix_sha256": "aac1ca46301fb6736bfacf62fafe788310e604955094b8f8973e8c09dc4bfb83"
+  },
+  {
+    "id": 278,
+    "spelling": "compact",
+    "previous_command": "F7 green tea bag for weight loss",
+    "command": "F7 green tea bag for weight loss",
+    "generated": 12,
+    "thinking": 0,
+    "fixed_prefix_sha256": "aac1ca46301fb6736bfacf62fafe788310e604955094b8f8973e8c09dc4bfb83"
+  },
+  {
+    "id": 276,
+    "spelling": "compact",
+    "previous_command": "F7 switch accessories",
+    "command": "C9",
+    "generated": 6,
+    "thinking": 0,
+    "fixed_prefix_sha256": "9eb8a0af6ce45495764369dc141ff4dc8e95549be1dee6e019fa3d0d8c6f70f7"
+  },
+  {
+    "id": 276,
+    "spelling": "spaced",
+    "previous_command": "F 7 switch accessories",
+    "command": "C 9",
+    "generated": 7,
+    "thinking": 0,
+    "fixed_prefix_sha256": "9eb8a0af6ce45495764369dc141ff4dc8e95549be1dee6e019fa3d0d8c6f70f7"
+  },
+  {
+    "id": 276,
+    "spelling": "spaced",
+    "previous_command": "F 7 switch accessories",
+    "command": "C 9",
+    "generated": 7,
+    "thinking": 0,
+    "fixed_prefix_sha256": "9eb8a0af6ce45495764369dc141ff4dc8e95549be1dee6e019fa3d0d8c6f70f7"
+  },
+  {
+    "id": 276,
+    "spelling": "compact",
+    "previous_command": "F7 switch accessories",
+    "command": "C9",
+    "generated": 6,
+    "thinking": 0,
+    "fixed_prefix_sha256": "9eb8a0af6ce45495764369dc141ff4dc8e95549be1dee6e019fa3d0d8c6f70f7"
+  }
+]

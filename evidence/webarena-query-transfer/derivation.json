@@ -1,0 +1,49 @@
+{
+  "parent_shard_sha256": "ff8222dba1c5f343365251899ae5c7a57d6bed037633e85f16460715e3200060",
+  "development": [
+    274,
+    276,
+    278
+  ],
+  "fresh_query_result_state_source": "native stock result page",
+  "protected_prior_transfer": 277,
+  "synthetic_terms": [
+    "linen table runner",
+    "wireless travel mouse",
+    "brass shelf pins 8mm",
+    "refill cartridges blue",
+    "copper measuring spoons",
+    "cedar box 15 inch",
+    "matte screen protector",
+    "winter hiking socks",
+    "portable fan model 2",
+    "spare lead for stylus"
+  ],
+  "synthetic_checks": [
+    "oak book stand",
+    "paper filters size 4",
+    "compact clip light"
+  ],
+  "next_distinct_template_check": 630,
+  "edits": {
+    "34": {
+      "positive_states": 11,
+      "protected_positions": 485,
+      "active_constraints": 4,
+      "solver_sweeps": 7,
+      "relative_row_change": 0.13007404398646108,
+      "maximum_rounded_margin_shortfall": 0.0,
+      "maximum_rounded_guard_shift": 0.014173740230035037
+    },
+    "200006": {
+      "positive_states": 44,
+      "protected_positions": 463,
+      "active_constraints": 7,
+      "solver_sweeps": 11,
+      "relative_row_change": 0.338839192657782,
+      "maximum_rounded_margin_shortfall": 0.0,
+      "maximum_rounded_guard_shift": 0.038056406658142805
+    }
+  },
+  "method": "Direct minimum-norm output-row inequalities for the click verb on a filled field and native stop after one command. Exact controller positions from two earlier successes are protected. Synthetic screens use varied queries and renumbered controls from one real fixture. No gradient training."
+}
