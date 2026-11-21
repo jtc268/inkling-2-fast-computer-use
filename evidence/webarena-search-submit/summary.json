@@ -1,0 +1,283 @@
+{
+  "groups": {
+    "276": {
+      "role": "development",
+      "task": "Switch accessories",
+      "M5 Max MacBook Pro": {
+        "pairs": 2,
+        "both_pass": 2,
+        "original_pass": 2,
+        "edited_pass": 2,
+        "median_original_s": 15.32569391647121,
+        "median_edited_s": 6.9019727084669285,
+        "median_of_paired_ratios": 2.215419073747369
+      },
+      "RTX 5090": {
+        "pairs": 1,
+        "both_pass": 1,
+        "original_pass": 1,
+        "edited_pass": 1,
+        "median_original_s": 5.085899541969411,
+        "median_edited_s": 6.642137457965873,
+        "median_of_paired_ratios": 0.7657022418092122
+      }
+    },
+    "274": {
+      "role": "prior control",
+      "task": "USB Wi-Fi adapter",
+      "M5 Max MacBook Pro": {
+        "pairs": 2,
+        "both_pass": 2,
+        "original_pass": 2,
+        "edited_pass": 2,
+        "median_original_s": 14.506877146020997,
+        "median_edited_s": 23.794634687481448,
+        "median_of_paired_ratios": 0.623692079750324
+      },
+      "RTX 5090": {
+        "pairs": 1,
+        "both_pass": 1,
+        "original_pass": 1,
+        "edited_pass": 1,
+        "median_original_s": 4.720308250049129,
+        "median_edited_s": 6.075555832940154,
+        "median_of_paired_ratios": 0.7769343875430773
+      }
+    },
+    "277": {
+      "role": "held out",
+      "task": "iPhone 13 batteries",
+      "M5 Max MacBook Pro": {
+        "pairs": 2,
+        "both_pass": 0,
+        "original_pass": 2,
+        "edited_pass": 0,
+        "median_original_s": null,
+        "median_edited_s": null,
+        "median_of_paired_ratios": null
+      }
+    }
+  },
+  "pairs": [
+    {
+      "id": 276,
+      "repeat": "r1",
+      "original": {
+        "score": 1.0,
+        "seconds": 17.21654499997385,
+        "decisions": 3,
+        "inference_seconds": 14.448658416979015,
+        "thinking_tokens": 284,
+        "generated_tokens": 312
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 7.599434499978088,
+        "decisions": 3,
+        "inference_seconds": 4.03233658184763,
+        "thinking_tokens": 0,
+        "generated_tokens": 23
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 2.2655034397656157,
+      "device": "M5 Max MacBook Pro"
+    },
+    {
+      "id": 274,
+      "repeat": "r1",
+      "original": {
+        "score": 1.0,
+        "seconds": 14.804772292030975,
+        "decisions": 3,
+        "inference_seconds": 12.545222918037325,
+        "thinking_tokens": 342,
+        "generated_tokens": 377
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 27.609219625010155,
+        "decisions": 4,
+        "inference_seconds": 24.65808870899491,
+        "thinking_tokens": 370,
+        "generated_tokens": 544
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 0.5362256700156743,
+      "device": "M5 Max MacBook Pro"
+    },
+    {
+      "id": 276,
+      "repeat": "r2",
+      "original": {
+        "score": 1.0,
+        "seconds": 13.43484283296857,
+        "decisions": 3,
+        "inference_seconds": 10.787847458035685,
+        "thinking_tokens": 284,
+        "generated_tokens": 312
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.204510916955769,
+        "decisions": 3,
+        "inference_seconds": 3.5817622089525685,
+        "thinking_tokens": 0,
+        "generated_tokens": 23
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 2.1653347077291225,
+      "device": "M5 Max MacBook Pro"
+    },
+    {
+      "id": 274,
+      "repeat": "r2",
+      "original": {
+        "score": 1.0,
+        "seconds": 14.20898200001102,
+        "decisions": 3,
+        "inference_seconds": 11.885331501020119,
+        "thinking_tokens": 342,
+        "generated_tokens": 377
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 19.98004974995274,
+        "decisions": 4,
+        "inference_seconds": 17.296462750062346,
+        "thinking_tokens": 370,
+        "generated_tokens": 544
+      },
+      "matched_initial_view": true,
+      "both_pass": true,
+      "ratio": 0.7111584894849737,
+      "device": "M5 Max MacBook Pro"
+    },
+    {
+      "id": 277,
+      "repeat": "r1",
+      "original": {
+        "score": 1.0,
+        "seconds": 16.846347165992483,
+        "decisions": 4,
+        "inference_seconds": 13.86786279315129,
+        "thinking_tokens": 375,
+        "generated_tokens": 413
+      },
+      "edited": {
+        "score": 0.0,
+        "seconds": 3.7788094580173492,
+        "decisions": 2,
+        "inference_seconds": 2.4522569568362087,
+        "thinking_tokens": 0,
+        "generated_tokens": 25
+      },
+      "matched_initial_view": true,
+      "both_pass": false,
+      "ratio": null,
+      "device": "M5 Max MacBook Pro"
+    },
+    {
+      "id": 277,
+      "repeat": "r2",
+      "original": {
+        "score": 1.0,
+        "seconds": 16.67131020897068,
+        "decisions": 4,
+        "inference_seconds": 13.837233750033192,
+        "thinking_tokens": 375,
+        "generated_tokens": 413
+      },
+      "edited": {
+        "score": 0.0,
+        "seconds": 3.7607032919768244,
+        "decisions": 2,
+        "inference_seconds": 2.4190560418646783,
+        "thinking_tokens": 0,
+        "generated_tokens": 25
+      },
+      "matched_initial_view": true,
+      "both_pass": false,
+      "ratio": null,
+      "device": "M5 Max MacBook Pro"
+    },
+    {
+      "id": 276,
+      "repeat": "r1",
+      "original": {
+        "score": 1.0,
+        "seconds": 5.085899541969411,
+        "decisions": 3,
+        "inference_seconds": 2.4820256249513477,
+        "thinking_tokens": 251,
+        "generated_tokens": 279
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.642137457965873,
+        "decisions": 3,
+        "inference_seconds": 3.9855821669334546,
+        "thinking_tokens": 367,
+        "generated_tokens": 528
+      },
+      "ratio": 0.7657022418092122,
+      "both_pass": true,
+      "device": "RTX 5090"
+    },
+    {
+      "id": 274,
+      "repeat": "r1",
+      "original": {
+        "score": 1.0,
+        "seconds": 4.720308250049129,
+        "decisions": 3,
+        "inference_seconds": 2.35672520683147,
+        "thinking_tokens": 274,
+        "generated_tokens": 303
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.075555832940154,
+        "decisions": 3,
+        "inference_seconds": 3.754045458044857,
+        "thinking_tokens": 376,
+        "generated_tokens": 529
+      },
+      "ratio": 0.7769343875430773,
+      "both_pass": true,
+      "device": "RTX 5090"
+    }
+  ],
+  "coverage": {
+    "graded_task_ids": [
+      21,
+      27,
+      66,
+      96,
+      163,
+      231,
+      260,
+      269,
+      270,
+      274,
+      276,
+      277,
+      313,
+      324,
+      358,
+      399,
+      404,
+      431,
+      516,
+      595,
+      600,
+      630,
+      653,
+      689
+    ],
+    "with_original_and_edit": 22,
+    "prior_ids": 23
+  }
+}

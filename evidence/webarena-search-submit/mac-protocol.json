@@ -1,0 +1,67 @@
+{
+  "device": "M5 Max MacBook Pro",
+  "grader": "WebArena-Verified 1.2.3",
+  "development_task": 276,
+  "regression_task": 274,
+  "unseen_task": 277,
+  "arm_orders": {
+    "r1": {
+      "276": [
+        "original",
+        "edited"
+      ],
+      "274": [
+        "edited",
+        "original"
+      ],
+      "277": [
+        "original",
+        "edited"
+      ]
+    },
+    "r2": {
+      "276": [
+        "edited",
+        "original"
+      ],
+      "274": [
+        "original",
+        "edited"
+      ],
+      "277": [
+        "edited",
+        "original"
+      ]
+    }
+  },
+  "holdout_gate": "Both models pass 276 and 274 in both repeats. Held-out 277 uses the frozen weights.",
+  "settings": {
+    "sampler": "greedy",
+    "reasoning_effort": "none",
+    "max_tokens": 512,
+    "max_decisions": 12,
+    "viewport": [
+      1200,
+      720
+    ],
+    "typing_delay_ms": 25,
+    "action_settle_ms": 300,
+    "fixture": "am1n3e/webarena-verified-shopping@sha256:3e8cb9b945ea9b1c94ab26dba53e8d12dd0406abbf4bf686fd3bb2b6a5908feb",
+    "system": "Operate this browser to finish the user's task. Return one action per decision.\nC id clicks a link or button. H id hovers a menu. F id text fills a field. K Enter submits the focused field. S id label selects an option. D or U scrolls one screen. B goes back. T number switches to a listed tab.\nWhen you have reached the requested page, return DONE navigate. After successfully changing something, return DONE mutate. To answer a question, return ANSWER followed by a JSON array of the requested values. Submit success only after observing the requested result. If a goal cannot be completed after checking, return FAIL followed by task type (RETRIEVE, NAVIGATE or MUTATE), status (NOT_FOUND_ERROR, ACTION_NOT_ALLOWED_ERROR, PERMISSION_DENIED_ERROR, DATA_VALIDATION_ERROR or UNKNOWN_ERROR), and a short reason. Use only the listed controls. Return just one command."
+  },
+  "stock_shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "edited_shard_sha256": "a5d2557d74f5a4d7419f20b2c969d42d6435382dc8d8dea4d5b9d3c1e455bf71",
+  "versions": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.3.dev26+g0c4c99192",
+    "playwright": "1.65.2",
+    "webarena-verified": "1.2.3"
+  },
+  "brave_version": "158.1.100.58",
+  "source_revision": "e9ee3b2115cf6f143f4f32658a71f4f464cecf54",
+  "browser_source_sha256": {
+    "webarena_ten.py": "61db45363b17f98d80426313be7f98185e39cba20f6efb737d53d704fb48be77",
+    "run.py": "2a6db42049fc8cf7d749c1bdf08de80727418fff9e2270ab456c820122c5508a",
+    "motion.js": "4e8225b05ec47f9284123df096db81ffad3bf10ece0a506a117f0ce3e5ceba99"
+  }
+}

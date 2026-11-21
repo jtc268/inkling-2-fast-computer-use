@@ -1,0 +1,81 @@
+{
+  "development_task": 276,
+  "development_states": 3,
+  "protected_states": 134,
+  "positive_states": [
+    "dev-1",
+    "synth-0-pending",
+    "synth-1-pending",
+    "synth-2-pending",
+    "synth-3-pending",
+    "synth-4-pending",
+    "synth-5-pending",
+    "synth-6-pending",
+    "synth-7-pending",
+    "synth-8-pending",
+    "synth-9-pending",
+    "synth-10-pending",
+    "synth-11-pending"
+  ],
+  "click_token": 34,
+  "target_margin": 3,
+  "relative_row_displacement": 0.3638545097143639,
+  "maximum_guard_shift": 0.01933010120410472,
+  "maximum_target_error": 0.007283203274710104,
+  "parent_actions": [
+    {
+      "state": 0,
+      "action": "F7 switch accessories",
+      "tokens": [
+        "<|message_model|>",
+        "<|content_text|>",
+        "F",
+        "7",
+        " switch",
+        " access",
+        "ories",
+        "<|end_message|>",
+        "<|content_model_end_sampling|>"
+      ],
+      "target": "F7 switch accessories"
+    },
+    {
+      "state": 1,
+      "action": "DONE navigate",
+      "tokens": [
+        "<|message_model|>",
+        "<|content_text|>",
+        "F",
+        "7",
+        " switch",
+        " access",
+        "ories",
+        "<|end_message|>",
+        "<|message_model|>",
+        "<|content_text|>",
+        "D",
+        "ONE",
+        " navigate",
+        "<|end_message|>",
+        "<|content_model_end_sampling|>"
+      ],
+      "target": "C9"
+    },
+    {
+      "state": 2,
+      "action": "DONE navigate",
+      "tokens": [
+        "<|message_model|>",
+        "<|content_text|>",
+        "D",
+        "ONE",
+        " navigate",
+        "<|end_message|>",
+        "<|content_model_end_sampling|>"
+      ],
+      "target": "DONE navigate"
+    }
+  ],
+  "counterfactual_click": "DONE navigate",
+  "method": "Minimum-norm linear correction to the existing click output row outside the span of protected decision, argument and completion states. Direct BF16 edit; no optimizer or gradient updates. Development explicitly includes the saved WebArena 276 failure; 274 is a prior control; 277 is held out."
+}
