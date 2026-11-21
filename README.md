@@ -6,6 +6,8 @@
 
 Standalone downloads · [Pending-order weights](https://huggingface.co/husky8/Inkling-2-Fast-Computer-Use/tree/9f6b8d4dbd3ec39171e38bf528735be4d0b14e66) · [Paired grades](benchmark/WEBARENA-ORDER-CHECKPOINTS.md)
 
+**8.73× on find the total of the latest completed order.** On M5 Max MacBook Pro stock took 45.34 seconds and the completed-order stop edit took 5.19 seconds. Both passed again in the opposite order at 7.75×. This task was used to develop the stop-row edit. [Fastest paired run](benchmark/WEBARENA-ORDER-CHECKPOINTS.md).
+
 **6.78× on WebArena’s latest-order lookup.** The published search weights took 46.71 seconds and the new stop-row edit took 6.89 seconds on M5 Max. Both passed. Upstream stock failed this task on Mac. [Exact weights and paired runs](benchmark/WEBARENA-ORDER-STOP.md)
 
 **5.18× on one autocomplete case.** Six verified Selenium form submissions measured 2.81× on the repeat. Across the original 20 MiniWoB++ cases, the original passed 11 and the two-row edit passed 6. [Timings, pass counts and real-time films](benchmark/HEADLINERS.md)
