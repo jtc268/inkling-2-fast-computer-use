@@ -1,5 +1,5 @@
 {
-  "native_grades": 6,
+  "native_grades": 8,
   "pairs": [
     {
       "id": 275,
@@ -51,6 +51,33 @@
         "inference_seconds": 2.537498166086152,
         "thinking_tokens": 0,
         "generated_tokens": 22
+      },
+      "checkpoint": "Forum submission",
+      "sha256": "325fa61fe8f33146d666eecd2a6a816f208f4b73f158cc147e84348f6cf97895"
+    },
+    {
+      "id": 278,
+      "repeat": 1,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "ratio": 3.1300172008728357,
+      "original": {
+        "score": 1.0,
+        "seconds": 19.577031666995026,
+        "decisions": 5,
+        "inference_seconds": 16.277452375972643,
+        "thinking_tokens": 447,
+        "generated_tokens": 498
+      },
+      "edited": {
+        "score": 1.0,
+        "seconds": 6.254608332994394,
+        "decisions": 3,
+        "inference_seconds": 2.841957749100402,
+        "thinking_tokens": 0,
+        "generated_tokens": 26
       },
       "checkpoint": "Forum submission",
       "sha256": "325fa61fe8f33146d666eecd2a6a816f208f4b73f158cc147e84348f6cf97895"

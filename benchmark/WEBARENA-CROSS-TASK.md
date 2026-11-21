@@ -8,9 +8,10 @@ Every run used a fresh fixture and Brave on the M5 Max MacBook Pro. Stock and ed
 |---|---|---|---:|---:|---:|
 | Forum submission | 275 · Xbox search | Edited | 18.80 s · pass | 4.69 s · pass | 4.01× |
 | Forum submission | 275 · Xbox search | Stock | 18.05 s · pass | 5.19 s · pass | 3.48× |
+| Forum submission | 278 · Green tea search | Stock | 19.58 s · pass | 6.25 s · pass | 3.13× |
 | Browser search | 96 · Latest order | Edited | 65.12 s · fail | 50.32 s · pass | — |
 
-6 grades reproduced from the saved native responses and network traces.
+8 grades reproduced from the saved native responses and network traces.
 
 [Forum submission](WEBARENA-FORUM-CONTROLS.md) · [Five search cases and Windows repeat](WEBARENA-NATIVE-CLICK.md) · [Checkpoint hashes and grade archive](../evidence/webarena-cross-task/)
 
