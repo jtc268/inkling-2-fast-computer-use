@@ -10,6 +10,8 @@ Two rows in Inkling 2 Mini’s output layer score the tokens that start a thinki
 | Median generated thinking tokens per task | 185.5 | 0 |
 | Correct form, product and quantity | 6/6 | 6/6 |
 
+[Extended video, 37 seconds](https://jtc268.github.io/inkling-2-fast-computer-use/browser-and-gym.mp4) · The checkout comparison continues into fresh live excerpts from all five BrowserGym environments. Each excerpt plays at 1× and displays its full episode outcome.
+
 The model received numbered control labels as text. It filled two fields, submitted the form, set the quantity and added the item to the cart. The harness opened the product page, followed “View Cart” and checked the receipt. Both checkpoints chose identical commands. Prompts, greedy decoding, reasoning effort (already set to `none`), typing speed and cursor timing were identical. The timer includes inference and browser execution after warmup. The video is a fresh 1× recording of case 03 (16.96 s original, 7.15 s edited). We enlarged both viewports to 1200 × 720 and preserved the dress photo’s aspect ratio in both browsers.
 
 ## What changed

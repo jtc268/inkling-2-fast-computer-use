@@ -1,0 +1,47 @@
+[
+  {
+    "task": "email-inbox",
+    "seed": 101,
+    "arm": "edited",
+    "source_start_s": 1.25,
+    "excerpt_s": 2.48,
+    "full_run_s": 2.7263864999404177,
+    "success": true
+  },
+  {
+    "task": "use-autocomplete",
+    "seed": 101,
+    "arm": "edited",
+    "source_start_s": 3.5,
+    "excerpt_s": 3.96,
+    "full_run_s": 6.212339333957061,
+    "success": true
+  },
+  {
+    "task": "social-media-all",
+    "seed": 101,
+    "arm": "edited",
+    "source_start_s": 1.5,
+    "excerpt_s": 3.96,
+    "full_run_s": 7.0029342079069465,
+    "success": false
+  },
+  {
+    "task": "choose-date",
+    "seed": 101,
+    "arm": "edited",
+    "source_start_s": 15.0,
+    "excerpt_s": 4.0,
+    "full_run_s": 25.25196175009478,
+    "success": false
+  },
+  {
+    "task": "book-flight",
+    "seed": 101,
+    "arm": "edited",
+    "source_start_s": 1.5,
+    "excerpt_s": 3.96,
+    "full_run_s": 129.35831495805178,
+    "success": false
+  }
+]
