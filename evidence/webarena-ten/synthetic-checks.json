@@ -1,0 +1,200 @@
+[
+  {
+    "upstream": {
+      "name": "library",
+      "split": "cal",
+      "action": "<control12>click</control12>",
+      "expected": "C 12",
+      "match": false,
+      "tokens": 116,
+      "thinking_tokens": 72,
+      "hit_token_limit": false
+    },
+    "candidate": {
+      "name": "library",
+      "split": "cal",
+      "action": "C12",
+      "expected": "C 12",
+      "match": true,
+      "tokens": 36,
+      "thinking_tokens": 27,
+      "hit_token_limit": false
+    }
+  },
+  {
+    "upstream": {
+      "name": "next-photo",
+      "split": "cal",
+      "action": "C5",
+      "expected": "C 5",
+      "match": true,
+      "tokens": 36,
+      "thinking_tokens": 27,
+      "hit_token_limit": false
+    },
+    "candidate": {
+      "name": "next-photo",
+      "split": "cal",
+      "action": "C5",
+      "expected": "C 5",
+      "match": true,
+      "tokens": 36,
+      "thinking_tokens": 27,
+      "hit_token_limit": false
+    }
+  },
+  {
+    "upstream": {
+      "name": "notification",
+      "split": "cal",
+      "action": "Click 21",
+      "expected": "C 21",
+      "match": false,
+      "tokens": 62,
+      "thinking_tokens": 52,
+      "hit_token_limit": false
+    },
+    "candidate": {
+      "name": "notification",
+      "split": "cal",
+      "action": "C21",
+      "expected": "C 21",
+      "match": true,
+      "tokens": 61,
+      "thinking_tokens": 52,
+      "hit_token_limit": false
+    }
+  },
+  {
+    "upstream": {
+      "name": "card",
+      "split": "cal",
+      "action": "F13 Tide",
+      "expected": "F 13 Tide",
+      "match": true,
+      "tokens": 480,
+      "thinking_tokens": 420,
+      "hit_token_limit": true
+    },
+    "candidate": {
+      "name": "card",
+      "split": "cal",
+      "action": "F13 Tide",
+      "expected": "F 13 Tide",
+      "match": true,
+      "tokens": 267,
+      "thinking_tokens": 228,
+      "hit_token_limit": false
+    }
+  },
+  {
+    "upstream": {
+      "name": "audio",
+      "split": "validation",
+      "action": "C11",
+      "expected": "C 11",
+      "match": true,
+      "tokens": 40,
+      "thinking_tokens": 31,
+      "hit_token_limit": false
+    },
+    "candidate": {
+      "name": "audio",
+      "split": "validation",
+      "action": "C11",
+      "expected": "C 11",
+      "match": true,
+      "tokens": 40,
+      "thinking_tokens": 31,
+      "hit_token_limit": false
+    }
+  },
+  {
+    "upstream": {
+      "name": "document",
+      "split": "validation",
+      "action": "C26",
+      "expected": "C 26",
+      "match": true,
+      "tokens": 35,
+      "thinking_tokens": 26,
+      "hit_token_limit": false
+    },
+    "candidate": {
+      "name": "document",
+      "split": "validation",
+      "action": "C26",
+      "expected": "C 26",
+      "match": true,
+      "tokens": 35,
+      "thinking_tokens": 26,
+      "hit_token_limit": false
+    }
+  },
+  {
+    "upstream": {
+      "name": "garden",
+      "split": "validation",
+      "action": "F6 Clover",
+      "expected": "F 6 Clover",
+      "match": true,
+      "tokens": 66,
+      "thinking_tokens": 55,
+      "hit_token_limit": false
+    },
+    "candidate": {
+      "name": "garden",
+      "split": "validation",
+      "action": "F6 Clover",
+      "expected": "F 6 Clover",
+      "match": true,
+      "tokens": 66,
+      "thinking_tokens": 55,
+      "hit_token_limit": false
+    }
+  },
+  {
+    "upstream": {
+      "name": "meter",
+      "split": "validation",
+      "action": "ANSWER [2.7]",
+      "expected": "ANSWER [2.7]",
+      "match": true,
+      "tokens": 176,
+      "thinking_tokens": 163,
+      "hit_token_limit": false
+    },
+    "candidate": {
+      "name": "meter",
+      "split": "validation",
+      "action": "ANSWER [2.7]",
+      "expected": "ANSWER [2.7]",
+      "match": true,
+      "tokens": 176,
+      "thinking_tokens": 163,
+      "hit_token_limit": false
+    }
+  },
+  {
+    "upstream": {
+      "name": "confirmation",
+      "split": "validation",
+      "action": "DONE",
+      "expected": "DONE mutate",
+      "match": false,
+      "tokens": 371,
+      "thinking_tokens": 362,
+      "hit_token_limit": false
+    },
+    "candidate": {
+      "name": "confirmation",
+      "split": "validation",
+      "action": "DONE",
+      "expected": "DONE mutate",
+      "match": false,
+      "tokens": 371,
+      "thinking_tokens": 362,
+      "hit_token_limit": false
+    }
+  }
+]

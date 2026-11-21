@@ -1,0 +1,50 @@
+{
+  "selection": "two-row command edit",
+  "rows": {
+    "34": "C, canonical browser click command",
+    "200006": "end of model sampling"
+  },
+  "alternate_selection_checks": {
+    "retains_every_upstream_correct_validation_action": true,
+    "lower_median_output_tokens_than_two_rows": false,
+    "no_additional_spurious_completions": true,
+    "retains_every_upstream_correct_calibration_action": false
+  },
+  "original": {
+    "cal": {
+      "matched": 2,
+      "screens": 4,
+      "median_generated_tokens": 89.0
+    },
+    "validation": {
+      "matched": 4,
+      "screens": 5,
+      "median_generated_tokens": 66
+    }
+  },
+  "two_row": {
+    "cal": {
+      "matched": 4,
+      "screens": 4,
+      "median_generated_tokens": 48.5
+    },
+    "validation": {
+      "matched": 4,
+      "screens": 5,
+      "median_generated_tokens": 66
+    }
+  },
+  "four_row": {
+    "cal": {
+      "matched": 1,
+      "screens": 4,
+      "median_generated_tokens": 45.0
+    },
+    "validation": {
+      "matched": 4,
+      "screens": 5,
+      "median_generated_tokens": 66
+    }
+  },
+  "status": "Development only. No live WebArena episode for this checkpoint has run. The five synthetic selection screens were not used to calculate the weight updates. These are single-response checks; generated-token counts are not browser completion times."
+}

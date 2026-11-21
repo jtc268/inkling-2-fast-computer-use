@@ -1,0 +1,51 @@
+{
+  "task": 516,
+  "rep": "r1",
+  "arms": {
+    "original": {
+      "elapsed_s": 24.595935750054196,
+      "score": 0.0,
+      "har_sha256": "586fc38ee8ad886671cb4a28fea29f6d5e04c75945dcb2646c6b6d3cd8cda209",
+      "capture_lead_s": [
+        0.010651958989910781
+      ],
+      "capture_sha256": [
+        "30aff6e294222ff9bc1a7589b0903d1afa41123ceb5f8f758ade44a34b405678"
+      ],
+      "capture_duration_s": [
+        25.55
+      ]
+    },
+    "candidate": {
+      "elapsed_s": 3.0620824169600382,
+      "score": 1.0,
+      "har_sha256": "07492bcf3e7fef343e4dcb90b679a1bd5fdfa7cdc12657142149ae4fe1d61c56",
+      "capture_lead_s": [
+        0.0012358330423012376
+      ],
+      "capture_sha256": [
+        "5069a4f745e6b6d6a36587b8120290dbb4cb3a3c9902ca5a7be5d6919b5e4e9e"
+      ],
+      "capture_duration_s": [
+        3.05
+      ]
+    }
+  },
+  "full_speed": 1,
+  "full_video_sha256": "225416bdc0dcb817177aae9e052d23bcd9610731fd5584946edaf2311ed61b76",
+  "full_video_probe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1248,
+        "height": 1648
+      }
+    ],
+    "format": {
+      "duration": "25.600000"
+    }
+  },
+  "excerpt_begins_at_s": null,
+  "mode": "Single-arm or failure comparison"
+}

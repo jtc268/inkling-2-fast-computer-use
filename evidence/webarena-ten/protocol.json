@@ -1,0 +1,31 @@
+{
+  "ids": [
+    96,
+    269,
+    274,
+    313,
+    431,
+    516,
+    399,
+    404,
+    595,
+    630
+  ],
+  "primary_repetitions": 3,
+  "independent_upstream_repetitions": 1,
+  "max_decisions": 12,
+  "max_new_tokens": 512,
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "input": "visible DOM text, controls and tab titles",
+  "scoring": "native WebArena-Verified 1.2.3, 1.0 required",
+  "driver_sha256": "61db45363b17f98d80426313be7f98185e39cba20f6efb737d53d704fb48be77",
+  "system": "Operate this browser to finish the user's task. Return one action per decision.\nC id clicks a link or button. H id hovers a menu. F id text fills a field. K Enter submits the focused field. S id label selects an option. D or U scrolls one screen. B goes back. T number switches to a listed tab.\nWhen you have reached the requested page, return DONE navigate. After successfully changing something, return DONE mutate. To answer a question, return ANSWER followed by a JSON array of the requested values. Submit success only after observing the requested result. If a goal cannot be completed after checking, return FAIL followed by task type (RETRIEVE, NAVIGATE or MUTATE), status (NOT_FOUND_ERROR, ACTION_NOT_ALLOWED_ERROR, PERMISSION_DENIED_ERROR, DATA_VALIDATION_ERROR or UNKNOWN_ERROR), and a short reason. Use only the listed controls. Return just one command.",
+  "error_transport_control": {
+    "task_type": "RETRIEVE",
+    "status": "NOT_FOUND_ERROR",
+    "retrieved_data": null,
+    "error_details": "The catalog has no matching entry after checking."
+  },
+  "film_selection": "Among tasks both models pass all three times, largest ratio of median completion times. Representative same-run pair closest to that ratio. If unavailable use the best repeatable joint pass, otherwise label any fallback explicitly."
+}

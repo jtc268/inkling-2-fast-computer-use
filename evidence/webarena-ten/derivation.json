@@ -1,0 +1,103 @@
+{
+  "command_edits": [
+    {
+      "row_id": 200010,
+      "role": "close_thought",
+      "calibration_positions": 9,
+      "calibration_screens": 9,
+      "guard_positions": 306,
+      "guard_rank": 306,
+      "relative_l2": 0.2400266209418431,
+      "cap_scale": 0.2018856249118961,
+      "guard_max_raw_score_shift": 0.022107775032054633,
+      "guard_median_raw_score_shift": 0.005233667718130164,
+      "crossed_original_top": 0,
+      "median_adjustment": 7.695383850194048,
+      "examples": [
+        "alarm",
+        "card",
+        "file",
+        "gallery",
+        "library",
+        "mapstyle",
+        "next-photo",
+        "notification",
+        "printer"
+      ],
+      "included": false
+    },
+    {
+      "row_id": 200006,
+      "role": "end_turn",
+      "calibration_positions": 2,
+      "calibration_screens": 1,
+      "guard_positions": 312,
+      "guard_rank": 312,
+      "relative_l2": 0.17404134922747547,
+      "cap_scale": 1.0,
+      "guard_max_raw_score_shift": 0.024059553863480687,
+      "guard_median_raw_score_shift": 0.00559031922603026,
+      "crossed_original_top": 2,
+      "median_adjustment": 16.018718401232036,
+      "examples": [
+        "card"
+      ],
+      "included": true,
+      "joint_top_count": 3
+    },
+    {
+      "row_id": 34,
+      "role": "spell_click",
+      "calibration_positions": 3,
+      "calibration_screens": 3,
+      "guard_positions": 312,
+      "guard_rank": 312,
+      "relative_l2": 0.14744587968972486,
+      "cap_scale": 1.0,
+      "guard_max_raw_score_shift": 0.02459522569552064,
+      "guard_median_raw_score_shift": 0.006172032153699547,
+      "crossed_original_top": 3,
+      "median_adjustment": 3.5265679613512475,
+      "examples": [
+        "gallery",
+        "library",
+        "notification"
+      ],
+      "included": true,
+      "joint_top_count": 3
+    }
+  ],
+  "channel_alternative": {
+    "direct": 10,
+    "protected": 36,
+    "cap_fraction": 0.72,
+    "relative_l2": 0.6824629927932956,
+    "direct_original": [
+      -39.34234088950325,
+      -39.542281937610824,
+      -39.096538624726236,
+      -39.280730556638446,
+      -40.2870296058245,
+      -35.15641577891074,
+      -38.23089816211723,
+      -39.68167874775827,
+      -37.34568732883781,
+      -40.29836594918743
+    ],
+    "direct_edited": [
+      1.9969483081949875,
+      1.917509714141488,
+      1.9907864718697965,
+      1.884874425129965,
+      1.9635968557558954,
+      2.077255476033315,
+      1.9251729785464704,
+      1.9732194130992866,
+      2.033248899038881,
+      2.000650729460176
+    ],
+    "positive_after": 10,
+    "guard_max_margin_change": 0.029716956545598805
+  },
+  "channel_alternative_included": false
+}

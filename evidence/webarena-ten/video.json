@@ -1,0 +1,51 @@
+{
+  "task": 274,
+  "rep": "r3",
+  "arms": {
+    "original": {
+      "elapsed_s": 4.74928266601637,
+      "score": 1.0,
+      "har_sha256": "20d1bfa828ff983d9ade0314ec24a886a9d248eb2484387695bd5f8987e8cadc",
+      "capture_lead_s": [
+        0.002159041934646666
+      ],
+      "capture_sha256": [
+        "91b0672e21c00b05baf1df4c1cd0fc88bfda2dd8adf561d1070434405f273da1"
+      ],
+      "capture_duration_s": [
+        5.05
+      ]
+    },
+    "candidate": {
+      "elapsed_s": 4.714133667061105,
+      "score": 1.0,
+      "har_sha256": "bc73c967631132447401ef48319f7b97e6fd3341b081c266fc28857960843043",
+      "capture_lead_s": [
+        0.0012676659971475601
+      ],
+      "capture_sha256": [
+        "a1df7addf841c96adbc1053b6a6038a5f920a1a1c4ced080953b40ed46c513c8"
+      ],
+      "capture_duration_s": [
+        5.0
+      ]
+    }
+  },
+  "full_speed": 1,
+  "full_video_sha256": "800b0d8ea63c0c8a2a979cb22e85ee9acb333f661a698dd38437e469e1c50585",
+  "full_video_probe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1248,
+        "height": 1648
+      }
+    ],
+    "format": {
+      "duration": "5.750000"
+    }
+  },
+  "excerpt_begins_at_s": 0,
+  "mode": "Both full credit"
+}
