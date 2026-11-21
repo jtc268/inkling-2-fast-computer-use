@@ -10,6 +10,9 @@ The preceding click-row candidate opened My Account, reached My Orders and faile
 |---|---:|---:|---:|
 | Order boundary edit | fail · 5.45 s | pass · 3.16 s | — |
 
+The first pair is excluded from speed and model-accuracy comparisons. The recorded storefront HTML sent stock’s My Account click to the unreachable original WebArena host and sent the edited model to the working local fixture. The native grades are retained above. The fixture now verifies the account link before each timed run.
+
+
 2 recorded native grades reproduced. A speedup requires two passing grades.
 
 [Earlier Windows order trial](WEBARENA-ORDER-START.md) · [Exact replacement rows and grade archive](../evidence/webarena-order-boundary/)

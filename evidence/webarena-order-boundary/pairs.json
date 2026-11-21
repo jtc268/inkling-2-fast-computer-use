@@ -42,6 +42,17 @@
         "inference_seconds": 4.341966916923411,
         "thinking_tokens": 546,
         "generated_tokens": 639
+      },
+      "fixture_check": {
+        "account_link_hosts": {
+          "original": [
+            "metis.lti.cs.cmu.edu:7770"
+          ],
+          "edited": [
+            "127.0.0.1:32682"
+          ]
+        },
+        "matched": false
       }
     }
   ],
