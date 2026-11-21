@@ -1,0 +1,25 @@
+{
+  "task": 44,
+  "intent": "Open my todos page",
+  "site": "gitlab",
+  "selection": "Lowest previously ungraded task ID in the single-site GitLab NAVIGATE group.",
+  "checkpoint_sha256": "a393cbbe28eb0b830b7f9cbf00f4b7df4b85da74b62b7aa5aa20df78f9d4a073",
+  "stock_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+  "hardware": "RTX 5090",
+  "grade_source": "WebArena-Verified 1.2.3",
+  "order": [
+    [
+      "edited",
+      "original"
+    ],
+    [
+      "original",
+      "edited"
+    ]
+  ],
+  "gate": "The same shard must preserve the earlier RTX order lookups and pass the Xbox search recheck with stock in both run orders. If Xbox loses speed, address that regression before expanding.",
+  "baseline": "Stock Inkling 2 Mini",
+  "clock": "From the signed-in start page to termination, including browser and model time.",
+  "fixture_image": "am1n3e/webarena-verified-gitlab@sha256:673ba94d757c5b3f4bb55751ad8b745a33bad2b987349322403cbc41035a92e0",
+  "method": "Same fixture, signed-in account, visible observations, cursor, prompt and greedy decoder on both arms. Report both grades and award a time-to-success ratio only on jointly passing pairs."
+}
