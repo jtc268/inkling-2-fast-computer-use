@@ -1,0 +1,16 @@
+{
+  "changes": [
+    {
+      "row": 200010,
+      "changed_values": 2280,
+      "relative_norm": 0.2005263953221294
+    }
+  ],
+  "native_histories": 2,
+  "mac_guard_states": 251,
+  "inequalities": 704,
+  "max_target_shortfall": -0.00701333603398524,
+  "max_guard_shortfall": 0.010005402460228796,
+  "active_inequalities": 51,
+  "rounds": 3
+}
