@@ -1,0 +1,15 @@
+{
+  "experiment": "A separate, activation-guided two-row candidate",
+  "current_release": "The published first-round checkpoint stays available.",
+  "design_evidence": "The first-round date-picker miss motivated protecting the original model's channel choice on more complex screens.",
+  "calibration": "Seed 73 in the five BrowserGym environments, plus the original form and shopping development case. Use activations from nine screens only. Preserve original answer-vs-thinking scores on the social feed, date picker and flight booking screens, including their open calendars. Exchange the scores on inbox, autocomplete, form and shopping development screens.",
+  "method": "One closed-form least-squares calculation over forward activations modifies two BF16 output rows. No action labels, reward optimization, gradient steps, or runtime switches.",
+  "validation": {
+    "checkpoints": ["upstream original", "selective candidate"],
+    "browsergym_tasks": ["email-inbox", "use-autocomplete", "social-media-all", "choose-date", "book-flight"],
+    "new_seeds": [201, 202, 203],
+    "fresh_form_to_cart_cases": ["51", "52", "53"],
+    "controls": "Identical model worker, prompts, browser tools, greedy decoding, warm checkpoints and per-decision token cap. Alternate arm order within each panel.",
+    "report": "Count every attempted episode. List original-only and candidate-only successes. Compare elapsed time on joint successes. A claim of preserved success on the tested cases requires every original success to remain a success for the candidate. Report limitations even when aggregate success counts match."
+  }
+}

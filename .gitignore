@@ -2,3 +2,8 @@
 __pycache__/
 runs/
 .DS_Store
+.gym-venv/
+gym-runs/
+original/
+edited/
+miniwob-plusplus/
