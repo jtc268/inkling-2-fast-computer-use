@@ -2761,6 +2761,100 @@
     },
     {
       "checkpoint": "complete-stop",
+      "task": 277,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 3.296279570524557,
+      "original": {
+        "seconds": 19.38110354100354,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 batteries for iphone 13",
+          "K",
+          "C9",
+          "DONE navigate"
+        ],
+        "generated": 413,
+        "inference_seconds": 14.283008917002007,
+        "receipt_sha256": "cedcfe5b1a31810a6b057846f778a6502ee0c60f84ceb6dc279763555b30696b",
+        "recording_sha256": "9c0d7164e632a65f82c2ab8b3ce320b5521b47404d104ca09247aa8050537c6c"
+      },
+      "edited": {
+        "seconds": 5.879690458998084,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+        "commands": [
+          "F7 batteries for iphone 13",
+          "C 9",
+          "DONE navigate"
+        ],
+        "generated": 26,
+        "inference_seconds": 2.8371055430034176,
+        "receipt_sha256": "c20a66a68f4fade474ce0021165497d211331c8281dc3136b93555e663b9c150",
+        "recording_sha256": "372124866542f39ea4e2625481c057e19b69efe4e4ba55b88451f58e191a5c76"
+      }
+    },
+    {
+      "checkpoint": "complete-stop",
+      "task": 277,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "M5 Max MacBook Pro",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": 3.1275596003092097,
+      "original": {
+        "seconds": 20.637632584082894,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "F7 batteries for iphone 13",
+          "K",
+          "C9",
+          "DONE navigate"
+        ],
+        "generated": 413,
+        "inference_seconds": 13.629928710055538,
+        "receipt_sha256": "58185eb48ad4e0c400a4294ee6dae8c1de9cbef96e67d64c6dad31f298c56390",
+        "recording_sha256": "d23a8f4908dbeb7069f7c4ac1d11317057ae4b0b7d6ddfd0c68f1e83f6f56d5a"
+      },
+      "edited": {
+        "seconds": 6.598637666902505,
+        "score": 1.0,
+        "grader_status": "success",
+        "device": "M5 Max MacBook Pro",
+        "shard_sha256": "4123a4c2fe5f770cdabbe08ff0bedccfee63e9beee73a64290ea5fd20f19754a",
+        "commands": [
+          "F7 batteries for iphone 13",
+          "C 9",
+          "DONE navigate"
+        ],
+        "generated": 26,
+        "inference_seconds": 2.9481292499694973,
+        "receipt_sha256": "f297dc8affab7a7d13bbc4d9402b00a4689e1f51b0288fbe88b9f8586e8d9151",
+        "recording_sha256": "b48676bc4cf07cd388c0f16709e983c20eda7aaaccc4f4382901fe7d7d3e3309"
+      }
+    },
+    {
+      "checkpoint": "complete-stop",
       "task": 96,
       "repeat": 1,
       "order": [
