@@ -2243,6 +2243,126 @@
     },
     {
       "checkpoint": "order-history-route",
+      "task": 191,
+      "repeat": 1,
+      "order": [
+        "edited",
+        "original"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": null,
+      "original": {
+        "seconds": 8.418479042011313,
+        "score": 0.0,
+        "grader_status": "failure",
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "1",
+          "1",
+          "1",
+          "1<click>",
+          "1<click>",
+          "1<click>",
+          "1<click> 1",
+          "1<click>",
+          "1<click>",
+          "1<click>",
+          "1<click>",
+          "1<click> 1"
+        ],
+        "generated": 1056,
+        "thinking": 858,
+        "inference_seconds": 8.246465002186596,
+        "receipt_sha256": "7e8cbc36e5095c7df6a6b54ff0165fb76a83d8909bc1074d4beb222f537788c9",
+        "recording_sha256": "b5e52b0d037f58be3f3f5d3e33fa4c61577a57ccf71cb8486209c076e4e95a69"
+      },
+      "edited": {
+        "seconds": 4.19265154202003,
+        "score": 0.0,
+        "grader_status": "error",
+        "device": "RTX 5090",
+        "shard_sha256": "a393cbbe28eb0b830b7f9cbf00f4b7df4b85da74b62b7aa5aa20df78f9d4a073",
+        "commands": [
+          "C1",
+          "C1",
+          "C28",
+          "The page shows orders with statuses Canceled,",
+          "ANSWER [\"$754.99\"]"
+        ],
+        "generated": 70,
+        "thinking": 15,
+        "inference_seconds": 1.5621499170083553,
+        "receipt_sha256": "f515e9de11c72ea33e3bbd84e2f2acc402998968fee8eaf8d35462f8924a6ad7",
+        "recording_sha256": "e947f45bcea752e6b8ac792fe0b8e9b1a188311839fcd822088f4524f5a4810f"
+      }
+    },
+    {
+      "checkpoint": "order-history-route",
+      "task": 191,
+      "repeat": 2,
+      "order": [
+        "original",
+        "edited"
+      ],
+      "site": "shopping",
+      "device": "RTX 5090",
+      "baseline": "Upstream stock",
+      "comparable": true,
+      "ratio": null,
+      "original": {
+        "seconds": 12.566988083999604,
+        "score": 0.0,
+        "grader_status": "failure",
+        "device": "RTX 5090",
+        "shard_sha256": "65e60f51aa1284d4fb022584908c315270334d991828bb774af60584523539d1",
+        "commands": [
+          "1",
+          "1",
+          "1",
+          "1 a",
+          "1 a",
+          "1 a 1",
+          "1 a 1",
+          "1 a 1",
+          "1 a",
+          "C 1",
+          "C 28",
+          "D"
+        ],
+        "generated": 1294,
+        "thinking": 1134,
+        "inference_seconds": 10.013543709064834,
+        "receipt_sha256": "5610b4c1e255ec71dba6390a839e52aa53632ca3e5eb94e0a80acb4e2e749b57",
+        "recording_sha256": "850cad11095323b921fe44fd8a50487cbbc3b1a51a312664f688d0dc073e0ab4"
+      },
+      "edited": {
+        "seconds": 11.337048665969633,
+        "score": 0.0,
+        "grader_status": "error",
+        "device": "RTX 5090",
+        "shard_sha256": "a393cbbe28eb0b830b7f9cbf00f4b7df4b85da74b62b7aa5aa20df78f9d4a073",
+        "commands": [
+          "C1",
+          "C28",
+          "C1",
+          "C28",
+          "DONE",
+          "DONE",
+          "ANSWER [\"$365.42\"]"
+        ],
+        "generated": 1076,
+        "thinking": 569,
+        "inference_seconds": 7.667066333931871,
+        "receipt_sha256": "01307ed3f7cee0eed3d9d915eb039beba143a5f55f3b9a566210894b2ee37574",
+        "recording_sha256": "bee98dbd6fa6fbfcf54d871edf97d374285878291a7c49d1420bada18ed0d17e"
+      }
+    },
+    {
+      "checkpoint": "order-history-route",
       "task": 190,
       "repeat": 1,
       "order": [
